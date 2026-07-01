@@ -1,0 +1,16 @@
+{
+  "siteName": "帕鲁资料站",
+  "locale": "zh-CN",
+  "status": "draft",
+  "lastVerified": "2026-07-01",
+  "modules": [
+    "paldeck",
+    "breeding",
+    "technology",
+    "base",
+    "materials",
+    "map",
+    "guides",
+    "updates"
+  ]
+}

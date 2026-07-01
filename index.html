@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>帕鲁资料站 | 非官方中文资料库</title>
+    <meta name="description" content="帕鲁资料站是一个非官方中文资料库，先整理图鉴、配种、科技树、据点、材料、地图与版本信息。">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="站点导航">
+        <a class="brand" href="index.html" aria-label="帕鲁资料站首页">
+          <span class="brand-mark">P</span>
+          <span>
+            <strong>帕鲁资料站</strong>
+            <small>非官方中文资料库</small>
+          </span>
+        </a>
+
+        <nav class="side-nav" aria-label="资料模块">
+          <a class="active" href="index.html">资料首页</a>
+          <a href="pages/paldeck.html">帕鲁图鉴</a>
+          <a href="pages/breeding.html">配种计算</a>
+          <a href="pages/technology.html">科技树</a>
+          <a href="pages/base.html">据点建造</a>
+          <a href="pages/materials.html">材料掉落</a>
+          <a href="pages/map.html">地图探索</a>
+          <a href="pages/guides.html">新手路线</a>
+          <a href="pages/updates.html">版本更新</a>
+        </nav>
+
+        <div class="language-box" aria-label="语言">
+          <span>中文</span>
+          <a href="en/index.html" aria-label="English version reserved">EN</a>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <section class="hero" aria-labelledby="page-title">
+          <img class="hero-image" src="assets/hero-pal-database.png" alt="开放世界资料站横幅插画，包含岛屿、据点、资源与原创生物剪影">
+          <div class="hero-shade"></div>
+          <div class="hero-copy">
+            <p class="eyebrow">单独站点 · 后续接入五彩缤纷</p>
+            <h1 id="page-title">帕鲁资料站</h1>
+            <p class="hero-summary">围绕帕鲁图鉴、配种、材料、科技与地图建立的中文资料库。</p>
+            <form class="search-panel" role="search" aria-label="站内搜索">
+              <label for="site-search">搜索资料</label>
+              <div class="search-row">
+                <input id="site-search" name="q" type="search" placeholder="搜索帕鲁、材料、配种、地图、科技...">
+                <button type="submit" aria-label="搜索">
+                  <span aria-hidden="true">⌕</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="notice-bar" aria-label="站点状态">
+          <span>最后核验：2026-07-01</span>
+          <span>素材策略：非官方标注优先，原创资产优先</span>
+          <span>英文结构已预留</span>
+        </section>
+
+        <section class="section-heading" aria-labelledby="module-title">
+          <p class="eyebrow">资料入口</p>
+          <h2 id="module-title">先搭骨架，逐步填资料</h2>
+        </section>
+
+        <section class="module-grid" id="module-grid" aria-label="资料模块列表">
+          <a class="module-card accent-blue" href="pages/paldeck.html" data-search="帕鲁 图鉴 属性 技能 掉落 工作适性">
+            <span class="module-code">01</span>
+            <strong>帕鲁图鉴</strong>
+            <small>属性、技能、掉落、工作适性</small>
+          </a>
+          <a class="module-card accent-coral" href="pages/breeding.html" data-search="配种 计算 父母 子代 孵蛋">
+            <span class="module-code">02</span>
+            <strong>配种计算</strong>
+            <small>父母组合、目标子代、孵化路线</small>
+          </a>
+          <a class="module-card accent-amber" href="pages/technology.html" data-search="科技树 等级 解锁 制作 工作台">
+            <span class="module-code">03</span>
+            <strong>科技树</strong>
+            <small>等级解锁、制作链、关键节点</small>
+          </a>
+          <a class="module-card accent-green" href="pages/base.html" data-search="据点 建造 自动化 搬运 生产">
+            <span class="module-code">04</span>
+            <strong>据点建造</strong>
+            <small>生产、搬运、岗位与自动化</small>
+          </a>
+          <a class="module-card accent-violet" href="pages/materials.html" data-search="材料 掉落 资源 采集 怪物">
+            <span class="module-code">05</span>
+            <strong>材料掉落</strong>
+            <small>采集来源、掉落表、常用路线</small>
+          </a>
+          <a class="module-card accent-cyan" href="pages/map.html" data-search="地图 探索 传送点 洞窟 boss">
+            <span class="module-code">06</span>
+            <strong>地图探索</strong>
+            <small>传送点、洞窟、首领与资源区</small>
+          </a>
+          <a class="module-card accent-lime" href="pages/guides.html" data-search="新手 路线 开荒 前期 推荐">
+            <span class="module-code">07</span>
+            <strong>新手路线</strong>
+            <small>前期节奏、装备目标、据点起步</small>
+          </a>
+          <a class="module-card accent-rose" href="pages/updates.html" data-search="版本 更新 补丁 新闻 变更">
+            <span class="module-code">08</span>
+            <strong>版本更新</strong>
+            <small>官方新闻、补丁摘要、资料核验</small>
+          </a>
+        </section>
+
+        <p class="no-results" id="no-results" hidden>没有找到对应入口。</p>
+
+        <section class="dashboard" aria-label="首版建设面板">
+          <article class="panel">
+            <p class="eyebrow">今日推荐</p>
+            <h2>先从图鉴与配种两张表开始</h2>
+            <p>资料库第一阶段先固定数据字段，再补单页详情。这样后面加筛选、计算器、英文版会更顺。</p>
+          </article>
+
+          <article class="panel">
+            <p class="eyebrow">资料状态</p>
+            <dl class="status-list">
+              <div>
+                <dt>图鉴字段</dt>
+                <dd>待录入</dd>
+              </div>
+              <div>
+                <dt>配种逻辑</dt>
+                <dd>页面已预留</dd>
+              </div>
+              <div>
+                <dt>地图数据</dt>
+                <dd>页面已预留</dd>
+              </div>
+              <div>
+                <dt>英文版</dt>
+                <dd>路径已预留</dd>
+              </div>
+            </dl>
+          </article>
+        </section>
+
+        <section class="roadmap" aria-labelledby="roadmap-title">
+          <div class="section-heading compact">
+            <p class="eyebrow">建设顺序</p>
+            <h2 id="roadmap-title">资料库优先，攻略随后补强</h2>
+          </div>
+          <div class="roadmap-grid">
+            <article>
+              <span>第一阶段</span>
+              <strong>站点骨架</strong>
+              <p>首页、导航、占位页、免责声明、语言路径。</p>
+            </article>
+            <article>
+              <span>第二阶段</span>
+              <strong>核心数据</strong>
+              <p>帕鲁图鉴、材料表、科技树字段与基础筛选。</p>
+            </article>
+            <article>
+              <span>第三阶段</span>
+              <strong>工具模块</strong>
+              <p>配种计算、地图筛选、路线收藏与版本核验。</p>
+            </article>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <p>本站为非官方玩家资料站，与 Pocketpair 无隶属、授权或代表关系。</p>
+          <p>
+            <a href="https://www.pocketpair.jp/en/games-en/palworld-en/" target="_blank" rel="noreferrer">Palworld 官方页面</a>
+            <a href="https://www.pocketpair.jp/en/guidelines-derivativework-en/" target="_blank" rel="noreferrer">Pocketpair 二创指南</a>
+          </p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
