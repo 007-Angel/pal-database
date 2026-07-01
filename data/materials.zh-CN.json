@@ -11,11 +11,68 @@
     { "key": "route", "label": "推荐路线" },
     { "key": "verified", "label": "核验状态" }
   ],
-  "records": [],
+  "records": [
+    {
+      "name": "羊毛",
+      "sourceType": "帕鲁掉落 / 牧场",
+      "source": "Lamball（棉悠悠）等",
+      "usage": "布料与早期制作链",
+      "route": "初期草地区域捕获或牧场生产",
+      "verified": "基础来源已核验，效率路线待补"
+    },
+    {
+      "name": "红色野莓",
+      "sourceType": "采集 / 帕鲁掉落",
+      "source": "野外浆果丛、Cattiva（捣蛋猫）",
+      "usage": "前期食物与基础补给",
+      "route": "出生点周边采集，后续接入农园资料",
+      "verified": "基础来源已核验"
+    },
+    {
+      "name": "蛋",
+      "sourceType": "帕鲁掉落 / 牧场",
+      "source": "Chikipi（皮皮鸡）",
+      "usage": "食物与烹饪链",
+      "route": "牧场生产更稳定",
+      "verified": "基础来源已核验"
+    },
+    {
+      "name": "皮革",
+      "sourceType": "帕鲁掉落",
+      "source": "Foxparks（火绒狐）等",
+      "usage": "装备、防具与部分制作链",
+      "route": "先按图鉴掉落反查，刷取路线待地图页补充",
+      "verified": "基础来源已核验，路线待补"
+    },
+    {
+      "name": "喷火器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Foxparks（火绒狐）等火属性帕鲁",
+      "usage": "火属性相关制作与设施链",
+      "route": "优先从早期火属性帕鲁获取",
+      "verified": "基础来源已核验"
+    },
+    {
+      "name": "Pal Fluid",
+      "sourceType": "帕鲁掉落",
+      "source": "Pengullet（企丸丸）等水属性帕鲁",
+      "usage": "部分设施、装备与制作链",
+      "route": "水边区域刷取，具体点位待地图页补充",
+      "verified": "基础来源已核验，中文名待统一"
+    },
+    {
+      "name": "结冰器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Pengullet（企丸丸）等冰属性帕鲁",
+      "usage": "冷却、冰属性相关制作链",
+      "route": "先从早期水/冰属性帕鲁获取",
+      "verified": "基础来源已核验"
+    }
+  ],
   "backlog": [
     {
       "title": "常用基础材料",
-      "status": "下一步",
+      "status": "进行中",
       "note": "优先整理木材、石头、矿石、帕鲁矿碎块、食材等开荒材料。"
     },
     {
@@ -33,6 +90,10 @@
     {
       "label": "Palworld 官方页面",
       "url": "https://www.pocketpair.jp/en/games-en/palworld-en/"
+    },
+    {
+      "label": "Palworld Wiki",
+      "url": "https://palworld.fandom.com/wiki/Palworld_Wiki"
     }
   ]
 }

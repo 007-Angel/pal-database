@@ -46,3 +46,22 @@ document.querySelectorAll(".side-nav a").forEach((link) => {
     link.classList.remove("active");
   }
 });
+
+async function hydrateCounts() {
+  const countNodes = [...document.querySelectorAll("[data-count-url]")];
+  await Promise.all(
+    countNodes.map(async (node) => {
+      try {
+        const response = await fetch(node.dataset.countUrl);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        const count = Array.isArray(data.records) ? data.records.length : 0;
+        node.textContent = count > 0 ? `已录入 ${count} 条` : "待录入";
+      } catch {
+        node.textContent = "待核验";
+      }
+    })
+  );
+}
+
+hydrateCounts();

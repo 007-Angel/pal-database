@@ -590,6 +590,13 @@ h2 {
   padding: 22px;
 }
 
+.data-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .data-hero h2,
 .data-empty h2 {
   margin-bottom: 8px;
@@ -900,6 +907,10 @@ h2 {
 
   .status-pill {
     justify-self: start;
+  }
+
+  .data-meta {
+    justify-content: flex-start;
   }
 
   .site-footer a {

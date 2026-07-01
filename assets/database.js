@@ -113,6 +113,7 @@ function bindTableSearch(mount) {
 }
 
 function renderDataset(mount, data) {
+  const recordCount = Array.isArray(data.records) ? data.records.length : 0;
   mount.innerHTML = `
     <section class="data-hero">
       <div>
@@ -120,7 +121,10 @@ function renderDataset(mount, data) {
         <h2>${escapeHtml(data.title)}</h2>
         <p>${escapeHtml(data.description || "")}</p>
       </div>
-      <span class="status-pill">核验：${escapeHtml(data.lastVerified || "待核验")}</span>
+      <div class="data-meta">
+        <span class="status-pill">已录入 ${recordCount} 条</span>
+        <span class="status-pill">核验：${escapeHtml(data.lastVerified || "待核验")}</span>
+      </div>
     </section>
     ${renderTable(data)}
     ${renderBacklog(data.backlog)}

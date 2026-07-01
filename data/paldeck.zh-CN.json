@@ -13,7 +13,68 @@
     { "key": "habitat", "label": "出现区域" },
     { "key": "verified", "label": "核验状态" }
   ],
-  "records": [],
+  "records": [
+    {
+      "number": "001",
+      "name": "Lamball（棉悠悠）",
+      "elements": "无属性",
+      "partnerSkill": "Fluffy Shield / 绵羊盾",
+      "workSuitability": "手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+      "drops": "羊毛、Lamball Mutton",
+      "habitat": "初期草地区域，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    },
+    {
+      "number": "002",
+      "name": "Cattiva（捣蛋猫）",
+      "elements": "无属性",
+      "partnerSkill": "Cat Helper / 猫手帮忙",
+      "workSuitability": "手工作业 Lv1、采集 Lv1、采矿 Lv1、搬运 Lv1",
+      "drops": "红色野莓",
+      "habitat": "初期草地区域，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    },
+    {
+      "number": "003",
+      "name": "Chikipi（皮皮鸡）",
+      "elements": "无属性",
+      "partnerSkill": "Egg Layer / 产蛋",
+      "workSuitability": "采集 Lv1、牧场 Lv1",
+      "drops": "蛋、Chikipi Poultry",
+      "habitat": "初期草地区域，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    },
+    {
+      "number": "004",
+      "name": "Lifmunk（翠叶鼠）",
+      "elements": "草属性",
+      "partnerSkill": "Lifmunk Recoil / 翠叶鼠冲锋枪",
+      "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、制药 Lv1",
+      "drops": "浆果种子、低品质药品",
+      "habitat": "草地区域与森林边缘，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    },
+    {
+      "number": "005",
+      "name": "Foxparks（火绒狐）",
+      "elements": "火属性",
+      "partnerSkill": "Huggy Fire / 抱抱火焰",
+      "workSuitability": "生火 Lv1",
+      "drops": "皮革、喷火器官",
+      "habitat": "初期区域附近可遇，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    },
+    {
+      "number": "010",
+      "name": "Pengullet（企丸丸）",
+      "elements": "水属性、冰属性",
+      "partnerSkill": "Pengullet Cannon / 企丸丸发射器",
+      "workSuitability": "手工作业 Lv1、搬运 Lv1、浇水 Lv1、冷却 Lv1",
+      "drops": "结冰器官、Pal Fluid",
+      "habitat": "水边与寒冷相关区域，具体点位待地图页核验",
+      "verified": "基础字段已核验，地图点位待补"
+    }
+  ],
   "backlog": [
     {
       "title": "建立图鉴字段",
@@ -22,7 +83,7 @@
     },
     {
       "title": "录入前期常见帕鲁",
-      "status": "下一步",
+      "status": "进行中",
       "note": "优先录入开荒阶段最常见的帕鲁，保证新玩家能马上查到。"
     },
     {
@@ -35,6 +96,10 @@
     {
       "label": "Palworld 官方页面",
       "url": "https://www.pocketpair.jp/en/games-en/palworld-en/"
+    },
+    {
+      "label": "Palworld Wiki",
+      "url": "https://palworld.fandom.com/wiki/Palworld_Wiki"
     },
     {
       "label": "Pocketpair 二创指南",
