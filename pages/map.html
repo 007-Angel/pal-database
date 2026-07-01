@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>地图探索 | 帕鲁资料站</title>
+    <meta name="theme-color" content="#101625">
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../site.webmanifest">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
   <body>
@@ -36,12 +39,33 @@
           </div>
           <span class="status-pill">页面已预留</span>
         </section>
-        <section class="empty-state" aria-label="空白内容区">
-          <div class="placeholder-lines" aria-hidden="true">
-            <strong>地图组件预留区</strong>
-            <span></span>
-            <span></span>
-            <span></span>
+        <section class="tool-shell" aria-label="地图探索预留区">
+          <div class="tool-panel map-preview">
+            <p class="eyebrow">地图框架</p>
+            <h2>点位、资源、首领与路线</h2>
+            <p>地图数据录入后，这里会按传送点、洞窟、首领、资源区、商人和稀有刷新点做筛选。</p>
+            <div class="map-grid" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="tool-grid">
+            <article class="tool-card">
+              <span>点位</span>
+              <strong>传送与洞窟</strong>
+              <p>先收录最常用的传送点和洞窟入口。</p>
+            </article>
+            <article class="tool-card">
+              <span>资源</span>
+              <strong>采集区域</strong>
+              <p>与材料页互相链接，形成来源反查。</p>
+            </article>
+            <article class="tool-card">
+              <span>路线</span>
+              <strong>开荒路径</strong>
+              <p>后续和新手路线页面组合使用。</p>
+            </article>
           </div>
         </section>
         <footer class="site-footer">

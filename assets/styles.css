@@ -44,6 +44,12 @@ input {
   font: inherit;
 }
 
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
 .site-shell {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
@@ -551,6 +557,259 @@ h2 {
   font-weight: 700;
 }
 
+.data-workspace,
+.tool-shell {
+  display: grid;
+  gap: 16px;
+}
+
+.loading-state,
+.data-hero,
+.data-empty,
+.data-section,
+.tool-panel,
+.tool-card,
+.error-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.loading-state {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+}
+
+.data-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: start;
+  padding: 22px;
+}
+
+.data-hero h2,
+.data-empty h2 {
+  margin-bottom: 8px;
+}
+
+.data-hero p,
+.data-empty p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.data-empty {
+  min-height: 280px;
+  display: grid;
+  align-items: center;
+  padding: 24px;
+}
+
+.field-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.field-list span {
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #eef4ff;
+  color: #265caa;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.data-section {
+  padding: 22px;
+}
+
+.table-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+}
+
+.table-tools label {
+  display: grid;
+  gap: 6px;
+  min-width: min(100%, 320px);
+  color: #45536d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.table-tools input,
+.form-grid input {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px 12px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  color: #34405a;
+  background: #f8fafc;
+  font-weight: 800;
+}
+
+.task-grid,
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.task-card,
+.tool-card {
+  padding: 18px;
+}
+
+.task-card span,
+.tool-card span {
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: #eef4ff;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.task-card strong,
+.tool-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 18px;
+}
+
+.task-card p,
+.tool-card p,
+.tool-panel p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.source-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.source-strip a,
+.primary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: #101625;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.tool-panel {
+  padding: 22px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.form-grid label {
+  display: grid;
+  gap: 6px;
+  color: #45536d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.form-grid button {
+  align-self: end;
+  min-width: 90px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--blue);
+  color: #fff;
+  font-weight: 800;
+}
+
+.map-preview {
+  overflow: hidden;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.map-grid span {
+  aspect-ratio: 1.7;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(47, 128, 237, 0.2), rgba(139, 191, 36, 0.22)),
+    #edf5f1;
+  border: 1px solid rgba(47, 128, 237, 0.18);
+}
+
+.error-page {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  width: min(100% - 32px, 760px);
+  margin: 0 auto;
+}
+
+.error-brand {
+  width: fit-content;
+}
+
+.error-panel {
+  padding: clamp(24px, 6vw, 46px);
+  box-shadow: var(--shadow);
+}
+
+.error-panel p {
+  max-width: 560px;
+  color: var(--muted);
+}
+
 .empty-state strong {
   color: #34405a;
   font-size: 20px;
@@ -631,7 +890,11 @@ h2 {
   .module-grid,
   .dashboard,
   .roadmap-grid,
-  .page-header {
+  .page-header,
+  .data-hero,
+  .task-grid,
+  .tool-grid,
+  .form-grid {
     grid-template-columns: 1fr;
   }
 

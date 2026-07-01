@@ -1,0 +1,41 @@
+{
+  "title": "版本更新",
+  "description": "整理官方新闻、补丁摘要、资料变更点和站内数据核验记录。",
+  "status": "来源已接入，更新摘要待录入",
+  "lastVerified": "2026-07-01",
+  "columns": [
+    { "key": "date", "label": "日期" },
+    { "key": "version", "label": "版本" },
+    { "key": "summary", "label": "摘要" },
+    { "key": "impact", "label": "影响资料" },
+    { "key": "source", "label": "来源" }
+  ],
+  "records": [],
+  "backlog": [
+    {
+      "title": "建立更新记录格式",
+      "status": "已完成",
+      "note": "版本更新会同时记录官方来源和站内受影响页面。"
+    },
+    {
+      "title": "补最近一次官方更新摘要",
+      "status": "下一步",
+      "note": "需要逐条核验官方新闻后再写入，避免把传闻当成版本事实。"
+    },
+    {
+      "title": "建立资料变更日志",
+      "status": "计划中",
+      "note": "图鉴、材料、科技树有改动时，在这里记录核验日期。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld 官方新闻",
+      "url": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
+    },
+    {
+      "label": "Pocketpair 官方网站",
+      "url": "https://www.pocketpair.jp/"
+    }
+  ]
+}

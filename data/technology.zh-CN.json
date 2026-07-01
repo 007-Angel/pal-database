@@ -1,0 +1,39 @@
+{
+  "title": "科技树",
+  "description": "整理等级解锁、古代科技、制作材料、前置设施和推荐优先级。",
+  "status": "字段已设计，资料待录入",
+  "lastVerified": "2026-07-01",
+  "columns": [
+    { "key": "level", "label": "等级" },
+    { "key": "name", "label": "科技" },
+    { "key": "type", "label": "类型" },
+    { "key": "cost", "label": "消耗" },
+    { "key": "materials", "label": "材料" },
+    { "key": "priority", "label": "优先级" },
+    { "key": "verified", "label": "核验状态" }
+  ],
+  "records": [],
+  "backlog": [
+    {
+      "title": "等级解锁表",
+      "status": "下一步",
+      "note": "先录入每级科技名称、类型和点数消耗。"
+    },
+    {
+      "title": "古代科技单独标记",
+      "status": "计划中",
+      "note": "把普通科技和古代科技拆开，避免玩家查找混乱。"
+    },
+    {
+      "title": "前期推荐路线",
+      "status": "计划中",
+      "note": "结合新手路线给出优先解锁建议。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld 官方新闻",
+      "url": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
+    }
+  ]
+}

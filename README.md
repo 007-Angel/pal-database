@@ -5,13 +5,35 @@
 ## 当前范围
 
 - 首页、左侧导航、搜索入口、模块卡片
-- 帕鲁图鉴、配种计算、科技树、据点建造、材料掉落、地图探索、新手路线、版本更新的占位页
+- 帕鲁图鉴、科技树、材料掉落、版本更新的数据工作台
+- 配种计算、据点建造、地图探索、新手路线的功能框架页
+- 关于本站、非官方声明、隐私政策、404、robots、sitemap、favicon、manifest
 - 中文优先，`en/` 与 `data/site.en-US.json` 已预留
 - 非官方免责声明与 Pocketpair 二创指南链接
 
+## 资料数据
+
+核心资料先放在 `data/` 目录，页面会通过 `assets/database.js` 自动读取并渲染。
+
+```text
+data/paldeck.zh-CN.json      帕鲁图鉴字段与记录
+data/materials.zh-CN.json    材料掉落字段与记录
+data/technology.zh-CN.json   科技树字段与记录
+data/updates.zh-CN.json      版本更新字段与记录
+data/planning.zh-CN.json     站点建设路线
+```
+
+新增记录时，优先补 `records` 数组，并保留 `verified` 或 `lastVerified` 字段。没有核验过的资料不要直接当成事实写入。
+
 ## 发布方式
 
-直接发布整个目录即可。Cloudflare Pages 可以选择静态部署，不需要构建命令，输出目录使用项目根目录。
+直接发布整个目录即可。Cloudflare Pages 设置如下：
+
+```text
+Framework preset: None
+Build command: exit 0
+Build output directory: .
+```
 
 本地预览可以直接打开 `index.html`，也可以在目录中运行：
 

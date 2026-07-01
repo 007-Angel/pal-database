@@ -1,0 +1,38 @@
+{
+  "title": "材料掉落",
+  "description": "整理材料名称、来源、掉落对象、采集位置、主要用途与版本核验状态。",
+  "status": "字段已设计，资料待录入",
+  "lastVerified": "2026-07-01",
+  "columns": [
+    { "key": "name", "label": "材料" },
+    { "key": "sourceType", "label": "来源类型" },
+    { "key": "source", "label": "来源" },
+    { "key": "usage", "label": "主要用途" },
+    { "key": "route", "label": "推荐路线" },
+    { "key": "verified", "label": "核验状态" }
+  ],
+  "records": [],
+  "backlog": [
+    {
+      "title": "常用基础材料",
+      "status": "下一步",
+      "note": "优先整理木材、石头、矿石、帕鲁矿碎块、食材等开荒材料。"
+    },
+    {
+      "title": "掉落来源反查",
+      "status": "计划中",
+      "note": "每个材料都要能反查到帕鲁、地图点位或设施来源。"
+    },
+    {
+      "title": "制作用途关联",
+      "status": "计划中",
+      "note": "后续与科技树、装备和建筑资料互相链接。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld 官方页面",
+      "url": "https://www.pocketpair.jp/en/games-en/palworld-en/"
+    }
+  ]
+}

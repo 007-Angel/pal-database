@@ -1,0 +1,17 @@
+{
+  "name": "帕鲁资料站",
+  "short_name": "帕鲁资料站",
+  "description": "非官方中文帕鲁资料库",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#101625",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "帕鲁图鉴",
+  "description": "整理每个帕鲁的编号、属性、伙伴技能、主动技能、工作适性、掉落、出现区域与版本核验状态。",
+  "status": "字段已设计，资料待录入",
+  "lastVerified": "2026-07-01",
+  "columns": [
+    { "key": "number", "label": "编号" },
+    { "key": "name", "label": "名称" },
+    { "key": "elements", "label": "属性" },
+    { "key": "partnerSkill", "label": "伙伴技能" },
+    { "key": "workSuitability", "label": "工作适性" },
+    { "key": "drops", "label": "掉落" },
+    { "key": "habitat", "label": "出现区域" },
+    { "key": "verified", "label": "核验状态" }
+  ],
+  "records": [],
+  "backlog": [
+    {
+      "title": "建立图鉴字段",
+      "status": "已完成",
+      "note": "先固定编号、名称、属性、技能、工作、掉落、区域与核验字段。"
+    },
+    {
+      "title": "录入前期常见帕鲁",
+      "status": "下一步",
+      "note": "优先录入开荒阶段最常见的帕鲁，保证新玩家能马上查到。"
+    },
+    {
+      "title": "补筛选与详情页",
+      "status": "计划中",
+      "note": "数据稳定后增加属性筛选、工作适性筛选和单条详情页。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld 官方页面",
+      "url": "https://www.pocketpair.jp/en/games-en/palworld-en/"
+    },
+    {
+      "label": "Pocketpair 二创指南",
+      "url": "https://www.pocketpair.jp/en/guidelines-derivativework-en/"
+    }
+  ]
+}

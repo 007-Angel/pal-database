@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>配种计算 | 帕鲁资料站</title>
+    <meta name="theme-color" content="#101625">
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../site.webmanifest">
     <link rel="stylesheet" href="../assets/styles.css">
   </head>
   <body>
@@ -36,12 +39,34 @@
           </div>
           <span class="status-pill">页面已预留</span>
         </section>
-        <section class="empty-state" aria-label="空白内容区">
-          <div class="placeholder-lines" aria-hidden="true">
-            <strong>计算器预留区</strong>
-            <span></span>
-            <span></span>
-            <span></span>
+        <section class="tool-shell" aria-label="配种计算器预留区">
+          <div class="tool-panel">
+            <p class="eyebrow">计算器框架</p>
+            <h2>目标子代与父母组合查询</h2>
+            <p>等图鉴与配种数据录入后，这里会提供正向配种、反向查父母、技能继承备注和孵化路线。</p>
+            <div class="form-grid" aria-hidden="true">
+              <label><span>父代 A</span><input disabled value="数据待录入"></label>
+              <label><span>父代 B</span><input disabled value="数据待录入"></label>
+              <label><span>目标子代</span><input disabled value="数据待录入"></label>
+              <button disabled>计算</button>
+            </div>
+          </div>
+          <div class="tool-grid">
+            <article class="tool-card">
+              <span>01</span>
+              <strong>正向计算</strong>
+              <p>选择两个父代，返回可能子代。</p>
+            </article>
+            <article class="tool-card">
+              <span>02</span>
+              <strong>反向查询</strong>
+              <p>选择目标子代，列出可行父母组合。</p>
+            </article>
+            <article class="tool-card">
+              <span>03</span>
+              <strong>路线收藏</strong>
+              <p>后续支持保存常用配种路线。</p>
+            </article>
           </div>
         </section>
         <footer class="site-footer">
