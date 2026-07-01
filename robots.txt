@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pal-database.pages.dev/sitemap.xml
