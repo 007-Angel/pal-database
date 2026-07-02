@@ -1,0 +1,575 @@
+{
+  "title": "材料掉落",
+  "description": "按掉落物反查来源帕鲁，适合查找材料获取对象。",
+  "lastVerified": "2026-07-02",
+  "columns": [
+    {
+      "key": "name",
+      "label": "材料"
+    },
+    {
+      "key": "sourceType",
+      "label": "来源类型"
+    },
+    {
+      "key": "source",
+      "label": "来源帕鲁"
+    },
+    {
+      "key": "sourceCount",
+      "label": "来源数量"
+    },
+    {
+      "key": "usage",
+      "label": "主要用途"
+    },
+    {
+      "key": "route",
+      "label": "获取方式"
+    }
+  ],
+  "records": [
+    {
+      "name": "Arrow",
+      "sourceType": "帕鲁掉落",
+      "source": "Robinquill、Robinquill Terra",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Broncherry Meat",
+      "sourceType": "帕鲁掉落",
+      "source": "Broncherry、Broncherry Aqua",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Cake",
+      "sourceType": "帕鲁掉落",
+      "source": "Lovander",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Caprity Meat",
+      "sourceType": "帕鲁掉落",
+      "source": "Caprity",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Carbon Fiber",
+      "sourceType": "帕鲁掉落",
+      "source": "Shadowbeak、Jetragon",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Cloth",
+      "sourceType": "帕鲁掉落",
+      "source": "Azurobe、Felbat",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Copper Key",
+      "sourceType": "帕鲁掉落",
+      "source": "Leezpunk",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Diamond",
+      "sourceType": "帕鲁掉落",
+      "source": "Paladius、Frostallion、Jetragon",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Eikthyrdeer Venison",
+      "sourceType": "帕鲁掉落",
+      "source": "Eikthyrdeer、Eikthyrdeer Terra",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Elizabee'S Staff",
+      "sourceType": "帕鲁掉落",
+      "source": "Elizabee",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Fiber",
+      "sourceType": "帕鲁掉落",
+      "source": "Hoocrates、Hangyu、Hangyu Cryst",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Galeclaw Poultry",
+      "sourceType": "帕鲁掉落",
+      "source": "Galeclaw",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Gold Coin",
+      "sourceType": "帕鲁掉落",
+      "source": "Mau、Direhowl、Vanwyrm",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Gumoss Leaf",
+      "sourceType": "帕鲁掉落",
+      "source": "Gumoss",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Gunpowder",
+      "sourceType": "帕鲁掉落",
+      "source": "Tocotoco",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "High Grade Technical Manual",
+      "sourceType": "帕鲁掉落",
+      "source": "Hoocrates、Katress、Wixen",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "High Quality Cloth",
+      "sourceType": "帕鲁掉落",
+      "source": "Sibelyx",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Ingot",
+      "sourceType": "帕鲁掉落",
+      "source": "Bushi",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Innovative Technical Manual",
+      "sourceType": "帕鲁掉落",
+      "source": "Anubis、Lyleen、Shadowbeak、Lyleen Noct",
+      "sourceCount": "4",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Katress Hair",
+      "sourceType": "帕鲁掉落",
+      "source": "Katress",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Large Pal Soul",
+      "sourceType": "帕鲁掉落",
+      "source": "Anubis、Necromus、Frostallion Noct",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Lettuce Seeds",
+      "sourceType": "帕鲁掉落",
+      "source": "Bristla、Cinnamoth、Broncherry Aqua、Wumpo Botan",
+      "sourceCount": "4",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Mammorest Meat",
+      "sourceType": "帕鲁掉落",
+      "source": "Mammorest、Mammorest Cryst",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Medium Pal Soul",
+      "sourceType": "帕鲁掉落",
+      "source": "Helzephyr",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Mozzarina Meat",
+      "sourceType": "帕鲁掉落",
+      "source": "Mozzarina",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Mushroom",
+      "sourceType": "帕鲁掉落",
+      "source": "Tanzee（新叶猿）、Mossanda、Lovander、Mossanda Lux",
+      "sourceCount": "4",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Ore",
+      "sourceType": "帕鲁掉落",
+      "source": "Digtoise",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Pal Fluid",
+      "sourceType": "帕鲁掉落",
+      "source": "Fuack（冲浪鸭）、Pengullet（企丸丸）、Teafant、Celaray、Gobfin、Surfent、Kelpsea、Jormuntide、Surfent Terra、Suzaku Aqua",
+      "sourceCount": "10",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Pal Metal Ingot",
+      "sourceType": "帕鲁掉落",
+      "source": "Astegon、Shadowbeak、Paladius、Necromus",
+      "sourceCount": "4",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Paldium Fragment",
+      "sourceType": "帕鲁掉落",
+      "source": "Lunaris",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Penking Plume",
+      "sourceType": "帕鲁掉落",
+      "source": "Penking",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Polymer",
+      "sourceType": "帕鲁掉落",
+      "source": "Jetragon",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Precious Dragon Stone",
+      "sourceType": "帕鲁掉落",
+      "source": "Azurobe",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Raw Dumud",
+      "sourceType": "帕鲁掉落",
+      "source": "Dumud",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Raw Kelpsea",
+      "sourceType": "帕鲁掉落",
+      "source": "Kelpsea、Kelpsea Ignis",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Reindrix Venison",
+      "sourceType": "帕鲁掉落",
+      "source": "Reindrix",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Ruby",
+      "sourceType": "帕鲁掉落",
+      "source": "Direhowl、Vanwyrm、Relaxaurus",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Rushoar Pork",
+      "sourceType": "帕鲁掉落",
+      "source": "Rushoar",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Sapphire",
+      "sourceType": "帕鲁掉落",
+      "source": "Mau Cryst、Vanwyrm Cryst、Relaxaurus Lux",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Silver Key",
+      "sourceType": "帕鲁掉落",
+      "source": "Leezpunk、Leezpunk Ignis",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Small Pal Soul",
+      "sourceType": "帕鲁掉落",
+      "source": "Daedream、Nox、Cawgnito、Maraith、Tombat、Felbat",
+      "sourceCount": "6",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Strange Juice",
+      "sourceType": "帕鲁掉落",
+      "source": "Lovander",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Suspicious Juice",
+      "sourceType": "帕鲁掉落",
+      "source": "Lovander",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Tocotoco Feather",
+      "sourceType": "帕鲁掉落",
+      "source": "Tocotoco",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Tomato Seeds",
+      "sourceType": "帕鲁掉落",
+      "source": "Mossanda、Vaelet、Broncherry、Dinossom Lux、Wumpo Botan",
+      "sourceCount": "5",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "Wheat Seeds",
+      "sourceType": "帕鲁掉落",
+      "source": "Flopie、Bristla、Cinnamoth、Robinquill、Dinossom、Robinquill Terra",
+      "sourceCount": "6",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "优质帕鲁油",
+      "sourceType": "帕鲁掉落",
+      "source": "Woolipop、Dumud、Grintale、Digtoise、Flambelle、Elphidran、Relaxaurus、Mammorest、Quivern、Elphidran Aqua、Relaxaurus Lux、Mammorest Cryst",
+      "sourceCount": "13",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "低品质药品",
+      "sourceType": "帕鲁掉落",
+      "source": "Lifmunk（翠叶鼠）、Flopie、Vaelet、Lyleen、Lyleen Noct",
+      "sourceCount": "5",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "喷火器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Foxparks（火绒狐）、Rooby（燎火鹿）、Arsox、Pyrin、Kitsun、Flambelle、Ragnahawk、Wixen、Blazehowl、Reptyro、Blazamut、Suzaku",
+      "sourceCount": "19",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "棉悠悠羊肉",
+      "sourceType": "帕鲁掉落",
+      "source": "Lamball（棉悠悠）",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "棉花糖",
+      "sourceType": "帕鲁掉落",
+      "source": "Woolipop",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "毒腺",
+      "sourceType": "帕鲁掉落",
+      "source": "Depresso、Daedream、Killamari、Cawgnito、Helzephyr、Menasting",
+      "sourceCount": "6",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "煤炭",
+      "sourceType": "帕鲁掉落",
+      "source": "Blazamut、Menasting",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "牛奶",
+      "sourceType": "帕鲁掉落",
+      "source": "Mozzarina",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "电气器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Sparkit（伏特喵）、Jolthog、Univolt、Rayhound、Dazzi、Beakon、Grizzbolt、Orserk、Mossanda Lux、Relaxaurus Lux",
+      "sourceCount": "10",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "皮皮鸡肉",
+      "sourceType": "帕鲁掉落",
+      "source": "Chikipi（皮皮鸡）",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "皮革",
+      "sourceType": "帕鲁掉落",
+      "source": "Foxparks（火绒狐）、Fuack（冲浪鸭）、Rooby（燎火鹿）、Vixy、Rushoar、Nox、Fuddler、Direhowl、Mossanda、Melpaca、Eikthyrdeer、Nitewing",
+      "sourceCount": "33",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "红色野莓",
+      "sourceType": "帕鲁掉落",
+      "source": "Cattiva（捣蛋猫）、Caprity",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "纯水晶",
+      "sourceType": "帕鲁掉落",
+      "source": "Astegon、Jetragon、Frostallion Noct",
+      "sourceCount": "3",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "结冰器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Pengullet（企丸丸）、Penking、Foxcicle、Reindrix、Sibelyx、Cryolinx、Wumpo、Frostallion、Jolthog Cryst、Mau Cryst、Hangyu Cryst、Vanwyrm Cryst",
+      "sourceCount": "14",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "羊毛",
+      "sourceType": "帕鲁掉落",
+      "source": "Lamball（棉悠悠）、Cremis、Melpaca、Swee、Sweepa、Kingpaca、Kingpaca Cryst",
+      "sourceCount": "7",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "美丽花朵",
+      "sourceType": "帕鲁掉落",
+      "source": "Ribbuny、Petallia、Wumpo、Lyleen、Wumpo Botan、Lyleen Noct",
+      "sourceCount": "6",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "蛋",
+      "sourceType": "帕鲁掉落",
+      "source": "Chikipi（皮皮鸡）",
+      "sourceCount": "1",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "蜂蜜",
+      "sourceType": "帕鲁掉落",
+      "source": "Cinnamoth、Beegarde、Elizabee、Warsect",
+      "sourceCount": "4",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "角",
+      "sourceType": "帕鲁掉落",
+      "source": "Caprity、Eikthyrdeer、Incineram、Arsox、Univolt、Reindrix、Fenglope、Eikthyrdeer Terra、Incineram Noct",
+      "sourceCount": "9",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "野莓种子",
+      "sourceType": "帕鲁掉落",
+      "source": "Lifmunk（翠叶鼠）、Gumoss",
+      "sourceCount": "2",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    },
+    {
+      "name": "骨头",
+      "sourceType": "帕鲁掉落",
+      "source": "Vixy、Rushoar、Cawgnito、Loupmoon、Gorirat、Maraith、Vanwyrm、Bushi、Verdash、Anubis、Vanwyrm Cryst",
+      "sourceCount": "11",
+      "usage": "按制作配方和科技需求使用",
+      "route": "从掉落帕鲁反查获取来源"
+    }
+  ],
+  "sources": [
+    {
+      "label": "palworld-paldex-api (MIT)",
+      "url": "https://github.com/mlg404/palworld-paldex-api"
+    }
+  ]
+}

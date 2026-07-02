@@ -8,3 +8,6 @@
 
 /data/*
   Cache-Control: public, max-age=300
+
+/data/generated/*
+  Cache-Control: public, max-age=300

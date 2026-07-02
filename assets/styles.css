@@ -755,7 +755,14 @@ h2 {
   margin-top: 18px;
 }
 
-.form-grid label {
+.breeding-controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) auto;
+  gap: 10px;
+}
+
+.form-grid label,
+.breeding-controls label {
   display: grid;
   gap: 6px;
   color: #45536d;
@@ -763,7 +770,17 @@ h2 {
   font-weight: 700;
 }
 
-.form-grid button {
+.breeding-controls select {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 11px 12px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.form-grid button,
+.breeding-controls button {
   align-self: end;
   min-width: 90px;
   min-height: 44px;
@@ -901,7 +918,8 @@ h2 {
   .data-hero,
   .task-grid,
   .tool-grid,
-  .form-grid {
+  .form-grid,
+  .breeding-controls {
     grid-template-columns: 1fr;
   }
 

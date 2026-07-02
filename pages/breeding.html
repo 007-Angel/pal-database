@@ -39,35 +39,8 @@
           </div>
           <span class="status-pill">配种资料</span>
         </section>
-        <section class="tool-shell" aria-label="配种资料区">
-          <div class="tool-panel">
-            <p class="eyebrow">配种速查</p>
-            <h2>目标子代与父母组合</h2>
-            <p>配种资料用于查看父母组合、目标子代、技能继承和孵化路线。优先结合图鉴中的属性、工作适性与伙伴技能一起判断。</p>
-            <div class="form-grid" aria-hidden="true">
-              <label><span>父代 A</span><input disabled value="选择帕鲁"></label>
-              <label><span>父代 B</span><input disabled value="选择帕鲁"></label>
-              <label><span>目标子代</span><input disabled value="选择目标"></label>
-              <button disabled>查看</button>
-            </div>
-          </div>
-          <div class="tool-grid">
-            <article class="tool-card">
-              <span>01</span>
-              <strong>正向计算</strong>
-              <p>选择两个父代，返回可能子代。</p>
-            </article>
-            <article class="tool-card">
-              <span>02</span>
-              <strong>反向查询</strong>
-              <p>选择目标子代，列出可行父母组合。</p>
-            </article>
-            <article class="tool-card">
-              <span>03</span>
-              <strong>路线收藏</strong>
-              <p>记录常用配种路线和目标词条。</p>
-            </article>
-          </div>
+        <section class="tool-shell" data-breeding-url="../data/generated/breeding.zh-CN.json" aria-label="配种资料区">
+          <div class="loading-state">正在加载配种资料...</div>
         </section>
         <footer class="site-footer">
           <p>本站为非官方玩家资料站，与 Pocketpair 无隶属、授权或代表关系。</p>
@@ -80,5 +53,6 @@
       </main>
     </div>
     <script src="../assets/app.js"></script>
+    <script src="../assets/breeding.js"></script>
   </body>
 </html>

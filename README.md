@@ -20,9 +20,17 @@ data/paldeck.zh-CN.json      帕鲁图鉴字段与记录
 data/materials.zh-CN.json    材料掉落字段与记录
 data/technology.zh-CN.json   科技树字段与记录
 data/updates.zh-CN.json      版本更新字段与记录
+data/generated/              由脚本生成的全量图鉴、材料和配种数据
+data/raw/                    第三方 MIT 数据源缓存
 ```
 
 新增记录时，优先补 `records` 数组，并保留 `verified` 或 `lastVerified` 字段。没有核验过的资料不要直接当成事实写入。
+
+生成全量资料：
+
+```powershell
+python scripts\build_data.py
+```
 
 ## 发布方式
 
@@ -45,3 +53,7 @@ python -m http.server 4173
 ## 素材说明
 
 `assets/hero-pal-database.png` 是为本站生成的原创横幅图，不使用官方 Logo，不复刻官方帕鲁形象。引用官方截图或素材时，建议继续保留“非官方”标识，并按 Pocketpair 二创指南控制使用方式。
+
+## 第三方数据
+
+全量图鉴与配种底座来自 `mlg404/palworld-paldex-api` 的 MIT 授权数据，并转换为本站字段。授权说明见 `THIRD_PARTY_NOTICES.md` 与 `data/raw/paldex-api-LICENSE.txt`。
