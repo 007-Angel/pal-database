@@ -17,3 +17,7 @@ Palworld names, game concepts, and related intellectual property belong to their
 Technology ID records are transformed from the public Palworld Server Guide Technology IDs page:
 
 - https://docs.palworldgame.com/settings-and-operation/technologyids/
+
+Recipe index records are transformed from the public TH.GL Palworld recipe listing. This site stores factual recipe IDs, names, categories, and source links only; it does not copy TH.GL images or long-form page text.
+
+- https://palworld.th.gl/zh-CN/db/recipes

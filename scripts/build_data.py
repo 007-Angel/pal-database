@@ -3,6 +3,7 @@ import re
 import urllib.request
 from html import unescape
 from pathlib import Path
+from urllib.parse import urljoin
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -10,6 +11,7 @@ RAW_DIR = ROOT / "data" / "raw"
 OUT_DIR = ROOT / "data" / "generated"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 TECH_URL = "https://docs.palworldgame.com/settings-and-operation/technologyids/"
+RECIPES_URL = "https://palworld.th.gl/zh-CN/db/recipes"
 
 
 TYPE_NAMES = {
@@ -319,16 +321,110 @@ def build_technology(rows):
     }
 
 
+RECIPE_CATEGORY_NAMES = {
+    "Accessory": "饰品",
+    "Ammo": "弹药",
+    "Armor": "防具",
+    "Blueprint": "设计图",
+    "CaptureItemModifier": "捕获组件",
+    "Consume": "消耗品",
+    "Essential": "关键物品",
+    "Food": "食物",
+    "Glider": "滑翔装备",
+    "Material": "材料",
+    "SpecialWeapon": "特殊道具",
+    "Weapon": "武器",
+}
+
+
+def extract_recipe_rows(html):
+    rows = []
+    category = ""
+    pattern = re.compile(
+        r'<div class="text-xs uppercase tracking-wider text-muted-foreground mb-1 px-1\.5">([^<]+)</div>'
+        r'|<a class="flex items-center gap-2 [^"]*" href="/zh-CN/db/recipes/([^"]+)".*?'
+        r'<span class="truncate text-sm">([^<]+)</span>',
+        re.S,
+    )
+    for match in pattern.finditer(html):
+        if match.group(1):
+            category = unescape(match.group(1)).strip()
+            continue
+        recipe_id = unescape(match.group(2)).strip()
+        name = unescape(match.group(3)).strip()
+        if recipe_id and name:
+            rows.append(
+                {
+                    "id": recipe_id,
+                    "name": name,
+                    "category": category,
+                    "url": urljoin(RECIPES_URL + "/", recipe_id),
+                }
+            )
+    return rows
+
+
+def load_recipe_rows():
+    raw_json = RAW_DIR / "palworld-thgl-recipes.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    request = urllib.request.Request(
+        RECIPES_URL,
+        headers={"User-Agent": "pal-database-data-builder/1.0 (+https://pal-database.pages.dev/)"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        html = response.read().decode("utf-8")
+
+    rows = extract_recipe_rows(html)
+    raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return rows
+
+
+def build_recipes(rows):
+    records = [
+        {
+            "id": row["id"],
+            "name": row["name"],
+            "category": RECIPE_CATEGORY_NAMES.get(row.get("category"), row.get("category", "")),
+            "source": "TH.GL Palworld Database",
+            "detail": row["url"],
+        }
+        for row in rows
+    ]
+    return {
+        "title": "制作配方",
+        "description": "按公开配方列表整理制作项 ID、名称、分类与来源详情页，适合检索制作链入口。",
+        "lastVerified": "2026-07-02",
+        "columns": [
+            {"key": "id", "label": "配方 ID"},
+            {"key": "name", "label": "配方名称"},
+            {"key": "category", "label": "分类"},
+            {"key": "source", "label": "来源"},
+            {"key": "detail", "label": "详情"},
+        ],
+        "records": records,
+        "sources": [
+            {
+                "label": "TH.GL Palworld Recipes",
+                "url": RECIPES_URL,
+            }
+        ],
+    }
+
+
 def main():
     pals = json.loads((RAW_DIR / "paldex-api-pals.json").read_text(encoding="utf-8"))
     breeding = json.loads((RAW_DIR / "paldex-api-breeding.json").read_text(encoding="utf-8"))
     technology_rows = load_technology_rows()
+    recipe_rows = load_recipe_rows()
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
         "materials.zh-CN.json": build_materials(pals),
         "breeding.zh-CN.json": build_breeding(pals, breeding),
         "technology.zh-CN.json": build_technology(technology_rows),
+        "recipes.zh-CN.json": build_recipes(recipe_rows),
     }
 
     for filename, data in outputs.items():

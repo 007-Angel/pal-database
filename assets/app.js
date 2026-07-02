@@ -56,9 +56,9 @@ async function hydrateCounts() {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         const count = Array.isArray(data.records) ? data.records.length : 0;
-        node.textContent = count > 0 ? `${count} 条资料` : "资料整理中";
+        node.textContent = count > 0 ? `${count} 条资料` : "暂无数据";
       } catch {
-        node.textContent = "资料整理中";
+        node.textContent = "读取失败";
       }
     })
   );

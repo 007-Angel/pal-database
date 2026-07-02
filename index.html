@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>帕鲁资料站 | 非官方中文资料库</title>
-    <meta name="description" content="帕鲁资料站是一个非官方中文资料库，先整理图鉴、配种、科技树、据点、材料、地图与版本信息。">
+    <meta name="description" content="帕鲁资料站是一个非官方中文资料库，整理图鉴、配种、科技树、制作配方、据点、材料、地图与版本信息。">
     <meta name="theme-color" content="#101625">
     <link rel="canonical" href="https://pal-database.pages.dev/">
     <meta property="og:title" content="帕鲁资料站 | 非官方中文资料库">
-    <meta property="og:description" content="整理帕鲁图鉴、配种、科技树、据点、材料、地图与版本信息。">
+    <meta property="og:description" content="整理帕鲁图鉴、配种、科技树、制作配方、据点、材料、地图与版本信息。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pal-database.pages.dev/">
     <meta property="og:image" content="https://pal-database.pages.dev/assets/hero-pal-database.png">
@@ -32,6 +32,7 @@
           <a href="pages/paldeck.html">帕鲁图鉴</a>
           <a href="pages/breeding.html">配种计算</a>
           <a href="pages/technology.html">科技树</a>
+          <a href="pages/recipes.html">制作配方</a>
           <a href="pages/base.html">据点建造</a>
           <a href="pages/materials.html">材料掉落</a>
           <a href="pages/map.html">地图探索</a>
@@ -52,11 +53,11 @@
           <div class="hero-copy">
             <p class="eyebrow">五彩缤纷 · 游戏资料</p>
             <h1 id="page-title">帕鲁资料站</h1>
-            <p class="hero-summary">围绕帕鲁图鉴、配种、材料、科技与地图建立的中文资料库。</p>
+            <p class="hero-summary">围绕帕鲁图鉴、配种、材料、科技、配方与地图建立的中文资料库。</p>
             <form class="search-panel" role="search" aria-label="站内搜索">
               <label for="site-search">搜索资料</label>
               <div class="search-row">
-                <input id="site-search" name="q" type="search" placeholder="搜索帕鲁、材料、配种、地图、科技...">
+                <input id="site-search" name="q" type="search" placeholder="搜索帕鲁、材料、配种、配方、地图、科技...">
                 <button type="submit" aria-label="搜索">
                   <span aria-hidden="true">⌕</span>
                 </button>
@@ -97,23 +98,28 @@
             <strong>据点建造</strong>
             <small>生产、搬运、岗位与自动化</small>
           </a>
-          <a class="module-card accent-violet" href="pages/materials.html" data-search="材料 掉落 资源 采集 怪物">
+          <a class="module-card accent-teal" href="pages/recipes.html" data-search="配方 制作 recipe 材料 工作量">
             <span class="module-code">05</span>
+            <strong>制作配方</strong>
+            <small>制作项、配方分类、来源详情</small>
+          </a>
+          <a class="module-card accent-violet" href="pages/materials.html" data-search="材料 掉落 资源 采集 怪物">
+            <span class="module-code">06</span>
             <strong>材料掉落</strong>
             <small>采集来源、掉落表、常用路线</small>
           </a>
           <a class="module-card accent-cyan" href="pages/map.html" data-search="地图 探索 传送点 洞窟 boss">
-            <span class="module-code">06</span>
+            <span class="module-code">07</span>
             <strong>地图探索</strong>
             <small>传送点、洞窟、首领与资源区</small>
           </a>
           <a class="module-card accent-lime" href="pages/guides.html" data-search="新手 路线 开荒 前期 推荐">
-            <span class="module-code">07</span>
+            <span class="module-code">08</span>
             <strong>新手路线</strong>
             <small>前期节奏、装备目标、据点起步</small>
           </a>
           <a class="module-card accent-rose" href="pages/updates.html" data-search="版本 更新 补丁 新闻 变更">
-            <span class="module-code">08</span>
+            <span class="module-code">09</span>
             <strong>版本更新</strong>
             <small>官方新闻、补丁摘要、资料核验</small>
           </a>
@@ -138,6 +144,10 @@
               <div>
                 <dt>科技树</dt>
                 <dd data-count-url="data/generated/technology.zh-CN.json">加载中</dd>
+              </div>
+              <div>
+                <dt>制作配方</dt>
+                <dd data-count-url="data/generated/recipes.zh-CN.json">加载中</dd>
               </div>
               <div>
                 <dt>材料数据</dt>

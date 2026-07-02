@@ -21,6 +21,14 @@ function renderSources(sources = []) {
   `;
 }
 
+function renderCell(value) {
+  const text = String(value ?? "");
+  if (/^https?:\/\//.test(text)) {
+    return `<a href="${escapeHtml(text)}" target="_blank" rel="noreferrer">打开来源</a>`;
+  }
+  return escapeHtml(text);
+}
+
 function renderTable(data) {
   const columns = data.columns || [];
   const records = data.records || [];
@@ -33,7 +41,7 @@ function renderTable(data) {
         <div>
           <p class="eyebrow">资料表</p>
           <h2>${escapeHtml(data.title)}</h2>
-          <p>当前栏目正在整理公开资料。</p>
+          <p>当前栏目暂无可显示记录。</p>
           <div class="field-list">
             ${columns.map((column) => `<span>${escapeHtml(column.label)}</span>`).join("")}
           </div>
@@ -60,7 +68,7 @@ function renderTable(data) {
               .map(
                 (record) => `
                   <tr>
-                    ${columns.map((column) => `<td>${escapeHtml(record[column.key] || "")}</td>`).join("")}
+                    ${columns.map((column) => `<td>${renderCell(record[column.key] || "")}</td>`).join("")}
                   </tr>
                 `
               )

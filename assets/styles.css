@@ -9,6 +9,7 @@
   --coral: #ff6f61;
   --amber: #f7a928;
   --green: #27ae60;
+  --teal: #0f9f8f;
   --violet: #7b61ff;
   --cyan: #18a7b5;
   --lime: #8bbf24;
@@ -336,6 +337,7 @@ h2 {
 .accent-coral { color: var(--coral); }
 .accent-amber { color: var(--amber); }
 .accent-green { color: var(--green); }
+.accent-teal { color: var(--teal); }
 .accent-violet { color: var(--violet); }
 .accent-cyan { color: var(--cyan); }
 .accent-lime { color: var(--lime); }
