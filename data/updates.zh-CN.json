@@ -1,8 +1,7 @@
 {
   "title": "版本更新",
-  "description": "整理官方新闻、补丁摘要、资料变更点和站内数据核验记录。",
-  "status": "来源已接入，更新摘要待录入",
-  "lastVerified": "2026-07-01",
+  "description": "速查官方新闻、版本公告和会影响资料表的主要更新。",
+  "lastVerified": "2026-07-02",
   "columns": [
     { "key": "date", "label": "日期" },
     { "key": "version", "label": "版本" },
@@ -14,40 +13,23 @@
     {
       "date": "2026-06-06",
       "version": "1.0 预告",
-      "summary": "Pocketpair 宣布 Palworld 1.0 计划于 2026 年发布，并提到正式版前会集中进行问题修复和内容调整。",
+      "summary": "Pocketpair 宣布 Palworld 1.0 预计于 2026 年发布，并提到正式版前会集中进行问题修复和内容调整。",
       "impact": "版本更新页、全站核验日期",
       "source": "Pocketpair 官方新闻"
     },
     {
       "date": "2025-12-17",
       "version": "Home Sweet Home 更新",
-      "summary": "官方发布 Home Sweet Home 相关更新公告，后续需要按公告核对新增内容对资料表的影响。",
-      "impact": "图鉴、地图、科技树待核验",
+      "summary": "官方发布 Home Sweet Home 相关更新公告，包含新的家园与生活向内容。",
+      "impact": "家园、建筑、生活玩法",
       "source": "Pocketpair 官方新闻"
     },
     {
       "date": "2025-06-23",
       "version": "Tides of Terraria 更新",
-      "summary": "官方发布 Tides of Terraria 相关更新公告，本站后续需要补充该版本新增资料与变更摘要。",
-      "impact": "图鉴、材料、地图、版本摘要待补",
+      "summary": "官方发布 Tides of Terraria 相关更新公告，带来跨作品联动内容。",
+      "impact": "联动内容、战斗、探索",
       "source": "Pocketpair 官方新闻"
-    }
-  ],
-  "backlog": [
-    {
-      "title": "建立更新记录格式",
-      "status": "已完成",
-      "note": "版本更新会同时记录官方来源和站内受影响页面。"
-    },
-    {
-      "title": "补最近一次官方更新摘要",
-      "status": "进行中",
-      "note": "需要逐条核验官方新闻后再写入，避免把传闻当成版本事实。"
-    },
-    {
-      "title": "建立资料变更日志",
-      "status": "计划中",
-      "note": "图鉴、材料、科技树有改动时，在这里记录核验日期。"
     }
   ],
   "sources": [

@@ -1,8 +1,7 @@
 {
   "title": "科技树",
-  "description": "整理等级解锁、古代科技、制作材料、前置设施和推荐优先级。",
-  "status": "字段已设计，资料待录入",
-  "lastVerified": "2026-07-01",
+  "description": "速查常用科技的解锁等级、消耗、制作材料和使用价值。",
+  "lastVerified": "2026-07-02",
   "columns": [
     { "key": "level", "label": "等级" },
     { "key": "name", "label": "科技" },
@@ -10,7 +9,7 @@
     { "key": "cost", "label": "消耗" },
     { "key": "materials", "label": "材料" },
     { "key": "priority", "label": "优先级" },
-    { "key": "verified", "label": "核验状态" }
+    { "key": "verified", "label": "备注" }
   ],
   "records": [
     {
@@ -20,7 +19,7 @@
       "cost": "1 科技点",
       "materials": "皮革 x3、喷火器官 x5、Paldium Fragment x5",
       "priority": "前期火力工具，依赖 Foxparks",
-      "verified": "解锁等级、点数、材料已核验"
+      "verified": "搭配 Foxparks 的伙伴技能使用"
     },
     {
       "level": "Lv 11",
@@ -29,7 +28,7 @@
       "cost": "1 科技点",
       "materials": "金属铸块 x5、石头 x10、木材 x20、Paldium Fragment x10",
       "priority": "中前期伙伴技能装备，依赖 Lifmunk",
-      "verified": "解锁等级、点数、材料已核验"
+      "verified": "搭配 Lifmunk 的伙伴技能使用"
     },
     {
       "level": "Lv 17",
@@ -38,24 +37,7 @@
       "cost": "2 科技点",
       "materials": "金属铸块 x20、石头 x20、木材 x30、Paldium Fragment x20",
       "priority": "趣味/战斗工具，依赖 Pengullet",
-      "verified": "解锁等级、点数、材料已核验"
-    }
-  ],
-  "backlog": [
-    {
-      "title": "等级解锁表",
-      "status": "进行中",
-      "note": "先录入每级科技名称、类型和点数消耗。"
-    },
-    {
-      "title": "古代科技单独标记",
-      "status": "计划中",
-      "note": "把普通科技和古代科技拆开，避免玩家查找混乱。"
-    },
-    {
-      "title": "前期推荐路线",
-      "status": "计划中",
-      "note": "结合新手路线给出优先解锁建议。"
+      "verified": "搭配 Pengullet 的伙伴技能使用"
     }
   ],
   "sources": [

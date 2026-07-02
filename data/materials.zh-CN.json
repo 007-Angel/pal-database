@@ -1,15 +1,14 @@
 {
   "title": "材料掉落",
-  "description": "整理材料名称、来源、掉落对象、采集位置、主要用途与版本核验状态。",
-  "status": "字段已设计，资料待录入",
-  "lastVerified": "2026-07-01",
+  "description": "速查常用材料的来源、用途和获取方式。",
+  "lastVerified": "2026-07-02",
   "columns": [
     { "key": "name", "label": "材料" },
     { "key": "sourceType", "label": "来源类型" },
     { "key": "source", "label": "来源" },
     { "key": "usage", "label": "主要用途" },
     { "key": "route", "label": "推荐路线" },
-    { "key": "verified", "label": "核验状态" }
+    { "key": "verified", "label": "备注" }
   ],
   "records": [
     {
@@ -18,14 +17,14 @@
       "source": "Lamball（棉悠悠）等",
       "usage": "布料与早期制作链",
       "route": "初期草地区域捕获或牧场生产",
-      "verified": "基础来源已核验，效率路线待补"
+      "verified": "牧场生产更稳定"
     },
     {
       "name": "红色野莓",
       "sourceType": "采集 / 帕鲁掉落",
       "source": "野外浆果丛、Cattiva（捣蛋猫）",
       "usage": "前期食物与基础补给",
-      "route": "出生点周边采集，后续接入农园资料",
+      "route": "出生点周边采集，农园种植更稳定",
       "verified": "基础来源已核验"
     },
     {
@@ -41,8 +40,8 @@
       "sourceType": "帕鲁掉落",
       "source": "Foxparks（火绒狐）等",
       "usage": "装备、防具与部分制作链",
-      "route": "先按图鉴掉落反查，刷取路线待地图页补充",
-      "verified": "基础来源已核验，路线待补"
+      "route": "优先从低等级掉落来源获取",
+      "verified": "早期装备常用"
     },
     {
       "name": "喷火器官",
@@ -57,8 +56,8 @@
       "sourceType": "帕鲁掉落",
       "source": "Pengullet（企丸丸）等水属性帕鲁",
       "usage": "部分设施、装备与制作链",
-      "route": "水边区域刷取，具体点位待地图页补充",
-      "verified": "基础来源已核验，中文名待统一"
+      "route": "水边区域刷取",
+      "verified": "常用于设施和制作链"
     },
     {
       "name": "结冰器官",
@@ -67,23 +66,70 @@
       "usage": "冷却、冰属性相关制作链",
       "route": "先从早期水/冰属性帕鲁获取",
       "verified": "基础来源已核验"
-    }
-  ],
-  "backlog": [
-    {
-      "title": "常用基础材料",
-      "status": "进行中",
-      "note": "优先整理木材、石头、矿石、帕鲁矿碎块、食材等开荒材料。"
     },
     {
-      "title": "掉落来源反查",
-      "status": "计划中",
-      "note": "每个材料都要能反查到帕鲁、地图点位或设施来源。"
+      "name": "木材",
+      "sourceType": "采集 / 伐木",
+      "source": "树木、伐木场、伐木工作适性帕鲁",
+      "usage": "建筑、工作台、前期工具与燃料链",
+      "route": "开局砍树获取，基地成型后交给伐木岗位",
+      "verified": "开荒高频材料"
     },
     {
-      "title": "制作用途关联",
-      "status": "计划中",
-      "note": "后续与科技树、装备和建筑资料互相链接。"
+      "name": "石头",
+      "sourceType": "采集 / 采矿",
+      "source": "石块、采石场、采矿工作适性帕鲁",
+      "usage": "建筑、工具、伙伴装备与基础设施",
+      "route": "开局采石获取，基地成型后交给采矿岗位",
+      "verified": "开荒高频材料"
+    },
+    {
+      "name": "矿石",
+      "sourceType": "采矿",
+      "source": "矿石节点、采矿工作适性帕鲁",
+      "usage": "金属铸块、装备、武器和伙伴装备",
+      "route": "优先标记稳定矿点，并安排采矿与搬运岗位",
+      "verified": "中前期关键材料"
+    },
+    {
+      "name": "Paldium Fragment",
+      "sourceType": "采集 / 采矿",
+      "source": "帕鲁矿碎块节点、部分石矿来源",
+      "usage": "帕鲁球、伙伴装备和多种基础制作",
+      "route": "开局沿路采集蓝色矿点",
+      "verified": "捕获与制作常用材料"
+    },
+    {
+      "name": "纤维",
+      "sourceType": "采集 / 加工",
+      "source": "树木相关采集与加工来源",
+      "usage": "弓、布料、早期工具与建筑链",
+      "route": "砍树时同步积累",
+      "verified": "前期消耗稳定"
+    },
+    {
+      "name": "电气器官",
+      "sourceType": "帕鲁掉落",
+      "source": "Sparkit 等雷属性帕鲁",
+      "usage": "雷属性装备、发电相关制作链",
+      "route": "按雷属性帕鲁分布刷取",
+      "verified": "发电玩法常用"
+    },
+    {
+      "name": "毒腺",
+      "sourceType": "帕鲁掉落",
+      "source": "暗属性或毒相关帕鲁",
+      "usage": "毒属性装备、箭矢与部分制作链",
+      "route": "按掉落来源反查帕鲁",
+      "verified": "战斗制作常用"
+    },
+    {
+      "name": "骨头",
+      "sourceType": "帕鲁掉落 / 商人",
+      "source": "部分野外帕鲁、流浪商人",
+      "usage": "药品、装备和部分制作链",
+      "route": "前期可从掉落来源获取，也可通过商人购买",
+      "verified": "药品链常用"
     }
   ],
   "sources": [
