@@ -1,4 +1,7 @@
 import json
+import re
+import urllib.request
+from html import unescape
 from pathlib import Path
 
 
@@ -6,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 OUT_DIR = ROOT / "data" / "generated"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+TECH_URL = "https://docs.palworldgame.com/settings-and-operation/technologyids/"
 
 
 TYPE_NAMES = {
@@ -239,14 +243,92 @@ def build_breeding(pals, breeding):
     }
 
 
+def categorize_technology(tech_id):
+    if tech_id.startswith("SkillUnlock_"):
+        return "伙伴装备"
+    if "Armor" in tech_id or "Helm" in tech_id or "Shield" in tech_id:
+        return "防具"
+    if "RangeWeapon" in tech_id or "MeleeWeapon" in tech_id or "Bullet" in tech_id or "Arrow" in tech_id:
+        return "武器弹药"
+    if tech_id.startswith("Product_") or "Factory" in tech_id or "Workbench" in tech_id:
+        return "生产设施"
+    if "Farm" in tech_id or "PalBed" in tech_id or "PalFoodBox" in tech_id or "Spa" in tech_id:
+        return "据点设施"
+    if "Sphere" in tech_id:
+        return "帕鲁球"
+    if "Glider" in tech_id or "Lantern" in tech_id or "Pouch" in tech_id or "Accessory" in tech_id:
+        return "探索辅助"
+    return "科技"
+
+
+def extract_technology_rows(html):
+    rows = []
+    pattern = re.compile(r"<tr><td>(.*?)</td><td>(.*?)</td></tr>")
+    for tech_id, name in pattern.findall(html):
+        tech_id = unescape(re.sub(r"<.*?>", "", tech_id)).strip()
+        name = unescape(re.sub(r"<.*?>", "", name)).strip()
+        if tech_id and name and tech_id != "Technology ID":
+            rows.append({"id": tech_id, "name": name})
+    return rows
+
+
+def load_technology_rows():
+    raw_json = RAW_DIR / "palworld-technologyids.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    html_path = RAW_DIR / "palworld-technologyids.html"
+    if html_path.exists():
+        html = html_path.read_text(encoding="utf-8")
+    else:
+        with urllib.request.urlopen(TECH_URL, timeout=30) as response:
+            html = response.read().decode("utf-8")
+
+    rows = extract_technology_rows(html)
+    raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return rows
+
+
+def build_technology(rows):
+    records = [
+        {
+            "id": row["id"],
+            "name": row["name"],
+            "category": categorize_technology(row["id"]),
+            "source": "Palworld Server Guide",
+        }
+        for row in rows
+    ]
+    return {
+        "title": "科技树",
+        "description": "按官方 Technology ID 速查科技、伙伴装备、设施、武器弹药和探索辅助项目。",
+        "lastVerified": "2026-07-02",
+        "columns": [
+            {"key": "id", "label": "Technology ID"},
+            {"key": "name", "label": "科技名称"},
+            {"key": "category", "label": "分类"},
+            {"key": "source", "label": "来源"},
+        ],
+        "records": records,
+        "sources": [
+            {
+                "label": "Palworld Server Guide - Technology IDs",
+                "url": TECH_URL,
+            }
+        ],
+    }
+
+
 def main():
     pals = json.loads((RAW_DIR / "paldex-api-pals.json").read_text(encoding="utf-8"))
     breeding = json.loads((RAW_DIR / "paldex-api-breeding.json").read_text(encoding="utf-8"))
+    technology_rows = load_technology_rows()
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
         "materials.zh-CN.json": build_materials(pals),
         "breeding.zh-CN.json": build_breeding(pals, breeding),
+        "technology.zh-CN.json": build_technology(technology_rows),
     }
 
     for filename, data in outputs.items():

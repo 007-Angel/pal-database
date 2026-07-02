@@ -1,0 +1,3025 @@
+{
+  "title": "科技树",
+  "description": "按官方 Technology ID 速查科技、伙伴装备、设施、武器弹药和探索辅助项目。",
+  "lastVerified": "2026-07-02",
+  "columns": [
+    {
+      "key": "id",
+      "label": "Technology ID"
+    },
+    {
+      "key": "name",
+      "label": "科技名称"
+    },
+    {
+      "key": "category",
+      "label": "分类"
+    },
+    {
+      "key": "source",
+      "label": "来源"
+    }
+  ],
+  "records": [
+    {
+      "id": "Accessory_AirDash1",
+      "name": "Air Dash Boots",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_AirDash2",
+      "name": "Double Air Dash Boots",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_AirDash3",
+      "name": "Triple Air Dash Boots",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_JumpCount_Increase1",
+      "name": "Double Jump Boots",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_JumpCount_Increase2",
+      "name": "Triple Jump Boots",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_JumpPower_Increase",
+      "name": "Anti-Gravity Belt",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_Nonkilling",
+      "name": "Ring of Mercy",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Accessory_TalentChecker",
+      "name": "Ability Glasses",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AdditionalInventory_001",
+      "name": "Small Pouch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AdditionalInventory_002",
+      "name": "Medium Pouch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AdditionalInventory_003",
+      "name": "Large Pouch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AdditionalInventory_004",
+      "name": "Giant Pouch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Altar",
+      "name": "Summoning Altar",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Arrow",
+      "name": "Arrow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Arrow_Fire",
+      "name": "Fire Arrow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Arrow_Poison",
+      "name": "Poison Arrow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AssaultRifleBullet",
+      "name": "Assault Rifle Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AutoMealPouch_Tier1",
+      "name": "Small Feed Bag",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AutoMealPouch_Tier2",
+      "name": "Average Feed Bag",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AutoMealPouch_Tier3",
+      "name": "Large Feed Bag",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AutoMealPouch_Tier4",
+      "name": "Huge Feed Bag",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "AutoMealPouch_Tier5",
+      "name": "Giant Feed Bag",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BaseCampBattleDirector",
+      "name": "Alarm Bell",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BaseCampItemDispenser",
+      "name": "Item Retrieval Machine",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BaseCampWorkHard",
+      "name": "Monitoring Stand",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BaseCampWorkerExtraStation",
+      "name": "Palbox Control Device",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth",
+      "name": "Cloth Outfit",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth_Cold",
+      "name": "Tundra Outfit",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_01_Cloth_Heat",
+      "name": "Tropical Outfit",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur",
+      "name": "Pelt Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur_Cold",
+      "name": "Cold Resistant Pelt Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_02_Fur_Heat",
+      "name": "Heat Resistant Pelt Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper",
+      "name": "Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper_Cold",
+      "name": "Cold Resistant Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Copper_Heat",
+      "name": "Heat Resistant Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron",
+      "name": "Refined Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron_Cold",
+      "name": "Cold Resistant Refined Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_03_Iron_Heat",
+      "name": "Heat Resistant Refined Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal",
+      "name": "Pal Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal_Cold",
+      "name": "Cold Resistant Pal Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_04_Steal_Heat",
+      "name": "Heat Resistant Pal Metal Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic",
+      "name": "Plasteel Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Cold",
+      "name": "Cold Resistant Plasteel Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Heat",
+      "name": "Heat Resistant Plasteel Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Armor_Grade_05_Plastic_Weight",
+      "name": "Lightweight Plasteel Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Cloth",
+      "name": "Cloth",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Defense_BowGun",
+      "name": "Mounted Crossbow",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Defense_MachineGun",
+      "name": "Mounted Machine Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Defense_Missile",
+      "name": "Mounted Missile Launcher",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Glider_Grade_01",
+      "name": "Normal Parachute",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Glider_Grade_02",
+      "name": "Mega Glider",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Glider_Grade_03",
+      "name": "Giga Glider",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Glider_Grade_04",
+      "name": "Hyper Glider",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_GunPowder_Grade_02",
+      "name": "Gunpowder",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Helm_Grade_02_Fur",
+      "name": "Feathered Hair Band",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Helm_Grade_03_Copper",
+      "name": "Metal Helm",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Helm_Grade_04_Iron",
+      "name": "Refined Metal Helm",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Helm_Grade_05_Steal",
+      "name": "Pal Metal Helm",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_Helm_Grade_06_Plastic",
+      "name": "Plasteel Helmet",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Axe_Steal",
+      "name": "Pal Metal Axe",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Bat",
+      "name": "Wooden Club",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Bat2",
+      "name": "Bat",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_MeleeWeapon_Pickaxe_Steal",
+      "name": "Pal Metal Pickaxe",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_AssaultRifle",
+      "name": "Assault Rifle",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow1",
+      "name": "Old Bow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow3",
+      "name": "Three Shot Bow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_BowGun",
+      "name": "Crossbow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_BowGun_Fire",
+      "name": "Fire Arrow Crossbow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_BowGun_Poison",
+      "name": "Poison Arrow Crossbow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow_Fire",
+      "name": "Fire Bow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_Bow_Poison",
+      "name": "Poison Bow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_CompoundBow",
+      "name": "Compound Bow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_FlameThrower",
+      "name": "Flamethrower",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_GatlingGun",
+      "name": "Gatling Gun",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_GrenadeLauncher",
+      "name": "Grenade Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_GuidedMissileLauncher",
+      "name": "Guided Missile Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_HandGun",
+      "name": "Handgun",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_HomingSphereLauncher",
+      "name": "Homing Sphere Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_LaserRifle",
+      "name": "Laser Rifle",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_OldRevolver",
+      "name": "Old Revolver",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_Rifle",
+      "name": "Single-Shot Rifle",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_RocketLauncher",
+      "name": "Rocket Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_SemiAutoRifle",
+      "name": "Semi-Auto Rifle",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_SemiAutoShotgun",
+      "name": "Semi-Auto Shotgun",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_ShotGun",
+      "name": "Double-Barreled Shotgun",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_ShotGun_Multi",
+      "name": "Pump-Action Shotgun",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_SphereLauncher",
+      "name": "Scatter Sphere Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_SphereLauncher_Once",
+      "name": "Single-Shot Sphere Launcher",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Battle_RangeWeapon_SubmachineGun",
+      "name": "SMG",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BeamSword",
+      "name": "Beam Sword",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BelieverFlagSet",
+      "name": "Free Pal Alliance Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BlastFurnace4",
+      "name": "Gigantic Furnace",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BreedFarm",
+      "name": "Breeding Farm",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "BuildableGoddessStatue",
+      "name": "Statue of Power",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CarbonFiber",
+      "name": "Carbon Fiber",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Cauldron",
+      "name": "Witch Cauldron",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CeilingLamp",
+      "name": "Ceiling Lamp",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Cement",
+      "name": "Cement",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ChargeLaserRifle",
+      "name": "Charge Rifle",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ChargeLaserRifleBullet",
+      "name": "Charge Rifle Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Cloth2",
+      "name": "High Quality Cloth",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CompositeDesk",
+      "name": "Drafting Table",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Cooler",
+      "name": "Cooler",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CoolerBox",
+      "name": "Cooler Box",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CoolerPalFoodBox",
+      "name": "Cold Food Box",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Crusher",
+      "name": "Crusher",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "CrystalPit",
+      "name": "Hexolite Quartz Mine",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DamagedScarecrow",
+      "name": "Training Dummy",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DecalGunSet",
+      "name": "Decal Gun Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DefenseWait",
+      "name": "Sandbag",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DefenseWall",
+      "name": "Stone Defensive Wall",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DefenseWall_Metal",
+      "name": "Metal Defensive Wall",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DefenseWall_Wood",
+      "name": "Wooden Defensive Wall",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DimensionPalStorage",
+      "name": "Dimensional Pal Storage",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DismantlingConveyor",
+      "name": "Pal Disassembly Conveyor",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "DisplayCharacter",
+      "name": "Viewing Cage",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ElecBaton",
+      "name": "Stun Baton",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ElectricCooler",
+      "name": "Electric Cooler",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ElectricGenerator_Large",
+      "name": "Large Power Generator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ElectricHeater",
+      "name": "Electric Heater",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "EnergyLauncherBullet",
+      "name": "Plasma Cartridge",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "EnergyRocketLauncher",
+      "name": "Plasma Cannon",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "EnergyShotgun",
+      "name": "Energy Shotgun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "EnergyShotgunBullet",
+      "name": "Energy Shotgun Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "EnergyStorage_Electric",
+      "name": "Accumulator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Expedition",
+      "name": "Pal Expedition Station",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Factory_Hard_04",
+      "name": "Advanced Workshop",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Factory_Money",
+      "name": "Gold Coin Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Farm_SkillFruits",
+      "name": "Skillfruit Orchard",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FireCultFlagSet",
+      "name": "Brothers of the Eternal Pyre Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingBait_2",
+      "name": "High Quality Bait",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingBait_3",
+      "name": "Deluxe Bait",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingBait_3_A",
+      "name": "Alluring Bait",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingPond1",
+      "name": "Fishing Pond",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingPond2",
+      "name": "Large Fishing Pond",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingRod_02_1",
+      "name": "Intermediate Fishing Rod (Cattiva)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingRod_03_1",
+      "name": "Advanced Fishing Rod (Pengullet)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FishingSet1",
+      "name": "Beginner Fishing Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FlamethrowerBullet",
+      "name": "Flamethrower Fuel",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FlourMill",
+      "name": "Mill",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FlowerBed",
+      "name": "Flower Bed",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Fountain",
+      "name": "Water Fountain",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade",
+      "name": "Frag Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Dark",
+      "name": "Dark Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Dragon",
+      "name": "Dragon Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Elec",
+      "name": "Shock Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Fire",
+      "name": "Incendiary Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Ground",
+      "name": "Ground Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Ice",
+      "name": "Ice Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Leaf",
+      "name": "Grass Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Super",
+      "name": "Frag Grenade Mk2",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FragGrenade_Water",
+      "name": "Water Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_1",
+      "name": "Wooden Living Room Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_10",
+      "name": "Barricade Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_11",
+      "name": "Traffic Control Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_12",
+      "name": "Road Sign Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_13",
+      "name": "Metal Chair and Desk Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_14",
+      "name": "Ironwood Table Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_15",
+      "name": "Piano Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_16",
+      "name": "Antique Mirror Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_17",
+      "name": "Carpet Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_18",
+      "name": "Antique Couch Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_19",
+      "name": "Antique Chair Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_2",
+      "name": "Wooden Tavern Cabinet Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_20",
+      "name": "Antique Bath Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_21",
+      "name": "Antique Storage Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_22",
+      "name": "Antique Storage Cabinet Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_23",
+      "name": "Clock Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_24",
+      "name": "Antique Desk Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_25",
+      "name": "Bathroom Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_26",
+      "name": "Amusement Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_27",
+      "name": "Street Lamp Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_28",
+      "name": "Fireplace Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_29",
+      "name": "Antique Lamp Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_3",
+      "name": "Wooden Tavern Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_30",
+      "name": "Metal Shelf Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_31",
+      "name": "Outdoor Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_32",
+      "name": "Antique High Quality Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_4",
+      "name": "Wall-Mounted Houseplant Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_5",
+      "name": "Metal Barrel Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_6",
+      "name": "Storage Container Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_7",
+      "name": "Leather Chair Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_8",
+      "name": "Emergency Exit Sign Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_9",
+      "name": "Houseplant Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "FurnitureSet_Japanese",
+      "name": "Japanese-Style Furniture Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GatlingBullet",
+      "name": "Gatling Gun Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Glass_houseset",
+      "name": "Glass Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GlobalPalStorage",
+      "name": "Global Palbox",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrapplingGun",
+      "name": "Grappling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrapplingGun2",
+      "name": "Mega Grappling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrapplingGun3",
+      "name": "Giga Grappling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrapplingGun4",
+      "name": "Hyper Grappling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrapplingGun5",
+      "name": "Ultra Grappling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GrenadeBullet",
+      "name": "Grenade Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "GuildChest",
+      "name": "Guild Chest",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "HandTorch",
+      "name": "Mounted Torch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "HandgunBullet",
+      "name": "Handgun Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Headstone",
+      "name": "Tombstone",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Heater",
+      "name": "Heater",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Homeward",
+      "name": "Homeward Thundercloud",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "HugeKitchen",
+      "name": "Large-Scale Stone Oven",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "HunterFlagSet",
+      "name": "Rayne Syndicate Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "IceCrusher",
+      "name": "Refrigerated Crusher",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_ElectricGenerator_Grade_01",
+      "name": "Power Generator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_ElectronicCircuit",
+      "name": "Circuit Board",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_01",
+      "name": "Wooden Chest",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_02",
+      "name": "Metal Chest",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_ItemChest_Grade_03",
+      "name": "Refined Metal Chest",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_MachineParts",
+      "name": "Nail",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_PalBed_Grade_01",
+      "name": "Straw Pal Bed",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_PalBed_Grade_02",
+      "name": "Fluffy Pal Bed",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_PlayerBed_Grade_01",
+      "name": "Shoddy Bed",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Infra_PlayerBed_Grade_02",
+      "name": "Fine Bed",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ItemBooth",
+      "name": "Flea Market (Items)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ItemChest_04",
+      "name": "Advanced Chest",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "JapaneseStyle_houseset",
+      "name": "Japanese-Style Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Katana",
+      "name": "Katana",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Katana",
+      "name": "Katana",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Lab",
+      "name": "Pal Labor Research Laboratory",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Lamp",
+      "name": "Lamp",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Lantern",
+      "name": "Hip Lantern",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Lantern_High",
+      "name": "Enhanced Hip Lantern",
+      "category": "探索辅助",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LargeCeilingLamp",
+      "name": "Large Ceiling Lamp",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LargeLamp",
+      "name": "Large Mounted Lamp",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LaserBullet",
+      "name": "Energy Cartridge",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LaserGatlingBullet",
+      "name": "Laser Gatling Cartridge",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LaserGatlingGun",
+      "name": "Laser Gatling Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "LauncherBullet",
+      "name": "Rocket Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Launcher_Meteor",
+      "name": "Meteor Launcher",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MakeshiftAssaultRifle",
+      "name": "Makeshift Assault Rifle",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MakeshiftHandgun",
+      "name": "Makeshift Handgun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MakeshiftShotgun",
+      "name": "Makeshift Shotgun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MakeshiftSubmachineGun",
+      "name": "Makeshift SMG",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ManganeseIngot",
+      "name": "Coralum Ingot",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ManualElectricGenerator",
+      "name": "Human-Powered Generator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MeatCutterKnife",
+      "name": "Meat Cleaver",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MedicalPalBed_04",
+      "name": "Large Pal Bed",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MedicalPalBed_05",
+      "name": "Pal Pod",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MedicineFacility_03",
+      "name": "Advanced Medicine Workbench",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MetalDetector",
+      "name": "Metal Detector",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Metal_Gate",
+      "name": "Iron Gate",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Metal_houseset",
+      "name": "Metal Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MiningTool",
+      "name": "Mining Cart",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MissileBullet",
+      "name": "Missile Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MonsterFarm",
+      "name": "Ranch",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MultiElectricHatchingPalEgg",
+      "name": "Large-Scale Electric Egg Incubator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "MultiHatchingPalEgg",
+      "name": "Large Incubator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Musket",
+      "name": "Musket",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "NinjaFlagSet",
+      "name": "Moonflower Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "OilPump",
+      "name": "Crude Oil Extractor",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "OlympicCauldron",
+      "name": "Flame Cauldron",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "OperatingTable",
+      "name": "Pal Surgery Table",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "OverheatRifle",
+      "name": "Overheat Rifle",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "OverheatRifleBullet",
+      "name": "Overheat Rifle Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PALBOX",
+      "name": "Palbox",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalBooth",
+      "name": "Flea Market (Pals)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalDopingShot",
+      "name": "Boost Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalDopingShotBullet",
+      "name": "Boost Gun Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalDopingShot_2",
+      "name": "Megaboost Gun",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalFoodBox",
+      "name": "Feed Box",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalHealingGrenade",
+      "name": "Pal Recovery Grenade",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalMedicineBox",
+      "name": "Medicine Rack",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalRevive",
+      "name": "Revival Potion",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PalSphere_Exotic",
+      "name": "Exotic Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Plastic",
+      "name": "Plasteel",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "PoliceFlagSet",
+      "name": "PIDF Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Polymer",
+      "name": "Polymer",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Potion_Extreme",
+      "name": "Advanced Recovery Meds",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Axe_Grade_01",
+      "name": "Stone Axe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Axe_Grade_02",
+      "name": "Metal Axe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Axe_Grade_03",
+      "name": "Refined Metal Axe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_CoalPit",
+      "name": "Coal Mine",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Cooking_Grade_01",
+      "name": "Campfire",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Cooking_Grade_02",
+      "name": "Cooking Pot",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Cooking_Grade_03",
+      "name": "Electric Kitchen",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_CopperPit",
+      "name": "Ore Mining Site",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_CopperPit_2",
+      "name": "Ore Mining Site II",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_01",
+      "name": "High-Quality Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_02",
+      "name": "Production Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Factory_Hard_Grade_03",
+      "name": "Production Assembly Line II",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_Berries",
+      "name": "Berry Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_Carrot",
+      "name": "Carrot Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_Lettuce",
+      "name": "Lettuce Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_Onion",
+      "name": "Onion Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_Potato",
+      "name": "Potato Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_tomato",
+      "name": "Tomato Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Farm_wheat",
+      "name": "Wheat Plantation",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Ingot_Grade_01_Copper",
+      "name": "Primitive Furnace",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Ingot_Grade_02_Iron",
+      "name": "Improved Furnace",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Ingot_Grade_03_Steal",
+      "name": "Electric Furnace",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Medicine_Grade_01",
+      "name": "Medieval Medicine Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Medicine_Grade_02",
+      "name": "Electric Medicine Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_01",
+      "name": "Stone Pickaxe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_02",
+      "name": "Metal Pickaxe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_Pickaxe_Grade_03",
+      "name": "Refined Metal Pickaxe",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_QuartzPit",
+      "name": "Pure Quartz Mine",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_StationDeforest",
+      "name": "Logging Site",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_StonePit",
+      "name": "Stone Pit",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_SulfurPit",
+      "name": "Sulfur Mine",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_01",
+      "name": "Weapon Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_02",
+      "name": "Weapon Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_WeaponFactory_Dirty_Grade_03",
+      "name": "Weapon Assembly Line II",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Product_WorkBench_SkillUnlock",
+      "name": "Pal Gear Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Refrigerator",
+      "name": "Refrigerator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ReinforcedArrow",
+      "name": "Reinforced Arrow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "RepairBench",
+      "name": "Repair Bench",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "RepairKit",
+      "name": "Repair Kit",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "RifleBullet",
+      "name": "Rifle Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "RoughBullet",
+      "name": "Coarse Ammo",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFArmor",
+      "name": "Hexolite Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFArmorCold",
+      "name": "Cold Resistant Hexolite Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFArmorHeat",
+      "name": "Heat Resistant Hexolite Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFArmorWeight",
+      "name": "Lightweight Hexolite Armor",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFArrow",
+      "name": "Advanced Arrow",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFBow",
+      "name": "Advanced Bow",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SFHelmet",
+      "name": "Hexolite Helmet",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SF_houseset",
+      "name": "Futuristic Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Salvage_TreasureBoxKey02",
+      "name": "Powerful Fishing Magnet",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SanityDecrease1",
+      "name": "Alpha Wave Generator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ScientistFlagSet",
+      "name": "PAL Genetic Research Unit Flag Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_01",
+      "name": "Common Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_02",
+      "name": "Mega Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_03",
+      "name": "Giga Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_04",
+      "name": "Hyper Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_05",
+      "name": "Ultra Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Shield_SF",
+      "name": "Advanced Shield",
+      "category": "防具",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ShotGunBullet",
+      "name": "Shotgun Shell",
+      "category": "武器弹药",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Signboard",
+      "name": "Sign",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Silo",
+      "name": "Silo",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Alpaca",
+      "name": "Melpaca Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_AmaterasuWolf",
+      "name": "Kitsun Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_AmaterasuWolf_Dark",
+      "name": "Kitsun Noct Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BadCatgirl",
+      "name": "Nyafia's Shotgun",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BirdDragon",
+      "name": "Vanwyrm Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BirdDragon_Ice",
+      "name": "Vanwyrm Cryst Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlackCentaur",
+      "name": "Necromus Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlackGriffon",
+      "name": "Shadowbeak Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlackMetalDragon",
+      "name": "Astegon Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlackPuppy",
+      "name": "Smokie's Harness",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlueDragon",
+      "name": "Azurobe Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlueDragon_Ice",
+      "name": "Azurobe Cryst Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_BlueThunderHorse",
+      "name": "Azurmane Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Boar",
+      "name": "Rushoar Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Carbunclo",
+      "name": "Lifmunk's Submachine Gun",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_ColorfulBird",
+      "name": "Tocotoco's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_DarkMechaDragon",
+      "name": "Xenolord Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Deer",
+      "name": "Eikthyrdeer Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Deer_Ground",
+      "name": "Eikthyrdeer Terra Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_DreamDemon",
+      "name": "Daedream's Necklace",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_DrillGame",
+      "name": "Digtoise's Headband",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Eagle",
+      "name": "Galeclaw's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_ElecPanda",
+      "name": "Grizzbolt's Minigun",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FairyDragon",
+      "name": "Elphidran Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FairyDragon_Water",
+      "name": "Elphidran Aqua Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FeatherOstrich",
+      "name": "Dazemu Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FengyunDeeper",
+      "name": "Fenglope Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FengyunDeeper_Electric",
+      "name": "Fenglope Lux Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FireKirin",
+      "name": "Pyrin Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FireKirin_Dark",
+      "name": "Pyrin Noct Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlameBuffalo",
+      "name": "Arsox Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlowerDinosaur",
+      "name": "Dinossom Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlowerDinosaur_Electric",
+      "name": "Dinossom Lux Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlowerRabbit",
+      "name": "Flopie's Necklace",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlyingManta",
+      "name": "Celaray's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_FlyingManta_Thunder",
+      "name": "Celaray Lux's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Garm",
+      "name": "Direhowl's Saddled Harness",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GhostAnglerfish",
+      "name": "Ghangler Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GhostAnglerfish_Fire",
+      "name": "Ghangler Ignis Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GhostBeast",
+      "name": "Maraith Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GoldenHorse",
+      "name": "Gildane Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GrassMammoth",
+      "name": "Mammorest Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GrassMammoth_Ice",
+      "name": "Mammorest Cryst Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GrassPanda",
+      "name": "Mossanda's Grenade Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GrassPanda_Electric",
+      "name": "Mossanda Lux's Grenade Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_GuardianDog",
+      "name": "Yakumo Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_HadesBird",
+      "name": "Helzephyr Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_HadesBird_Electric",
+      "name": "Helzephyr Lux Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_HawkBird",
+      "name": "Nitewing Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Hedgehog",
+      "name": "Jolthog's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Hedgehog_Ice",
+      "name": "Jolthog Cryst's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Horus",
+      "name": "Faleris Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Horus_Water",
+      "name": "Faleris Aqua Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceDeer",
+      "name": "Reindrix Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceHorse",
+      "name": "Frostallion Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceHorse_Dark",
+      "name": "Frostallion Noct Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceNarwhal",
+      "name": "Whalaska Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceNarwhal_Fire",
+      "name": "Whalaska Ignis Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_IceSeal",
+      "name": "Polapup Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_JetDragon",
+      "name": "Jetragon's Missile Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_KingAlpaca",
+      "name": "Kingpaca Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_KingAlpaca_Ice",
+      "name": "Kingpaca Cryst Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_KingBahamut",
+      "name": "Blazamut Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_KingBahamut_Dragon",
+      "name": "Blazamut Ryu Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Kirin",
+      "name": "Univolt Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Kitsunebi",
+      "name": "Foxparks's Harness",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Kitsunebi_Ice",
+      "name": "Foxparks Cryst's Harness",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_LazyDragon",
+      "name": "Relaxaurus's Missile Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_LazyDragon_Electric",
+      "name": "Relaxaurus Lux's Missile Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_LeafMomonga",
+      "name": "Herbil's Harness",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Manticore",
+      "name": "Blazehowl Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Manticore_Dark",
+      "name": "Blazehowl Noct Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Monkey",
+      "name": "Tanzee's Assault Rifle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_MoonQueen",
+      "name": "Selyne Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_MopKing",
+      "name": "Sweepa Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_MushroomDragon",
+      "name": "Shroomer Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_MushroomDragon_Dark",
+      "name": "Shroomer Noct Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_NaughtyCat",
+      "name": "Grintale Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_NegativeOctopus",
+      "name": "Killamari's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_NegativeOctopus_Neutral",
+      "name": "Killamari Primo's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_NightBlueHorse",
+      "name": "Starryon Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Penguin",
+      "name": "Pengullet Rocket Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Penguin_Electric",
+      "name": "Pengullet Lux's Rocket Launcher",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Plesiosaur",
+      "name": "Braloha Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_PoseidonOrca",
+      "name": "Neptilius Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_PurpleSpider",
+      "name": "Tarantriss Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_RaijinDaughter",
+      "name": "Dazzi's Necklace",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_RaijinDaughter_Water",
+      "name": "Dazzi Noct's Necklace",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_RedArmorBird",
+      "name": "Ragnahawk Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SaintCentaur",
+      "name": "Paladius Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SakuraSaurus",
+      "name": "Broncherry Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SakuraSaurus_Water",
+      "name": "Broncherry Aqua Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Serpent",
+      "name": "Surfent Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Serpent_Ground",
+      "name": "Surfent Terra Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SkyDragon",
+      "name": "Quivern Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SkyDragon_Grass",
+      "name": "Quivern Botan Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_SnowTigerBeastman",
+      "name": "Bastigor's Hammer",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Suzaku",
+      "name": "Suzaku Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Suzaku_Water",
+      "name": "Suzaku Aqua Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_ThunderBird",
+      "name": "Beakon Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_ThunderDog",
+      "name": "Rayhound Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_TropicalOstrich",
+      "name": "Palumba Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Umihebi",
+      "name": "Jormuntide Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Umihebi_Fire",
+      "name": "Jormuntide Ignis Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_VolcanicMonster",
+      "name": "Reptyro Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_VolcanicMonster_Ice",
+      "name": "Reptyro Cryst Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WeaselDragon",
+      "name": "Chillet Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WeaselDragon_Fire",
+      "name": "Chillet Ignis Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WhiteAlienDragon",
+      "name": "Xenogard Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WhiteDeer",
+      "name": "Celesdir Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WhiteShieldDragon",
+      "name": "Silvegis Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WindChimes",
+      "name": "Hangyu's Gloves",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_WindChimes_Ice",
+      "name": "Hangyu Cryst's Glove",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Yeti",
+      "name": "Wumpo Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkillUnlock_Yeti_Grass",
+      "name": "Wumpo Botan Saddle",
+      "category": "伙伴装备",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SkinChange",
+      "name": "Pal Dressing Facility",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Snowman",
+      "name": "Snowman",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spa",
+      "name": "Hot Spring",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spa2",
+      "name": "High Quality Hot Spring",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spa3",
+      "name": "Japanese-Style Hot Spring",
+      "category": "据点设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spear",
+      "name": "Stone Spear",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spear_2",
+      "name": "Metal Spear",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spear_3",
+      "name": "Refined Metal Spear",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Spear_ForestBoss",
+      "name": "Lily's Spear",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_ElectricHatchingPalEgg",
+      "name": "Electric Egg Incubator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_HatchingPalEgg",
+      "name": "Egg Incubator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalRankUp",
+      "name": "Pal Essence Condenser",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_01",
+      "name": "Pal Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_02",
+      "name": "Mega Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_03",
+      "name": "Giga Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_04",
+      "name": "Hyper Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_05",
+      "name": "Ultra Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_06",
+      "name": "Legendary Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_PalSphere_Grade_07",
+      "name": "Ultimate Sphere",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_01",
+      "name": "Sphere Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_02",
+      "name": "Sphere Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Special_SphereFactory_Black_Grade_03",
+      "name": "Sphere Assembly Line II",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereFactory_Black_04",
+      "name": "Advanced Sphere Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Curve",
+      "name": "Curve Module",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Curve2",
+      "name": "Slider Module",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Heavy",
+      "name": "Heavy Weight Module",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Homing",
+      "name": "Homing Module",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Sniper",
+      "name": "Sniper Module",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "SphereModule_Sniper2",
+      "name": "Sniper Module Ⅱ",
+      "category": "帕鲁球",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "StainlessSteel",
+      "name": "Hexolite",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Stone_Gate",
+      "name": "Stone Gate",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Stone_houseset",
+      "name": "Stone Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Stump",
+      "name": "Stump and Axe",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "TableDresser01_Stone",
+      "name": "Antique Dresser",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "ToolBoxV1",
+      "name": "Large Toolbox",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Torch",
+      "name": "Mounted Torch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "TransmissionTower",
+      "name": "Electric Pylon",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_LegHold",
+      "name": "Bear Trap (Small)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_LegHold_Big",
+      "name": "Bear Trap (Large)",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_MineAttack",
+      "name": "Mine",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_MineElecShock",
+      "name": "Electric Mine",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_MineFreeze",
+      "name": "Ice Mine",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Trap_Noose",
+      "name": "Hanging Trap",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Unlock_Picking_Tier1",
+      "name": "Lockpicking Tool v1",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Unlock_Picking_Tier2",
+      "name": "Lockpicking Tool v2",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Unlock_Picking_Tier3",
+      "name": "Lockpicking Tool v3",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "WallSignboard",
+      "name": "Wall-Mounted Sign",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "WallTorch",
+      "name": "Wall Torch",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "WeaponFactory_Dirty_04",
+      "name": "Advanced Weapon Assembly Line",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Wood_Gate",
+      "name": "Wooden Gate",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Wooden_houseset",
+      "name": "Wooden Structure Set",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Wooden_ladder",
+      "name": "Ladder",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "WorkSpeedIncrease1",
+      "name": "Beta Wave Generator",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "Workbench",
+      "name": "Primitive Workbench",
+      "category": "生产设施",
+      "source": "Palworld Server Guide"
+    },
+    {
+      "id": "YakushimaBlade",
+      "name": "Meowmere",
+      "category": "科技",
+      "source": "Palworld Server Guide"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld Server Guide - Technology IDs",
+      "url": "https://docs.palworldgame.com/settings-and-operation/technologyids/"
+    }
+  ]
+}

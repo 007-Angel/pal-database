@@ -13,3 +13,7 @@ data/raw/paldex-api-LICENSE.txt
 ```
 
 Palworld names, game concepts, and related intellectual property belong to their respective rights holders. This project is an unofficial fan-made reference site.
+
+Technology ID records are transformed from the public Palworld Server Guide Technology IDs page:
+
+- https://docs.palworldgame.com/settings-and-operation/technologyids/
