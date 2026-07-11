@@ -21,3 +21,7 @@ Technology ID records are transformed from the public Palworld Server Guide Tech
 Recipe index records are transformed from the public TH.GL Palworld recipe listing. This site stores factual recipe IDs, names, categories, and source links only; it does not copy TH.GL images or long-form page text.
 
 - https://palworld.th.gl/zh-CN/db/recipes
+
+Palworld 1.0 release summaries, map highlights, and guide checkpoints are transformed from the official Steam announcement for Palworld v1.0. This site stores short factual summaries and source links rather than copying the full announcement text.
+
+- https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese

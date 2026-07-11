@@ -1,12 +1,13 @@
 {
   "siteName": "帕鲁资料站",
   "locale": "zh-CN",
-  "status": "draft",
-  "lastVerified": "2026-07-01",
+  "status": "public",
+  "lastVerified": "2026-07-11",
   "modules": [
     "paldeck",
     "breeding",
     "technology",
+    "recipes",
     "base",
     "materials",
     "map",

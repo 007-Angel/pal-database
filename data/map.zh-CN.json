@@ -1,0 +1,90 @@
+{
+  "title": "1.0 地图探索",
+  "description": "按官方 1.0 更新日志整理地图、区域、探索点位和刷新规则变化。",
+  "lastVerified": "2026-07-11",
+  "columns": [
+    { "key": "category", "label": "类型" },
+    { "key": "name", "label": "内容" },
+    { "key": "change", "label": "变化" },
+    { "key": "useCase", "label": "玩法用途" },
+    { "key": "sourceUrl", "label": "来源" }
+  ],
+  "records": [
+    {
+      "category": "新区域",
+      "name": "Sunreach",
+      "change": "新增漂浮在 Palpagos 上空的岛屿群，包含新帕鲁、塔主和需要专用装备开采的矿物。",
+      "useCase": "中后期探索、塔主挑战、新矿物路线。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "主线区域",
+      "name": "World Tree",
+      "change": "世界树成为 1.0 故事核心区域，关联最终挑战和 Awakening 材料。",
+      "useCase": "主线推进、觉醒材料、后期队伍养成。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "探索点",
+      "name": "Ancient Ruins",
+      "change": "世界各处新增远古遗迹，可通过探索和小游戏获得设计图等奖励。",
+      "useCase": "设计图收集、探索路线、奖励速查。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "探索点",
+      "name": "Watchtowers",
+      "change": "新增瞭望塔，访问后会显示周边地图，并可作为快速旅行点。",
+      "useCase": "开图、传送网络、路线规划。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "新岛屿",
+      "name": "7 个小岛",
+      "change": "新增 7 个小岛，包含火山、沙漠和遗迹三类生态。",
+      "useCase": "稀有帕鲁、生态分类、资源路线。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "定居点",
+      "name": "Bamboo Groves / Snowy Mountains / Sakurajima / Sunreach",
+      "change": "新增多个小型定居点，包含新 NPC 与支线任务。",
+      "useCase": "NPC、商人、支线任务和区域路线。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "生态",
+      "name": "Wildlife Sanctuaries",
+      "change": "三个禁猎区被重做为保护区，包含独特环境、稀有材料、强力首领和防御无人机。",
+      "useCase": "高风险探索、稀有材料、首领挑战。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "刷新规则",
+      "name": "Pal Habitats",
+      "change": "官方重平衡全地图帕鲁分布与刷新等级；随机帕鲁刷新模式不再沿用 v0.7.3 及更早版本的旧放置数据。",
+      "useCase": "图鉴捕获路线、区域等级判断、刷新核验。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "洞窟",
+      "name": "Random Dungeons",
+      "change": "Feybreak 新增 15 个随机洞窟入口，洞窟布局、灯光和奖励也有调整。",
+      "useCase": "洞窟入口索引、奖励路线、区域探索。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "category": "首领与事件",
+      "name": "Predator Pals",
+      "change": "Predator Pals 不再固定地点出现，改为全地图低概率刷新。",
+      "useCase": "事件刷新说明、追踪策略、地图标记规则。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld v1.0 官方更新日志",
+      "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ]
+}

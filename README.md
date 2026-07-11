@@ -18,6 +18,9 @@
 ```text
 data/generated/              由脚本生成的全量图鉴、材料、科技、配方和配种数据
 data/updates.zh-CN.json      版本更新字段与记录
+data/map.zh-CN.json          1.0 地图变化字段与记录
+data/guides.zh-CN.json       1.0 开荒与回归路线字段与记录
+data/release-1.0.zh-CN.json  1.0 正式版总览字段与记录
 data/raw/                    第三方 MIT 数据源缓存
 ```
 
@@ -53,4 +56,4 @@ python -m http.server 4173
 
 ## 第三方数据
 
-全量图鉴、材料和配种底座来自 `mlg404/palworld-paldex-api` 的 MIT 授权数据，并转换为本站字段。科技索引来自 Palworld Server Guide 的 Technology IDs 页面，配方索引来自 TH.GL 的公开配方列表。授权与来源说明见 `THIRD_PARTY_NOTICES.md` 与 `data/raw/paldex-api-LICENSE.txt`。
+全量图鉴、材料和配种底座来自 `mlg404/palworld-paldex-api` 的 MIT 授权数据，并转换为本站字段。科技索引来自 Palworld Server Guide 的 Technology IDs 页面，配方索引来自 TH.GL 的公开配方列表。1.0 正式版、地图和攻略摘要来自官方 Steam 更新日志。授权与来源说明见 `THIRD_PARTY_NOTICES.md` 与 `data/raw/paldex-api-LICENSE.txt`。

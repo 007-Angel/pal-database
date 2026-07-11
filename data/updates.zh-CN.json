@@ -1,45 +1,65 @@
 {
   "title": "版本更新",
   "description": "速查官方新闻、版本公告和会影响资料表的主要更新。",
-  "lastVerified": "2026-07-02",
+  "lastVerified": "2026-07-11",
   "columns": [
     { "key": "date", "label": "日期" },
     { "key": "version", "label": "版本" },
     { "key": "summary", "label": "摘要" },
     { "key": "impact", "label": "影响资料" },
-    { "key": "source", "label": "来源" }
+    { "key": "source", "label": "来源" },
+    { "key": "sourceUrl", "label": "来源链接" }
   ],
   "records": [
+    {
+      "date": "2026-07-10",
+      "version": "1.0 正式版",
+      "summary": "官方发布 Palworld 1.0，游戏退出 Early Access。更新日志列出 Sunreach、World Tree、72 个新增帕鲁、总数 287、等级上限 80、地图与任务重做等内容。",
+      "impact": "全站版本口径、图鉴、地图、攻略、科技、配种",
+      "source": "Steam 官方更新日志",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "date": "2026-07-10",
+      "version": "1.0 MOD 注意事项",
+      "summary": "官方提示旧 MOD 可能导致崩溃、存档损坏或任务无法推进；建议备份存档、移除旧 MOD、验证游戏文件后再进入 1.0。",
+      "impact": "回归玩家指南、存档安全",
+      "source": "Steam 官方更新日志",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
     {
       "date": "2026-06-06",
       "version": "1.0 预告",
       "summary": "Pocketpair 宣布 Palworld 1.0 预计于 2026 年发布，并提到正式版前会集中进行问题修复和内容调整。",
       "impact": "版本更新页、全站核验日期",
-      "source": "Pocketpair 官方新闻"
+      "source": "Steam 官方公告",
+      "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165583337"
     },
     {
       "date": "2025-12-17",
       "version": "Home Sweet Home 更新",
       "summary": "官方发布 Home Sweet Home 相关更新公告，包含新的家园与生活向内容。",
       "impact": "家园、建筑、生活玩法",
-      "source": "Pocketpair 官方新闻"
+      "source": "Pocketpair 官方新闻",
+      "sourceUrl": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
     },
     {
       "date": "2025-06-23",
       "version": "Tides of Terraria 更新",
       "summary": "官方发布 Tides of Terraria 相关更新公告，带来跨作品联动内容。",
       "impact": "联动内容、战斗、探索",
-      "source": "Pocketpair 官方新闻"
+      "source": "Pocketpair 官方新闻",
+      "sourceUrl": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
     }
   ],
   "sources": [
     {
-      "label": "Palworld 官方新闻",
-      "url": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
+      "label": "Palworld v1.0 官方更新日志",
+      "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
     },
     {
-      "label": "Pocketpair 官方网站",
-      "url": "https://www.pocketpair.jp/"
+      "label": "Palworld 官方新闻",
+      "url": "https://www.pocketpair.jp/en/game-news/category_game/palworld-en/"
     }
   ]
 }

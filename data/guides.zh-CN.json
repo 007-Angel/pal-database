@@ -1,0 +1,76 @@
+{
+  "title": "1.0 开荒与回归路线",
+  "description": "按官方 1.0 更新日志整理新玩家和回归玩家的优先事项。",
+  "lastVerified": "2026-07-11",
+  "columns": [
+    { "key": "phase", "label": "阶段" },
+    { "key": "priority", "label": "优先事项" },
+    { "key": "action", "label": "操作建议" },
+    { "key": "reason", "label": "理由" },
+    { "key": "sourceUrl", "label": "来源" }
+  ],
+  "records": [
+    {
+      "phase": "进入 1.0 前",
+      "priority": "备份存档",
+      "action": "进入正式版前先备份重要存档。",
+      "reason": "官方提醒使用 MOD 可能导致崩溃、存档损坏或其他异常。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "进入 1.0 前",
+      "priority": "清理旧 MOD",
+      "action": "移除旧 MOD 文件，Steam Workshop MOD 也应取消订阅或禁用。",
+      "reason": "1.0 修改了大量系统，旧 MOD 可能导致任务或存档问题。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "开局",
+      "priority": "按新主线推进",
+      "action": "优先跟随主线任务、塔主挑战和 World Tree 线索推进。",
+      "reason": "官方称 1.0 重做主线和故事流，探索、塔主和世界树衔接更自然。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "探索",
+      "priority": "优先开瞭望塔",
+      "action": "进入新区域后先找 Watchtowers，解锁周边地图和快速旅行点。",
+      "reason": "瞭望塔会显示周边地图，并可作为快速旅行点。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "中期",
+      "priority": "重查栖息地",
+      "action": "不要沿用旧版本固定捕获路线，按 1.0 分布重新确认帕鲁出现区域。",
+      "reason": "官方重平衡帕鲁分布与刷新等级。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "养成",
+      "priority": "关注 Awakening",
+      "action": "进入 World Tree 后收集 Radiant Gems，用于帕鲁觉醒强化。",
+      "reason": "1.0 新增 Awakening 机制，作为后期强化路线。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "配种",
+      "priority": "关注 Mutation",
+      "action": "配种路线中纳入 Mutation 和新蛋糕效果。",
+      "reason": "1.0 新增 Mutation，低概率产出更强帕鲁，并新增有特殊效果的蛋糕。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "phase": "后期",
+      "priority": "升级到 Lv80",
+      "action": "围绕新科技、古代文明内容和 Sunreach 资源规划升级路线。",
+      "reason": "1.0 将玩家等级上限从 65 提高到 80，并新增相关科技。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld v1.0 官方更新日志",
+      "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ]
+}

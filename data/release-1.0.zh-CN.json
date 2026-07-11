@@ -1,0 +1,55 @@
+{
+  "title": "1.0 正式版总览",
+  "description": "按官方 1.0 更新日志整理会影响资料站结构的核心事实。",
+  "lastVerified": "2026-07-11",
+  "columns": [
+    { "key": "area", "label": "模块" },
+    { "key": "change", "label": "1.0 变化" },
+    { "key": "siteImpact", "label": "资料影响" },
+    { "key": "sourceUrl", "label": "来源" }
+  ],
+  "records": [
+    {
+      "area": "版本状态",
+      "change": "Palworld 1.0 于 2026-07-10 发布，游戏退出 Early Access。",
+      "siteImpact": "首页、版本更新和攻略内容采用正式版口径。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "area": "图鉴",
+      "change": "1.0 新增 72 个帕鲁，官方更新日志称帕鲁总数达到 287。",
+      "siteImpact": "1.0 全量图鉴口径为 287；旧 137 条数据保留原核验日期。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "area": "地图",
+      "change": "新增 Sunreach、World Tree、7 个小岛、多个定居点、海上敌方据点、瞭望塔和远古遗迹。",
+      "siteImpact": "地图索引按新区域、探索点、刷新规则和洞窟变化分类。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "area": "成长",
+      "change": "玩家等级上限从 65 提高到 80，并新增古代文明相关科技。",
+      "siteImpact": "科技树和攻略资料的等级跨度调整为 Lv80。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "area": "配种",
+      "change": "新增 Mutation 机制，配种有低概率产出更强帕鲁；新增多种有特殊效果的蛋糕。",
+      "siteImpact": "配种路线受 Mutation 与新蛋糕效果影响。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "area": "回归玩家",
+      "change": "官方建议使用 MOD 前备份存档，并移除旧 MOD 文件或禁用 Steam Workshop MOD。",
+      "siteImpact": "回归玩家进入 1.0 前应优先处理存档和 MOD 风险。",
+      "sourceUrl": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Palworld v1.0 官方更新日志",
+      "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    }
+  ]
+}
