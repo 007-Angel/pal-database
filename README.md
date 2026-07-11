@@ -21,7 +21,7 @@ data/updates.zh-CN.json      版本更新字段与记录
 data/map.zh-CN.json          1.0 地图变化字段与记录
 data/guides.zh-CN.json       1.0 开荒与回归路线字段与记录
 data/release-1.0.zh-CN.json  1.0 正式版总览字段与记录
-data/raw/                    第三方 MIT 数据源缓存
+data/raw/                    第三方数据源缓存与明确补充项
 ```
 
 图鉴、材料、科技、配方、配种以 `data/generated/` 为主；版本更新等人工摘要保存在独立 JSON。没有核验过的资料不要直接当成事实写入。
@@ -30,6 +30,12 @@ data/raw/                    第三方 MIT 数据源缓存
 
 ```powershell
 python scripts\build_data.py
+```
+
+审计 1.0 图鉴数量差异：
+
+```powershell
+python scripts\audit_paldeck_sources.py
 ```
 
 ## 发布方式
@@ -56,4 +62,4 @@ python -m http.server 4173
 
 ## 第三方数据
 
-原有图鉴明细、材料和配种底座来自 `mlg404/palworld-paldex-api` 的 MIT 授权数据，并转换为本站字段。1.0 图鉴索引与配方索引来自 TH.GL 的公开列表。科技索引来自 Palworld Server Guide 的 Technology IDs 页面。1.0 正式版、地图和攻略摘要来自官方 Steam 更新日志。授权与来源说明见 `THIRD_PARTY_NOTICES.md` 与 `data/raw/paldex-api-LICENSE.txt`。
+原有图鉴明细、材料和配种底座来自 `mlg404/palworld-paldex-api` 的 MIT 授权数据，并转换为本站字段。1.0 图鉴索引主源来自 TH.GL 的公开列表；TH.GL 当前缺少 Hangyu 与 Hangyu Cryst，本站用 MIT 数据补充存在性与属性，并用 PalDB、Palworld.gg 做交叉核对。配方索引来自 TH.GL。科技索引来自 Palworld Server Guide 的 Technology IDs 页面。1.0 正式版、地图和攻略摘要来自官方 Steam 更新日志。授权与来源说明见 `THIRD_PARTY_NOTICES.md` 与 `data/raw/paldex-api-LICENSE.txt`。

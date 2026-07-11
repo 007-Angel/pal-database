@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pal_windchimes",
+    "name": "吊缚灵",
+    "elementGroup": "Ground",
+    "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
+    "detail": "https://paldb.cc/cn/Hangyu",
+    "notes": "TH.GL Paldeck list was missing Hangyu on 2026-07-11; PalDB and Palworld.gg listed it as #38."
+  },
+  {
+    "id": "pal_windchimes_ice",
+    "name": "冰缚灵",
+    "elementGroup": "Ice",
+    "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
+    "detail": "https://paldb.cc/cn/Hangyu_Cryst",
+    "notes": "TH.GL Paldeck list was missing Hangyu Cryst on 2026-07-11; PalDB and Palworld.gg listed it as #38B."
+  }
+]

@@ -1,6 +1,6 @@
 {
   "title": "1.0 帕鲁图鉴索引",
-  "description": "按公开 Paldeck 列表整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。官方 1.0 更新日志称帕鲁总数为 287。",
+  "description": "按公开 Paldeck 列表和交叉核验资料整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。",
   "lastVerified": "2026-07-11",
   "columns": [
     {
@@ -406,476 +406,476 @@
     {
       "id": "pal_blueberryfairy",
       "name": "梅莉姆",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueberryfairy"
     },
     {
       "id": "pal_carbunclo",
       "name": "翠叶鼠",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_carbunclo"
     },
     {
       "id": "pal_littlebriarrose",
       "name": "荊棘魔仙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_littlebriarrose"
     },
     {
       "id": "pal_robinhood",
       "name": "羽箭射手",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood"
     },
     {
       "id": "pal_robinhood_ground",
       "name": "山岳射手",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood_ground"
     },
     {
       "id": "pal_flowerdinosaur",
       "name": "花冠龙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur"
     },
     {
       "id": "pal_grassmammoth",
       "name": "森猛犸",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassmammoth"
     },
     {
       "id": "pal_sakurasaurus",
       "name": "连理龙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus"
     },
     {
       "id": "pal_sakurasaurus_water",
       "name": "海誓龙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus_water"
     },
     {
       "id": "pal_berrygoat",
       "name": "灌木羊",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_berrygoat"
     },
     {
       "id": "pal_yeti_grass",
       "name": "绿苔绒怪",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_yeti_grass"
     },
     {
       "id": "pal_violetfairy",
       "name": "薇莉塔",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_violetfairy"
     },
     {
       "id": "pal_flowerrabbit",
       "name": "波娜兔",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerrabbit"
     },
     {
       "id": "pal_lilyqueen",
       "name": "百合女王",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lilyqueen"
     },
     {
       "id": "pal_queenbee",
       "name": "女皇蜂",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_queenbee"
     },
     {
       "id": "pal_soldierbee",
       "name": "骑士蜂",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_soldierbee"
     },
     {
       "id": "pal_grasspanda",
       "name": "叶胖达",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda"
     },
     {
       "id": "pal_grassrabbitman",
       "name": "踏春兔",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassrabbitman"
     },
     {
       "id": "pal_monkey",
       "name": "新叶猿",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monkey"
     },
     {
       "id": "pal_plantslime",
       "name": "叶泥泥",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plantslime"
     },
     {
       "id": "pal_flowerdoll",
       "name": "花丽娜",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll"
     },
     {
       "id": "pal_flowerdoll_fire",
       "name": "樱丽娜",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll_fire"
     },
     {
       "id": "pal_cutebutterfly",
       "name": "幻悦蝶",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutebutterfly"
     },
     {
       "id": "pal_leafprincess",
       "name": "春彩娘",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafprincess"
     },
     {
       "id": "pal_mushroomdragon",
       "name": "菇咚",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon"
     },
     {
       "id": "pal_mushroomdragon_dark",
       "name": "菇波",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon_dark"
     },
     {
       "id": "pal_ghostrabbit_grass",
       "name": "碧艾莉",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostrabbit_grass"
     },
     {
       "id": "pal_pinkrabbit_grass",
       "name": "艾小兔",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit_grass"
     },
     {
       "id": "pal_leafmomonga",
       "name": "达鼠泥",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafmomonga"
     },
     {
       "id": "pal_cactusdoll",
       "name": "球抱苞",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cactusdoll"
     },
     {
       "id": "pal_mushroomlady",
       "name": "红菇娘",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomlady"
     },
     {
       "id": "pal_cloverfairy",
       "name": "幸叶茸",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cloverfairy"
     },
     {
       "id": "pal_plesiosaur",
       "name": "梁叶龙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plesiosaur"
     },
     {
       "id": "pal_tropicalostrich",
       "name": "咕咕桑葩",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tropicalostrich"
     },
     {
       "id": "pal_venusflytrap",
       "name": "颚莉丝",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_venusflytrap"
     },
     {
       "id": "pal_dandeliongirl",
       "name": "蒲蒲飞芽",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_dandeliongirl"
     },
     {
       "id": "pal_redflowerbird",
       "name": "大红呱",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_redflowerbird"
     },
     {
       "id": "pal_lotusdragon",
       "name": "沁莲龙",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lotusdragon"
     },
     {
       "id": "pal_pandagirl",
       "name": "莉芳",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pandagirl"
     },
     {
       "id": "pal_grassminotaur",
       "name": "密林陶洛斯",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassminotaur"
     },
     {
       "id": "pal_mothman",
       "name": "暮尘蛾",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mothman"
     },
     {
       "id": "pal_flowerprince",
       "name": "夜蔓爵",
-      "elementGroup": "Leaf",
+      "elementGroup": "草",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerprince"
     },
     {
       "id": "pal_brownrabbit",
       "name": "詹兔曼",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_brownrabbit"
     },
     {
       "id": "pal_goldenhorse",
       "name": "金驰兽",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_goldenhorse"
     },
     {
       "id": "pal_anubis",
       "name": "阿努比斯",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_anubis"
     },
     {
       "id": "pal_boar",
       "name": "草莽猪",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_boar"
     },
     {
       "id": "pal_deer_ground",
       "name": "祇岳鹿",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer_ground"
     },
     {
       "id": "pal_drillgame",
       "name": "碎岩龟",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_drillgame"
     },
     {
       "id": "pal_gorilla_ground",
       "name": "石掌猿",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla_ground"
     },
     {
       "id": "pal_sweetssheep_ground",
       "name": "可可棉花糖",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep_ground"
     },
     {
       "id": "pal_serpent_ground",
       "name": "流沙蛇",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_serpent_ground"
     },
     {
       "id": "pal_cutemole",
       "name": "遁地鼠",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutemole"
     },
     {
       "id": "pal_herculesbeetle",
       "name": "铠格力斯",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle"
     },
     {
       "id": "pal_herculesbeetle_ground",
       "name": "格鲁力斯",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle_ground"
     },
     {
       "id": "pal_darkscorpion_ground",
       "name": "金铠蝎",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkscorpion_ground"
     },
     {
       "id": "pal_lazycatfish",
       "name": "趴趴鲶",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish"
     },
     {
       "id": "pal_lazycatfish_gold",
       "name": "梆梆鲶",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish_gold"
     },
     {
       "id": "pal_smallarmadillo",
       "name": "球犰",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_smallarmadillo"
     },
     {
       "id": "pal_winggolem",
       "name": "泰锋",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_winggolem"
     },
     {
       "id": "pal_featherostrich",
       "name": "战冠雀",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_featherostrich"
     },
     {
       "id": "pal_sekhmet",
       "name": "塞赫麦特",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sekhmet"
     },
     {
       "id": "pal_rockbeast",
       "name": "磐峰兽",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_rockbeast"
     },
     {
       "id": "pal_whitetiger_ground",
       "name": "金棘兽",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitetiger_ground"
     },
     {
       "id": "pal_grassgolem",
       "name": "双心岩傀",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem"
     },
     {
       "id": "pal_grassgolem_dark",
       "name": "咒心岩傀",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem_dark"
     },
     {
       "id": "pal_cubeturtle",
       "name": "重岩龟",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle"
     },
     {
       "id": "pal_samuraidog",
       "name": "宗铭丸",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_samuraidog"
     },
     {
       "id": "pal_sumodog",
       "name": "力士獒",
-      "elementGroup": "Earth",
+      "elementGroup": "地",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sumodog"
     },
@@ -1561,336 +1561,336 @@
     {
       "id": "pal_colorfulbird",
       "name": "炸蛋鸟",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_colorfulbird"
     },
     {
       "id": "pal_deer",
       "name": "紫霞鹿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer"
     },
     {
       "id": "pal_eagle",
       "name": "天擒鸟",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eagle"
     },
     {
       "id": "pal_garm",
       "name": "猎狼",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_garm"
     },
     {
       "id": "pal_gorilla",
       "name": "铁拳猿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla"
     },
     {
       "id": "pal_mutant",
       "name": "秘斯媞雅",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mutant"
     },
     {
       "id": "pal_sheepball",
       "name": "棉悠悠",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sheepball"
     },
     {
       "id": "pal_sweetssheep",
       "name": "棉花糖",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep"
     },
     {
       "id": "pal_alpaca",
       "name": "美露帕",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_alpaca"
     },
     {
       "id": "pal_pinkcat",
       "name": "捣蛋猫",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkcat"
     },
     {
       "id": "pal_fengyundeeper",
       "name": "云海鹿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper"
     },
     {
       "id": "pal_chickenpal",
       "name": "皮皮鸡",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_chickenpal"
     },
     {
       "id": "pal_whitemoth_neutral",
       "name": "绢笠蛾",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitemoth_neutral"
     },
     {
       "id": "pal_cutefox",
       "name": "玉藻狐",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutefox"
     },
     {
       "id": "pal_negativeoctopus_neutral",
       "name": "蚀魂鱿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativeoctopus_neutral"
     },
     {
       "id": "pal_cowpal",
       "name": "波霸牛",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cowpal"
     },
     {
       "id": "pal_hawkbird",
       "name": "疾风隼",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hawkbird"
     },
     {
       "id": "pal_kingalpaca",
       "name": "君王美露帕",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingalpaca"
     },
     {
       "id": "pal_pinkrabbit",
       "name": "姬小兔",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit"
     },
     {
       "id": "pal_saintcentaur",
       "name": "圣光骑士",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_saintcentaur"
     },
     {
       "id": "pal_naughtycat",
       "name": "笑魇猫",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_naughtycat"
     },
     {
       "id": "pal_woolfox",
       "name": "米露菲",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_woolfox"
     },
     {
       "id": "pal_guardiandog",
       "name": "八云犬",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_guardiandog"
     },
     {
       "id": "pal_sifudog",
       "name": "汪宗师",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sifudog"
     },
     {
       "id": "pal_mimicdog",
       "name": "旺财",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mimicdog"
     },
     {
       "id": "pal_nightbluehorse_neutral",
       "name": "日耀驹",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightbluehorse_neutral"
     },
     {
       "id": "pal_whitedeer",
       "name": "净世鹿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitedeer"
     },
     {
       "id": "pal_legenddeer",
       "name": "默世鹿",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_legenddeer"
     },
     {
       "id": "pal_cubeturtle_neutral",
       "name": "净岩龟",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle_neutral"
     },
     {
       "id": "pal_longcat",
       "name": "喵璐璐",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_longcat"
     },
     {
       "id": "pal_sleeverabbit",
       "name": "兔绣袖",
-      "elementGroup": "Normal",
+      "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sleeverabbit"
     },
     {
       "id": "pal_elecpanda",
       "name": "暴电熊",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpanda"
     },
     {
       "id": "pal_hedgehog",
       "name": "电棘鼠",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hedgehog"
     },
     {
       "id": "pal_kirin",
       "name": "雷角马",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kirin"
     },
     {
       "id": "pal_raijindaughter",
       "name": "雷鸣童子",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_raijindaughter"
     },
     {
       "id": "pal_flowerdinosaur_electric",
       "name": "雷冠龙",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur_electric"
     },
     {
       "id": "pal_eleccat",
       "name": "伏特喵",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleccat"
     },
     {
       "id": "pal_grasspanda_electric",
       "name": "雷胖达",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda_electric"
     },
     {
       "id": "pal_thunderdog",
       "name": "霹雳犬",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdog"
     },
     {
       "id": "pal_thunderbird",
       "name": "迅雷鸟",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderbird"
     },
     {
       "id": "pal_scorpionman_electric",
       "name": "电针妖",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_scorpionman_electric"
     },
     {
       "id": "pal_eleclizard",
       "name": "电懒懒",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleclizard"
     },
     {
       "id": "pal_bluethunderhorse",
       "name": "驭雷马",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluethunderhorse"
     },
     {
       "id": "pal_fengyundeeper_electric",
       "name": "雷隐鹿",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper_electric"
     },
     {
       "id": "pal_elecpomeranian",
       "name": "电汪汪",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpomeranian"
     },
     {
       "id": "pal_thunderfluffybird",
       "name": "雷云鹫",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderfluffybird"
     },
     {
       "id": "pal_elecsnail",
       "name": "电涡蜗",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail"
     },
     {
       "id": "pal_elecsnail_ground",
       "name": "金涡蜗",
-      "elementGroup": "Electricity",
+      "elementGroup": "雷",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail_ground"
     },
@@ -2026,6 +2026,20 @@
       "elementGroup": "无",
       "source": "TH.GL Palworld Paldeck",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_worldtreedragon"
+    },
+    {
+      "id": "pal_windchimes",
+      "name": "吊缚灵",
+      "elementGroup": "地",
+      "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
+      "detail": "https://paldb.cc/cn/Hangyu"
+    },
+    {
+      "id": "pal_windchimes_ice",
+      "name": "冰缚灵",
+      "elementGroup": "冰",
+      "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
+      "detail": "https://paldb.cc/cn/Hangyu_Cryst"
     }
   ],
   "sources": [
@@ -2036,6 +2050,18 @@
     {
       "label": "Palworld v1.0 官方更新日志",
       "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese"
+    },
+    {
+      "label": "palworld-paldex-api (MIT)",
+      "url": "https://github.com/mlg404/palworld-paldex-api"
+    },
+    {
+      "label": "PalDB CN cross-check",
+      "url": "https://paldb.cc/cn/Pals"
+    },
+    {
+      "label": "Palworld.gg cross-check",
+      "url": "https://palworld.gg/pals"
     }
   ]
 }

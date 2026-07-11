@@ -26,6 +26,11 @@ Paldeck 1.0 index records are transformed from the public TH.GL Palworld Paldeck
 
 - https://palworld.th.gl/zh-CN/db/paldeck
 
+The TH.GL Paldeck listing did not include Hangyu or Hangyu Cryst when audited on 2026-07-11. Those two records are supplemented from the MIT palworld-paldex-api dataset for existence and element data, with Chinese names and presence cross-checked against PalDB CN and Palworld.gg. This site stores only short factual fields and source links for those checks.
+
+- https://paldb.cc/cn/Pals
+- https://palworld.gg/pals
+
 Palworld 1.0 release summaries, map highlights, and guide checkpoints are transformed from the official Steam announcement for Palworld v1.0. This site stores short factual summaries and source links rather than copying the full announcement text.
 
 - https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese

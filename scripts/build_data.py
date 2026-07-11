@@ -13,6 +13,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 TECH_URL = "https://docs.palworldgame.com/settings-and-operation/technologyids/"
 RECIPES_URL = "https://palworld.th.gl/zh-CN/db/recipes"
 PALDECK_10_URL = "https://palworld.th.gl/zh-CN/db/paldeck"
+PALDECK_10_SUPPLEMENTS = RAW_DIR / "paldeck-1.0-supplements.zh-CN.json"
 
 
 TYPE_NAMES = {
@@ -30,12 +31,16 @@ TYPE_NAMES = {
 THGL_ELEMENT_NAMES = {
     "Dark": "暗",
     "Dragon": "龙",
+    "Earth": "地",
     "Electric": "雷",
+    "Electricity": "雷",
     "Fire": "火",
     "Grass": "草",
     "Ground": "地",
     "Ice": "冰",
+    "Leaf": "草",
     "Neutral": "无",
+    "Normal": "无",
     "Water": "水",
 }
 
@@ -221,14 +226,14 @@ def build_paldeck_10(rows):
             "id": row["id"],
             "name": row["name"],
             "elementGroup": THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
-            "source": "TH.GL Palworld Paldeck",
-            "detail": row["url"],
+            "source": row.get("source", "TH.GL Palworld Paldeck"),
+            "detail": row.get("detail", row.get("url", "")),
         }
         for row in rows
     ]
     return {
         "title": "1.0 帕鲁图鉴索引",
-        "description": "按公开 Paldeck 列表整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。官方 1.0 更新日志称帕鲁总数为 287。",
+        "description": "按公开 Paldeck 列表和交叉核验资料整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。",
         "lastVerified": "2026-07-11",
         "columns": [
             {"key": "id", "label": "Paldeck ID"},
@@ -247,8 +252,36 @@ def build_paldeck_10(rows):
                 "label": "Palworld v1.0 官方更新日志",
                 "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese",
             },
+            {
+                "label": "palworld-paldex-api (MIT)",
+                "url": "https://github.com/mlg404/palworld-paldex-api",
+            },
+            {
+                "label": "PalDB CN cross-check",
+                "url": "https://paldb.cc/cn/Pals",
+            },
+            {
+                "label": "Palworld.gg cross-check",
+                "url": "https://palworld.gg/pals",
+            },
         ],
     }
+
+
+def load_paldeck_10_supplements():
+    if not PALDECK_10_SUPPLEMENTS.exists():
+        return []
+    return json.loads(PALDECK_10_SUPPLEMENTS.read_text(encoding="utf-8"))
+
+
+def merge_paldeck_10_rows(rows, supplements):
+    merged = list(rows)
+    seen = {row["id"] for row in rows}
+    for row in supplements:
+        if row["id"] not in seen:
+            merged.append(row)
+            seen.add(row["id"])
+    return merged
 
 
 def build_materials(pals):
@@ -514,6 +547,7 @@ def main():
     technology_rows = load_technology_rows()
     recipe_rows = load_recipe_rows()
     paldeck_10_rows = load_thgl_paldeck_rows()
+    paldeck_10_rows = merge_paldeck_10_rows(paldeck_10_rows, load_paldeck_10_supplements())
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
