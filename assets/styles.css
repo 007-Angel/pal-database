@@ -563,6 +563,7 @@ h2 {
 .tool-shell {
   display: grid;
   gap: 16px;
+  min-width: 0;
 }
 
 .loading-state,
@@ -634,6 +635,7 @@ h2 {
 }
 
 .data-section {
+  min-width: 0;
   padding: 22px;
 }
 
@@ -663,6 +665,7 @@ h2 {
 }
 
 .table-wrap {
+  min-width: 0;
   overflow-x: auto;
 }
 
@@ -863,10 +866,11 @@ h2 {
 
 @media (max-width: 1100px) {
   .site-shell {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .sidebar {
+    min-width: 0;
     position: static;
     height: auto;
     padding: 14px;
@@ -874,6 +878,7 @@ h2 {
 
   .side-nav {
     display: flex;
+    min-width: 0;
     overflow-x: auto;
     padding-bottom: 4px;
   }

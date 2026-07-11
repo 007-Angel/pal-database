@@ -1,0 +1,2018 @@
+[
+  {
+    "number": "1",
+    "englishName": "Lamball",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Lamball"
+  },
+  {
+    "number": "2",
+    "englishName": "Cattiva",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv1、采集 Lv1、采矿 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Cattiva"
+  },
+  {
+    "number": "3",
+    "englishName": "Chikipi",
+    "elements": "无",
+    "workSuitability": "采集 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Chikipi"
+  },
+  {
+    "number": "4",
+    "englishName": "Lifmunk",
+    "elements": "草",
+    "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、制药 Lv1",
+    "url": "https://paldb.cc/en/Lifmunk"
+  },
+  {
+    "number": "5",
+    "englishName": "Fuack",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1、手工作业 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Fuack"
+  },
+  {
+    "number": "5B",
+    "englishName": "Fuack Ignis",
+    "elements": "水、火",
+    "workSuitability": "生火 Lv2、浇水 Lv2、手工作业 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Fuack_Ignis"
+  },
+  {
+    "number": "6",
+    "englishName": "Vixy",
+    "elements": "无",
+    "workSuitability": "采集 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Vixy"
+  },
+  {
+    "number": "7",
+    "englishName": "Celaray",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Celaray"
+  },
+  {
+    "number": "7B",
+    "englishName": "Celaray Lux",
+    "elements": "水、雷",
+    "workSuitability": "浇水 Lv1、发电 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Celaray_Lux"
+  },
+  {
+    "number": "8",
+    "englishName": "Cremis",
+    "elements": "无",
+    "workSuitability": "采集 Lv1、牧场 Lv2",
+    "url": "https://paldb.cc/en/Cremis"
+  },
+  {
+    "number": "9",
+    "englishName": "Croajiro",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1、手工作业 Lv1、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Croajiro"
+  },
+  {
+    "number": "9B",
+    "englishName": "Croajiro Noct",
+    "elements": "水、暗",
+    "workSuitability": "浇水 Lv1、手工作业 Lv2、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Croajiro_Noct"
+  },
+  {
+    "number": "10",
+    "englishName": "Herbil",
+    "elements": "草、无",
+    "workSuitability": "播种 Lv1、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Herbil"
+  },
+  {
+    "number": "11",
+    "englishName": "Teafant",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1",
+    "url": "https://paldb.cc/en/Teafant"
+  },
+  {
+    "number": "12",
+    "englishName": "Gumoss",
+    "elements": "草、地",
+    "workSuitability": "播种 Lv1",
+    "url": "https://paldb.cc/en/Gumoss"
+  },
+  {
+    "number": "13",
+    "englishName": "Pupperai",
+    "elements": "地",
+    "workSuitability": "采集 Lv1、伐木 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Pupperai"
+  },
+  {
+    "number": "14",
+    "englishName": "Clovee",
+    "elements": "草、无",
+    "workSuitability": "播种 Lv1、采集 Lv1",
+    "url": "https://paldb.cc/en/Clovee"
+  },
+  {
+    "number": "15",
+    "englishName": "Jolthog",
+    "elements": "雷",
+    "workSuitability": "发电 Lv1",
+    "url": "https://paldb.cc/en/Jolthog"
+  },
+  {
+    "number": "15B",
+    "englishName": "Jolthog Cryst",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv1",
+    "url": "https://paldb.cc/en/Jolthog_Cryst"
+  },
+  {
+    "number": "16",
+    "englishName": "Depresso",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Depresso"
+  },
+  {
+    "number": "17",
+    "englishName": "Pengullet",
+    "elements": "水、冰",
+    "workSuitability": "浇水 Lv1、手工作业 Lv1、冷却 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Pengullet"
+  },
+  {
+    "number": "17B",
+    "englishName": "Pengullet Lux",
+    "elements": "水、雷",
+    "workSuitability": "浇水 Lv1、发电 Lv2、手工作业 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Pengullet_Lux"
+  },
+  {
+    "number": "18",
+    "englishName": "Penking",
+    "elements": "水、冰",
+    "workSuitability": "浇水 Lv2、手工作业 Lv2、采矿 Lv3、冷却 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Penking"
+  },
+  {
+    "number": "18B",
+    "englishName": "Penking Lux",
+    "elements": "水、雷",
+    "workSuitability": "浇水 Lv2、发电 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Penking_Lux"
+  },
+  {
+    "number": "19",
+    "englishName": "Hoocrates",
+    "elements": "暗",
+    "workSuitability": "采集 Lv1",
+    "url": "https://paldb.cc/en/Hoocrates"
+  },
+  {
+    "number": "20",
+    "englishName": "Melpaca",
+    "elements": "无",
+    "workSuitability": "牧场 Lv2",
+    "url": "https://paldb.cc/en/Melpaca"
+  },
+  {
+    "number": "21",
+    "englishName": "Kingpaca",
+    "elements": "无",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Kingpaca"
+  },
+  {
+    "number": "21B",
+    "englishName": "Kingpaca Cryst",
+    "elements": "冰",
+    "workSuitability": "采集 Lv2、冷却 Lv4",
+    "url": "https://paldb.cc/en/Kingpaca_Cryst"
+  },
+  {
+    "number": "22",
+    "englishName": "Daedream",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Daedream"
+  },
+  {
+    "number": "23",
+    "englishName": "Tanzee",
+    "elements": "草",
+    "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Tanzee"
+  },
+  {
+    "number": "23B",
+    "englishName": "Tanzee Ignis",
+    "elements": "火",
+    "workSuitability": "生火 Lv1、手工作业 Lv1、伐木 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Tanzee_Ignis"
+  },
+  {
+    "number": "24",
+    "englishName": "Nox",
+    "elements": "暗",
+    "workSuitability": "采集 Lv1",
+    "url": "https://paldb.cc/en/Nox"
+  },
+  {
+    "number": "25",
+    "englishName": "Flambelle",
+    "elements": "火",
+    "workSuitability": "生火 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Flambelle"
+  },
+  {
+    "number": "26",
+    "englishName": "Rooby",
+    "elements": "火",
+    "workSuitability": "生火 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Rooby"
+  },
+  {
+    "number": "27",
+    "englishName": "Mau",
+    "elements": "暗",
+    "workSuitability": "采集 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Mau"
+  },
+  {
+    "number": "27B",
+    "englishName": "Mau Cryst",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Mau_Cryst"
+  },
+  {
+    "number": "28",
+    "englishName": "Rushoar",
+    "elements": "地",
+    "workSuitability": "采矿 Lv1",
+    "url": "https://paldb.cc/en/Rushoar"
+  },
+  {
+    "number": "29",
+    "englishName": "Foxparks",
+    "elements": "火",
+    "workSuitability": "生火 Lv1",
+    "url": "https://paldb.cc/en/Foxparks"
+  },
+  {
+    "number": "29B",
+    "englishName": "Foxparks Cryst",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv2",
+    "url": "https://paldb.cc/en/Foxparks_Cryst"
+  },
+  {
+    "number": "30",
+    "englishName": "Killamari",
+    "elements": "暗、水",
+    "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Killamari"
+  },
+  {
+    "number": "30B",
+    "englishName": "Killamari Primo",
+    "elements": "无、水",
+    "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Killamari_Primo"
+  },
+  {
+    "number": "31",
+    "englishName": "Fuddler",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Fuddler"
+  },
+  {
+    "number": "32",
+    "englishName": "Eikthyrdeer",
+    "elements": "无",
+    "workSuitability": "伐木 Lv2",
+    "url": "https://paldb.cc/en/Eikthyrdeer"
+  },
+  {
+    "number": "32B",
+    "englishName": "Eikthyrdeer Terra",
+    "elements": "地",
+    "workSuitability": "伐木 Lv2",
+    "url": "https://paldb.cc/en/Eikthyrdeer_Terra"
+  },
+  {
+    "number": "33",
+    "englishName": "Direhowl",
+    "elements": "无",
+    "workSuitability": "采集 Lv1",
+    "url": "https://paldb.cc/en/Direhowl"
+  },
+  {
+    "number": "34",
+    "englishName": "Caprity",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、牧场 Lv1",
+    "url": "https://paldb.cc/en/Caprity"
+  },
+  {
+    "number": "34B",
+    "englishName": "Caprity Noct",
+    "elements": "暗",
+    "workSuitability": "播种 Lv2、牧场 Lv1",
+    "url": "https://paldb.cc/en/Caprity_Noct"
+  },
+  {
+    "number": "35",
+    "englishName": "Swee",
+    "elements": "冰",
+    "workSuitability": "采集 Lv1、冷却 Lv1",
+    "url": "https://paldb.cc/en/Swee"
+  },
+  {
+    "number": "36",
+    "englishName": "Sweepa",
+    "elements": "冰",
+    "workSuitability": "采集 Lv2、冷却 Lv3",
+    "url": "https://paldb.cc/en/Sweepa"
+  },
+  {
+    "number": "37",
+    "englishName": "Turtacle",
+    "elements": "水",
+    "workSuitability": "浇水 Lv2、采矿 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Turtacle"
+  },
+  {
+    "number": "37B",
+    "englishName": "Turtacle Terra",
+    "elements": "水、地",
+    "workSuitability": "浇水 Lv2、采矿 Lv3、搬运 Lv1",
+    "url": "https://paldb.cc/en/Turtacle_Terra"
+  },
+  {
+    "number": "38",
+    "englishName": "Hangyu",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Hangyu"
+  },
+  {
+    "number": "38B",
+    "englishName": "Hangyu Cryst",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv3、采集 Lv2、冷却 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Hangyu_Cryst"
+  },
+  {
+    "number": "39",
+    "englishName": "Woolipop",
+    "elements": "无",
+    "workSuitability": "牧场 Lv1",
+    "url": "https://paldb.cc/en/Woolipop"
+  },
+  {
+    "number": "39B",
+    "englishName": "Woolipop Terra",
+    "elements": "地",
+    "workSuitability": "牧场 Lv1",
+    "url": "https://paldb.cc/en/Woolipop_Terra"
+  },
+  {
+    "number": "40",
+    "englishName": "Mozzarina",
+    "elements": "无",
+    "workSuitability": "牧场 Lv2",
+    "url": "https://paldb.cc/en/Mozzarina"
+  },
+  {
+    "number": "41",
+    "englishName": "Azurobe",
+    "elements": "水、龙",
+    "workSuitability": "浇水 Lv4",
+    "url": "https://paldb.cc/en/Azurobe"
+  },
+  {
+    "number": "41B",
+    "englishName": "Azurobe Cryst",
+    "elements": "冰、龙",
+    "workSuitability": "冷却 Lv4",
+    "url": "https://paldb.cc/en/Azurobe_Cryst"
+  },
+  {
+    "number": "42",
+    "englishName": "Sparkit",
+    "elements": "雷",
+    "workSuitability": "发电 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Sparkit"
+  },
+  {
+    "number": "43",
+    "englishName": "Kelpsea",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Kelpsea"
+  },
+  {
+    "number": "43B",
+    "englishName": "Kelpsea Ignis",
+    "elements": "火",
+    "workSuitability": "生火 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Kelpsea_Ignis"
+  },
+  {
+    "number": "44",
+    "englishName": "Ribbuny",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Ribbuny"
+  },
+  {
+    "number": "44B",
+    "englishName": "Ribbuny Botan",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Ribbuny_Botan"
+  },
+  {
+    "number": "45",
+    "englishName": "Jelliette",
+    "elements": "水",
+    "workSuitability": "浇水 Lv2、手工作业 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Jelliette"
+  },
+  {
+    "number": "46",
+    "englishName": "Jellroy",
+    "elements": "水、暗",
+    "workSuitability": "浇水 Lv2、手工作业 Lv1、制药 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Jellroy"
+  },
+  {
+    "number": "47",
+    "englishName": "Amione",
+    "elements": "水",
+    "workSuitability": "浇水 Lv1、手工作业 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Amione"
+  },
+  {
+    "number": "48",
+    "englishName": "Gloopie",
+    "elements": "水、暗",
+    "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Gloopie"
+  },
+  {
+    "number": "48B",
+    "englishName": "Gloopie Primo",
+    "elements": "水、无",
+    "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Gloopie_Primo"
+  },
+  {
+    "number": "49",
+    "englishName": "Galeclaw",
+    "elements": "无",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Galeclaw"
+  },
+  {
+    "number": "50",
+    "englishName": "Wispaw",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv2、伐木 Lv1、制药 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Wispaw"
+  },
+  {
+    "number": "51",
+    "englishName": "Nitewing",
+    "elements": "无",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Nitewing"
+  },
+  {
+    "number": "52",
+    "englishName": "Tombat",
+    "elements": "暗",
+    "workSuitability": "采集 Lv2、采矿 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Tombat"
+  },
+  {
+    "number": "53",
+    "englishName": "Tocotoco",
+    "elements": "无",
+    "workSuitability": "采集 Lv1",
+    "url": "https://paldb.cc/en/Tocotoco"
+  },
+  {
+    "number": "54",
+    "englishName": "Univolt",
+    "elements": "雷",
+    "workSuitability": "发电 Lv3、伐木 Lv1",
+    "url": "https://paldb.cc/en/Univolt"
+  },
+  {
+    "number": "54B",
+    "englishName": "Univolt Cryst",
+    "elements": "冰",
+    "workSuitability": "伐木 Lv3、冷却 Lv6",
+    "url": "https://paldb.cc/en/Univolt_Cryst"
+  },
+  {
+    "number": "55",
+    "englishName": "Gobfin",
+    "elements": "水",
+    "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Gobfin"
+  },
+  {
+    "number": "55B",
+    "englishName": "Gobfin Ignis",
+    "elements": "火",
+    "workSuitability": "生火 Lv2、手工作业 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Gobfin_Ignis"
+  },
+  {
+    "number": "56",
+    "englishName": "Loupmoon",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv2",
+    "url": "https://paldb.cc/en/Loupmoon"
+  },
+  {
+    "number": "56B",
+    "englishName": "Loupmoon Cryst",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv4、冷却 Lv4",
+    "url": "https://paldb.cc/en/Loupmoon_Cryst"
+  },
+  {
+    "number": "57",
+    "englishName": "Cawgnito",
+    "elements": "暗",
+    "workSuitability": "伐木 Lv2、牧场 Lv1",
+    "url": "https://paldb.cc/en/Cawgnito"
+  },
+  {
+    "number": "58",
+    "englishName": "Arsox",
+    "elements": "火",
+    "workSuitability": "生火 Lv3、伐木 Lv2",
+    "url": "https://paldb.cc/en/Arsox"
+  },
+  {
+    "number": "59",
+    "englishName": "Muffly",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Muffly"
+  },
+  {
+    "number": "60",
+    "englishName": "Bristla",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Bristla"
+  },
+  {
+    "number": "61",
+    "englishName": "Cinnamoth",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、采集 Lv2、制药 Lv2",
+    "url": "https://paldb.cc/en/Cinnamoth"
+  },
+  {
+    "number": "62",
+    "englishName": "Puffolt",
+    "elements": "雷",
+    "workSuitability": "发电 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Puffolt"
+  },
+  {
+    "number": "63",
+    "englishName": "Elphidran",
+    "elements": "龙",
+    "workSuitability": "伐木 Lv3",
+    "url": "https://paldb.cc/en/Elphidran"
+  },
+  {
+    "number": "63B",
+    "englishName": "Elphidran Aqua",
+    "elements": "龙、水",
+    "workSuitability": "浇水 Lv4、伐木 Lv3",
+    "url": "https://paldb.cc/en/Elphidran_Aqua"
+  },
+  {
+    "number": "64",
+    "englishName": "Vanwyrm",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Vanwyrm"
+  },
+  {
+    "number": "64B",
+    "englishName": "Vanwyrm Cryst",
+    "elements": "冰、暗",
+    "workSuitability": "冷却 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Vanwyrm_Cryst"
+  },
+  {
+    "number": "65",
+    "englishName": "Felbat",
+    "elements": "暗",
+    "workSuitability": "制药 Lv3",
+    "url": "https://paldb.cc/en/Felbat"
+  },
+  {
+    "number": "66",
+    "englishName": "Vaelet",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、制药 Lv3、搬运 Lv2、牧场 Lv2",
+    "url": "https://paldb.cc/en/Vaelet"
+  },
+  {
+    "number": "67",
+    "englishName": "Beegarde",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2、牧场 Lv3",
+    "url": "https://paldb.cc/en/Beegarde"
+  },
+  {
+    "number": "68",
+    "englishName": "Elizabee",
+    "elements": "草",
+    "workSuitability": "播种 Lv4、手工作业 Lv4、采集 Lv4、伐木 Lv3、制药 Lv4",
+    "url": "https://paldb.cc/en/Elizabee"
+  },
+  {
+    "number": "69",
+    "englishName": "Lovander",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv3、采矿 Lv2、制药 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Lovander"
+  },
+  {
+    "number": "70",
+    "englishName": "Grintale",
+    "elements": "无",
+    "workSuitability": "采集 Lv3",
+    "url": "https://paldb.cc/en/Grintale"
+  },
+  {
+    "number": "71",
+    "englishName": "Tarantriss",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv3、采集 Lv3、制药 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Tarantriss"
+  },
+  {
+    "number": "72",
+    "englishName": "Polapup",
+    "elements": "冰、水",
+    "workSuitability": "浇水 Lv3、冷却 Lv4",
+    "url": "https://paldb.cc/en/Polapup"
+  },
+  {
+    "number": "72B",
+    "englishName": "Polapup Terra",
+    "elements": "冰、地",
+    "workSuitability": "采矿 Lv4、冷却 Lv4",
+    "url": "https://paldb.cc/en/Polapup_Terra"
+  },
+  {
+    "number": "73",
+    "englishName": "Leezpunk",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv2、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Leezpunk"
+  },
+  {
+    "number": "73B",
+    "englishName": "Leezpunk Ignis",
+    "elements": "火",
+    "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Leezpunk_Ignis"
+  },
+  {
+    "number": "74",
+    "englishName": "Gorirat",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv2、伐木 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Gorirat"
+  },
+  {
+    "number": "74B",
+    "englishName": "Gorirat Terra",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv2、采矿 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Gorirat_Terra"
+  },
+  {
+    "number": "75",
+    "englishName": "Surfent",
+    "elements": "水",
+    "workSuitability": "浇水 Lv3、牧场 Lv2",
+    "url": "https://paldb.cc/en/Surfent"
+  },
+  {
+    "number": "75B",
+    "englishName": "Surfent Terra",
+    "elements": "地",
+    "workSuitability": "采集 Lv3",
+    "url": "https://paldb.cc/en/Surfent_Terra"
+  },
+  {
+    "number": "76",
+    "englishName": "Robinquill",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Robinquill"
+  },
+  {
+    "number": "76B",
+    "englishName": "Robinquill Terra",
+    "elements": "草、地",
+    "workSuitability": "手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Robinquill_Terra"
+  },
+  {
+    "number": "77",
+    "englishName": "Flopie",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Flopie"
+  },
+  {
+    "number": "78",
+    "englishName": "Wixen",
+    "elements": "火",
+    "workSuitability": "生火 Lv3、手工作业 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Wixen"
+  },
+  {
+    "number": "78B",
+    "englishName": "Wixen Noct",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv4、手工作业 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Wixen_Noct"
+  },
+  {
+    "number": "79",
+    "englishName": "Katress",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv3、制药 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Katress"
+  },
+  {
+    "number": "79B",
+    "englishName": "Katress Ignis",
+    "elements": "暗、火",
+    "workSuitability": "生火 Lv3、手工作业 Lv3、制药 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Katress_Ignis"
+  },
+  {
+    "number": "80",
+    "englishName": "Helzephyr",
+    "elements": "暗",
+    "workSuitability": "搬运 Lv4",
+    "url": "https://paldb.cc/en/Helzephyr"
+  },
+  {
+    "number": "80B",
+    "englishName": "Helzephyr Lux",
+    "elements": "暗、雷",
+    "workSuitability": "发电 Lv4、搬运 Lv5",
+    "url": "https://paldb.cc/en/Helzephyr_Lux"
+  },
+  {
+    "number": "81",
+    "englishName": "Elgrove",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、采集 Lv2、伐木 Lv3、采矿 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Elgrove"
+  },
+  {
+    "number": "81B",
+    "englishName": "Elgrove Cryst",
+    "elements": "冰",
+    "workSuitability": "伐木 Lv3、采矿 Lv3、冷却 Lv5、搬运 Lv3",
+    "url": "https://paldb.cc/en/Elgrove_Cryst"
+  },
+  {
+    "number": "82",
+    "englishName": "Lunaris",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv4、采集 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Lunaris"
+  },
+  {
+    "number": "83",
+    "englishName": "Fenglope",
+    "elements": "无",
+    "workSuitability": "伐木 Lv3",
+    "url": "https://paldb.cc/en/Fenglope"
+  },
+  {
+    "number": "83B",
+    "englishName": "Fenglope Lux",
+    "elements": "雷",
+    "workSuitability": "发电 Lv5、伐木 Lv4",
+    "url": "https://paldb.cc/en/Fenglope_Lux"
+  },
+  {
+    "number": "84",
+    "englishName": "Dinossom",
+    "elements": "草、龙",
+    "workSuitability": "播种 Lv3、伐木 Lv3",
+    "url": "https://paldb.cc/en/Dinossom"
+  },
+  {
+    "number": "84B",
+    "englishName": "Dinossom Lux",
+    "elements": "雷、龙",
+    "workSuitability": "发电 Lv3、伐木 Lv4",
+    "url": "https://paldb.cc/en/Dinossom_Lux"
+  },
+  {
+    "number": "85",
+    "englishName": "Bushi",
+    "elements": "火",
+    "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Bushi"
+  },
+  {
+    "number": "85B",
+    "englishName": "Bushi Noct",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Bushi_Noct"
+  },
+  {
+    "number": "86",
+    "englishName": "Munchill",
+    "elements": "冰、水",
+    "workSuitability": "浇水 Lv2、冷却 Lv3、搬运 Lv1",
+    "url": "https://paldb.cc/en/Munchill"
+  },
+  {
+    "number": "87",
+    "englishName": "Mammorest",
+    "elements": "草、地",
+    "workSuitability": "播种 Lv4、伐木 Lv4、采矿 Lv4",
+    "url": "https://paldb.cc/en/Mammorest"
+  },
+  {
+    "number": "87B",
+    "englishName": "Mammorest Cryst",
+    "elements": "冰、地",
+    "workSuitability": "伐木 Lv5、采矿 Lv4、冷却 Lv5",
+    "url": "https://paldb.cc/en/Mammorest_Cryst"
+  },
+  {
+    "number": "88",
+    "englishName": "Finsider",
+    "elements": "水",
+    "workSuitability": "浇水 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Finsider"
+  },
+  {
+    "number": "88B",
+    "englishName": "Finsider Ignis",
+    "elements": "水、火",
+    "workSuitability": "生火 Lv2、浇水 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Finsider_Ignis"
+  },
+  {
+    "number": "89",
+    "englishName": "Petallia",
+    "elements": "草",
+    "workSuitability": "播种 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Petallia"
+  },
+  {
+    "number": "89B",
+    "englishName": "Petallia Ignis",
+    "elements": "草、火",
+    "workSuitability": "生火 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Petallia_Ignis"
+  },
+  {
+    "number": "90",
+    "englishName": "Leafan",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Leafan"
+  },
+  {
+    "number": "91",
+    "englishName": "Incineram",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Incineram"
+  },
+  {
+    "number": "91B",
+    "englishName": "Incineram Noct",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv3、采矿 Lv4、搬运 Lv3",
+    "url": "https://paldb.cc/en/Incineram_Noct"
+  },
+  {
+    "number": "92",
+    "englishName": "Dazzi",
+    "elements": "雷",
+    "workSuitability": "发电 Lv3、手工作业 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Dazzi"
+  },
+  {
+    "number": "92B",
+    "englishName": "Dazzi Noct",
+    "elements": "暗、雷",
+    "workSuitability": "发电 Lv1、手工作业 Lv1、制药 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Dazzi_Noct"
+  },
+  {
+    "number": "93",
+    "englishName": "Pyrin",
+    "elements": "火",
+    "workSuitability": "生火 Lv4、伐木 Lv2",
+    "url": "https://paldb.cc/en/Pyrin"
+  },
+  {
+    "number": "93B",
+    "englishName": "Pyrin Noct",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv4、伐木 Lv3",
+    "url": "https://paldb.cc/en/Pyrin_Noct"
+  },
+  {
+    "number": "94",
+    "englishName": "Relaxaurus",
+    "elements": "龙、水",
+    "workSuitability": "浇水 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Relaxaurus"
+  },
+  {
+    "number": "94B",
+    "englishName": "Relaxaurus Lux",
+    "elements": "龙、雷",
+    "workSuitability": "发电 Lv4、搬运 Lv3",
+    "url": "https://paldb.cc/en/Relaxaurus_Lux"
+  },
+  {
+    "number": "95",
+    "englishName": "Foxcicle",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv4、牧场 Lv3",
+    "url": "https://paldb.cc/en/Foxcicle"
+  },
+  {
+    "number": "96",
+    "englishName": "Beakon",
+    "elements": "雷",
+    "workSuitability": "发电 Lv4、采集 Lv2、搬运 Lv5",
+    "url": "https://paldb.cc/en/Beakon"
+  },
+  {
+    "number": "96B",
+    "englishName": "Beakon Cryst",
+    "elements": "冰",
+    "workSuitability": "采集 Lv2、冷却 Lv5、搬运 Lv5",
+    "url": "https://paldb.cc/en/Beakon_Cryst"
+  },
+  {
+    "number": "97",
+    "englishName": "Ghangler",
+    "elements": "暗、水",
+    "workSuitability": "浇水 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Ghangler"
+  },
+  {
+    "number": "97B",
+    "englishName": "Ghangler Ignis",
+    "elements": "火、水",
+    "workSuitability": "生火 Lv5、浇水 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Ghangler_Ignis"
+  },
+  {
+    "number": "98",
+    "englishName": "Rayhound",
+    "elements": "雷",
+    "workSuitability": "发电 Lv4",
+    "url": "https://paldb.cc/en/Rayhound"
+  },
+  {
+    "number": "98B",
+    "englishName": "Rayhound Cryst",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv3",
+    "url": "https://paldb.cc/en/Rayhound_Cryst"
+  },
+  {
+    "number": "99",
+    "englishName": "Menasting",
+    "elements": "暗、地",
+    "workSuitability": "伐木 Lv3、采矿 Lv5",
+    "url": "https://paldb.cc/en/Menasting"
+  },
+  {
+    "number": "99B",
+    "englishName": "Menasting Terra",
+    "elements": "地",
+    "workSuitability": "伐木 Lv3、采矿 Lv6",
+    "url": "https://paldb.cc/en/Menasting_Terra"
+  },
+  {
+    "number": "100",
+    "englishName": "Needoll",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
+    "url": "https://paldb.cc/en/Needoll"
+  },
+  {
+    "number": "100B",
+    "englishName": "Needoll Noct",
+    "elements": "暗、草",
+    "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
+    "url": "https://paldb.cc/en/Needoll_Noct"
+  },
+  {
+    "number": "101",
+    "englishName": "Reindrix",
+    "elements": "冰",
+    "workSuitability": "伐木 Lv3、冷却 Lv3",
+    "url": "https://paldb.cc/en/Reindrix"
+  },
+  {
+    "number": "102",
+    "englishName": "Mossanda",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv2、伐木 Lv4、搬运 Lv4",
+    "url": "https://paldb.cc/en/Mossanda"
+  },
+  {
+    "number": "102B",
+    "englishName": "Mossanda Lux",
+    "elements": "雷",
+    "workSuitability": "发电 Lv4、手工作业 Lv3、伐木 Lv4、搬运 Lv4",
+    "url": "https://paldb.cc/en/Mossanda_Lux"
+  },
+  {
+    "number": "103",
+    "englishName": "Chillet",
+    "elements": "冰、龙",
+    "workSuitability": "采集 Lv1、冷却 Lv2",
+    "url": "https://paldb.cc/en/Chillet"
+  },
+  {
+    "number": "103B",
+    "englishName": "Chillet Ignis",
+    "elements": "火、龙",
+    "workSuitability": "生火 Lv4、采集 Lv3",
+    "url": "https://paldb.cc/en/Chillet_Ignis"
+  },
+  {
+    "number": "104",
+    "englishName": "Ragnahawk",
+    "elements": "火",
+    "workSuitability": "生火 Lv4、搬运 Lv5",
+    "url": "https://paldb.cc/en/Ragnahawk"
+  },
+  {
+    "number": "105",
+    "englishName": "Moldron",
+    "elements": "火、地",
+    "workSuitability": "生火 Lv5、采矿 Lv5",
+    "url": "https://paldb.cc/en/Moldron"
+  },
+  {
+    "number": "105B",
+    "englishName": "Moldron Cryst",
+    "elements": "冰、地",
+    "workSuitability": "采矿 Lv5、冷却 Lv5",
+    "url": "https://paldb.cc/en/Moldron_Cryst"
+  },
+  {
+    "number": "106",
+    "englishName": "Palumba",
+    "elements": "草",
+    "workSuitability": "播种 Lv4、采集 Lv4、采矿 Lv5",
+    "url": "https://paldb.cc/en/Palumba"
+  },
+  {
+    "number": "107",
+    "englishName": "Digtoise",
+    "elements": "地",
+    "workSuitability": "采矿 Lv4",
+    "url": "https://paldb.cc/en/Digtoise"
+  },
+  {
+    "number": "108",
+    "englishName": "Broncherry",
+    "elements": "草",
+    "workSuitability": "播种 Lv5",
+    "url": "https://paldb.cc/en/Broncherry"
+  },
+  {
+    "number": "108B",
+    "englishName": "Broncherry Aqua",
+    "elements": "草、水",
+    "workSuitability": "浇水 Lv5",
+    "url": "https://paldb.cc/en/Broncherry_Aqua"
+  },
+  {
+    "number": "109",
+    "englishName": "Dumud",
+    "elements": "地、水",
+    "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv1",
+    "url": "https://paldb.cc/en/Dumud"
+  },
+  {
+    "number": "109B",
+    "englishName": "Dumud Gild",
+    "elements": "地、水",
+    "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv4",
+    "url": "https://paldb.cc/en/Dumud_Gild"
+  },
+  {
+    "number": "110",
+    "englishName": "Braloha",
+    "elements": "草、地",
+    "workSuitability": "播种 Lv5、采集 Lv5、采矿 Lv3",
+    "url": "https://paldb.cc/en/Braloha"
+  },
+  {
+    "number": "111",
+    "englishName": "Kitsun",
+    "elements": "火",
+    "workSuitability": "生火 Lv3",
+    "url": "https://paldb.cc/en/Kitsun"
+  },
+  {
+    "number": "111B",
+    "englishName": "Kitsun Noct",
+    "elements": "暗",
+    "workSuitability": "生火 Lv4",
+    "url": "https://paldb.cc/en/Kitsun_Noct"
+  },
+  {
+    "number": "112",
+    "englishName": "Blazehowl",
+    "elements": "火",
+    "workSuitability": "生火 Lv5、伐木 Lv3",
+    "url": "https://paldb.cc/en/Blazehowl"
+  },
+  {
+    "number": "112B",
+    "englishName": "Blazehowl Noct",
+    "elements": "火、暗",
+    "workSuitability": "生火 Lv5、伐木 Lv3",
+    "url": "https://paldb.cc/en/Blazehowl_Noct"
+  },
+  {
+    "number": "113",
+    "englishName": "Warsect",
+    "elements": "地、草",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv4、搬运 Lv5",
+    "url": "https://paldb.cc/en/Warsect"
+  },
+  {
+    "number": "113B",
+    "englishName": "Warsect Terra",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv2、采矿 Lv5、搬运 Lv5",
+    "url": "https://paldb.cc/en/Warsect_Terra"
+  },
+  {
+    "number": "114",
+    "englishName": "Frostplume",
+    "elements": "冰",
+    "workSuitability": "采集 Lv2、冷却 Lv4",
+    "url": "https://paldb.cc/en/Frostplume"
+  },
+  {
+    "number": "115",
+    "englishName": "Majex",
+    "elements": "暗、火",
+    "workSuitability": "生火 Lv4、手工作业 Lv5、制药 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Majex"
+  },
+  {
+    "number": "116",
+    "englishName": "Sibelyx",
+    "elements": "冰",
+    "workSuitability": "制药 Lv3、冷却 Lv3、牧场 Lv3",
+    "url": "https://paldb.cc/en/Sibelyx"
+  },
+  {
+    "number": "116B",
+    "englishName": "Sibelyx Primo",
+    "elements": "无",
+    "workSuitability": "制药 Lv3、牧场 Lv4",
+    "url": "https://paldb.cc/en/Sibelyx_Primo"
+  },
+  {
+    "number": "117",
+    "englishName": "Maraith",
+    "elements": "暗",
+    "workSuitability": "采集 Lv4、采矿 Lv4",
+    "url": "https://paldb.cc/en/Maraith"
+  },
+  {
+    "number": "118",
+    "englishName": "Shroomer",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv2、采集 Lv3、伐木 Lv2、牧场 Lv3",
+    "url": "https://paldb.cc/en/Shroomer"
+  },
+  {
+    "number": "118B",
+    "englishName": "Shroomer Noct",
+    "elements": "草、暗",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、伐木 Lv2",
+    "url": "https://paldb.cc/en/Shroomer_Noct"
+  },
+  {
+    "number": "119",
+    "englishName": "Icelyn",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv5、制药 Lv4、冷却 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Icelyn"
+  },
+  {
+    "number": "120",
+    "englishName": "Gildra",
+    "elements": "暗、地",
+    "workSuitability": "手工作业 Lv5、制药 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Gildra"
+  },
+  {
+    "number": "121",
+    "englishName": "Jormuntide",
+    "elements": "龙、水",
+    "workSuitability": "浇水 Lv7",
+    "url": "https://paldb.cc/en/Jormuntide"
+  },
+  {
+    "number": "121B",
+    "englishName": "Jormuntide Ignis",
+    "elements": "龙、火",
+    "workSuitability": "生火 Lv7",
+    "url": "https://paldb.cc/en/Jormuntide_Ignis"
+  },
+  {
+    "number": "122",
+    "englishName": "Suzaku",
+    "elements": "火",
+    "workSuitability": "生火 Lv5",
+    "url": "https://paldb.cc/en/Suzaku"
+  },
+  {
+    "number": "122B",
+    "englishName": "Suzaku Aqua",
+    "elements": "水",
+    "workSuitability": "浇水 Lv6",
+    "url": "https://paldb.cc/en/Suzaku_Aqua"
+  },
+  {
+    "number": "123",
+    "englishName": "Dazemu",
+    "elements": "地",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Dazemu"
+  },
+  {
+    "number": "124",
+    "englishName": "Quivern",
+    "elements": "龙",
+    "workSuitability": "手工作业 Lv2、采集 Lv3、采矿 Lv4、搬运 Lv5",
+    "url": "https://paldb.cc/en/Quivern"
+  },
+  {
+    "number": "124B",
+    "englishName": "Quivern Botan",
+    "elements": "龙、草",
+    "workSuitability": "播种 Lv5、手工作业 Lv2、采集 Lv4、采矿 Lv3、搬运 Lv4",
+    "url": "https://paldb.cc/en/Quivern_Botan"
+  },
+  {
+    "number": "125",
+    "englishName": "Lullu",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv2、制药 Lv3",
+    "url": "https://paldb.cc/en/Lullu"
+  },
+  {
+    "number": "126",
+    "englishName": "Kikit",
+    "elements": "地",
+    "workSuitability": "采矿 Lv1",
+    "url": "https://paldb.cc/en/Kikit"
+  },
+  {
+    "number": "127",
+    "englishName": "Yakumo",
+    "elements": "无",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Yakumo"
+  },
+  {
+    "number": "128",
+    "englishName": "Skutlass",
+    "elements": "水",
+    "workSuitability": "浇水 Lv4、采集 Lv1、伐木 Lv4",
+    "url": "https://paldb.cc/en/Skutlass"
+  },
+  {
+    "number": "128B",
+    "englishName": "Skutlass Ignis",
+    "elements": "水、火",
+    "workSuitability": "生火 Lv3、浇水 Lv2、采集 Lv2、伐木 Lv3",
+    "url": "https://paldb.cc/en/Skutlass_Ignis"
+  },
+  {
+    "number": "129",
+    "englishName": "Reptyro",
+    "elements": "火、地",
+    "workSuitability": "生火 Lv5、采矿 Lv5",
+    "url": "https://paldb.cc/en/Reptyro"
+  },
+  {
+    "number": "129B",
+    "englishName": "Reptyro Cryst",
+    "elements": "冰、地",
+    "workSuitability": "采矿 Lv5、冷却 Lv5",
+    "url": "https://paldb.cc/en/Reptyro_Cryst"
+  },
+  {
+    "number": "130",
+    "englishName": "Starryon",
+    "elements": "暗",
+    "workSuitability": "采集 Lv5",
+    "url": "https://paldb.cc/en/Starryon"
+  },
+  {
+    "number": "130B",
+    "englishName": "Starryon Primo",
+    "elements": "无",
+    "workSuitability": "采集 Lv7",
+    "url": "https://paldb.cc/en/Starryon_Primo"
+  },
+  {
+    "number": "131",
+    "englishName": "Pierdon",
+    "elements": "地",
+    "workSuitability": "采矿 Lv5",
+    "url": "https://paldb.cc/en/Pierdon"
+  },
+  {
+    "number": "131B",
+    "englishName": "Pierdon Cryst",
+    "elements": "冰",
+    "workSuitability": "采矿 Lv5、冷却 Lv6",
+    "url": "https://paldb.cc/en/Pierdon_Cryst"
+  },
+  {
+    "number": "132",
+    "englishName": "Cryolinx",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv3、伐木 Lv4、冷却 Lv4、搬运 Lv4",
+    "url": "https://paldb.cc/en/Cryolinx"
+  },
+  {
+    "number": "132B",
+    "englishName": "Cryolinx Terra",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv2、伐木 Lv6、采矿 Lv5、搬运 Lv4",
+    "url": "https://paldb.cc/en/Cryolinx_Terra"
+  },
+  {
+    "number": "133",
+    "englishName": "Snugloo",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv2、采矿 Lv3、冷却 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Snugloo"
+  },
+  {
+    "number": "134",
+    "englishName": "Wumpo",
+    "elements": "冰",
+    "workSuitability": "手工作业 Lv3、伐木 Lv5、冷却 Lv5、搬运 Lv6",
+    "url": "https://paldb.cc/en/Wumpo"
+  },
+  {
+    "number": "134B",
+    "englishName": "Wumpo Botan",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv5、搬运 Lv6",
+    "url": "https://paldb.cc/en/Wumpo_Botan"
+  },
+  {
+    "number": "135",
+    "englishName": "Sootseer",
+    "elements": "暗、火",
+    "workSuitability": "生火 Lv3、手工作业 Lv3、采集 Lv2、采矿 Lv3、牧场 Lv2",
+    "url": "https://paldb.cc/en/Sootseer"
+  },
+  {
+    "number": "136",
+    "englishName": "Carnibora",
+    "elements": "草",
+    "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Carnibora"
+  },
+  {
+    "number": "137",
+    "englishName": "Blazamut",
+    "elements": "火",
+    "workSuitability": "生火 Lv6、采矿 Lv7",
+    "url": "https://paldb.cc/en/Blazamut"
+  },
+  {
+    "number": "137B",
+    "englishName": "Blazamut Ryu",
+    "elements": "龙、火",
+    "workSuitability": "生火 Lv6、采矿 Lv7",
+    "url": "https://paldb.cc/en/Blazamut_Ryu"
+  },
+  {
+    "number": "138",
+    "englishName": "Dualith",
+    "elements": "地、草",
+    "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
+    "url": "https://paldb.cc/en/Dualith"
+  },
+  {
+    "number": "138B",
+    "englishName": "Dualith Noct",
+    "elements": "地、暗",
+    "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
+    "url": "https://paldb.cc/en/Dualith_Noct"
+  },
+  {
+    "number": "139",
+    "englishName": "Anubis",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv6、采矿 Lv6、搬运 Lv4",
+    "url": "https://paldb.cc/en/Anubis"
+  },
+  {
+    "number": "140",
+    "englishName": "Sekhmet",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv6、采矿 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Sekhmet"
+  },
+  {
+    "number": "141",
+    "englishName": "Prixter",
+    "elements": "暗、地",
+    "workSuitability": "采集 Lv2、伐木 Lv4、制药 Lv2",
+    "url": "https://paldb.cc/en/Prixter"
+  },
+  {
+    "number": "141B",
+    "englishName": "Prixter Lux",
+    "elements": "雷、地",
+    "workSuitability": "发电 Lv3、采集 Lv2、伐木 Lv4、制药 Lv2",
+    "url": "https://paldb.cc/en/Prixter_Lux"
+  },
+  {
+    "number": "142",
+    "englishName": "Tetroise",
+    "elements": "地",
+    "workSuitability": "采矿 Lv4",
+    "url": "https://paldb.cc/en/Tetroise"
+  },
+  {
+    "number": "142B",
+    "englishName": "Tetroise Primo",
+    "elements": "无",
+    "workSuitability": "采矿 Lv6",
+    "url": "https://paldb.cc/en/Tetroise_Primo"
+  },
+  {
+    "number": "143",
+    "englishName": "Nyafia",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv4、采集 Lv4、伐木 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Nyafia"
+  },
+  {
+    "number": "144",
+    "englishName": "Mimog",
+    "elements": "无",
+    "workSuitability": "采集 Lv1、搬运 Lv2",
+    "url": "https://paldb.cc/en/Mimog"
+  },
+  {
+    "number": "145",
+    "englishName": "Xenovader",
+    "elements": "暗",
+    "workSuitability": "伐木 Lv3、搬运 Lv2",
+    "url": "https://paldb.cc/en/Xenovader"
+  },
+  {
+    "number": "146",
+    "englishName": "Xenogard",
+    "elements": "龙",
+    "workSuitability": "采矿 Lv4",
+    "url": "https://paldb.cc/en/Xenogard"
+  },
+  {
+    "number": "147",
+    "englishName": "Prunelia",
+    "elements": "草、暗",
+    "workSuitability": "播种 Lv3、手工作业 Lv1、采集 Lv2、制药 Lv3、搬运 Lv1",
+    "url": "https://paldb.cc/en/Prunelia"
+  },
+  {
+    "number": "148",
+    "englishName": "Nitemary",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Nitemary"
+  },
+  {
+    "number": "148B",
+    "englishName": "Nitemary Botan",
+    "elements": "草",
+    "workSuitability": "播种 Lv3、手工作业 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Nitemary_Botan"
+  },
+  {
+    "number": "149",
+    "englishName": "Smokie",
+    "elements": "暗",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Smokie"
+  },
+  {
+    "number": "149B",
+    "englishName": "Smokie Cryst",
+    "elements": "暗、冰",
+    "workSuitability": "采集 Lv2、冷却 Lv2",
+    "url": "https://paldb.cc/en/Smokie_Cryst"
+  },
+  {
+    "number": "150",
+    "englishName": "Omascul",
+    "elements": "暗",
+    "workSuitability": "采集 Lv5",
+    "url": "https://paldb.cc/en/Omascul"
+  },
+  {
+    "number": "151",
+    "englishName": "Whalaska",
+    "elements": "冰、水",
+    "workSuitability": "浇水 Lv5、冷却 Lv6",
+    "url": "https://paldb.cc/en/Whalaska"
+  },
+  {
+    "number": "151B",
+    "englishName": "Whalaska Ignis",
+    "elements": "冰、火",
+    "workSuitability": "生火 Lv5、冷却 Lv6",
+    "url": "https://paldb.cc/en/Whalaska_Ignis"
+  },
+  {
+    "number": "152",
+    "englishName": "Verdash",
+    "elements": "草",
+    "workSuitability": "播种 Lv4、手工作业 Lv5、采集 Lv5、伐木 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Verdash"
+  },
+  {
+    "number": "153",
+    "englishName": "Splatterina",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv6、伐木 Lv3、制药 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Splatterina"
+  },
+  {
+    "number": "154",
+    "englishName": "Gildane",
+    "elements": "地",
+    "workSuitability": "采集 Lv5",
+    "url": "https://paldb.cc/en/Gildane"
+  },
+  {
+    "number": "155",
+    "englishName": "Dogen",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv4、采集 Lv3、伐木 Lv3、制药 Lv2、搬运 Lv3",
+    "url": "https://paldb.cc/en/Dogen"
+  },
+  {
+    "number": "156",
+    "englishName": "Bulldosu",
+    "elements": "地",
+    "workSuitability": "采矿 Lv4、搬运 Lv3",
+    "url": "https://paldb.cc/en/Bulldosu"
+  },
+  {
+    "number": "157",
+    "englishName": "Celesdir",
+    "elements": "无",
+    "workSuitability": "采集 Lv4、伐木 Lv7",
+    "url": "https://paldb.cc/en/Celesdir"
+  },
+  {
+    "number": "157B",
+    "englishName": "Celesdir Noct",
+    "elements": "暗",
+    "workSuitability": "采集 Lv4、伐木 Lv8",
+    "url": "https://paldb.cc/en/Celesdir_Noct"
+  },
+  {
+    "number": "158",
+    "englishName": "Astegon",
+    "elements": "龙、暗",
+    "workSuitability": "手工作业 Lv3、采矿 Lv7",
+    "url": "https://paldb.cc/en/Astegon"
+  },
+  {
+    "number": "159",
+    "englishName": "Knocklem",
+    "elements": "地",
+    "workSuitability": "采集 Lv4、采矿 Lv7、搬运 Lv7",
+    "url": "https://paldb.cc/en/Knocklem"
+  },
+  {
+    "number": "159B",
+    "englishName": "Knocklem Ignis",
+    "elements": "火",
+    "workSuitability": "生火 Lv5、采矿 Lv7、搬运 Lv7",
+    "url": "https://paldb.cc/en/Knocklem_Ignis"
+  },
+  {
+    "number": "160",
+    "englishName": "Silvegis",
+    "elements": "龙",
+    "workSuitability": "伐木 Lv6",
+    "url": "https://paldb.cc/en/Silvegis"
+  },
+  {
+    "number": "161",
+    "englishName": "Azurmane",
+    "elements": "雷",
+    "workSuitability": "发电 Lv5",
+    "url": "https://paldb.cc/en/Azurmane"
+  },
+  {
+    "number": "162",
+    "englishName": "Valentail",
+    "elements": "无",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Valentail"
+  },
+  {
+    "number": "163",
+    "englishName": "Snock",
+    "elements": "雷",
+    "workSuitability": "发电 Lv4",
+    "url": "https://paldb.cc/en/Snock"
+  },
+  {
+    "number": "163B",
+    "englishName": "Snock Lux",
+    "elements": "雷、地",
+    "workSuitability": "发电 Lv4",
+    "url": "https://paldb.cc/en/Snock_Lux"
+  },
+  {
+    "number": "164",
+    "englishName": "Souffline",
+    "elements": "草",
+    "workSuitability": "播种 Lv2、搬运 Lv2",
+    "url": "https://paldb.cc/en/Souffline"
+  },
+  {
+    "number": "165",
+    "englishName": "Lapiron",
+    "elements": "地",
+    "workSuitability": "手工作业 Lv3、采集 Lv4、采矿 Lv2、搬运 Lv1",
+    "url": "https://paldb.cc/en/Lapiron"
+  },
+  {
+    "number": "166",
+    "englishName": "Hoodle",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv1、搬运 Lv1",
+    "url": "https://paldb.cc/en/Hoodle"
+  },
+  {
+    "number": "167",
+    "englishName": "Slowatt",
+    "elements": "雷",
+    "workSuitability": "发电 Lv3",
+    "url": "https://paldb.cc/en/Slowatt"
+  },
+  {
+    "number": "168",
+    "englishName": "Bakemi",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv3、制药 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Bakemi"
+  },
+  {
+    "number": "169",
+    "englishName": "Solmora",
+    "elements": "水",
+    "workSuitability": "浇水 Lv4",
+    "url": "https://paldb.cc/en/Solmora"
+  },
+  {
+    "number": "169B",
+    "englishName": "Solmora Lux",
+    "elements": "水、雷",
+    "workSuitability": "浇水 Lv4、发电 Lv6",
+    "url": "https://paldb.cc/en/Solmora_Lux"
+  },
+  {
+    "number": "170",
+    "englishName": "Lapure",
+    "elements": "无",
+    "workSuitability": "手工作业 Lv6、采集 Lv5",
+    "url": "https://paldb.cc/en/Lapure"
+  },
+  {
+    "number": "171",
+    "englishName": "Eidrolon",
+    "elements": "龙、暗",
+    "workSuitability": "搬运 Lv6",
+    "url": "https://paldb.cc/en/Eidrolon"
+  },
+  {
+    "number": "171B",
+    "englishName": "Eidrolon Ignis",
+    "elements": "龙、火",
+    "workSuitability": "生火 Lv6、搬运 Lv6",
+    "url": "https://paldb.cc/en/Eidrolon_Ignis"
+  },
+  {
+    "number": "172",
+    "englishName": "Dynamoff",
+    "elements": "雷",
+    "workSuitability": "发电 Lv6、采集 Lv3、搬运 Lv3",
+    "url": "https://paldb.cc/en/Dynamoff"
+  },
+  {
+    "number": "173",
+    "englishName": "Tropicaw",
+    "elements": "草",
+    "workSuitability": "播种 Lv5、采集 Lv5",
+    "url": "https://paldb.cc/en/Tropicaw"
+  },
+  {
+    "number": "174",
+    "englishName": "Flaracle",
+    "elements": "火",
+    "workSuitability": "生火 Lv7、手工作业 Lv6、搬运 Lv2",
+    "url": "https://paldb.cc/en/Flaracle"
+  },
+  {
+    "number": "175",
+    "englishName": "Ophydia",
+    "elements": "草、水",
+    "workSuitability": "浇水 Lv5、播种 Lv7",
+    "url": "https://paldb.cc/en/Ophydia"
+  },
+  {
+    "number": "176",
+    "englishName": "Dupin",
+    "elements": "火",
+    "workSuitability": "生火 Lv7、手工作业 Lv5、制药 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Dupin"
+  },
+  {
+    "number": "177",
+    "englishName": "Roujay",
+    "elements": "暗",
+    "workSuitability": "采集 Lv5、搬运 Lv5",
+    "url": "https://paldb.cc/en/Roujay"
+  },
+  {
+    "number": "178",
+    "englishName": "Venusa",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv6、采集 Lv6、制药 Lv5、搬运 Lv2",
+    "url": "https://paldb.cc/en/Venusa"
+  },
+  {
+    "number": "179",
+    "englishName": "Mycora",
+    "elements": "草",
+    "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、制药 Lv6",
+    "url": "https://paldb.cc/en/Mycora"
+  },
+  {
+    "number": "180",
+    "englishName": "Loomen",
+    "elements": "暗、火",
+    "workSuitability": "生火 Lv4、手工作业 Lv4、制药 Lv4",
+    "url": "https://paldb.cc/en/Loomen"
+  },
+  {
+    "number": "181",
+    "englishName": "Wistella",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv6、制药 Lv6、搬运 Lv1",
+    "url": "https://paldb.cc/en/Wistella"
+  },
+  {
+    "number": "182",
+    "englishName": "Solenne",
+    "elements": "暗、无",
+    "workSuitability": "手工作业 Lv8、采集 Lv4、搬运 Lv2",
+    "url": "https://paldb.cc/en/Solenne"
+  },
+  {
+    "number": "183",
+    "englishName": "Renjishi",
+    "elements": "火",
+    "workSuitability": "生火 Lv8、手工作业 Lv6、采集 Lv5、搬运 Lv5",
+    "url": "https://paldb.cc/en/Renjishi"
+  },
+  {
+    "number": "184",
+    "englishName": "Aegidron",
+    "elements": "龙、地",
+    "workSuitability": "采矿 Lv8",
+    "url": "https://paldb.cc/en/Aegidron"
+  },
+  {
+    "number": "185",
+    "englishName": "Grizzbolt",
+    "elements": "雷",
+    "workSuitability": "发电 Lv5、手工作业 Lv4、伐木 Lv3、搬运 Lv5",
+    "url": "https://paldb.cc/en/Grizzbolt"
+  },
+  {
+    "number": "186",
+    "englishName": "Lyleen",
+    "elements": "草",
+    "workSuitability": "播种 Lv7、手工作业 Lv5、采集 Lv6、制药 Lv5",
+    "url": "https://paldb.cc/en/Lyleen"
+  },
+  {
+    "number": "186B",
+    "englishName": "Lyleen Noct",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv5、采集 Lv6、制药 Lv7",
+    "url": "https://paldb.cc/en/Lyleen_Noct"
+  },
+  {
+    "number": "187",
+    "englishName": "Orserk",
+    "elements": "龙、雷",
+    "workSuitability": "发电 Lv8、手工作业 Lv3、搬运 Lv4",
+    "url": "https://paldb.cc/en/Orserk"
+  },
+  {
+    "number": "188",
+    "englishName": "Faleris",
+    "elements": "火",
+    "workSuitability": "生火 Lv6、搬运 Lv3",
+    "url": "https://paldb.cc/en/Faleris"
+  },
+  {
+    "number": "188B",
+    "englishName": "Faleris Aqua",
+    "elements": "水",
+    "workSuitability": "浇水 Lv6、搬运 Lv5",
+    "url": "https://paldb.cc/en/Faleris_Aqua"
+  },
+  {
+    "number": "189",
+    "englishName": "Shadowbeak",
+    "elements": "暗",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Shadowbeak"
+  },
+  {
+    "number": "190",
+    "englishName": "Selyne",
+    "elements": "暗、无",
+    "workSuitability": "手工作业 Lv7、制药 Lv6、搬运 Lv3",
+    "url": "https://paldb.cc/en/Selyne"
+  },
+  {
+    "number": "191",
+    "englishName": "Bastigor",
+    "elements": "冰",
+    "workSuitability": "伐木 Lv6、采矿 Lv5、冷却 Lv8",
+    "url": "https://paldb.cc/en/Bastigor"
+  },
+  {
+    "number": "192",
+    "englishName": "Shaolong",
+    "elements": "龙、水",
+    "workSuitability": "浇水 Lv8、采集 Lv5",
+    "url": "https://paldb.cc/en/Shaolong"
+  },
+  {
+    "number": "193",
+    "englishName": "Silvance",
+    "elements": "草",
+    "workSuitability": "播种 Lv6、手工作业 Lv6、采集 Lv4、制药 Lv8、搬运 Lv2",
+    "url": "https://paldb.cc/en/Silvance"
+  },
+  {
+    "number": "194",
+    "englishName": "Dandilord",
+    "elements": "草、暗",
+    "workSuitability": "播种 Lv8、手工作业 Lv6、采集 Lv5、制药 Lv6、搬运 Lv3",
+    "url": "https://paldb.cc/en/Dandilord"
+  },
+  {
+    "number": "195",
+    "englishName": "Bellanoir",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv5、制药 Lv5、搬运 Lv4",
+    "url": "https://paldb.cc/en/Bellanoir"
+  },
+  {
+    "number": "195B",
+    "englishName": "Bellanoir Libero",
+    "elements": "暗",
+    "workSuitability": "手工作业 Lv6、制药 Lv7、搬运 Lv4",
+    "url": "https://paldb.cc/en/Bellanoir_Libero"
+  },
+  {
+    "number": "196",
+    "englishName": "Xenolord",
+    "elements": "暗、龙",
+    "workSuitability": "采集 Lv2",
+    "url": "https://paldb.cc/en/Xenolord"
+  },
+  {
+    "number": "197",
+    "englishName": "Hartalis",
+    "elements": "无",
+    "workSuitability": "采集 Lv7、伐木 Lv7",
+    "url": "https://paldb.cc/en/Hartalis"
+  },
+  {
+    "number": "198",
+    "englishName": "Paladius",
+    "elements": "无",
+    "workSuitability": "伐木 Lv6、采矿 Lv6",
+    "url": "https://paldb.cc/en/Paladius"
+  },
+  {
+    "number": "199",
+    "englishName": "Necromus",
+    "elements": "暗",
+    "workSuitability": "伐木 Lv6、采矿 Lv6",
+    "url": "https://paldb.cc/en/Necromus"
+  },
+  {
+    "number": "200",
+    "englishName": "Frostallion",
+    "elements": "冰",
+    "workSuitability": "冷却 Lv7",
+    "url": "https://paldb.cc/en/Frostallion"
+  },
+  {
+    "number": "200B",
+    "englishName": "Frostallion Noct",
+    "elements": "暗",
+    "workSuitability": "采集 Lv7",
+    "url": "https://paldb.cc/en/Frostallion_Noct"
+  },
+  {
+    "number": "201",
+    "englishName": "Neptilius",
+    "elements": "水",
+    "workSuitability": "浇水 Lv7",
+    "url": "https://paldb.cc/en/Neptilius"
+  },
+  {
+    "number": "202",
+    "englishName": "Jetragon",
+    "elements": "龙",
+    "workSuitability": "采集 Lv8",
+    "url": "https://paldb.cc/en/Jetragon"
+  },
+  {
+    "number": "203",
+    "englishName": "Panthalus",
+    "elements": "水",
+    "workSuitability": "",
+    "url": "https://paldb.cc/en/Panthalus"
+  },
+  {
+    "number": "204",
+    "englishName": "Astralym",
+    "elements": "",
+    "workSuitability": "",
+    "url": "https://paldb.cc/en/Astralym"
+  }
+]

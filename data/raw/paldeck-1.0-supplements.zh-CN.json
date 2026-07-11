@@ -2,6 +2,7 @@
   {
     "id": "pal_windchimes",
     "name": "吊缚灵",
+    "englishName": "Hangyu",
     "elementGroup": "Ground",
     "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
     "detail": "https://paldb.cc/cn/Hangyu",
@@ -10,6 +11,7 @@
   {
     "id": "pal_windchimes_ice",
     "name": "冰缚灵",
+    "englishName": "Hangyu Cryst",
     "elementGroup": "Ice",
     "source": "palworld-paldex-api (MIT) + PalDB CN cross-check",
     "detail": "https://paldb.cc/cn/Hangyu_Cryst",

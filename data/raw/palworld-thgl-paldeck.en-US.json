@@ -1,0 +1,1718 @@
+[
+  {
+    "id": "pal_badcatgirl",
+    "name": "Nyafia",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_badcatgirl"
+  },
+  {
+    "id": "pal_baphomet_dark",
+    "name": "Incineram Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_baphomet_dark"
+  },
+  {
+    "id": "pal_bastet",
+    "name": "Mau",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_bastet"
+  },
+  {
+    "id": "pal_werewolf",
+    "name": "Loupmoon",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_werewolf"
+  },
+  {
+    "id": "pal_darkcrow",
+    "name": "Cawgnito",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkcrow"
+  },
+  {
+    "id": "pal_negativekoala",
+    "name": "Depresso",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_negativekoala"
+  },
+  {
+    "id": "pal_ghostbeast",
+    "name": "Maraith",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostbeast"
+  },
+  {
+    "id": "pal_lizardman",
+    "name": "Leezpunk",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lizardman"
+  },
+  {
+    "id": "pal_icehorse_dark",
+    "name": "Frostallion Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icehorse_dark"
+  },
+  {
+    "id": "pal_catvampire",
+    "name": "Felbat",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_catvampire"
+  },
+  {
+    "id": "pal_blackgriffon",
+    "name": "Shadowbeak",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blackgriffon"
+  },
+  {
+    "id": "pal_pinklizard",
+    "name": "Lovander",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_pinklizard"
+  },
+  {
+    "id": "pal_wizardowl",
+    "name": "Hoocrates",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_wizardowl"
+  },
+  {
+    "id": "pal_negativeoctopus",
+    "name": "Killamari",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_negativeoctopus"
+  },
+  {
+    "id": "pal_lilyqueen_dark",
+    "name": "Lyleen Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lilyqueen_dark"
+  },
+  {
+    "id": "pal_catbat",
+    "name": "Tombat",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_catbat"
+  },
+  {
+    "id": "pal_dreamdemon",
+    "name": "Daedream",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_dreamdemon"
+  },
+  {
+    "id": "pal_catmage",
+    "name": "Katress",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_catmage"
+  },
+  {
+    "id": "pal_catmage_fire",
+    "name": "Katress Ignis",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_catmage_fire"
+  },
+  {
+    "id": "pal_nightfox",
+    "name": "Nox",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_nightfox"
+  },
+  {
+    "id": "pal_hadesbird",
+    "name": "Helzephyr",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hadesbird"
+  },
+  {
+    "id": "pal_hadesbird_electric",
+    "name": "Helzephyr Lux",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hadesbird_electric"
+  },
+  {
+    "id": "pal_blackcentaur",
+    "name": "Necromus",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blackcentaur"
+  },
+  {
+    "id": "pal_darkscorpion",
+    "name": "Menasting",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkscorpion"
+  },
+  {
+    "id": "pal_nightlady",
+    "name": "Bellanoir",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_nightlady"
+  },
+  {
+    "id": "pal_nightlady_dark",
+    "name": "Bellanoir Libero",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_nightlady_dark"
+  },
+  {
+    "id": "pal_moonqueen",
+    "name": "Selyne",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_moonqueen"
+  },
+  {
+    "id": "pal_candleghost",
+    "name": "Sootseer",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_candleghost"
+  },
+  {
+    "id": "pal_scorpionman",
+    "name": "Prixter",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_scorpionman"
+  },
+  {
+    "id": "pal_darkalien",
+    "name": "Xenovader",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkalien"
+  },
+  {
+    "id": "pal_darkmechadragon",
+    "name": "Xenolord",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkmechadragon"
+  },
+  {
+    "id": "pal_ghostrabbit",
+    "name": "Nitemary",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostrabbit"
+  },
+  {
+    "id": "pal_nightbluehorse",
+    "name": "Starryon",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_nightbluehorse"
+  },
+  {
+    "id": "pal_blackpuppy",
+    "name": "Smokie",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blackpuppy"
+  },
+  {
+    "id": "pal_blackpuppy_ice",
+    "name": "Smokie Cryst",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blackpuppy_ice"
+  },
+  {
+    "id": "pal_whitedeer_dark",
+    "name": "Celesdir Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitedeer_dark"
+  },
+  {
+    "id": "pal_mysterymask",
+    "name": "Omascul",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mysterymask"
+  },
+  {
+    "id": "pal_hoodghost",
+    "name": "Hoodle",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hoodghost"
+  },
+  {
+    "id": "pal_grimgirl",
+    "name": "Splatterina",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grimgirl"
+  },
+  {
+    "id": "pal_purplespider",
+    "name": "Tarantriss",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_purplespider"
+  },
+  {
+    "id": "pal_berrygoat_dark",
+    "name": "Caprity Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_berrygoat_dark"
+  },
+  {
+    "id": "pal_amaterasuwolf_dark",
+    "name": "Kitsun Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_amaterasuwolf_dark"
+  },
+  {
+    "id": "pal_raijindaughter_water",
+    "name": "Dazzi Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_raijindaughter_water"
+  },
+  {
+    "id": "pal_snakegirl",
+    "name": "Venusa",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_snakegirl"
+  },
+  {
+    "id": "pal_ghostanglerfish",
+    "name": "Ghangler",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostanglerfish"
+  },
+  {
+    "id": "pal_cactusdoll_dark",
+    "name": "Needoll Noct",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cactusdoll_dark"
+  },
+  {
+    "id": "pal_ghostblackcat",
+    "name": "Wispaw",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostblackcat"
+  },
+  {
+    "id": "pal_thiefbird",
+    "name": "Roujay",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thiefbird"
+  },
+  {
+    "id": "pal_onighostgirl",
+    "name": "Bakemi",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_onighostgirl"
+  },
+  {
+    "id": "pal_moonchild",
+    "name": "Wistella",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_moonchild"
+  },
+  {
+    "id": "pal_mummypal",
+    "name": "Gildra",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mummypal"
+  },
+  {
+    "id": "pal_monochromequeen",
+    "name": "Solenne",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_monochromequeen"
+  },
+  {
+    "id": "pal_lanternbutler",
+    "name": "Loomen",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lanternbutler"
+  },
+  {
+    "id": "pal_darkflamefox",
+    "name": "Majex",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkflamefox"
+  },
+  {
+    "id": "pal_blueberryfairy",
+    "name": "Prunelia",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blueberryfairy"
+  },
+  {
+    "id": "pal_carbunclo",
+    "name": "Lifmunk",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_carbunclo"
+  },
+  {
+    "id": "pal_littlebriarrose",
+    "name": "Bristla",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_littlebriarrose"
+  },
+  {
+    "id": "pal_robinhood",
+    "name": "Robinquill",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_robinhood"
+  },
+  {
+    "id": "pal_robinhood_ground",
+    "name": "Robinquill Terra",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_robinhood_ground"
+  },
+  {
+    "id": "pal_flowerdinosaur",
+    "name": "Dinossom",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerdinosaur"
+  },
+  {
+    "id": "pal_grassmammoth",
+    "name": "Mammorest",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassmammoth"
+  },
+  {
+    "id": "pal_sakurasaurus",
+    "name": "Broncherry",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sakurasaurus"
+  },
+  {
+    "id": "pal_sakurasaurus_water",
+    "name": "Broncherry Aqua",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sakurasaurus_water"
+  },
+  {
+    "id": "pal_berrygoat",
+    "name": "Caprity",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_berrygoat"
+  },
+  {
+    "id": "pal_yeti_grass",
+    "name": "Wumpo Botan",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_yeti_grass"
+  },
+  {
+    "id": "pal_violetfairy",
+    "name": "Vaelet",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_violetfairy"
+  },
+  {
+    "id": "pal_flowerrabbit",
+    "name": "Flopie",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerrabbit"
+  },
+  {
+    "id": "pal_lilyqueen",
+    "name": "Lyleen",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lilyqueen"
+  },
+  {
+    "id": "pal_queenbee",
+    "name": "Elizabee",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_queenbee"
+  },
+  {
+    "id": "pal_soldierbee",
+    "name": "Beegarde",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_soldierbee"
+  },
+  {
+    "id": "pal_grasspanda",
+    "name": "Mossanda",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grasspanda"
+  },
+  {
+    "id": "pal_grassrabbitman",
+    "name": "Verdash",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassrabbitman"
+  },
+  {
+    "id": "pal_monkey",
+    "name": "Tanzee",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_monkey"
+  },
+  {
+    "id": "pal_plantslime",
+    "name": "Gumoss",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_plantslime"
+  },
+  {
+    "id": "pal_flowerdoll",
+    "name": "Petallia",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerdoll"
+  },
+  {
+    "id": "pal_flowerdoll_fire",
+    "name": "Petallia Ignis",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerdoll_fire"
+  },
+  {
+    "id": "pal_cutebutterfly",
+    "name": "Cinnamoth",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cutebutterfly"
+  },
+  {
+    "id": "pal_leafprincess",
+    "name": "Lullu",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_leafprincess"
+  },
+  {
+    "id": "pal_mushroomdragon",
+    "name": "Shroomer",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mushroomdragon"
+  },
+  {
+    "id": "pal_mushroomdragon_dark",
+    "name": "Shroomer Noct",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mushroomdragon_dark"
+  },
+  {
+    "id": "pal_ghostrabbit_grass",
+    "name": "Nitemary Botan",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostrabbit_grass"
+  },
+  {
+    "id": "pal_pinkrabbit_grass",
+    "name": "Ribbuny Botan",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_pinkrabbit_grass"
+  },
+  {
+    "id": "pal_leafmomonga",
+    "name": "Herbil",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_leafmomonga"
+  },
+  {
+    "id": "pal_cactusdoll",
+    "name": "Needoll",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cactusdoll"
+  },
+  {
+    "id": "pal_mushroomlady",
+    "name": "Mycora",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mushroomlady"
+  },
+  {
+    "id": "pal_cloverfairy",
+    "name": "Clovee",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cloverfairy"
+  },
+  {
+    "id": "pal_plesiosaur",
+    "name": "Braloha",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_plesiosaur"
+  },
+  {
+    "id": "pal_tropicalostrich",
+    "name": "Palumba",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_tropicalostrich"
+  },
+  {
+    "id": "pal_venusflytrap",
+    "name": "Carnibora",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_venusflytrap"
+  },
+  {
+    "id": "pal_dandeliongirl",
+    "name": "Souffline",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_dandeliongirl"
+  },
+  {
+    "id": "pal_redflowerbird",
+    "name": "Tropicaw",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_redflowerbird"
+  },
+  {
+    "id": "pal_lotusdragon",
+    "name": "Ophydia",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lotusdragon"
+  },
+  {
+    "id": "pal_pandagirl",
+    "name": "Leafan",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_pandagirl"
+  },
+  {
+    "id": "pal_grassminotaur",
+    "name": "Elgrove",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassminotaur"
+  },
+  {
+    "id": "pal_mothman",
+    "name": "Silvance",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mothman"
+  },
+  {
+    "id": "pal_flowerprince",
+    "name": "Dandilord",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerprince"
+  },
+  {
+    "id": "pal_brownrabbit",
+    "name": "Lapiron",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_brownrabbit"
+  },
+  {
+    "id": "pal_goldenhorse",
+    "name": "Gildane",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_goldenhorse"
+  },
+  {
+    "id": "pal_anubis",
+    "name": "Anubis",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_anubis"
+  },
+  {
+    "id": "pal_boar",
+    "name": "Rushoar",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_boar"
+  },
+  {
+    "id": "pal_deer_ground",
+    "name": "Eikthyrdeer Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_deer_ground"
+  },
+  {
+    "id": "pal_drillgame",
+    "name": "Digtoise",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_drillgame"
+  },
+  {
+    "id": "pal_gorilla_ground",
+    "name": "Gorirat Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_gorilla_ground"
+  },
+  {
+    "id": "pal_sweetssheep_ground",
+    "name": "Woolipop Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sweetssheep_ground"
+  },
+  {
+    "id": "pal_serpent_ground",
+    "name": "Surfent Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_serpent_ground"
+  },
+  {
+    "id": "pal_cutemole",
+    "name": "Fuddler",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cutemole"
+  },
+  {
+    "id": "pal_herculesbeetle",
+    "name": "Warsect",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_herculesbeetle"
+  },
+  {
+    "id": "pal_herculesbeetle_ground",
+    "name": "Warsect Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_herculesbeetle_ground"
+  },
+  {
+    "id": "pal_darkscorpion_ground",
+    "name": "Menasting Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_darkscorpion_ground"
+  },
+  {
+    "id": "pal_lazycatfish",
+    "name": "Dumud",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lazycatfish"
+  },
+  {
+    "id": "pal_lazycatfish_gold",
+    "name": "Dumud Gild",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lazycatfish_gold"
+  },
+  {
+    "id": "pal_smallarmadillo",
+    "name": "Kikit",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_smallarmadillo"
+  },
+  {
+    "id": "pal_winggolem",
+    "name": "Knocklem",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_winggolem"
+  },
+  {
+    "id": "pal_featherostrich",
+    "name": "Dazemu",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_featherostrich"
+  },
+  {
+    "id": "pal_sekhmet",
+    "name": "Sekhmet",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sekhmet"
+  },
+  {
+    "id": "pal_rockbeast",
+    "name": "Pierdon",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_rockbeast"
+  },
+  {
+    "id": "pal_whitetiger_ground",
+    "name": "Cryolinx Terra",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitetiger_ground"
+  },
+  {
+    "id": "pal_grassgolem",
+    "name": "Dualith",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassgolem"
+  },
+  {
+    "id": "pal_grassgolem_dark",
+    "name": "Dualith Noct",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassgolem_dark"
+  },
+  {
+    "id": "pal_cubeturtle",
+    "name": "Tetroise",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cubeturtle"
+  },
+  {
+    "id": "pal_samuraidog",
+    "name": "Pupperai",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_samuraidog"
+  },
+  {
+    "id": "pal_sumodog",
+    "name": "Bulldosu",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sumodog"
+  },
+  {
+    "id": "pal_tentacleturtle",
+    "name": "Turtacle",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_tentacleturtle"
+  },
+  {
+    "id": "pal_tentacleturtle_ground",
+    "name": "Turtacle Terra",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_tentacleturtle_ground"
+  },
+  {
+    "id": "pal_ganesha",
+    "name": "Teafant",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ganesha"
+  },
+  {
+    "id": "pal_penguin",
+    "name": "Pengullet",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_penguin"
+  },
+  {
+    "id": "pal_penguin_electric",
+    "name": "Pengullet Lux",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_penguin_electric"
+  },
+  {
+    "id": "pal_sharkkid",
+    "name": "Gobfin",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sharkkid"
+  },
+  {
+    "id": "pal_suzaku_water",
+    "name": "Suzaku Aqua",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_suzaku_water"
+  },
+  {
+    "id": "pal_serpent",
+    "name": "Surfent",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_serpent"
+  },
+  {
+    "id": "pal_bluedragon",
+    "name": "Azurobe",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_bluedragon"
+  },
+  {
+    "id": "pal_blueplatypus",
+    "name": "Fuack",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blueplatypus"
+  },
+  {
+    "id": "pal_blueplatypus_fire",
+    "name": "Fuack Ignis",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blueplatypus_fire"
+  },
+  {
+    "id": "pal_kelpie",
+    "name": "Kelpsea",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kelpie"
+  },
+  {
+    "id": "pal_captainpenguin",
+    "name": "Penking",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_captainpenguin"
+  },
+  {
+    "id": "pal_captainpenguin_black",
+    "name": "Penking Lux",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_captainpenguin_black"
+  },
+  {
+    "id": "pal_flyingmanta",
+    "name": "Celaray",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flyingmanta"
+  },
+  {
+    "id": "pal_flyingmanta_thunder",
+    "name": "Celaray Lux",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flyingmanta_thunder"
+  },
+  {
+    "id": "pal_kendofrog",
+    "name": "Croajiro",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kendofrog"
+  },
+  {
+    "id": "pal_kendofrog_dark",
+    "name": "Croajiro Noct",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kendofrog_dark"
+  },
+  {
+    "id": "pal_kingwhale",
+    "name": "Panthalus",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingwhale"
+  },
+  {
+    "id": "pal_octopusgirl",
+    "name": "Gloopie",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_octopusgirl"
+  },
+  {
+    "id": "pal_octopusgirl_neutral",
+    "name": "Gloopie Primo",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_octopusgirl_neutral"
+  },
+  {
+    "id": "pal_jellyfishfairy",
+    "name": "Jelliette",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_jellyfishfairy"
+  },
+  {
+    "id": "pal_horus_water",
+    "name": "Faleris Aqua",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_horus_water"
+  },
+  {
+    "id": "pal_stuffedshark",
+    "name": "Finsider",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_stuffedshark"
+  },
+  {
+    "id": "pal_stuffedshark_fire",
+    "name": "Finsider Ignis",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_stuffedshark_fire"
+  },
+  {
+    "id": "pal_jellyfishghost",
+    "name": "Jellroy",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_jellyfishghost"
+  },
+  {
+    "id": "pal_poseidonorca",
+    "name": "Neptilius",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_poseidonorca"
+  },
+  {
+    "id": "pal_swordcutlassfish",
+    "name": "Skutlass",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_swordcutlassfish"
+  },
+  {
+    "id": "pal_swordcutlassfish_fire",
+    "name": "Skutlass Ignis",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_swordcutlassfish_fire"
+  },
+  {
+    "id": "pal_kingsunfish",
+    "name": "Solmora",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingsunfish"
+  },
+  {
+    "id": "pal_kingsunfish_thunder",
+    "name": "Solmora Lux",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingsunfish_thunder"
+  },
+  {
+    "id": "pal_clionetwins",
+    "name": "Amione",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/db/paldeck/pal_clionetwins"
+  },
+  {
+    "id": "pal_baphomet",
+    "name": "Incineram",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_baphomet"
+  },
+  {
+    "id": "pal_kitsunebi",
+    "name": "Foxparks",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kitsunebi"
+  },
+  {
+    "id": "pal_sharkkid_fire",
+    "name": "Gobfin Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sharkkid_fire"
+  },
+  {
+    "id": "pal_suzaku",
+    "name": "Suzaku",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_suzaku"
+  },
+  {
+    "id": "pal_firekirin",
+    "name": "Pyrin",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_firekirin"
+  },
+  {
+    "id": "pal_firekirin_dark",
+    "name": "Pyrin Noct",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_firekirin_dark"
+  },
+  {
+    "id": "pal_volcanicmonster",
+    "name": "Reptyro",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_volcanicmonster"
+  },
+  {
+    "id": "pal_amaterasuwolf",
+    "name": "Kitsun",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_amaterasuwolf"
+  },
+  {
+    "id": "pal_lizardman_fire",
+    "name": "Leezpunk Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lizardman_fire"
+  },
+  {
+    "id": "pal_birddragon",
+    "name": "Vanwyrm",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_birddragon"
+  },
+  {
+    "id": "pal_horus",
+    "name": "Faleris",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_horus"
+  },
+  {
+    "id": "pal_kingbahamut",
+    "name": "Blazamut",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingbahamut"
+  },
+  {
+    "id": "pal_foxmage",
+    "name": "Wixen",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_foxmage"
+  },
+  {
+    "id": "pal_foxmage_dark",
+    "name": "Wixen Noct",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_foxmage_dark"
+  },
+  {
+    "id": "pal_kelpie_fire",
+    "name": "Kelpsea Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kelpie_fire"
+  },
+  {
+    "id": "pal_flamebuffalo",
+    "name": "Arsox",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flamebuffalo"
+  },
+  {
+    "id": "pal_monkey_fire",
+    "name": "Tanzee Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_monkey_fire"
+  },
+  {
+    "id": "pal_manticore",
+    "name": "Blazehowl",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_manticore"
+  },
+  {
+    "id": "pal_manticore_dark",
+    "name": "Blazehowl Noct",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_manticore_dark"
+  },
+  {
+    "id": "pal_weaseldragon_fire",
+    "name": "Chillet Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_weaseldragon_fire"
+  },
+  {
+    "id": "pal_redarmorbird",
+    "name": "Ragnahawk",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_redarmorbird"
+  },
+  {
+    "id": "pal_ronin",
+    "name": "Bushi",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ronin"
+  },
+  {
+    "id": "pal_ronin_dark",
+    "name": "Bushi Noct",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ronin_dark"
+  },
+  {
+    "id": "pal_lavagirl",
+    "name": "Flambelle",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lavagirl"
+  },
+  {
+    "id": "pal_flamebambi",
+    "name": "Rooby",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flamebambi"
+  },
+  {
+    "id": "pal_winggolem_fire",
+    "name": "Knocklem Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_winggolem_fire"
+  },
+  {
+    "id": "pal_volcanodragon",
+    "name": "Moldron",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_volcanodragon"
+  },
+  {
+    "id": "pal_ghostanglerfish_fire",
+    "name": "Ghangler Ignis",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostanglerfish_fire"
+  },
+  {
+    "id": "pal_clownrabbit",
+    "name": "Dupin",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_clownrabbit"
+  },
+  {
+    "id": "pal_foxexorcist",
+    "name": "Flaracle",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_foxexorcist"
+  },
+  {
+    "id": "pal_kabukiman",
+    "name": "Renjishi",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kabukiman"
+  },
+  {
+    "id": "pal_bastet_ice",
+    "name": "Mau Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_bastet_ice"
+  },
+  {
+    "id": "pal_hedgehog_ice",
+    "name": "Jolthog Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hedgehog_ice"
+  },
+  {
+    "id": "pal_kirin_ice",
+    "name": "Univolt Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kirin_ice"
+  },
+  {
+    "id": "pal_whitetiger",
+    "name": "Cryolinx",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitetiger"
+  },
+  {
+    "id": "pal_bluedragon_ice",
+    "name": "Azurobe Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_bluedragon_ice"
+  },
+  {
+    "id": "pal_volcanicmonster_ice",
+    "name": "Reptyro Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_volcanicmonster_ice"
+  },
+  {
+    "id": "pal_birddragon_ice",
+    "name": "Vanwyrm Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_birddragon_ice"
+  },
+  {
+    "id": "pal_icehorse",
+    "name": "Frostallion",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icehorse"
+  },
+  {
+    "id": "pal_grassmammoth_ice",
+    "name": "Mammorest Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassmammoth_ice"
+  },
+  {
+    "id": "pal_icedeer",
+    "name": "Reindrix",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icedeer"
+  },
+  {
+    "id": "pal_whitemoth",
+    "name": "Sibelyx",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitemoth"
+  },
+  {
+    "id": "pal_yeti",
+    "name": "Wumpo",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_yeti"
+  },
+  {
+    "id": "pal_thunderdog_ice",
+    "name": "Rayhound Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderdog_ice"
+  },
+  {
+    "id": "pal_icefox",
+    "name": "Foxcicle",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icefox"
+  },
+  {
+    "id": "pal_kingalpaca_ice",
+    "name": "Kingpaca Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingalpaca_ice"
+  },
+  {
+    "id": "pal_mopbaby",
+    "name": "Swee",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mopbaby"
+  },
+  {
+    "id": "pal_mopking",
+    "name": "Sweepa",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mopking"
+  },
+  {
+    "id": "pal_thunderbird_ice",
+    "name": "Beakon Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderbird_ice"
+  },
+  {
+    "id": "pal_weaseldragon",
+    "name": "Chillet",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_weaseldragon"
+  },
+  {
+    "id": "pal_volcanodragon_ice",
+    "name": "Moldron Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_volcanodragon_ice"
+  },
+  {
+    "id": "pal_rockbeast_ice",
+    "name": "Pierdon Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_rockbeast_ice"
+  },
+  {
+    "id": "pal_icenarwhal",
+    "name": "Whalaska",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icenarwhal"
+  },
+  {
+    "id": "pal_icenarwhal_fire",
+    "name": "Whalaska Ignis",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icenarwhal_fire"
+  },
+  {
+    "id": "pal_kitsunebi_ice",
+    "name": "Foxparks Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kitsunebi_ice"
+  },
+  {
+    "id": "pal_werewolf_ice",
+    "name": "Loupmoon Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_werewolf_ice"
+  },
+  {
+    "id": "pal_snowtigerbeastman",
+    "name": "Bastigor",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_snowtigerbeastman"
+  },
+  {
+    "id": "pal_icewitch",
+    "name": "Icelyn",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icewitch"
+  },
+  {
+    "id": "pal_smallyeti",
+    "name": "Snugloo",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_smallyeti"
+  },
+  {
+    "id": "pal_icecrocodile",
+    "name": "Munchill",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_icecrocodile"
+  },
+  {
+    "id": "pal_iceseal",
+    "name": "Polapup",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_iceseal"
+  },
+  {
+    "id": "pal_iceseal_ground",
+    "name": "Polapup Terra",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_iceseal_ground"
+  },
+  {
+    "id": "pal_snowpeafowl",
+    "name": "Frostplume",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_snowpeafowl"
+  },
+  {
+    "id": "pal_fluffybird",
+    "name": "Muffly",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_fluffybird"
+  },
+  {
+    "id": "pal_grassminotaur_ice",
+    "name": "Elgrove Cryst",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grassminotaur_ice"
+  },
+  {
+    "id": "pal_colorfulbird",
+    "name": "Tocotoco",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_colorfulbird"
+  },
+  {
+    "id": "pal_deer",
+    "name": "Eikthyrdeer",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_deer"
+  },
+  {
+    "id": "pal_eagle",
+    "name": "Galeclaw",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_eagle"
+  },
+  {
+    "id": "pal_garm",
+    "name": "Direhowl",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_garm"
+  },
+  {
+    "id": "pal_gorilla",
+    "name": "Gorirat",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_gorilla"
+  },
+  {
+    "id": "pal_mutant",
+    "name": "Lunaris",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mutant"
+  },
+  {
+    "id": "pal_sheepball",
+    "name": "Lamball",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sheepball"
+  },
+  {
+    "id": "pal_sweetssheep",
+    "name": "Woolipop",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sweetssheep"
+  },
+  {
+    "id": "pal_alpaca",
+    "name": "Melpaca",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_alpaca"
+  },
+  {
+    "id": "pal_pinkcat",
+    "name": "Cattiva",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_pinkcat"
+  },
+  {
+    "id": "pal_fengyundeeper",
+    "name": "Fenglope",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_fengyundeeper"
+  },
+  {
+    "id": "pal_chickenpal",
+    "name": "Chikipi",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_chickenpal"
+  },
+  {
+    "id": "pal_whitemoth_neutral",
+    "name": "Sibelyx Primo",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitemoth_neutral"
+  },
+  {
+    "id": "pal_cutefox",
+    "name": "Vixy",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cutefox"
+  },
+  {
+    "id": "pal_negativeoctopus_neutral",
+    "name": "Killamari Primo",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_negativeoctopus_neutral"
+  },
+  {
+    "id": "pal_cowpal",
+    "name": "Mozzarina",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cowpal"
+  },
+  {
+    "id": "pal_hawkbird",
+    "name": "Nitewing",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hawkbird"
+  },
+  {
+    "id": "pal_kingalpaca",
+    "name": "Kingpaca",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingalpaca"
+  },
+  {
+    "id": "pal_pinkrabbit",
+    "name": "Ribbuny",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_pinkrabbit"
+  },
+  {
+    "id": "pal_saintcentaur",
+    "name": "Paladius",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_saintcentaur"
+  },
+  {
+    "id": "pal_naughtycat",
+    "name": "Grintale",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_naughtycat"
+  },
+  {
+    "id": "pal_woolfox",
+    "name": "Cremis",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_woolfox"
+  },
+  {
+    "id": "pal_guardiandog",
+    "name": "Yakumo",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_guardiandog"
+  },
+  {
+    "id": "pal_sifudog",
+    "name": "Dogen",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sifudog"
+  },
+  {
+    "id": "pal_mimicdog",
+    "name": "Mimog",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_mimicdog"
+  },
+  {
+    "id": "pal_nightbluehorse_neutral",
+    "name": "Starryon Primo",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_nightbluehorse_neutral"
+  },
+  {
+    "id": "pal_whitedeer",
+    "name": "Celesdir",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitedeer"
+  },
+  {
+    "id": "pal_legenddeer",
+    "name": "Hartalis",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_legenddeer"
+  },
+  {
+    "id": "pal_cubeturtle_neutral",
+    "name": "Tetroise Primo",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_cubeturtle_neutral"
+  },
+  {
+    "id": "pal_longcat",
+    "name": "Valentail",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_longcat"
+  },
+  {
+    "id": "pal_sleeverabbit",
+    "name": "Lapure",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/db/paldeck/pal_sleeverabbit"
+  },
+  {
+    "id": "pal_elecpanda",
+    "name": "Grizzbolt",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_elecpanda"
+  },
+  {
+    "id": "pal_hedgehog",
+    "name": "Jolthog",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_hedgehog"
+  },
+  {
+    "id": "pal_kirin",
+    "name": "Univolt",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kirin"
+  },
+  {
+    "id": "pal_raijindaughter",
+    "name": "Dazzi",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_raijindaughter"
+  },
+  {
+    "id": "pal_flowerdinosaur_electric",
+    "name": "Dinossom Lux",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_flowerdinosaur_electric"
+  },
+  {
+    "id": "pal_eleccat",
+    "name": "Sparkit",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_eleccat"
+  },
+  {
+    "id": "pal_grasspanda_electric",
+    "name": "Mossanda Lux",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_grasspanda_electric"
+  },
+  {
+    "id": "pal_thunderdog",
+    "name": "Rayhound",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderdog"
+  },
+  {
+    "id": "pal_thunderbird",
+    "name": "Beakon",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderbird"
+  },
+  {
+    "id": "pal_scorpionman_electric",
+    "name": "Prixter Lux",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_scorpionman_electric"
+  },
+  {
+    "id": "pal_eleclizard",
+    "name": "Slowatt",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_eleclizard"
+  },
+  {
+    "id": "pal_bluethunderhorse",
+    "name": "Azurmane",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_bluethunderhorse"
+  },
+  {
+    "id": "pal_fengyundeeper_electric",
+    "name": "Fenglope Lux",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_fengyundeeper_electric"
+  },
+  {
+    "id": "pal_elecpomeranian",
+    "name": "Puffolt",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_elecpomeranian"
+  },
+  {
+    "id": "pal_thunderfluffybird",
+    "name": "Dynamoff",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderfluffybird"
+  },
+  {
+    "id": "pal_elecsnail",
+    "name": "Snock",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_elecsnail"
+  },
+  {
+    "id": "pal_elecsnail_ground",
+    "name": "Snock Lux",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/db/paldeck/pal_elecsnail_ground"
+  },
+  {
+    "id": "pal_umihebi",
+    "name": "Jormuntide",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_umihebi"
+  },
+  {
+    "id": "pal_umihebi_fire",
+    "name": "Jormuntide Ignis",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_umihebi_fire"
+  },
+  {
+    "id": "pal_fairydragon",
+    "name": "Elphidran",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_fairydragon"
+  },
+  {
+    "id": "pal_fairydragon_water",
+    "name": "Elphidran Aqua",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_fairydragon_water"
+  },
+  {
+    "id": "pal_lazydragon",
+    "name": "Relaxaurus",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lazydragon"
+  },
+  {
+    "id": "pal_lazydragon_electric",
+    "name": "Relaxaurus Lux",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_lazydragon_electric"
+  },
+  {
+    "id": "pal_kingbahamut_dragon",
+    "name": "Blazamut Ryu",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_kingbahamut_dragon"
+  },
+  {
+    "id": "pal_blackmetaldragon",
+    "name": "Astegon",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blackmetaldragon"
+  },
+  {
+    "id": "pal_jetdragon",
+    "name": "Jetragon",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_jetdragon"
+  },
+  {
+    "id": "pal_skydragon",
+    "name": "Quivern",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_skydragon"
+  },
+  {
+    "id": "pal_skydragon_grass",
+    "name": "Quivern Botan",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_skydragon_grass"
+  },
+  {
+    "id": "pal_thunderdragonman",
+    "name": "Orserk",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_thunderdragonman"
+  },
+  {
+    "id": "pal_whitealiendragon",
+    "name": "Xenogard",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whitealiendragon"
+  },
+  {
+    "id": "pal_whiteshielddragon",
+    "name": "Silvegis",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_whiteshielddragon"
+  },
+  {
+    "id": "pal_blueskydragon",
+    "name": "Shaolong",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_blueskydragon"
+  },
+  {
+    "id": "pal_ghostdragon",
+    "name": "Eidrolon",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostdragon"
+  },
+  {
+    "id": "pal_ghostdragon_fire",
+    "name": "Eidrolon Ignis",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_ghostdragon_fire"
+  },
+  {
+    "id": "pal_domearmordragon",
+    "name": "Aegidron",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/db/paldeck/pal_domearmordragon"
+  },
+  {
+    "id": "pal_worldtreedragon",
+    "name": "Astralym",
+    "elementGroup": "Neutral",
+    "url": "https://palworld.th.gl/db/paldeck/pal_worldtreedragon"
+  }
+]

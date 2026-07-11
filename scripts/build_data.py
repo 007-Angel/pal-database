@@ -13,6 +13,9 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 TECH_URL = "https://docs.palworldgame.com/settings-and-operation/technologyids/"
 RECIPES_URL = "https://palworld.th.gl/zh-CN/db/recipes"
 PALDECK_10_URL = "https://palworld.th.gl/zh-CN/db/paldeck"
+PALDECK_10_EN_URL = "https://palworld.th.gl/db/paldeck"
+PALDB_PALS_URL = "https://paldb.cc/en/Pals"
+PALDB_EN_BASE_URL = "https://paldb.cc/en/"
 PALDECK_10_SUPPLEMENTS = RAW_DIR / "paldeck-1.0-supplements.zh-CN.json"
 
 
@@ -57,6 +60,33 @@ WORK_NAMES = {
     "cooling": "冷却",
     "transporting": "搬运",
     "farming": "牧场",
+}
+
+PALDB_ELEMENT_NAMES = {
+    "Neutral": "无",
+    "Fire": "火",
+    "Water": "水",
+    "Electric": "雷",
+    "Grass": "草",
+    "Ice": "冰",
+    "Ground": "地",
+    "Dark": "暗",
+    "Dragon": "龙",
+}
+
+PALDB_WORK_NAMES = {
+    "Kindling": "生火",
+    "Watering": "浇水",
+    "Planting": "播种",
+    "Generating Electricity": "发电",
+    "Handiwork": "手工作业",
+    "Gathering": "采集",
+    "Lumbering": "伐木",
+    "Mining": "采矿",
+    "Medicine Production": "制药",
+    "Cooling": "冷却",
+    "Transporting": "搬运",
+    "Farming": "牧场",
 }
 
 PAL_ZH = {
@@ -174,13 +204,13 @@ def build_paldeck(pals):
     }
 
 
-def extract_thgl_paldeck_rows(html):
+def extract_thgl_paldeck_rows(html, detail_base_url):
     rows = []
     category = ""
     seen = set()
     pattern = re.compile(
         r'<div class="text-xs uppercase tracking-wider text-muted-foreground mb-1 px-1\.5">([^<]+)</div>'
-        r'|<a class="flex items-center gap-2 [^"]*" href="/zh-CN/db/paldeck/([^"]+)".*?'
+        r'|<a class="flex items-center gap-2 [^"]*" href="/(?:zh-CN/)?db/paldeck/([^"]+)".*?'
         r'<span class="truncate text-sm">([^<]+)</span>',
         re.S,
     )
@@ -197,7 +227,7 @@ def extract_thgl_paldeck_rows(html):
                     "id": pal_id,
                     "name": name,
                     "elementGroup": category,
-                    "url": urljoin(PALDECK_10_URL + "/", pal_id),
+                    "url": urljoin(detail_base_url + "/", pal_id),
                 }
             )
     return rows
@@ -215,31 +245,105 @@ def load_thgl_paldeck_rows():
     with urllib.request.urlopen(request, timeout=30) as response:
         html = response.read().decode("utf-8")
 
-    rows = extract_thgl_paldeck_rows(html)
+    rows = extract_thgl_paldeck_rows(html, PALDECK_10_URL)
     raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return rows
 
 
-def build_paldeck_10(rows):
-    records = [
-        {
-            "id": row["id"],
-            "name": row["name"],
-            "elementGroup": THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
-            "source": row.get("source", "TH.GL Palworld Paldeck"),
-            "detail": row.get("detail", row.get("url", "")),
-        }
-        for row in rows
-    ]
+def load_thgl_paldeck_en_rows():
+    raw_json = RAW_DIR / "palworld-thgl-paldeck.en-US.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    request = urllib.request.Request(
+        PALDECK_10_EN_URL,
+        headers={"User-Agent": "pal-database-data-builder/1.0 (+https://pal-database.pages.dev/)"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        html = response.read().decode("utf-8")
+
+    rows = extract_thgl_paldeck_rows(html, PALDECK_10_EN_URL)
+    raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return rows
+
+
+def extract_paldb_paldeck_rows(html):
+    pattern = re.compile(
+        r'<div class="col" data-filters="([^"]*)".*?'
+        r'<span class="text-white-50 small">#([^<]+)</span>\s*'
+        r'<a class="itemname"[^>]*href="([^"]+)"[^>]*>([^<]+)</a>',
+        re.S,
+    )
+    rows = []
+    for match in pattern.finditer(html):
+        filters, number, slug, english_name = (unescape(value).strip() for value in match.groups())
+        tokens = filters.split()
+        elements = [PALDB_ELEMENT_NAMES[token] for token in tokens if token in PALDB_ELEMENT_NAMES]
+        work = []
+        for source_name, chinese_name in PALDB_WORK_NAMES.items():
+            work_match = re.search(rf"{re.escape(source_name)}([0-9]+)?\b", filters)
+            if not work_match:
+                continue
+            level = work_match.group(1)
+            work.append(f"{chinese_name} Lv{level}" if level else chinese_name)
+        if number and english_name:
+            rows.append(
+                {
+                    "number": number,
+                    "englishName": english_name,
+                    "elements": "、".join(elements),
+                    "workSuitability": "、".join(work),
+                    "url": urljoin(PALDB_EN_BASE_URL, slug),
+                }
+            )
+    return rows
+
+
+def load_paldb_paldeck_rows():
+    raw_json = RAW_DIR / "paldb-pals.en-US.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    request = urllib.request.Request(
+        PALDB_PALS_URL,
+        headers={"User-Agent": "pal-database-data-builder/1.0 (+https://pal-database.pages.dev/)"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        html = response.read().decode("utf-8")
+
+    rows = extract_paldb_paldeck_rows(html)
+    raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return rows
+
+
+def build_paldeck_10(rows, english_rows, paldb_rows):
+    english_by_id = {row["id"]: row["name"] for row in english_rows}
+    paldb_by_name = {row["englishName"]: row for row in paldb_rows}
+    records = []
+    for row in rows:
+        english_name = row.get("englishName", english_by_id.get(row["id"], ""))
+        paldb_row = paldb_by_name.get(english_name, {})
+        records.append(
+            {
+                "number": paldb_row.get("number", ""),
+                "name": row["name"],
+                "elements": paldb_row.get("elements")
+                or THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
+                "workSuitability": paldb_row.get("workSuitability") or "资料源未列出",
+                "id": row["id"],
+                "detail": row.get("detail", row.get("url", "")),
+            }
+        )
     return {
-        "title": "1.0 帕鲁图鉴索引",
-        "description": "按公开 Paldeck 列表和交叉核验资料整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。",
+        "title": "1.0 帕鲁图鉴",
+        "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性和详情入口。",
         "lastVerified": "2026-07-11",
         "columns": [
-            {"key": "id", "label": "Paldeck ID"},
+            {"key": "number", "label": "编号"},
             {"key": "name", "label": "名称"},
-            {"key": "elementGroup", "label": "元素分组"},
-            {"key": "source", "label": "来源"},
+            {"key": "elements", "label": "元素"},
+            {"key": "workSuitability", "label": "工作适性"},
+            {"key": "id", "label": "Paldeck ID"},
             {"key": "detail", "label": "详情"},
         ],
         "records": records,
@@ -257,8 +361,8 @@ def build_paldeck_10(rows):
                 "url": "https://github.com/mlg404/palworld-paldex-api",
             },
             {
-                "label": "PalDB CN cross-check",
-                "url": "https://paldb.cc/cn/Pals",
+                "label": "PalDB Pals（编号、元素、工作适性）",
+                "url": PALDB_PALS_URL,
             },
             {
                 "label": "Palworld.gg cross-check",
@@ -548,10 +652,16 @@ def main():
     recipe_rows = load_recipe_rows()
     paldeck_10_rows = load_thgl_paldeck_rows()
     paldeck_10_rows = merge_paldeck_10_rows(paldeck_10_rows, load_paldeck_10_supplements())
+    paldeck_10_english_rows = load_thgl_paldeck_en_rows()
+    paldb_paldeck_rows = load_paldb_paldeck_rows()
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
-        "paldeck-1.0.zh-CN.json": build_paldeck_10(paldeck_10_rows),
+        "paldeck-1.0.zh-CN.json": build_paldeck_10(
+            paldeck_10_rows,
+            paldeck_10_english_rows,
+            paldb_paldeck_rows,
+        ),
         "materials.zh-CN.json": build_materials(pals),
         "breeding.zh-CN.json": build_breeding(pals, breeding),
         "technology.zh-CN.json": build_technology(technology_rows),
