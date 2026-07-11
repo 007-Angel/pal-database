@@ -12,6 +12,7 @@ OUT_DIR = ROOT / "data" / "generated"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 TECH_URL = "https://docs.palworldgame.com/settings-and-operation/technologyids/"
 RECIPES_URL = "https://palworld.th.gl/zh-CN/db/recipes"
+PALDECK_10_URL = "https://palworld.th.gl/zh-CN/db/paldeck"
 
 
 TYPE_NAMES = {
@@ -24,6 +25,18 @@ TYPE_NAMES = {
     "ground": "地",
     "dark": "暗",
     "dragon": "龙",
+}
+
+THGL_ELEMENT_NAMES = {
+    "Dark": "暗",
+    "Dragon": "龙",
+    "Electric": "雷",
+    "Fire": "火",
+    "Grass": "草",
+    "Ground": "地",
+    "Ice": "冰",
+    "Neutral": "无",
+    "Water": "水",
 }
 
 WORK_NAMES = {
@@ -151,6 +164,88 @@ def build_paldeck(pals):
             {
                 "label": "Palworld 官方页面",
                 "url": "https://www.pocketpair.jp/en/games-en/palworld-en/",
+            },
+        ],
+    }
+
+
+def extract_thgl_paldeck_rows(html):
+    rows = []
+    category = ""
+    seen = set()
+    pattern = re.compile(
+        r'<div class="text-xs uppercase tracking-wider text-muted-foreground mb-1 px-1\.5">([^<]+)</div>'
+        r'|<a class="flex items-center gap-2 [^"]*" href="/zh-CN/db/paldeck/([^"]+)".*?'
+        r'<span class="truncate text-sm">([^<]+)</span>',
+        re.S,
+    )
+    for match in pattern.finditer(html):
+        if match.group(1):
+            category = unescape(match.group(1)).strip()
+            continue
+        pal_id = unescape(match.group(2)).strip()
+        name = unescape(match.group(3)).strip()
+        if pal_id and name and pal_id not in seen:
+            seen.add(pal_id)
+            rows.append(
+                {
+                    "id": pal_id,
+                    "name": name,
+                    "elementGroup": category,
+                    "url": urljoin(PALDECK_10_URL + "/", pal_id),
+                }
+            )
+    return rows
+
+
+def load_thgl_paldeck_rows():
+    raw_json = RAW_DIR / "palworld-thgl-paldeck.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    request = urllib.request.Request(
+        PALDECK_10_URL,
+        headers={"User-Agent": "pal-database-data-builder/1.0 (+https://pal-database.pages.dev/)"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        html = response.read().decode("utf-8")
+
+    rows = extract_thgl_paldeck_rows(html)
+    raw_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return rows
+
+
+def build_paldeck_10(rows):
+    records = [
+        {
+            "id": row["id"],
+            "name": row["name"],
+            "elementGroup": THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
+            "source": "TH.GL Palworld Paldeck",
+            "detail": row["url"],
+        }
+        for row in rows
+    ]
+    return {
+        "title": "1.0 帕鲁图鉴索引",
+        "description": "按公开 Paldeck 列表整理 1.0 图鉴 ID、中文名、元素分组和来源详情页。官方 1.0 更新日志称帕鲁总数为 287。",
+        "lastVerified": "2026-07-11",
+        "columns": [
+            {"key": "id", "label": "Paldeck ID"},
+            {"key": "name", "label": "名称"},
+            {"key": "elementGroup", "label": "元素分组"},
+            {"key": "source", "label": "来源"},
+            {"key": "detail", "label": "详情"},
+        ],
+        "records": records,
+        "sources": [
+            {
+                "label": "TH.GL Palworld Paldeck",
+                "url": PALDECK_10_URL,
+            },
+            {
+                "label": "Palworld v1.0 官方更新日志",
+                "url": "https://store.steampowered.com/news/app/1623730/view/686383649529010623?l=schinese",
             },
         ],
     }
@@ -418,9 +513,11 @@ def main():
     breeding = json.loads((RAW_DIR / "paldex-api-breeding.json").read_text(encoding="utf-8"))
     technology_rows = load_technology_rows()
     recipe_rows = load_recipe_rows()
+    paldeck_10_rows = load_thgl_paldeck_rows()
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
+        "paldeck-1.0.zh-CN.json": build_paldeck_10(paldeck_10_rows),
         "materials.zh-CN.json": build_materials(pals),
         "breeding.zh-CN.json": build_breeding(pals, breeding),
         "technology.zh-CN.json": build_technology(technology_rows),

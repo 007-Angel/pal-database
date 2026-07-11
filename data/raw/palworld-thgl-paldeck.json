@@ -1,0 +1,1718 @@
+[
+  {
+    "id": "pal_badcatgirl",
+    "name": "妮瞅莎",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_badcatgirl"
+  },
+  {
+    "id": "pal_baphomet_dark",
+    "name": "暗魔羊",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_baphomet_dark"
+  },
+  {
+    "id": "pal_bastet",
+    "name": "喵丝特",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bastet"
+  },
+  {
+    "id": "pal_werewolf",
+    "name": "月镰魔",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_werewolf"
+  },
+  {
+    "id": "pal_darkcrow",
+    "name": "黑鸦隐士",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkcrow"
+  },
+  {
+    "id": "pal_negativekoala",
+    "name": "瞅什魔",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativekoala"
+  },
+  {
+    "id": "pal_ghostbeast",
+    "name": "噬魂兽",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostbeast"
+  },
+  {
+    "id": "pal_lizardman",
+    "name": "朋克蜥",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lizardman"
+  },
+  {
+    "id": "pal_icehorse_dark",
+    "name": "唤夜兽",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icehorse_dark"
+  },
+  {
+    "id": "pal_catvampire",
+    "name": "夜幕魔蝠",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catvampire"
+  },
+  {
+    "id": "pal_blackgriffon",
+    "name": "异构格里芬",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackgriffon"
+  },
+  {
+    "id": "pal_pinklizard",
+    "name": "博爱蜥",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinklizard"
+  },
+  {
+    "id": "pal_wizardowl",
+    "name": "啼卡尔",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_wizardowl"
+  },
+  {
+    "id": "pal_negativeoctopus",
+    "name": "勾魂鱿",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativeoctopus"
+  },
+  {
+    "id": "pal_lilyqueen_dark",
+    "name": "黑月女王",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lilyqueen_dark"
+  },
+  {
+    "id": "pal_catbat",
+    "name": "猫蝠怪",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catbat"
+  },
+  {
+    "id": "pal_dreamdemon",
+    "name": "寐魔",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_dreamdemon"
+  },
+  {
+    "id": "pal_catmage",
+    "name": "暗巫猫",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catmage"
+  },
+  {
+    "id": "pal_catmage_fire",
+    "name": "炽巫猫",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catmage_fire"
+  },
+  {
+    "id": "pal_nightfox",
+    "name": "露娜蒂",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightfox"
+  },
+  {
+    "id": "pal_hadesbird",
+    "name": "雷冥鸟",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hadesbird"
+  },
+  {
+    "id": "pal_hadesbird_electric",
+    "name": "雷鸣鸟",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hadesbird_electric"
+  },
+  {
+    "id": "pal_blackcentaur",
+    "name": "混沌骑士",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackcentaur"
+  },
+  {
+    "id": "pal_darkscorpion",
+    "name": "冥铠蝎",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkscorpion"
+  },
+  {
+    "id": "pal_nightlady",
+    "name": "贝菈诺娃",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightlady"
+  },
+  {
+    "id": "pal_nightlady_dark",
+    "name": "贝菈露洁",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightlady_dark"
+  },
+  {
+    "id": "pal_moonqueen",
+    "name": "辉月伊",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_moonqueen"
+  },
+  {
+    "id": "pal_candleghost",
+    "name": "恐炬灵",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_candleghost"
+  },
+  {
+    "id": "pal_scorpionman",
+    "name": "蛊刺妖",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_scorpionman"
+  },
+  {
+    "id": "pal_darkalien",
+    "name": "杰诺贝达",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkalien"
+  },
+  {
+    "id": "pal_darkmechadragon",
+    "name": "杰诺多兰",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkmechadragon"
+  },
+  {
+    "id": "pal_ghostrabbit",
+    "name": "魅爱莉",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostrabbit"
+  },
+  {
+    "id": "pal_nightbluehorse",
+    "name": "夜冥驹",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightbluehorse"
+  },
+  {
+    "id": "pal_blackpuppy",
+    "name": "墨丸",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackpuppy"
+  },
+  {
+    "id": "pal_blackpuppy_ice",
+    "name": "冬丸",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackpuppy_ice"
+  },
+  {
+    "id": "pal_whitedeer_dark",
+    "name": "织夜鹿",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitedeer_dark"
+  },
+  {
+    "id": "pal_mysterymask",
+    "name": "面惧",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mysterymask"
+  },
+  {
+    "id": "pal_hoodghost",
+    "name": "兜兜灵",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hoodghost"
+  },
+  {
+    "id": "pal_grimgirl",
+    "name": "幽恋娜",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grimgirl"
+  },
+  {
+    "id": "pal_purplespider",
+    "name": "桃蛛娘",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_purplespider"
+  },
+  {
+    "id": "pal_berrygoat_dark",
+    "name": "郁木羊",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_berrygoat_dark"
+  },
+  {
+    "id": "pal_amaterasuwolf_dark",
+    "name": "幽焰狼",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_amaterasuwolf_dark"
+  },
+  {
+    "id": "pal_raijindaughter_water",
+    "name": "天阴童子",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_raijindaughter_water"
+  },
+  {
+    "id": "pal_snakegirl",
+    "name": "梅杜娜",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snakegirl"
+  },
+  {
+    "id": "pal_ghostanglerfish",
+    "name": "冥灯鱼",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostanglerfish"
+  },
+  {
+    "id": "pal_cactusdoll_dark",
+    "name": "妖抱苞",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cactusdoll_dark"
+  },
+  {
+    "id": "pal_ghostblackcat",
+    "name": "念影喵",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostblackcat"
+  },
+  {
+    "id": "pal_thiefbird",
+    "name": "盗影鸦",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thiefbird"
+  },
+  {
+    "id": "pal_onighostgirl",
+    "name": "吓丝妮",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_onighostgirl"
+  },
+  {
+    "id": "pal_moonchild",
+    "name": "缀夜星",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_moonchild"
+  },
+  {
+    "id": "pal_mummypal",
+    "name": "缚乃伊",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mummypal"
+  },
+  {
+    "id": "pal_monochromequeen",
+    "name": "墨罗娜",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monochromequeen"
+  },
+  {
+    "id": "pal_lanternbutler",
+    "name": "妖焰灯",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lanternbutler"
+  },
+  {
+    "id": "pal_darkflamefox",
+    "name": "紫狐娇",
+    "elementGroup": "Dark",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkflamefox"
+  },
+  {
+    "id": "pal_blueberryfairy",
+    "name": "梅莉姆",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueberryfairy"
+  },
+  {
+    "id": "pal_carbunclo",
+    "name": "翠叶鼠",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_carbunclo"
+  },
+  {
+    "id": "pal_littlebriarrose",
+    "name": "荊棘魔仙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_littlebriarrose"
+  },
+  {
+    "id": "pal_robinhood",
+    "name": "羽箭射手",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood"
+  },
+  {
+    "id": "pal_robinhood_ground",
+    "name": "山岳射手",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood_ground"
+  },
+  {
+    "id": "pal_flowerdinosaur",
+    "name": "花冠龙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur"
+  },
+  {
+    "id": "pal_grassmammoth",
+    "name": "森猛犸",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassmammoth"
+  },
+  {
+    "id": "pal_sakurasaurus",
+    "name": "连理龙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus"
+  },
+  {
+    "id": "pal_sakurasaurus_water",
+    "name": "海誓龙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus_water"
+  },
+  {
+    "id": "pal_berrygoat",
+    "name": "灌木羊",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_berrygoat"
+  },
+  {
+    "id": "pal_yeti_grass",
+    "name": "绿苔绒怪",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_yeti_grass"
+  },
+  {
+    "id": "pal_violetfairy",
+    "name": "薇莉塔",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_violetfairy"
+  },
+  {
+    "id": "pal_flowerrabbit",
+    "name": "波娜兔",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerrabbit"
+  },
+  {
+    "id": "pal_lilyqueen",
+    "name": "百合女王",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lilyqueen"
+  },
+  {
+    "id": "pal_queenbee",
+    "name": "女皇蜂",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_queenbee"
+  },
+  {
+    "id": "pal_soldierbee",
+    "name": "骑士蜂",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_soldierbee"
+  },
+  {
+    "id": "pal_grasspanda",
+    "name": "叶胖达",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda"
+  },
+  {
+    "id": "pal_grassrabbitman",
+    "name": "踏春兔",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassrabbitman"
+  },
+  {
+    "id": "pal_monkey",
+    "name": "新叶猿",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monkey"
+  },
+  {
+    "id": "pal_plantslime",
+    "name": "叶泥泥",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plantslime"
+  },
+  {
+    "id": "pal_flowerdoll",
+    "name": "花丽娜",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll"
+  },
+  {
+    "id": "pal_flowerdoll_fire",
+    "name": "樱丽娜",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll_fire"
+  },
+  {
+    "id": "pal_cutebutterfly",
+    "name": "幻悦蝶",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutebutterfly"
+  },
+  {
+    "id": "pal_leafprincess",
+    "name": "春彩娘",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafprincess"
+  },
+  {
+    "id": "pal_mushroomdragon",
+    "name": "菇咚",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon"
+  },
+  {
+    "id": "pal_mushroomdragon_dark",
+    "name": "菇波",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon_dark"
+  },
+  {
+    "id": "pal_ghostrabbit_grass",
+    "name": "碧艾莉",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostrabbit_grass"
+  },
+  {
+    "id": "pal_pinkrabbit_grass",
+    "name": "艾小兔",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit_grass"
+  },
+  {
+    "id": "pal_leafmomonga",
+    "name": "达鼠泥",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafmomonga"
+  },
+  {
+    "id": "pal_cactusdoll",
+    "name": "球抱苞",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cactusdoll"
+  },
+  {
+    "id": "pal_mushroomlady",
+    "name": "红菇娘",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomlady"
+  },
+  {
+    "id": "pal_cloverfairy",
+    "name": "幸叶茸",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cloverfairy"
+  },
+  {
+    "id": "pal_plesiosaur",
+    "name": "梁叶龙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plesiosaur"
+  },
+  {
+    "id": "pal_tropicalostrich",
+    "name": "咕咕桑葩",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tropicalostrich"
+  },
+  {
+    "id": "pal_venusflytrap",
+    "name": "颚莉丝",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_venusflytrap"
+  },
+  {
+    "id": "pal_dandeliongirl",
+    "name": "蒲蒲飞芽",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_dandeliongirl"
+  },
+  {
+    "id": "pal_redflowerbird",
+    "name": "大红呱",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_redflowerbird"
+  },
+  {
+    "id": "pal_lotusdragon",
+    "name": "沁莲龙",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lotusdragon"
+  },
+  {
+    "id": "pal_pandagirl",
+    "name": "莉芳",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pandagirl"
+  },
+  {
+    "id": "pal_grassminotaur",
+    "name": "密林陶洛斯",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassminotaur"
+  },
+  {
+    "id": "pal_mothman",
+    "name": "暮尘蛾",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mothman"
+  },
+  {
+    "id": "pal_flowerprince",
+    "name": "夜蔓爵",
+    "elementGroup": "Leaf",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerprince"
+  },
+  {
+    "id": "pal_brownrabbit",
+    "name": "詹兔曼",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_brownrabbit"
+  },
+  {
+    "id": "pal_goldenhorse",
+    "name": "金驰兽",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_goldenhorse"
+  },
+  {
+    "id": "pal_anubis",
+    "name": "阿努比斯",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_anubis"
+  },
+  {
+    "id": "pal_boar",
+    "name": "草莽猪",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_boar"
+  },
+  {
+    "id": "pal_deer_ground",
+    "name": "祇岳鹿",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer_ground"
+  },
+  {
+    "id": "pal_drillgame",
+    "name": "碎岩龟",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_drillgame"
+  },
+  {
+    "id": "pal_gorilla_ground",
+    "name": "石掌猿",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla_ground"
+  },
+  {
+    "id": "pal_sweetssheep_ground",
+    "name": "可可棉花糖",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep_ground"
+  },
+  {
+    "id": "pal_serpent_ground",
+    "name": "流沙蛇",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_serpent_ground"
+  },
+  {
+    "id": "pal_cutemole",
+    "name": "遁地鼠",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutemole"
+  },
+  {
+    "id": "pal_herculesbeetle",
+    "name": "铠格力斯",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle"
+  },
+  {
+    "id": "pal_herculesbeetle_ground",
+    "name": "格鲁力斯",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle_ground"
+  },
+  {
+    "id": "pal_darkscorpion_ground",
+    "name": "金铠蝎",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkscorpion_ground"
+  },
+  {
+    "id": "pal_lazycatfish",
+    "name": "趴趴鲶",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish"
+  },
+  {
+    "id": "pal_lazycatfish_gold",
+    "name": "梆梆鲶",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish_gold"
+  },
+  {
+    "id": "pal_smallarmadillo",
+    "name": "球犰",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_smallarmadillo"
+  },
+  {
+    "id": "pal_winggolem",
+    "name": "泰锋",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_winggolem"
+  },
+  {
+    "id": "pal_featherostrich",
+    "name": "战冠雀",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_featherostrich"
+  },
+  {
+    "id": "pal_sekhmet",
+    "name": "塞赫麦特",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sekhmet"
+  },
+  {
+    "id": "pal_rockbeast",
+    "name": "磐峰兽",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_rockbeast"
+  },
+  {
+    "id": "pal_whitetiger_ground",
+    "name": "金棘兽",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitetiger_ground"
+  },
+  {
+    "id": "pal_grassgolem",
+    "name": "双心岩傀",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem"
+  },
+  {
+    "id": "pal_grassgolem_dark",
+    "name": "咒心岩傀",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem_dark"
+  },
+  {
+    "id": "pal_cubeturtle",
+    "name": "重岩龟",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle"
+  },
+  {
+    "id": "pal_samuraidog",
+    "name": "宗铭丸",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_samuraidog"
+  },
+  {
+    "id": "pal_sumodog",
+    "name": "力士獒",
+    "elementGroup": "Earth",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sumodog"
+  },
+  {
+    "id": "pal_tentacleturtle",
+    "name": "盔盔仔",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tentacleturtle"
+  },
+  {
+    "id": "pal_tentacleturtle_ground",
+    "name": "金盔仔",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tentacleturtle_ground"
+  },
+  {
+    "id": "pal_ganesha",
+    "name": "壶小象",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ganesha"
+  },
+  {
+    "id": "pal_penguin",
+    "name": "企丸丸",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_penguin"
+  },
+  {
+    "id": "pal_penguin_electric",
+    "name": "闪丸丸",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_penguin_electric"
+  },
+  {
+    "id": "pal_sharkkid",
+    "name": "鲨小子",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sharkkid"
+  },
+  {
+    "id": "pal_suzaku_water",
+    "name": "清雀",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_suzaku_water"
+  },
+  {
+    "id": "pal_serpent",
+    "name": "滑水蛇",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_serpent"
+  },
+  {
+    "id": "pal_bluedragon",
+    "name": "碧海龙",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluedragon"
+  },
+  {
+    "id": "pal_blueplatypus",
+    "name": "冲浪鸭",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueplatypus"
+  },
+  {
+    "id": "pal_blueplatypus_fire",
+    "name": "热浪鸭",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueplatypus_fire"
+  },
+  {
+    "id": "pal_kelpie",
+    "name": "水灵儿",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kelpie"
+  },
+  {
+    "id": "pal_captainpenguin",
+    "name": "企丸王",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_captainpenguin"
+  },
+  {
+    "id": "pal_captainpenguin_black",
+    "name": "闪丸王",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_captainpenguin_black"
+  },
+  {
+    "id": "pal_flyingmanta",
+    "name": "鲁米儿",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flyingmanta"
+  },
+  {
+    "id": "pal_flyingmanta_thunder",
+    "name": "雷米儿",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flyingmanta_thunder"
+  },
+  {
+    "id": "pal_kendofrog",
+    "name": "武道蛙",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kendofrog"
+  },
+  {
+    "id": "pal_kendofrog_dark",
+    "name": "极道蛙",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kendofrog_dark"
+  },
+  {
+    "id": "pal_kingwhale",
+    "name": "奥沧鲸",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingwhale"
+  },
+  {
+    "id": "pal_octopusgirl",
+    "name": "墨沫姬",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_octopusgirl"
+  },
+  {
+    "id": "pal_octopusgirl_neutral",
+    "name": "梦沫姬",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_octopusgirl_neutral"
+  },
+  {
+    "id": "pal_jellyfishfairy",
+    "name": "海月仙",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jellyfishfairy"
+  },
+  {
+    "id": "pal_horus_water",
+    "name": "伊西斯",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_horus_water"
+  },
+  {
+    "id": "pal_stuffedshark",
+    "name": "布偶鲨",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_stuffedshark"
+  },
+  {
+    "id": "pal_stuffedshark_fire",
+    "name": "粉粉布偶鲨",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_stuffedshark_fire"
+  },
+  {
+    "id": "pal_jellyfishghost",
+    "name": "海月灵",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jellyfishghost"
+  },
+  {
+    "id": "pal_poseidonorca",
+    "name": "海皇鲸",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_poseidonorca"
+  },
+  {
+    "id": "pal_swordcutlassfish",
+    "name": "鞘刀鱼",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_swordcutlassfish"
+  },
+  {
+    "id": "pal_swordcutlassfish_fire",
+    "name": "炼刃鱼",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_swordcutlassfish_fire"
+  },
+  {
+    "id": "pal_kingsunfish",
+    "name": "曼波王",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingsunfish"
+  },
+  {
+    "id": "pal_kingsunfish_thunder",
+    "name": "曼波皇",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingsunfish_thunder"
+  },
+  {
+    "id": "pal_clionetwins",
+    "name": "莉欧·莉涅",
+    "elementGroup": "Water",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_clionetwins"
+  },
+  {
+    "id": "pal_baphomet",
+    "name": "炎魔羊",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_baphomet"
+  },
+  {
+    "id": "pal_kitsunebi",
+    "name": "火绒狐",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kitsunebi"
+  },
+  {
+    "id": "pal_sharkkid_fire",
+    "name": "红小鲨",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sharkkid_fire"
+  },
+  {
+    "id": "pal_suzaku",
+    "name": "朱雀",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_suzaku"
+  },
+  {
+    "id": "pal_firekirin",
+    "name": "火麒麟",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_firekirin"
+  },
+  {
+    "id": "pal_firekirin_dark",
+    "name": "邪麒麟",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_firekirin_dark"
+  },
+  {
+    "id": "pal_volcanicmonster",
+    "name": "熔岩兽",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanicmonster"
+  },
+  {
+    "id": "pal_amaterasuwolf",
+    "name": "苍焰狼",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_amaterasuwolf"
+  },
+  {
+    "id": "pal_lizardman_fire",
+    "name": "热血蜥",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lizardman_fire"
+  },
+  {
+    "id": "pal_birddragon",
+    "name": "烽歌龙",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_birddragon"
+  },
+  {
+    "id": "pal_horus",
+    "name": "荷鲁斯",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_horus"
+  },
+  {
+    "id": "pal_kingbahamut",
+    "name": "焰煌",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingbahamut"
+  },
+  {
+    "id": "pal_foxmage",
+    "name": "焰巫狐",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxmage"
+  },
+  {
+    "id": "pal_foxmage_dark",
+    "name": "幽巫狐",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxmage_dark"
+  },
+  {
+    "id": "pal_kelpie_fire",
+    "name": "火灵儿",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kelpie_fire"
+  },
+  {
+    "id": "pal_flamebuffalo",
+    "name": "炽焰牛",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flamebuffalo"
+  },
+  {
+    "id": "pal_monkey_fire",
+    "name": "秋叶猿",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monkey_fire"
+  },
+  {
+    "id": "pal_manticore",
+    "name": "狱焰王",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_manticore"
+  },
+  {
+    "id": "pal_manticore_dark",
+    "name": "狱阎王",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_manticore_dark"
+  },
+  {
+    "id": "pal_weaseldragon_fire",
+    "name": "桃旋鼬",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_weaseldragon_fire"
+  },
+  {
+    "id": "pal_redarmorbird",
+    "name": "燧火鸟",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_redarmorbird"
+  },
+  {
+    "id": "pal_ronin",
+    "name": "浪刃武士",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ronin"
+  },
+  {
+    "id": "pal_ronin_dark",
+    "name": "鬼刃武士",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ronin_dark"
+  },
+  {
+    "id": "pal_lavagirl",
+    "name": "融焰娘",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lavagirl"
+  },
+  {
+    "id": "pal_flamebambi",
+    "name": "燎火鹿",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flamebambi"
+  },
+  {
+    "id": "pal_winggolem_fire",
+    "name": "丹烽",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_winggolem_fire"
+  },
+  {
+    "id": "pal_volcanodragon",
+    "name": "流焰龙",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanodragon"
+  },
+  {
+    "id": "pal_ghostanglerfish_fire",
+    "name": "炙灯鱼",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostanglerfish_fire"
+  },
+  {
+    "id": "pal_clownrabbit",
+    "name": "拉比耶尔",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_clownrabbit"
+  },
+  {
+    "id": "pal_foxexorcist",
+    "name": "昭炎狐",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxexorcist"
+  },
+  {
+    "id": "pal_kabukiman",
+    "name": "燎火舞伶",
+    "elementGroup": "Fire",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kabukiman"
+  },
+  {
+    "id": "pal_bastet_ice",
+    "name": "冰丝特",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bastet_ice"
+  },
+  {
+    "id": "pal_hedgehog_ice",
+    "name": "冰刺鼠",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hedgehog_ice"
+  },
+  {
+    "id": "pal_kirin_ice",
+    "name": "凌角马",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kirin_ice"
+  },
+  {
+    "id": "pal_whitetiger",
+    "name": "冰棘兽",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitetiger"
+  },
+  {
+    "id": "pal_bluedragon_ice",
+    "name": "碧月龙",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluedragon_ice"
+  },
+  {
+    "id": "pal_volcanicmonster_ice",
+    "name": "寒霜兽",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanicmonster_ice"
+  },
+  {
+    "id": "pal_birddragon_ice",
+    "name": "霜歌龙",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_birddragon_ice"
+  },
+  {
+    "id": "pal_icehorse",
+    "name": "唤冬兽",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icehorse"
+  },
+  {
+    "id": "pal_grassmammoth_ice",
+    "name": "雪猛犸",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassmammoth_ice"
+  },
+  {
+    "id": "pal_icedeer",
+    "name": "严冬鹿",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icedeer"
+  },
+  {
+    "id": "pal_whitemoth",
+    "name": "绸笠蛾",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitemoth"
+  },
+  {
+    "id": "pal_yeti",
+    "name": "白绒雪怪",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_yeti"
+  },
+  {
+    "id": "pal_thunderdog_ice",
+    "name": "凛光犬",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdog_ice"
+  },
+  {
+    "id": "pal_icefox",
+    "name": "吹雪狐",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icefox"
+  },
+  {
+    "id": "pal_kingalpaca_ice",
+    "name": "冰帝美露帕",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingalpaca_ice"
+  },
+  {
+    "id": "pal_mopbaby",
+    "name": "毛掸儿",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mopbaby"
+  },
+  {
+    "id": "pal_mopking",
+    "name": "毛老爹",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mopking"
+  },
+  {
+    "id": "pal_thunderbird_ice",
+    "name": "疾霜鸟",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderbird_ice"
+  },
+  {
+    "id": "pal_weaseldragon",
+    "name": "疾旋鼬",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_weaseldragon"
+  },
+  {
+    "id": "pal_volcanodragon_ice",
+    "name": "川霜龙",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanodragon_ice"
+  },
+  {
+    "id": "pal_rockbeast_ice",
+    "name": "寒峰兽",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_rockbeast_ice"
+  },
+  {
+    "id": "pal_icenarwhal",
+    "name": "凉晶鲸",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icenarwhal"
+  },
+  {
+    "id": "pal_icenarwhal_fire",
+    "name": "桃晶鲸",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icenarwhal_fire"
+  },
+  {
+    "id": "pal_kitsunebi_ice",
+    "name": "雪绒狐",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kitsunebi_ice"
+  },
+  {
+    "id": "pal_werewolf_ice",
+    "name": "霜镰魔",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_werewolf_ice"
+  },
+  {
+    "id": "pal_snowtigerbeastman",
+    "name": "霜牙王",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snowtigerbeastman"
+  },
+  {
+    "id": "pal_icewitch",
+    "name": "冰姬灵",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icewitch"
+  },
+  {
+    "id": "pal_smallyeti",
+    "name": "雪墩墩",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_smallyeti"
+  },
+  {
+    "id": "pal_icecrocodile",
+    "name": "肚肚鳄",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icecrocodile"
+  },
+  {
+    "id": "pal_iceseal",
+    "name": "香草豹冰",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_iceseal"
+  },
+  {
+    "id": "pal_iceseal_ground",
+    "name": "巧克力豹冰",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_iceseal_ground"
+  },
+  {
+    "id": "pal_snowpeafowl",
+    "name": "白真雪雀",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snowpeafowl"
+  },
+  {
+    "id": "pal_fluffybird",
+    "name": "雪绵啾",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fluffybird"
+  },
+  {
+    "id": "pal_grassminotaur_ice",
+    "name": "冰峰陶洛斯",
+    "elementGroup": "Ice",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassminotaur_ice"
+  },
+  {
+    "id": "pal_colorfulbird",
+    "name": "炸蛋鸟",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_colorfulbird"
+  },
+  {
+    "id": "pal_deer",
+    "name": "紫霞鹿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer"
+  },
+  {
+    "id": "pal_eagle",
+    "name": "天擒鸟",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eagle"
+  },
+  {
+    "id": "pal_garm",
+    "name": "猎狼",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_garm"
+  },
+  {
+    "id": "pal_gorilla",
+    "name": "铁拳猿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla"
+  },
+  {
+    "id": "pal_mutant",
+    "name": "秘斯媞雅",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mutant"
+  },
+  {
+    "id": "pal_sheepball",
+    "name": "棉悠悠",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sheepball"
+  },
+  {
+    "id": "pal_sweetssheep",
+    "name": "棉花糖",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep"
+  },
+  {
+    "id": "pal_alpaca",
+    "name": "美露帕",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_alpaca"
+  },
+  {
+    "id": "pal_pinkcat",
+    "name": "捣蛋猫",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkcat"
+  },
+  {
+    "id": "pal_fengyundeeper",
+    "name": "云海鹿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper"
+  },
+  {
+    "id": "pal_chickenpal",
+    "name": "皮皮鸡",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_chickenpal"
+  },
+  {
+    "id": "pal_whitemoth_neutral",
+    "name": "绢笠蛾",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitemoth_neutral"
+  },
+  {
+    "id": "pal_cutefox",
+    "name": "玉藻狐",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutefox"
+  },
+  {
+    "id": "pal_negativeoctopus_neutral",
+    "name": "蚀魂鱿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativeoctopus_neutral"
+  },
+  {
+    "id": "pal_cowpal",
+    "name": "波霸牛",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cowpal"
+  },
+  {
+    "id": "pal_hawkbird",
+    "name": "疾风隼",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hawkbird"
+  },
+  {
+    "id": "pal_kingalpaca",
+    "name": "君王美露帕",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingalpaca"
+  },
+  {
+    "id": "pal_pinkrabbit",
+    "name": "姬小兔",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit"
+  },
+  {
+    "id": "pal_saintcentaur",
+    "name": "圣光骑士",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_saintcentaur"
+  },
+  {
+    "id": "pal_naughtycat",
+    "name": "笑魇猫",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_naughtycat"
+  },
+  {
+    "id": "pal_woolfox",
+    "name": "米露菲",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_woolfox"
+  },
+  {
+    "id": "pal_guardiandog",
+    "name": "八云犬",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_guardiandog"
+  },
+  {
+    "id": "pal_sifudog",
+    "name": "汪宗师",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sifudog"
+  },
+  {
+    "id": "pal_mimicdog",
+    "name": "旺财",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mimicdog"
+  },
+  {
+    "id": "pal_nightbluehorse_neutral",
+    "name": "日耀驹",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightbluehorse_neutral"
+  },
+  {
+    "id": "pal_whitedeer",
+    "name": "净世鹿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitedeer"
+  },
+  {
+    "id": "pal_legenddeer",
+    "name": "默世鹿",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_legenddeer"
+  },
+  {
+    "id": "pal_cubeturtle_neutral",
+    "name": "净岩龟",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle_neutral"
+  },
+  {
+    "id": "pal_longcat",
+    "name": "喵璐璐",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_longcat"
+  },
+  {
+    "id": "pal_sleeverabbit",
+    "name": "兔绣袖",
+    "elementGroup": "Normal",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sleeverabbit"
+  },
+  {
+    "id": "pal_elecpanda",
+    "name": "暴电熊",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpanda"
+  },
+  {
+    "id": "pal_hedgehog",
+    "name": "电棘鼠",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hedgehog"
+  },
+  {
+    "id": "pal_kirin",
+    "name": "雷角马",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kirin"
+  },
+  {
+    "id": "pal_raijindaughter",
+    "name": "雷鸣童子",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_raijindaughter"
+  },
+  {
+    "id": "pal_flowerdinosaur_electric",
+    "name": "雷冠龙",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur_electric"
+  },
+  {
+    "id": "pal_eleccat",
+    "name": "伏特喵",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleccat"
+  },
+  {
+    "id": "pal_grasspanda_electric",
+    "name": "雷胖达",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda_electric"
+  },
+  {
+    "id": "pal_thunderdog",
+    "name": "霹雳犬",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdog"
+  },
+  {
+    "id": "pal_thunderbird",
+    "name": "迅雷鸟",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderbird"
+  },
+  {
+    "id": "pal_scorpionman_electric",
+    "name": "电针妖",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_scorpionman_electric"
+  },
+  {
+    "id": "pal_eleclizard",
+    "name": "电懒懒",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleclizard"
+  },
+  {
+    "id": "pal_bluethunderhorse",
+    "name": "驭雷马",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluethunderhorse"
+  },
+  {
+    "id": "pal_fengyundeeper_electric",
+    "name": "雷隐鹿",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper_electric"
+  },
+  {
+    "id": "pal_elecpomeranian",
+    "name": "电汪汪",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpomeranian"
+  },
+  {
+    "id": "pal_thunderfluffybird",
+    "name": "雷云鹫",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderfluffybird"
+  },
+  {
+    "id": "pal_elecsnail",
+    "name": "电涡蜗",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail"
+  },
+  {
+    "id": "pal_elecsnail_ground",
+    "name": "金涡蜗",
+    "elementGroup": "Electricity",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail_ground"
+  },
+  {
+    "id": "pal_umihebi",
+    "name": "覆海龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_umihebi"
+  },
+  {
+    "id": "pal_umihebi_fire",
+    "name": "腾炎龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_umihebi_fire"
+  },
+  {
+    "id": "pal_fairydragon",
+    "name": "精灵龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fairydragon"
+  },
+  {
+    "id": "pal_fairydragon_water",
+    "name": "水灵龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fairydragon_water"
+  },
+  {
+    "id": "pal_lazydragon",
+    "name": "佩克龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazydragon"
+  },
+  {
+    "id": "pal_lazydragon_electric",
+    "name": "派克龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazydragon_electric"
+  },
+  {
+    "id": "pal_kingbahamut_dragon",
+    "name": "殁殃",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingbahamut_dragon"
+  },
+  {
+    "id": "pal_blackmetaldragon",
+    "name": "魔渊龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackmetaldragon"
+  },
+  {
+    "id": "pal_jetdragon",
+    "name": "空涡龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jetdragon"
+  },
+  {
+    "id": "pal_skydragon",
+    "name": "天羽龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_skydragon"
+  },
+  {
+    "id": "pal_skydragon_grass",
+    "name": "翠羽龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_skydragon_grass"
+  },
+  {
+    "id": "pal_thunderdragonman",
+    "name": "波鲁杰克斯",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdragonman"
+  },
+  {
+    "id": "pal_whitealiendragon",
+    "name": "杰诺路达",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitealiendragon"
+  },
+  {
+    "id": "pal_whiteshielddragon",
+    "name": "艾基鲁迦",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whiteshielddragon"
+  },
+  {
+    "id": "pal_blueskydragon",
+    "name": "霄龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueskydragon"
+  },
+  {
+    "id": "pal_ghostdragon",
+    "name": "灵曦龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostdragon"
+  },
+  {
+    "id": "pal_ghostdragon_fire",
+    "name": "狱熙龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostdragon_fire"
+  },
+  {
+    "id": "pal_domearmordragon",
+    "name": "磐甲龙",
+    "elementGroup": "Dragon",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_domearmordragon"
+  },
+  {
+    "id": "pal_worldtreedragon",
+    "name": "枯星龙",
+    "elementGroup": "Neutral",
+    "url": "https://palworld.th.gl/zh-CN/db/paldeck/pal_worldtreedragon"
+  }
+]
