@@ -1,7 +1,7 @@
 {
-  "title": "材料掉落",
-  "description": "按掉落物反查来源帕鲁，适合查找材料获取对象。",
-  "lastVerified": "2026-07-02",
+  "title": "1.0 材料掉落",
+  "description": "按 1.0 图鉴的可能掉落反查来源帕鲁；可用材料名或帕鲁名筛选。",
+  "lastVerified": "2026-07-13",
   "columns": [
     {
       "key": "name",
@@ -18,558 +18,708 @@
     {
       "key": "sourceCount",
       "label": "来源数量"
-    },
-    {
-      "key": "usage",
-      "label": "主要用途"
-    },
-    {
-      "key": "route",
-      "label": "获取方式"
     }
   ],
   "records": [
     {
-      "name": "Arrow",
+      "name": "不可思议的蘑菇",
       "sourceType": "帕鲁掉落",
-      "source": "Robinquill、Robinquill Terra",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#118B 菇波、#138B 咒心岩傀、#179 红菇娘",
+      "sourceCount": "3"
     },
     {
-      "name": "Broncherry Meat",
+      "name": "世界树圣水",
       "sourceType": "帕鲁掉落",
-      "source": "Broncherry、Broncherry Aqua",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#50 念影喵、#54B 凌角马、#72B 巧克力豹冰、#81 密林陶洛斯、#81B 冰峰陶洛斯、#89B 樱丽娜、#96B 疾霜鸟、#98B 凛光犬、#102B 雷胖达、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#128B 炼刃鱼、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#136 颚莉丝、#138 双心岩傀、#138B 咒心岩傀、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151B 桃晶鲸、#157B 织夜鹿、#159 泰锋、#159B 丹烽、#163B 金涡蜗、#169B 曼波皇、#171B 狱熙龙、#174 昭炎狐、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "50"
     },
     {
-      "name": "Cake",
+      "name": "严冬鹿的鹿肉",
       "sourceType": "帕鲁掉落",
-      "source": "Lovander",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#101 严冬鹿",
+      "sourceCount": "1"
     },
     {
-      "name": "Caprity Meat",
+      "name": "中型帕鲁之魂",
       "sourceType": "帕鲁掉落",
-      "source": "Caprity",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#78B 幽巫狐、#80 雷冥鸟、#80B 雷鸣鸟、#85B 鬼刃武士、#99 冥铠蝎、#99B 金铠蝎、#135 恐炬灵、#137B 殁殃、#148B 碧艾莉、#149B 冬丸",
+      "sourceCount": "10"
     },
     {
-      "name": "Carbon Fiber",
+      "name": "企丸王的羽饰",
       "sourceType": "帕鲁掉落",
-      "source": "Shadowbeak、Jetragon",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Cloth",
-      "sourceType": "帕鲁掉落",
-      "source": "Azurobe、Felbat",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Copper Key",
-      "sourceType": "帕鲁掉落",
-      "source": "Leezpunk",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Diamond",
-      "sourceType": "帕鲁掉落",
-      "source": "Paladius、Frostallion、Jetragon",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Eikthyrdeer Venison",
-      "sourceType": "帕鲁掉落",
-      "source": "Eikthyrdeer、Eikthyrdeer Terra",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Elizabee'S Staff",
-      "sourceType": "帕鲁掉落",
-      "source": "Elizabee",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Fiber",
-      "sourceType": "帕鲁掉落",
-      "source": "Hoocrates、Hangyu、Hangyu Cryst",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Galeclaw Poultry",
-      "sourceType": "帕鲁掉落",
-      "source": "Galeclaw",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Gold Coin",
-      "sourceType": "帕鲁掉落",
-      "source": "Mau、Direhowl、Vanwyrm",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Gumoss Leaf",
-      "sourceType": "帕鲁掉落",
-      "source": "Gumoss",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Gunpowder",
-      "sourceType": "帕鲁掉落",
-      "source": "Tocotoco",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "High Grade Technical Manual",
-      "sourceType": "帕鲁掉落",
-      "source": "Hoocrates、Katress、Wixen",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "High Quality Cloth",
-      "sourceType": "帕鲁掉落",
-      "source": "Sibelyx",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Ingot",
-      "sourceType": "帕鲁掉落",
-      "source": "Bushi",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Innovative Technical Manual",
-      "sourceType": "帕鲁掉落",
-      "source": "Anubis、Lyleen、Shadowbeak、Lyleen Noct",
-      "sourceCount": "4",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Katress Hair",
-      "sourceType": "帕鲁掉落",
-      "source": "Katress",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Large Pal Soul",
-      "sourceType": "帕鲁掉落",
-      "source": "Anubis、Necromus、Frostallion Noct",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Lettuce Seeds",
-      "sourceType": "帕鲁掉落",
-      "source": "Bristla、Cinnamoth、Broncherry Aqua、Wumpo Botan",
-      "sourceCount": "4",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Mammorest Meat",
-      "sourceType": "帕鲁掉落",
-      "source": "Mammorest、Mammorest Cryst",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Medium Pal Soul",
-      "sourceType": "帕鲁掉落",
-      "source": "Helzephyr",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Mozzarina Meat",
-      "sourceType": "帕鲁掉落",
-      "source": "Mozzarina",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Mushroom",
-      "sourceType": "帕鲁掉落",
-      "source": "Tanzee（新叶猿）、Mossanda、Lovander、Mossanda Lux",
-      "sourceCount": "4",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Ore",
-      "sourceType": "帕鲁掉落",
-      "source": "Digtoise",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Pal Fluid",
-      "sourceType": "帕鲁掉落",
-      "source": "Fuack（冲浪鸭）、Pengullet（企丸丸）、Teafant、Celaray、Gobfin、Surfent、Kelpsea、Jormuntide、Surfent Terra、Suzaku Aqua",
-      "sourceCount": "10",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Pal Metal Ingot",
-      "sourceType": "帕鲁掉落",
-      "source": "Astegon、Shadowbeak、Paladius、Necromus",
-      "sourceCount": "4",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Paldium Fragment",
-      "sourceType": "帕鲁掉落",
-      "source": "Lunaris",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Penking Plume",
-      "sourceType": "帕鲁掉落",
-      "source": "Penking",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Polymer",
-      "sourceType": "帕鲁掉落",
-      "source": "Jetragon",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Precious Dragon Stone",
-      "sourceType": "帕鲁掉落",
-      "source": "Azurobe",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Raw Dumud",
-      "sourceType": "帕鲁掉落",
-      "source": "Dumud",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Raw Kelpsea",
-      "sourceType": "帕鲁掉落",
-      "source": "Kelpsea、Kelpsea Ignis",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Reindrix Venison",
-      "sourceType": "帕鲁掉落",
-      "source": "Reindrix",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Ruby",
-      "sourceType": "帕鲁掉落",
-      "source": "Direhowl、Vanwyrm、Relaxaurus",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Rushoar Pork",
-      "sourceType": "帕鲁掉落",
-      "source": "Rushoar",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Sapphire",
-      "sourceType": "帕鲁掉落",
-      "source": "Mau Cryst、Vanwyrm Cryst、Relaxaurus Lux",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Silver Key",
-      "sourceType": "帕鲁掉落",
-      "source": "Leezpunk、Leezpunk Ignis",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Small Pal Soul",
-      "sourceType": "帕鲁掉落",
-      "source": "Daedream、Nox、Cawgnito、Maraith、Tombat、Felbat",
-      "sourceCount": "6",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Strange Juice",
-      "sourceType": "帕鲁掉落",
-      "source": "Lovander",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Suspicious Juice",
-      "sourceType": "帕鲁掉落",
-      "source": "Lovander",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Tocotoco Feather",
-      "sourceType": "帕鲁掉落",
-      "source": "Tocotoco",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Tomato Seeds",
-      "sourceType": "帕鲁掉落",
-      "source": "Mossanda、Vaelet、Broncherry、Dinossom Lux、Wumpo Botan",
-      "sourceCount": "5",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
-    },
-    {
-      "name": "Wheat Seeds",
-      "sourceType": "帕鲁掉落",
-      "source": "Flopie、Bristla、Cinnamoth、Robinquill、Dinossom、Robinquill Terra",
-      "sourceCount": "6",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#18 企丸王、#18B 闪丸王",
+      "sourceCount": "2"
     },
     {
       "name": "优质帕鲁油",
       "sourceType": "帕鲁掉落",
-      "source": "Woolipop、Dumud、Grintale、Digtoise、Flambelle、Elphidran、Relaxaurus、Mammorest、Quivern、Elphidran Aqua、Relaxaurus Lux、Mammorest Cryst",
-      "sourceCount": "13",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#25 融焰娘、#39 棉花糖、#63 精灵龙、#63B 水灵龙、#70 笑魇猫、#87 森猛犸、#87B 雪猛犸、#94 佩克龙、#94B 派克龙、#107 碎岩龟、#109 趴趴鲶、#109B 梆梆鲶、#116B 绢笠蛾、#121B 腾炎龙、#124 天羽龙、#124B 翠羽龙、#146 杰诺路达、#163B 金涡蜗、#169 曼波王、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#175 沁莲龙、#180 妖焰灯、#204 枯星龙",
+      "sourceCount": "25"
+    },
+    {
+      "name": "优质的布",
+      "sourceType": "帕鲁掉落",
+      "source": "#116 绸笠蛾、#116B 绢笠蛾、#190 辉月伊",
+      "sourceCount": "3"
     },
     {
       "name": "低品质药品",
       "sourceType": "帕鲁掉落",
-      "source": "Lifmunk（翠叶鼠）、Flopie、Vaelet、Lyleen、Lyleen Noct",
-      "sourceCount": "5",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#4 翠叶鼠、#66 薇莉塔、#77 波娜兔、#147 梅莉姆",
+      "sourceCount": "4"
+    },
+    {
+      "name": "修炼之书（特大）",
+      "sourceType": "帕鲁掉落",
+      "source": "#144 旺财",
+      "sourceCount": "1"
+    },
+    {
+      "name": "六棱晶矿",
+      "sourceType": "帕鲁掉落",
+      "source": "#157 净世鹿",
+      "sourceCount": "1"
+    },
+    {
+      "name": "六棱晶锭",
+      "sourceType": "帕鲁掉落",
+      "source": "#198 圣光骑士、#199 混沌骑士、#201 海皇鲸",
+      "sourceCount": "3"
+    },
+    {
+      "name": "冰之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#41B 碧月龙、#54B 凌角马、#81B 冰峰陶洛斯、#87B 雪猛犸、#101 严冬鹿、#103 疾旋鼬、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#151 凉晶鲸、#151B 桃晶鲸、#191 霜牙王",
+      "sourceCount": "12"
+    },
+    {
+      "name": "勾魂鱿的触手",
+      "sourceType": "帕鲁掉落",
+      "source": "#30 勾魂鱿、#30B 蚀魂鱿",
+      "sourceCount": "2"
+    },
+    {
+      "name": "原油",
+      "sourceType": "帕鲁掉落",
+      "source": "#117 噬魂兽、#126 球犰、#135 恐炬灵",
+      "sourceCount": "3"
+    },
+    {
+      "name": "发光的古代文明遗物",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#32B 祇岳鹿、#41 碧海龙、#41B 碧月龙、#50 念影喵、#54 雷角马、#54B 凌角马、#63 精灵龙、#63B 水灵龙、#72B 巧克力豹冰、#74 铁拳猿、#74B 石掌猿、#80 雷冥鸟、#80B 雷鸣鸟、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#94 佩克龙、#94B 派克龙、#96 迅雷鸟、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#112 狱焰王、#112B 狱阎王、#113 铠格力斯、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#121 覆海龙、#121B 腾炎龙、#122 朱雀、#122B 清雀、#124 天羽龙、#124B 翠羽龙、#128B 炼刃鱼、#130 夜冥驹、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#134B 绿苔绒怪、#136 颚莉丝、#137 焰煌、#137B 殁殃、#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151 凉晶鲸、#151B 桃晶鲸、#153 幽恋娜、#157 净世鹿、#157B 织夜鹿、#158 魔渊龙、#159 泰锋、#159B 丹烽、#160 艾基鲁迦、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#175 沁莲龙、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#189 异构格里芬、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "106"
+    },
+    {
+      "name": "发电器官",
+      "sourceType": "帕鲁掉落",
+      "source": "#15 电棘鼠、#17B 闪丸丸、#18B 闪丸王、#42 伏特喵、#54 雷角马、#62 电汪汪、#80B 雷鸣鸟、#83B 雷隐鹿、#92 雷鸣童子、#92B 天阴童子、#94B 派克龙、#96 迅雷鸟、#98 霹雳犬、#102B 雷胖达、#141B 电针妖、#161 驭雷马、#163 电涡蜗、#163B 金涡蜗、#167 电懒懒、#169B 曼波皇、#172 雷云鹫、#185 暴电熊、#187 波鲁杰克斯",
+      "sourceCount": "23"
+    },
+    {
+      "name": "古代文明核心",
+      "sourceType": "帕鲁掉落",
+      "source": "#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "2"
+    },
+    {
+      "name": "可疑果汁",
+      "sourceType": "帕鲁掉落",
+      "source": "#69 博爱蜥",
+      "sourceCount": "1"
+    },
+    {
+      "name": "叶泥泥的叶子",
+      "sourceType": "帕鲁掉落",
+      "source": "#12 叶泥泥",
+      "sourceCount": "1"
     },
     {
       "name": "喷火器官",
       "sourceType": "帕鲁掉落",
-      "source": "Foxparks（火绒狐）、Rooby（燎火鹿）、Arsox、Pyrin、Kitsun、Flambelle、Ragnahawk、Wixen、Blazehowl、Reptyro、Blazamut、Suzaku",
-      "sourceCount": "19",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#5B 热浪鸭、#23B 秋叶猿、#25 融焰娘、#26 燎火鹿、#29 火绒狐、#43B 火灵儿、#55B 红小鲨、#58 炽焰牛、#73B 热血蜥、#78 焰巫狐、#79B 炽巫猫、#85B 鬼刃武士、#88B 粉粉布偶鲨、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#97B 炙灯鱼、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#111 苍焰狼、#111B 幽焰狼、#112 狱焰王、#112B 狱阎王、#115 紫狐娇、#121B 腾炎龙、#122 朱雀、#128B 炼刃鱼、#129 熔岩兽、#137 焰煌、#151B 桃晶鲸、#159B 丹烽、#171B 狱熙龙、#174 昭炎狐、#176 拉比耶尔、#183 燎火舞伶、#188 荷鲁斯",
+      "sourceCount": "37"
     },
     {
-      "name": "棉悠悠羊肉",
+      "name": "土豆种薯",
       "sourceType": "帕鲁掉落",
-      "source": "Lamball（棉悠悠）",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#76 羽箭射手、#76B 山岳射手、#89 花丽娜",
+      "sourceCount": "3"
+    },
+    {
+      "name": "地之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#32B 祇岳鹿、#50 念影喵、#72B 巧克力豹冰、#74B 石掌猿、#113 铠格力斯、#138 双心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#159 泰锋、#179 红菇娘",
+      "sourceCount": "11"
+    },
+    {
+      "name": "塑钢",
+      "sourceType": "帕鲁掉落",
+      "source": "#158 魔渊龙、#189 异构格里芬",
+      "sourceCount": "2"
+    },
+    {
+      "name": "墨沫姬的章鱼足",
+      "sourceType": "帕鲁掉落",
+      "source": "#48 墨沫姬、#48B 梦沫姬",
+      "sourceCount": "2"
+    },
+    {
+      "name": "夜星砂",
+      "sourceType": "帕鲁掉落",
+      "source": "#130B 日耀驹、#181 缀夜星",
+      "sourceCount": "2"
+    },
+    {
+      "name": "大型帕鲁之魂",
+      "sourceType": "帕鲁掉落",
+      "source": "#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#151 凉晶鲸、#151B 桃晶鲸、#158 魔渊龙、#175 沁莲龙、#189 异构格里芬、#192 霄龙、#197 默世鹿、#198 圣光骑士、#199 混沌骑士、#200B 唤夜兽、#201 海皇鲸、#202 空涡龙",
+      "sourceCount": "18"
+    },
+    {
+      "name": "天擒鸟的鸟肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#49 天擒鸟",
+      "sourceCount": "1"
+    },
+    {
+      "name": "女皇蜂之杖",
+      "sourceType": "帕鲁掉落",
+      "source": "#68 女皇蜂",
+      "sourceCount": "1"
+    },
+    {
+      "name": "姬小兔的发带",
+      "sourceType": "帕鲁掉落",
+      "source": "#44 姬小兔、#44B 艾小兔",
+      "sourceCount": "2"
+    },
+    {
+      "name": "小型帕鲁之魂",
+      "sourceType": "帕鲁掉落",
+      "source": "#22 寐魔、#24 露娜蒂、#50 念影喵、#52 猫蝠怪、#57 黑鸦隐士、#65 夜幕魔蝠、#88 布偶鲨、#88B 粉粉布偶鲨、#117 噬魂兽、#148 魅爱莉、#166 兜兜灵、#168 吓丝妮、#181 缀夜星",
+      "sourceCount": "13"
+    },
+    {
+      "name": "小麦种子",
+      "sourceType": "帕鲁掉落",
+      "source": "#4 翠叶鼠、#10 达鼠泥、#38 吊缚灵、#164 蒲蒲飞芽",
+      "sourceCount": "4"
+    },
+    {
+      "name": "布",
+      "sourceType": "帕鲁掉落",
+      "source": "#9 武道蛙、#9B 极道蛙、#41 碧海龙、#41B 碧月龙、#65 夜幕魔蝠、#120 缚乃伊、#168 吓丝妮",
+      "sourceCount": "7"
+    },
+    {
+      "name": "帕鲁矿碎块",
+      "sourceType": "帕鲁掉落",
+      "source": "#82 秘斯媞雅",
+      "sourceCount": "1"
+    },
+    {
+      "name": "怪异果汁",
+      "sourceType": "帕鲁掉落",
+      "source": "#69 博爱蜥",
+      "sourceCount": "1"
+    },
+    {
+      "name": "无之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#74 铁拳猿、#83 云海鹿、#116B 绢笠蛾、#130B 日耀驹、#142B 净岩龟、#157 净世鹿、#182 墨罗娜",
+      "sourceCount": "9"
+    },
+    {
+      "name": "暗之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#80 雷冥鸟、#80B 雷鸣鸟、#115 紫狐娇、#130 夜冥驹、#138B 咒心岩傀、#149B 冬丸、#153 幽恋娜、#157B 织夜鹿、#180 妖焰灯、#186B 黑月女王、#189 异构格里芬、#190 辉月伊",
+      "sourceCount": "12"
+    },
+    {
+      "name": "暗巫猫的体毛",
+      "sourceType": "帕鲁掉落",
+      "source": "#79 暗巫猫、#79B 炽巫猫",
+      "sourceCount": "2"
+    },
+    {
+      "name": "暗黑碎片",
+      "sourceType": "帕鲁掉落",
+      "source": "#92B 天阴童子、#111B 幽焰狼、#130 夜冥驹、#150 面惧、#153 幽恋娜、#157B 织夜鹿、#182 墨罗娜、#195 贝菈诺娃、#195B 贝菈露洁",
+      "sourceCount": "9"
+    },
+    {
+      "name": "朋克蜥的头冠",
+      "sourceType": "帕鲁掉落",
+      "source": "#73 朋克蜥、#73B 热血蜥",
+      "sourceCount": "2"
+    },
+    {
+      "name": "棉悠悠的羊肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#1 棉悠悠",
+      "sourceCount": "1"
     },
     {
       "name": "棉花糖",
       "sourceType": "帕鲁掉落",
-      "source": "Woolipop",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#39 棉花糖",
+      "sourceCount": "1"
+    },
+    {
+      "name": "森猛犸的巨兽肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#87 森猛犸、#87B 雪猛犸",
+      "sourceCount": "2"
     },
     {
       "name": "毒腺",
       "sourceType": "帕鲁掉落",
-      "source": "Depresso、Daedream、Killamari、Cawgnito、Helzephyr、Menasting",
-      "sourceCount": "6",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#9B 极道蛙、#16 瞅什魔、#22 寐魔、#30 勾魂鱿、#34B 郁木羊、#57 黑鸦隐士、#71 桃蛛娘、#80 雷冥鸟、#97 冥灯鱼、#99 冥铠蝎、#100B 妖抱苞、#118B 菇波、#136 颚莉丝、#141 蛊刺妖、#178 梅杜娜、#180 妖焰灯、#194 夜蔓爵",
+      "sourceCount": "17"
     },
     {
-      "name": "煤炭",
+      "name": "毛掸儿的棉毛",
       "sourceType": "帕鲁掉落",
-      "source": "Blazamut、Menasting",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#35 毛掸儿",
+      "sourceCount": "1"
+    },
+    {
+      "name": "水之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#41 碧海龙、#96B 疾霜鸟、#98B 凛光犬、#122B 清雀、#128B 炼刃鱼、#188B 伊西斯",
+      "sourceCount": "6"
+    },
+    {
+      "name": "水栖帕鲁的黏液",
+      "sourceType": "帕鲁掉落",
+      "source": "#5 冲浪鸭、#5B 热浪鸭、#7 鲁米儿、#7B 雷米儿、#9 武道蛙、#9B 极道蛙、#11 壶小象、#17 企丸丸、#17B 闪丸丸、#30 勾魂鱿、#30B 蚀魂鱿、#37 盔盔仔、#37B 金盔仔、#41 碧海龙、#41B 碧月龙、#43 水灵儿、#45 海月仙、#46 海月灵、#47 莉欧·莉涅、#48 墨沫姬、#48B 梦沫姬、#55 鲨小子、#72B 巧克力豹冰、#75 滑水蛇、#75B 流沙蛇、#86 肚肚鳄、#88 布偶鲨、#121 覆海龙、#122B 清雀、#128 鞘刀鱼、#151 凉晶鲸、#151B 桃晶鲸、#163 电涡蜗、#167 电懒懒、#169 曼波王、#178 梅杜娜、#188B 伊西斯",
+      "sourceCount": "37"
+    },
+    {
+      "name": "水灵儿的鱼肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#43 水灵儿、#43B 火灵儿",
+      "sourceCount": "2"
+    },
+    {
+      "name": "汪汪币",
+      "sourceType": "帕鲁掉落",
+      "source": "#144 旺财",
+      "sourceCount": "1"
+    },
+    {
+      "name": "沉眠的古代文明遗物",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#32B 祇岳鹿、#41 碧海龙、#41B 碧月龙、#50 念影喵、#54 雷角马、#54B 凌角马、#63 精灵龙、#63B 水灵龙、#72B 巧克力豹冰、#74 铁拳猿、#74B 石掌猿、#80 雷冥鸟、#80B 雷鸣鸟、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#94 佩克龙、#94B 派克龙、#96 迅雷鸟、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#112 狱焰王、#112B 狱阎王、#113 铠格力斯、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#121 覆海龙、#121B 腾炎龙、#122 朱雀、#122B 清雀、#124 天羽龙、#124B 翠羽龙、#128B 炼刃鱼、#130 夜冥驹、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#134B 绿苔绒怪、#136 颚莉丝、#137 焰煌、#137B 殁殃、#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151 凉晶鲸、#151B 桃晶鲸、#153 幽恋娜、#157 净世鹿、#157B 织夜鹿、#158 魔渊龙、#159 泰锋、#159B 丹烽、#160 艾基鲁迦、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#175 沁莲龙、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#189 异构格里芬、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "106"
+    },
+    {
+      "name": "波霸牛的牛肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#40 波霸牛",
+      "sourceCount": "1"
+    },
+    {
+      "name": "洋葱种子",
+      "sourceType": "帕鲁掉落",
+      "source": "#66 薇莉塔、#106 咕咕桑葩、#108 连理龙、#108B 海誓龙",
+      "sourceCount": "4"
+    },
+    {
+      "name": "海月仙的水母伞",
+      "sourceType": "帕鲁掉落",
+      "source": "#45 海月仙",
+      "sourceCount": "1"
+    },
+    {
+      "name": "海月灵的水母伞",
+      "sourceType": "帕鲁掉落",
+      "source": "#46 海月灵",
+      "sourceCount": "1"
+    },
+    {
+      "name": "消除记忆药",
+      "sourceType": "帕鲁掉落",
+      "source": "#69 博爱蜥",
+      "sourceCount": "1"
+    },
+    {
+      "name": "漂亮的古代文明遗物",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#32B 祇岳鹿、#41 碧海龙、#41B 碧月龙、#50 念影喵、#54 雷角马、#54B 凌角马、#63 精灵龙、#63B 水灵龙、#72B 巧克力豹冰、#74 铁拳猿、#74B 石掌猿、#80 雷冥鸟、#80B 雷鸣鸟、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#94 佩克龙、#94B 派克龙、#96 迅雷鸟、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#112 狱焰王、#112B 狱阎王、#113 铠格力斯、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#121 覆海龙、#121B 腾炎龙、#122 朱雀、#122B 清雀、#124 天羽龙、#124B 翠羽龙、#128B 炼刃鱼、#130 夜冥驹、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#134B 绿苔绒怪、#136 颚莉丝、#137 焰煌、#137B 殁殃、#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151 凉晶鲸、#151B 桃晶鲸、#153 幽恋娜、#157 净世鹿、#157B 织夜鹿、#158 魔渊龙、#159 泰锋、#159B 丹烽、#160 艾基鲁迦、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#175 沁莲龙、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#189 异构格里芬、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "106"
+    },
+    {
+      "name": "灌木羊的香草肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#34 灌木羊、#34B 郁木羊",
+      "sourceCount": "2"
+    },
+    {
+      "name": "火之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#112 狱焰王、#112B 狱阎王、#122 朱雀、#137 焰煌、#151B 桃晶鲸、#159B 丹烽、#174 昭炎狐、#176 拉比耶尔、#183 燎火舞伶、#188 荷鲁斯",
+      "sourceCount": "16"
+    },
+    {
+      "name": "火药",
+      "sourceType": "帕鲁掉落",
+      "source": "#53 炸蛋鸟",
+      "sourceCount": "1"
+    },
+    {
+      "name": "炸蛋鸟的羽毛",
+      "sourceType": "帕鲁掉落",
+      "source": "#53 炸蛋鸟",
+      "sourceCount": "1"
+    },
+    {
+      "name": "烈阳金属",
+      "sourceType": "帕鲁掉落",
+      "source": "#131B 寒峰兽、#202 空涡龙",
+      "sourceCount": "2"
+    },
+    {
+      "name": "焦糖棉花糖",
+      "sourceType": "帕鲁掉落",
+      "source": "#39B 可可棉花糖",
+      "sourceCount": "1"
     },
     {
       "name": "牛奶",
       "sourceType": "帕鲁掉落",
-      "source": "Mozzarina",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#40 波霸牛",
+      "sourceCount": "1"
     },
     {
-      "name": "电气器官",
+      "name": "珊瑚矿石",
       "sourceType": "帕鲁掉落",
-      "source": "Sparkit（伏特喵）、Jolthog、Univolt、Rayhound、Dazzi、Beakon、Grizzbolt、Orserk、Mossanda Lux、Relaxaurus Lux",
-      "sourceCount": "10",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#151 凉晶鲸、#151B 桃晶鲸、#201 海皇鲸",
+      "sourceCount": "3"
     },
     {
-      "name": "皮皮鸡肉",
+      "name": "生菜种子",
       "sourceType": "帕鲁掉落",
-      "source": "Chikipi（皮皮鸡）",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#61 幻悦蝶、#77 波娜兔、#84 花冠龙、#110 梁叶龙",
+      "sourceCount": "4"
+    },
+    {
+      "name": "番茄种子",
+      "sourceType": "帕鲁掉落",
+      "source": "#60 荊棘魔仙、#61 幻悦蝶、#66 薇莉塔、#84 花冠龙、#84B 雷冠龙、#110 梁叶龙",
+      "sourceCount": "6"
+    },
+    {
+      "name": "皮皮鸡的鸡肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#3 皮皮鸡",
+      "sourceCount": "1"
     },
     {
       "name": "皮革",
       "sourceType": "帕鲁掉落",
-      "source": "Foxparks（火绒狐）、Fuack（冲浪鸭）、Rooby（燎火鹿）、Vixy、Rushoar、Nox、Fuddler、Direhowl、Mossanda、Melpaca、Eikthyrdeer、Nitewing",
-      "sourceCount": "33",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#5 冲浪鸭、#5B 热浪鸭、#6 玉藻狐、#10 达鼠泥、#20 美露帕、#24 露娜蒂、#26 燎火鹿、#27 喵丝特、#28 草莽猪、#29 火绒狐、#29B 雪绒狐、#31 遁地鼠、#32 紫霞鹿、#32B 祇岳鹿、#33 猎狼、#44 姬小兔、#44B 艾小兔、#49 天擒鸟、#50 念影喵、#51 疾风隼、#52 猫蝠怪、#54 雷角马、#54B 凌角马、#72B 巧克力豹冰、#74 铁拳猿、#79 暗巫猫、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#88 布偶鲨、#88B 粉粉布偶鲨、#90 莉芳、#91 炎魔羊、#91B 暗魔羊、#93 火麒麟、#93B 邪麒麟、#95 吹雪狐、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#105 流焰龙、#105B 川霜龙、#110 梁叶龙、#111 苍焰狼、#111B 幽焰狼、#115 紫狐娇、#120 缚乃伊、#126 球犰、#127 八云犬、#130 夜冥驹、#130B 日耀驹、#133 雪墩墩、#140 塞赫麦特、#143 妮瞅莎、#152 踏春兔、#154 金驰兽、#157 净世鹿、#157B 织夜鹿、#162 喵璐璐、#165 詹兔曼、#170 兔绣袖、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#176 拉比耶尔、#177 盗影鸦、#180 妖焰灯、#183 燎火舞伶、#185 暴电熊、#191 霜牙王、#192 霄龙、#197 默世鹿、#204 枯星龙",
+      "sourceCount": "78"
+    },
+    {
+      "name": "石炭",
+      "sourceType": "帕鲁掉落",
+      "source": "#131 磐峰兽、#137 焰煌、#137B 殁殃",
+      "sourceCount": "3"
+    },
+    {
+      "name": "硫磺",
+      "sourceType": "帕鲁掉落",
+      "source": "#131 磐峰兽",
+      "sourceCount": "1"
+    },
+    {
+      "name": "硬木材",
+      "sourceType": "帕鲁掉落",
+      "source": "#102 叶胖达、#102B 雷胖达、#106 咕咕桑葩、#134B 绿苔绒怪",
+      "sourceCount": "4"
+    },
+    {
+      "name": "碳纤维",
+      "sourceType": "帕鲁掉落",
+      "source": "#189 异构格里芬",
+      "sourceCount": "1"
+    },
+    {
+      "name": "究极帕鲁之魂",
+      "sourceType": "帕鲁掉落",
+      "source": "#184 磐甲龙、#193 暮尘蛾、#194 夜蔓爵、#203 奥沧鲸",
+      "sourceCount": "4"
+    },
+    {
+      "name": "箭",
+      "sourceType": "帕鲁掉落",
+      "source": "#76 羽箭射手、#76B 山岳射手",
+      "sourceCount": "2"
+    },
+    {
+      "name": "紫霞鹿的鹿肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#32 紫霞鹿、#32B 祇岳鹿",
+      "sourceCount": "2"
+    },
+    {
+      "name": "红宝石",
+      "sourceType": "帕鲁掉落",
+      "source": "#33 猎狼、#64 烽歌龙、#94 佩克龙、#142 重岩龟、#177 盗影鸦",
+      "sourceCount": "5"
     },
     {
       "name": "红色野莓",
       "sourceType": "帕鲁掉落",
-      "source": "Cattiva（捣蛋猫）、Caprity",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#2 捣蛋猫、#34 灌木羊、#34B 郁木羊、#110 梁叶龙、#118 菇咚、#124B 翠羽龙、#125 春彩娘",
+      "sourceCount": "7"
+    },
+    {
+      "name": "纤维",
+      "sourceType": "帕鲁掉落",
+      "source": "#19 啼卡尔、#38 吊缚灵、#38B 冰缚灵、#71 桃蛛娘、#100 球抱苞、#100B 妖抱苞、#136 颚莉丝、#156 力士獒、#173 大红呱",
+      "sourceCount": "9"
     },
     {
       "name": "纯水晶",
       "sourceType": "帕鲁掉落",
-      "source": "Astegon、Jetragon、Frostallion Noct",
-      "sourceCount": "3",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#131B 寒峰兽",
+      "sourceCount": "1"
     },
     {
       "name": "结冰器官",
       "sourceType": "帕鲁掉落",
-      "source": "Pengullet（企丸丸）、Penking、Foxcicle、Reindrix、Sibelyx、Cryolinx、Wumpo、Frostallion、Jolthog Cryst、Mau Cryst、Hangyu Cryst、Vanwyrm Cryst",
-      "sourceCount": "14",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#15B 冰刺鼠、#17 企丸丸、#18 企丸王、#21B 冰帝美露帕、#27B 冰丝特、#29B 雪绒狐、#38B 冰缚灵、#41B 碧月龙、#54B 凌角马、#59 雪绵啾、#64B 霜歌龙、#72 香草豹冰、#81B 冰峰陶洛斯、#86 肚肚鳄、#95 吹雪狐、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#103 疾旋鼬、#105B 川霜龙、#114 白真雪雀、#116 绸笠蛾、#119 冰姬灵、#129B 寒霜兽、#131B 寒峰兽、#132 冰棘兽、#134 白绒雪怪、#149B 冬丸、#151 凉晶鲸、#191 霜牙王、#200 唤冬兽",
+      "sourceCount": "31"
+    },
+    {
+      "name": "绿宝石",
+      "sourceType": "帕鲁掉落",
+      "source": "#142B 净岩龟",
+      "sourceCount": "1"
     },
     {
       "name": "羊毛",
       "sourceType": "帕鲁掉落",
-      "source": "Lamball（棉悠悠）、Cremis、Melpaca、Swee、Sweepa、Kingpaca、Kingpaca Cryst",
-      "sourceCount": "7",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#1 棉悠悠、#8 米露菲、#20 美露帕、#21 君王美露帕、#21B 冰帝美露帕、#35 毛掸儿、#36 毛老爹、#39B 可可棉花糖、#133 雪墩墩",
+      "sourceCount": "9"
     },
     {
       "name": "美丽花朵",
       "sourceType": "帕鲁掉落",
-      "source": "Ribbuny、Petallia、Wumpo、Lyleen、Wumpo Botan、Lyleen Noct",
-      "sourceCount": "6",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#44 姬小兔、#60 荊棘魔仙、#89 花丽娜、#89B 樱丽娜、#124B 翠羽龙、#125 春彩娘、#134 白绒雪怪、#134B 绿苔绒怪、#138 双心岩傀、#147 梅莉姆、#173 大红呱、#186 百合女王、#186B 黑月女王",
+      "sourceCount": "13"
+    },
+    {
+      "name": "肚肚鳄的鳄鱼肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#86 肚肚鳄",
+      "sourceCount": "1"
+    },
+    {
+      "name": "胡萝卜",
+      "sourceType": "帕鲁掉落",
+      "source": "#44B 艾小兔",
+      "sourceCount": "1"
+    },
+    {
+      "name": "胡萝卜种子",
+      "sourceType": "帕鲁掉落",
+      "source": "#44B 艾小兔、#84B 雷冠龙、#102 叶胖达、#106 咕咕桑葩、#134B 绿苔绒怪、#147 梅莉姆",
+      "sourceCount": "6"
+    },
+    {
+      "name": "腐朽的古代文明遗物",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#32B 祇岳鹿、#41 碧海龙、#41B 碧月龙、#50 念影喵、#54 雷角马、#54B 凌角马、#63 精灵龙、#63B 水灵龙、#72B 巧克力豹冰、#74 铁拳猿、#74B 石掌猿、#80 雷冥鸟、#80B 雷鸣鸟、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#94 佩克龙、#94B 派克龙、#96 迅雷鸟、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#112 狱焰王、#112B 狱阎王、#113 铠格力斯、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#121 覆海龙、#121B 腾炎龙、#122 朱雀、#122B 清雀、#124 天羽龙、#124B 翠羽龙、#128B 炼刃鱼、#130 夜冥驹、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#134B 绿苔绒怪、#136 颚莉丝、#137 焰煌、#137B 殁殃、#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151 凉晶鲸、#151B 桃晶鲸、#153 幽恋娜、#157 净世鹿、#157B 织夜鹿、#158 魔渊龙、#159 泰锋、#159B 丹烽、#160 艾基鲁迦、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#175 沁莲龙、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#189 异构格里芬、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "106"
+    },
+    {
+      "name": "草之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#81 密林陶洛斯、#87 森猛犸、#102 叶胖达、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#118 菇咚、#134B 绿苔绒怪、#136 颚莉丝、#148B 碧艾莉、#175 沁莲龙、#186 百合女王、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "14"
+    },
+    {
+      "name": "草莽猪的猪肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#28 草莽猪",
+      "sourceCount": "1"
+    },
+    {
+      "name": "蓝宝石",
+      "sourceType": "帕鲁掉落",
+      "source": "#27B 冰丝特、#64B 霜歌龙、#94B 派克龙、#99B 金铠蝎、#190 辉月伊",
+      "sourceCount": "5"
+    },
+    {
+      "name": "蘑菇",
+      "sourceType": "帕鲁掉落",
+      "source": "#23 新叶猿、#23B 秋叶猿、#69 博爱蜥、#118 菇咚、#179 红菇娘",
+      "sourceCount": "5"
     },
     {
       "name": "蛋",
       "sourceType": "帕鲁掉落",
-      "source": "Chikipi（皮皮鸡）",
-      "sourceCount": "1",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#3 皮皮鸡",
+      "sourceCount": "1"
+    },
+    {
+      "name": "蛋糕",
+      "sourceType": "帕鲁掉落",
+      "source": "#69 博爱蜥",
+      "sourceCount": "1"
     },
     {
       "name": "蜂蜜",
       "sourceType": "帕鲁掉落",
-      "source": "Cinnamoth、Beegarde、Elizabee、Warsect",
-      "sourceCount": "4",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#61 幻悦蝶、#67 骑士蜂、#68 女皇蜂、#113 铠格力斯、#113B 格鲁力斯",
+      "sourceCount": "5"
     },
     {
       "name": "角",
       "sourceType": "帕鲁掉落",
-      "source": "Caprity、Eikthyrdeer、Incineram、Arsox、Univolt、Reindrix、Fenglope、Eikthyrdeer Terra、Incineram Noct",
-      "sourceCount": "9",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#32 紫霞鹿、#32B 祇岳鹿、#34 灌木羊、#34B 郁木羊、#54 雷角马、#54B 凌角马、#58 炽焰牛、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#91 炎魔羊、#91B 暗魔羊、#101 严冬鹿、#157 净世鹿、#157B 织夜鹿、#166 兜兜灵、#168 吓丝妮、#192 霄龙、#197 默世鹿",
+      "sourceCount": "20"
+    },
+    {
+      "name": "超高热核心",
+      "sourceType": "帕鲁掉落",
+      "source": "#184 磐甲龙、#202 空涡龙",
+      "sourceCount": "2"
+    },
+    {
+      "name": "趴趴鲶的鱼肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#109 趴趴鲶、#109B 梆梆鲶",
+      "sourceCount": "2"
+    },
+    {
+      "name": "连理龙的恐龙肉",
+      "sourceType": "帕鲁掉落",
+      "source": "#108 连理龙、#108B 海誓龙",
+      "sourceCount": "2"
     },
     {
       "name": "野莓种子",
       "sourceType": "帕鲁掉落",
-      "source": "Lifmunk（翠叶鼠）、Gumoss",
-      "sourceCount": "2",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#12 叶泥泥、#14 幸叶茸、#44 姬小兔",
+      "sourceCount": "3"
+    },
+    {
+      "name": "金属矿石",
+      "sourceType": "帕鲁掉落",
+      "source": "#74B 石掌猿、#75B 流沙蛇、#107 碎岩龟、#131 磐峰兽、#132B 金棘兽、#159 泰锋、#159B 丹烽",
+      "sourceCount": "7"
+    },
+    {
+      "name": "金属锭",
+      "sourceType": "帕鲁掉落",
+      "source": "#85 浪刃武士、#85B 鬼刃武士",
+      "sourceCount": "2"
+    },
+    {
+      "name": "金币",
+      "sourceType": "帕鲁掉落",
+      "source": "#27 喵丝特、#33 猎狼、#64 烽歌龙、#109B 梆梆鲶、#144 旺财",
+      "sourceCount": "5"
+    },
+    {
+      "name": "钻石",
+      "sourceType": "帕鲁掉落",
+      "source": "#198 圣光骑士、#199 混沌骑士、#200 唤冬兽、#200B 唤夜兽、#201 海皇鲸、#202 空涡龙、#203 奥沧鲸",
+      "sourceCount": "7"
+    },
+    {
+      "name": "铜钥匙",
+      "sourceType": "帕鲁掉落",
+      "source": "#73 朋克蜥",
+      "sourceCount": "1"
+    },
+    {
+      "name": "铬铁矿",
+      "sourceType": "帕鲁掉落",
+      "source": "#149 墨丸、#160 艾基鲁迦",
+      "sourceCount": "2"
+    },
+    {
+      "name": "银钥匙",
+      "sourceType": "帕鲁掉落",
+      "source": "#73 朋克蜥、#73B 热血蜥",
+      "sourceCount": "2"
+    },
+    {
+      "name": "闪耀的古代文明遗物",
+      "sourceType": "帕鲁掉落",
+      "source": "#21 君王美露帕、#32 紫霞鹿、#32B 祇岳鹿、#41 碧海龙、#41B 碧月龙、#50 念影喵、#54 雷角马、#54B 凌角马、#63 精灵龙、#63B 水灵龙、#72B 巧克力豹冰、#74 铁拳猿、#74B 石掌猿、#80 雷冥鸟、#80B 雷鸣鸟、#81 密林陶洛斯、#81B 冰峰陶洛斯、#83 云海鹿、#83B 雷隐鹿、#87 森猛犸、#87B 雪猛犸、#89B 樱丽娜、#93 火麒麟、#93B 邪麒麟、#94 佩克龙、#94B 派克龙、#96 迅雷鸟、#96B 疾霜鸟、#98B 凛光犬、#101 严冬鹿、#102 叶胖达、#102B 雷胖达、#103 疾旋鼬、#103B 桃旋鼬、#104 燧火鸟、#105 流焰龙、#108 连理龙、#108B 海誓龙、#110 梁叶龙、#112 狱焰王、#112B 狱阎王、#113 铠格力斯、#115 紫狐娇、#116B 绢笠蛾、#118 菇咚、#121 覆海龙、#121B 腾炎龙、#122 朱雀、#122B 清雀、#124 天羽龙、#124B 翠羽龙、#128B 炼刃鱼、#130 夜冥驹、#130B 日耀驹、#131B 寒峰兽、#133 雪墩墩、#134 白绒雪怪、#134B 绿苔绒怪、#136 颚莉丝、#137 焰煌、#137B 殁殃、#138 双心岩傀、#138B 咒心岩傀、#139 阿努比斯、#140 塞赫麦特、#142 重岩龟、#142B 净岩龟、#148B 碧艾莉、#149B 冬丸、#151 凉晶鲸、#151B 桃晶鲸、#153 幽恋娜、#157 净世鹿、#157B 织夜鹿、#158 魔渊龙、#159 泰锋、#159B 丹烽、#160 艾基鲁迦、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#171 灵曦龙、#171B 狱熙龙、#174 昭炎狐、#175 沁莲龙、#176 拉比耶尔、#177 盗影鸦、#178 梅杜娜、#179 红菇娘、#180 妖焰灯、#181 缀夜星、#182 墨罗娜、#183 燎火舞伶、#184 磐甲龙、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#189 异构格里芬、#190 辉月伊、#191 霜牙王、#192 霄龙、#193 暮尘蛾、#194 夜蔓爵",
+      "sourceCount": "106"
+    },
+    {
+      "name": "陨石碎片",
+      "sourceType": "帕鲁掉落",
+      "source": "#145 杰诺贝达、#146 杰诺路达、#196 杰诺多兰",
+      "sourceCount": "3"
+    },
+    {
+      "name": "雷之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#54 雷角马、#83B 雷隐鹿、#96 迅雷鸟、#102B 雷胖达、#159 泰锋、#161 驭雷马、#163B 金涡蜗、#169B 曼波皇、#177 盗影鸦、#178 梅杜娜、#181 缀夜星、#185 暴电熊、#186 百合女王、#186B 黑月女王、#187 波鲁杰克斯、#188 荷鲁斯、#188B 伊西斯、#190 辉月伊、#192 霄龙",
+      "sourceCount": "19"
+    },
+    {
+      "name": "雷鸣童子的云朵",
+      "sourceType": "帕鲁掉落",
+      "source": "#92 雷鸣童子、#92B 天阴童子",
+      "sourceCount": "2"
+    },
+    {
+      "name": "革新技术书",
+      "sourceType": "帕鲁掉落",
+      "source": "#139 阿努比斯、#186 百合女王、#186B 黑月女王、#189 异构格里芬",
+      "sourceCount": "4"
+    },
+    {
+      "name": "鞘刀鱼排",
+      "sourceType": "帕鲁掉落",
+      "source": "#128 鞘刀鱼、#128B 炼刃鱼",
+      "sourceCount": "2"
     },
     {
       "name": "骨头",
       "sourceType": "帕鲁掉落",
-      "source": "Vixy、Rushoar、Cawgnito、Loupmoon、Gorirat、Maraith、Vanwyrm、Bushi、Verdash、Anubis、Vanwyrm Cryst",
-      "sourceCount": "11",
-      "usage": "按制作配方和科技需求使用",
-      "route": "从掉落帕鲁反查获取来源"
+      "source": "#6 玉藻狐、#13 宗铭丸、#28 草莽猪、#37 盔盔仔、#37B 金盔仔、#56 月镰魔、#56B 霜镰魔、#57 黑鸦隐士、#64 烽歌龙、#64B 霜歌龙、#74 铁拳猿、#74B 石掌猿、#85 浪刃武士、#97 冥灯鱼、#97B 炙灯鱼、#117 噬魂兽、#123 战冠雀、#126 球犰、#135 恐炬灵、#139 阿努比斯、#152 踏春兔、#155 汪宗师、#156 力士獒",
+      "sourceCount": "23"
+    },
+    {
+      "name": "高品质恢复药",
+      "sourceType": "帕鲁掉落",
+      "source": "#182 墨罗娜、#186 百合女王、#186B 黑月女王、#195B 贝菈露洁",
+      "sourceCount": "4"
+    },
+    {
+      "name": "高等技术书",
+      "sourceType": "帕鲁掉落",
+      "source": "#19 啼卡尔、#78 焰巫狐、#78B 幽巫狐、#79 暗巫猫、#79B 炽巫猫",
+      "sourceCount": "5"
+    },
+    {
+      "name": "龙之辉石",
+      "sourceType": "帕鲁掉落",
+      "source": "#63 精灵龙、#63B 水灵龙、#94 佩克龙、#94B 派克龙、#121 覆海龙、#121B 腾炎龙、#124 天羽龙、#124B 翠羽龙、#137B 殁殃、#158 魔渊龙、#160 艾基鲁迦、#171 灵曦龙、#171B 狱熙龙、#184 磐甲龙、#187 波鲁杰克斯",
+      "sourceCount": "15"
     }
   ],
   "sources": [
     {
-      "label": "palworld-paldex-api (MIT)",
-      "url": "https://github.com/mlg404/palworld-paldex-api"
+      "label": "PalDB 中文帕鲁详情（可能掉落）",
+      "url": "https://paldb.cc/cn/Pals"
+    },
+    {
+      "label": "TH.GL Palworld Paldeck（中文名、ID）",
+      "url": "https://palworld.th.gl/zh-CN/db/paldeck"
     }
   ]
 }

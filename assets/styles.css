@@ -724,6 +724,15 @@ h2 {
   min-width: 240px;
 }
 
+.data-workspace[data-data-url*="materials"] .data-table {
+  min-width: 980px;
+}
+
+.data-workspace[data-data-url*="materials"] .data-table th:nth-child(3),
+.data-workspace[data-data-url*="materials"] .data-table td:nth-child(3) {
+  min-width: 560px;
+}
+
 .task-grid,
 .tool-grid {
   display: grid;

@@ -469,42 +469,59 @@ def merge_paldeck_10_rows(rows, supplements):
     return merged
 
 
-def build_materials(pals):
+def paldeck_number_key(value):
+    match = re.fullmatch(r"(\d+)([A-Z]?)", value)
+    if match:
+        return int(match.group(1)), match.group(2)
+    return 10_000, value
+
+
+def build_materials(rows, english_rows, paldb_rows, paldb_details):
+    english_by_id = {row["id"]: row["name"] for row in english_rows}
+    number_by_name = {row["englishName"]: row["number"] for row in paldb_rows}
     by_drop = {}
-    for pal in pals:
-        for drop in pal.get("drops", []):
-            by_drop.setdefault(drop, []).append(pal_label(pal))
+    for row in rows:
+        english_name = row.get("englishName", english_by_id.get(row["id"], ""))
+        number = number_by_name.get(english_name, "")
+        drops = paldb_details.get(english_name, {}).get("drops", "")
+        for drop in filter(None, drops.split("、")):
+            by_drop.setdefault(drop, []).append((number, row["name"]))
 
     records = []
-    for drop, sources in sorted(by_drop.items(), key=lambda item: item_name(item[0])):
+    for drop, sources in sorted(by_drop.items()):
+        source_labels = []
+        for number, name in sorted(sources, key=lambda item: (paldeck_number_key(item[0]), item[1])):
+            label = f"#{number} {name}" if number else name
+            if label not in source_labels:
+                source_labels.append(label)
         records.append(
             {
-                "name": item_name(drop),
+                "name": drop,
                 "sourceType": "帕鲁掉落",
-                "source": "、".join(sources[:12]),
-                "sourceCount": str(len(sources)),
-                "usage": "按制作配方和科技需求使用",
-                "route": "从掉落帕鲁反查获取来源",
+                "source": "、".join(source_labels),
+                "sourceCount": str(len(source_labels)),
             }
         )
 
     return {
-        "title": "材料掉落",
-        "description": "按掉落物反查来源帕鲁，适合查找材料获取对象。",
-        "lastVerified": "2026-07-02",
+        "title": "1.0 材料掉落",
+        "description": "按 1.0 图鉴的可能掉落反查来源帕鲁；可用材料名或帕鲁名筛选。",
+        "lastVerified": "2026-07-13",
         "columns": [
             {"key": "name", "label": "材料"},
             {"key": "sourceType", "label": "来源类型"},
             {"key": "source", "label": "来源帕鲁"},
             {"key": "sourceCount", "label": "来源数量"},
-            {"key": "usage", "label": "主要用途"},
-            {"key": "route", "label": "获取方式"},
         ],
         "records": records,
         "sources": [
             {
-                "label": "palworld-paldex-api (MIT)",
-                "url": "https://github.com/mlg404/palworld-paldex-api",
+                "label": "PalDB 中文帕鲁详情（可能掉落）",
+                "url": "https://paldb.cc/cn/Pals",
+            },
+            {
+                "label": "TH.GL Palworld Paldeck（中文名、ID）",
+                "url": PALDECK_10_URL,
             }
         ],
     }
@@ -745,7 +762,12 @@ def main():
             paldb_paldeck_rows,
             paldb_paldeck_details,
         ),
-        "materials.zh-CN.json": build_materials(pals),
+        "materials.zh-CN.json": build_materials(
+            paldeck_10_rows,
+            paldeck_10_english_rows,
+            paldb_paldeck_rows,
+            paldb_paldeck_details,
+        ),
         "breeding.zh-CN.json": build_breeding(pals, breeding),
         "technology.zh-CN.json": build_technology(technology_rows),
         "recipes.zh-CN.json": build_recipes(recipe_rows),

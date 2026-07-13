@@ -22,7 +22,7 @@ Recipe index records are transformed from the public TH.GL Palworld recipe listi
 
 - https://palworld.th.gl/zh-CN/db/recipes
 
-Paldeck 1.0 records use the public TH.GL Chinese Paldeck listing for IDs and Chinese names. PalDB's public English Pal list and Chinese Pal detail pages are transformed only for short factual Paldeck numbers, element labels, work suitability levels, partner skill names, possible drop names, and food amounts. The site does not copy either source's images or long-form page text.
+Paldeck 1.0 records use the public TH.GL Chinese Paldeck listing for IDs and Chinese names. PalDB's public English Pal list and Chinese Pal detail pages are transformed only for short factual Paldeck numbers, element labels, work suitability levels, partner skill names, possible drop names, and food amounts. The materials index is a reverse lookup derived from those possible drop names and their Paldeck records. The site does not copy either source's images or long-form page text.
 
 - https://palworld.th.gl/zh-CN/db/paldeck
 - https://paldb.cc/en/Pals
