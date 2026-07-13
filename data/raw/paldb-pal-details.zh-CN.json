@@ -1,0 +1,1442 @@
+{
+  "Lamball": {
+    "partnerSkill": "茸茸盾牌",
+    "food": "1",
+    "drops": "羊毛、棉悠悠的羊肉"
+  },
+  "Fuack": {
+    "partnerSkill": "乘风破浪",
+    "food": "1",
+    "drops": "皮革、水栖帕鲁的黏液"
+  },
+  "Chikipi": {
+    "partnerSkill": "产蛋",
+    "food": "1",
+    "drops": "蛋、皮皮鸡的鸡肉"
+  },
+  "Fuack Ignis": {
+    "partnerSkill": "热浪滚滚",
+    "food": "1",
+    "drops": "皮革、水栖帕鲁的黏液、喷火器官"
+  },
+  "Cattiva": {
+    "partnerSkill": "跟猫借手手",
+    "food": "1",
+    "drops": "红色野莓"
+  },
+  "Lifmunk": {
+    "partnerSkill": "翠叶鼠出击",
+    "food": "1",
+    "drops": "小麦种子、低品质药品"
+  },
+  "Vixy": {
+    "partnerSkill": "挖掘指导",
+    "food": "1",
+    "drops": "皮革、骨头"
+  },
+  "Celaray": {
+    "partnerSkill": "微风滑翔",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Croajiro Noct": {
+    "partnerSkill": "蓄势暗跃",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液、布、毒腺"
+  },
+  "Croajiro": {
+    "partnerSkill": "蓄势跳跃",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液、布"
+  },
+  "Celaray Lux": {
+    "partnerSkill": "电风滑翔",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Cremis": {
+    "partnerSkill": "蓬松毛毛",
+    "food": "1",
+    "drops": "羊毛"
+  },
+  "Herbil": {
+    "partnerSkill": "起搏鼠鼠",
+    "food": "1",
+    "drops": "皮革、小麦种子"
+  },
+  "Teafant": {
+    "partnerSkill": "疗伤之浴",
+    "food": "1",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Clovee": {
+    "partnerSkill": "幸运三叶草",
+    "food": "1",
+    "drops": "野莓种子"
+  },
+  "Gumoss": {
+    "partnerSkill": "樵夫啦啦队",
+    "food": "1",
+    "drops": "野莓种子、叶泥泥的叶子"
+  },
+  "Jolthog": {
+    "partnerSkill": "电击炸弹",
+    "food": "1",
+    "drops": "发电器官"
+  },
+  "Pupperai": {
+    "partnerSkill": "干劲支援",
+    "food": "1",
+    "drops": "骨头"
+  },
+  "Jolthog Cryst": {
+    "partnerSkill": "冻结炸弹",
+    "food": "1",
+    "drops": "结冰器官"
+  },
+  "Pengullet": {
+    "partnerSkill": "企丸丸发射",
+    "food": "1",
+    "drops": "结冰器官、水栖帕鲁的黏液"
+  },
+  "Depresso": {
+    "partnerSkill": "摄取咖啡因",
+    "food": "1",
+    "drops": "毒腺"
+  },
+  "Penking": {
+    "partnerSkill": "勇敢的海之战士",
+    "food": "4",
+    "drops": "结冰器官、企丸王的羽饰"
+  },
+  "Pengullet Lux": {
+    "partnerSkill": "闪丸丸发射",
+    "food": "1",
+    "drops": "发电器官、水栖帕鲁的黏液"
+  },
+  "Penking Lux": {
+    "partnerSkill": "不屈的雷击船长",
+    "food": "4",
+    "drops": "发电器官、企丸王的羽饰"
+  },
+  "Hoocrates": {
+    "partnerSkill": "暗影睿智",
+    "food": "1",
+    "drops": "纤维、高等技术书"
+  },
+  "Melpaca": {
+    "partnerSkill": "蓬蓬羊毛",
+    "food": "2",
+    "drops": "羊毛、皮革"
+  },
+  "Kingpaca Cryst": {
+    "partnerSkill": "冷酷国王",
+    "food": "4",
+    "drops": "羊毛、结冰器官"
+  },
+  "Kingpaca": {
+    "partnerSkill": "大力国王",
+    "food": "4",
+    "drops": "羊毛、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Daedream": {
+    "partnerSkill": "逐梦者",
+    "food": "1",
+    "drops": "毒腺、小型帕鲁之魂"
+  },
+  "Tanzee": {
+    "partnerSkill": "猴急步枪",
+    "food": "1",
+    "drops": "蘑菇"
+  },
+  "Tanzee Ignis": {
+    "partnerSkill": "枪火奇猿",
+    "food": "1",
+    "drops": "蘑菇、喷火器官"
+  },
+  "Flambelle": {
+    "partnerSkill": "熔岩之泪",
+    "food": "2",
+    "drops": "喷火器官、优质帕鲁油"
+  },
+  "Nox": {
+    "partnerSkill": "冷娇",
+    "food": "1",
+    "drops": "皮革、小型帕鲁之魂"
+  },
+  "Rooby": {
+    "partnerSkill": "微小火种",
+    "food": "1",
+    "drops": "喷火器官、皮革"
+  },
+  "Mau Cryst": {
+    "partnerSkill": "晴天冰雳",
+    "food": "1",
+    "drops": "结冰器官、蓝宝石"
+  },
+  "Mau": {
+    "partnerSkill": "招财猫",
+    "food": "1",
+    "drops": "金币、皮革"
+  },
+  "Rushoar": {
+    "partnerSkill": "坚硬头壳",
+    "food": "1",
+    "drops": "草莽猪的猪肉、皮革、骨头"
+  },
+  "Foxparks": {
+    "partnerSkill": "抱抱火焰",
+    "food": "1",
+    "drops": "皮革、喷火器官"
+  },
+  "Killamari": {
+    "partnerSkill": "炸鱿鱼",
+    "food": "2",
+    "drops": "毒腺、勾魂鱿的触手、水栖帕鲁的黏液"
+  },
+  "Killamari Primo": {
+    "partnerSkill": "炸鱿鱼",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液、勾魂鱿的触手"
+  },
+  "Foxparks Cryst": {
+    "partnerSkill": "抱抱寒冰",
+    "food": "1",
+    "drops": "皮革、结冰器官"
+  },
+  "Fuddler": {
+    "partnerSkill": "矿工啦啦队",
+    "food": "2",
+    "drops": "皮革"
+  },
+  "Eikthyrdeer": {
+    "partnerSkill": "森林守护者",
+    "food": "2",
+    "drops": "紫霞鹿的鹿肉、皮革、角、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Eikthyrdeer Terra": {
+    "partnerSkill": "金之森守护者",
+    "food": "2",
+    "drops": "紫霞鹿的鹿肉、皮革、角、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Direhowl": {
+    "partnerSkill": "猎狼骑手",
+    "food": "2",
+    "drops": "皮革、红宝石、金币"
+  },
+  "Caprity": {
+    "partnerSkill": "采摘野莓",
+    "food": "2",
+    "drops": "灌木羊的香草肉、红色野莓、角"
+  },
+  "Swee": {
+    "partnerSkill": "毛茸茸茸茸",
+    "food": "1",
+    "drops": "羊毛、毛掸儿的棉毛"
+  },
+  "Caprity Noct": {
+    "partnerSkill": "采摘毒腺",
+    "food": "2",
+    "drops": "灌木羊的香草肉、红色野莓、角、毒腺"
+  },
+  "Sweepa": {
+    "partnerSkill": "毛茸茸之王",
+    "food": "4",
+    "drops": "羊毛"
+  },
+  "Turtacle": {
+    "partnerSkill": "尖刺刺运输",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、骨头"
+  },
+  "Hangyu": {
+    "partnerSkill": "空中秋千",
+    "food": "1",
+    "drops": "纤维、小麦种子"
+  },
+  "Turtacle Terra": {
+    "partnerSkill": "亮闪闪运输",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、骨头"
+  },
+  "Woolipop": {
+    "partnerSkill": "糖果甜心",
+    "food": "1",
+    "drops": "棉花糖、优质帕鲁油"
+  },
+  "Hangyu Cryst": {
+    "partnerSkill": "寒空秋千",
+    "food": "1",
+    "drops": "纤维、结冰器官"
+  },
+  "Woolipop Terra": {
+    "partnerSkill": "苦涩甜心",
+    "food": "1",
+    "drops": "焦糖棉花糖、羊毛"
+  },
+  "Mozzarina": {
+    "partnerSkill": "产奶",
+    "food": "2",
+    "drops": "波霸牛的牛肉、牛奶"
+  },
+  "Azurobe": {
+    "partnerSkill": "水翔之舞",
+    "food": "5",
+    "drops": "布、水栖帕鲁的黏液、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Azurobe Cryst": {
+    "partnerSkill": "冰翔之舞",
+    "food": "5",
+    "drops": "布、水栖帕鲁的黏液、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Kelpsea": {
+    "partnerSkill": "洒水",
+    "food": "1",
+    "drops": "水灵儿的鱼肉、水栖帕鲁的黏液"
+  },
+  "Sparkit": {
+    "partnerSkill": "静电",
+    "food": "1",
+    "drops": "发电器官"
+  },
+  "Kelpsea Ignis": {
+    "partnerSkill": "熔岩泼洒",
+    "food": "1",
+    "drops": "水灵儿的鱼肉、喷火器官"
+  },
+  "Ribbuny": {
+    "partnerSkill": "微笑公主兔",
+    "food": "1",
+    "drops": "皮革、美丽花朵、姬小兔的发带、野莓种子"
+  },
+  "Ribbuny Botan": {
+    "partnerSkill": "暴力青草兔",
+    "food": "1",
+    "drops": "皮革、姬小兔的发带、胡萝卜种子、胡萝卜"
+  },
+  "Jellroy": {
+    "partnerSkill": "海月灵祝福",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、海月灵的水母伞"
+  },
+  "Jelliette": {
+    "partnerSkill": "海月仙祝福",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、海月仙的水母伞"
+  },
+  "Gloopie": {
+    "partnerSkill": "缠人小公主",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、墨沫姬的章鱼足"
+  },
+  "Amione": {
+    "partnerSkill": "魔力双子",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Gloopie Primo": {
+    "partnerSkill": "咬咬姬",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、墨沫姬的章鱼足"
+  },
+  "Wispaw": {
+    "partnerSkill": "附体灵猫",
+    "food": "6",
+    "drops": "小型帕鲁之魂、皮革、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Nitewing": {
+    "partnerSkill": "旅伴",
+    "food": "2",
+    "drops": "皮革"
+  },
+  "Galeclaw": {
+    "partnerSkill": "天擒鸟滑翔",
+    "food": "2",
+    "drops": "天擒鸟的鸟肉、皮革"
+  },
+  "Tocotoco": {
+    "partnerSkill": "炸蛋发射器",
+    "food": "2",
+    "drops": "火药、炸蛋鸟的羽毛"
+  },
+  "Tombat": {
+    "partnerSkill": "猫妖感应",
+    "food": "2",
+    "drops": "皮革、小型帕鲁之魂"
+  },
+  "Univolt": {
+    "partnerSkill": "疾风迅雷",
+    "food": "3",
+    "drops": "皮革、发电器官、角、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Univolt Cryst": {
+    "partnerSkill": "冰华乱舞",
+    "food": "3",
+    "drops": "皮革、角、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Gobfin": {
+    "partnerSkill": "易怒鲨鲨",
+    "food": "2",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Gobfin Ignis": {
+    "partnerSkill": "易怒鲨鲨",
+    "food": "2",
+    "drops": "喷火器官"
+  },
+  "Loupmoon": {
+    "partnerSkill": "黑暗中的闪亮利爪",
+    "food": "3",
+    "drops": "骨头"
+  },
+  "Loupmoon Cryst": {
+    "partnerSkill": "冰结利爪",
+    "food": "3",
+    "drops": "骨头"
+  },
+  "Arsox": {
+    "partnerSkill": "温暖之躯",
+    "food": "3",
+    "drops": "角、喷火器官"
+  },
+  "Cawgnito": {
+    "partnerSkill": "夜袭怪鸟",
+    "food": "3",
+    "drops": "骨头、毒腺、小型帕鲁之魂"
+  },
+  "Muffly": {
+    "partnerSkill": "软萌圆圆鸟",
+    "food": "3",
+    "drops": "结冰器官"
+  },
+  "Bristla": {
+    "partnerSkill": "公主的视线",
+    "food": "2",
+    "drops": "番茄种子、美丽花朵"
+  },
+  "Puffolt": {
+    "partnerSkill": "电光强化",
+    "food": "3",
+    "drops": "发电器官"
+  },
+  "Cinnamoth": {
+    "partnerSkill": "神秘鳞粉",
+    "food": "2",
+    "drops": "蜂蜜、生菜种子、番茄种子"
+  },
+  "Elphidran": {
+    "partnerSkill": "善良的圣洁之龙",
+    "food": "3",
+    "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Elphidran Aqua": {
+    "partnerSkill": "善良的流水之龙",
+    "food": "3",
+    "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Vanwyrm": {
+    "partnerSkill": "大空袭击者",
+    "food": "5",
+    "drops": "骨头、红宝石、金币"
+  },
+  "Vanwyrm Cryst": {
+    "partnerSkill": "大空袭击者",
+    "food": "5",
+    "drops": "骨头、结冰器官、蓝宝石"
+  },
+  "Felbat": {
+    "partnerSkill": "窃取生命",
+    "food": "7",
+    "drops": "布、小型帕鲁之魂"
+  },
+  "Vaelet": {
+    "partnerSkill": "大地净化",
+    "food": "5",
+    "drops": "低品质药品、番茄种子、洋葱种子"
+  },
+  "Beegarde": {
+    "partnerSkill": "工蜂",
+    "food": "3",
+    "drops": "蜂蜜"
+  },
+  "Lovander": {
+    "partnerSkill": "爱心吸取",
+    "food": "4",
+    "drops": "蘑菇、蛋糕、可疑果汁、怪异果汁、消除记忆药"
+  },
+  "Grintale": {
+    "partnerSkill": "猫眼逼人",
+    "food": "4",
+    "drops": "优质帕鲁油"
+  },
+  "Elizabee": {
+    "partnerSkill": "女王蜂的统率",
+    "food": "5",
+    "drops": "蜂蜜、女皇蜂之杖"
+  },
+  "Tarantriss": {
+    "partnerSkill": "桃色之网",
+    "food": "4",
+    "drops": "纤维、毒腺"
+  },
+  "Polapup": {
+    "partnerSkill": "滑雪行家",
+    "food": "4",
+    "drops": "结冰器官"
+  },
+  "Polapup Terra": {
+    "partnerSkill": "雪山速滑",
+    "food": "4",
+    "drops": "皮革、水栖帕鲁的黏液、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Leezpunk Ignis": {
+    "partnerSkill": "透明化",
+    "food": "2",
+    "drops": "喷火器官、银钥匙、朋克蜥的头冠"
+  },
+  "Leezpunk": {
+    "partnerSkill": "透明化",
+    "food": "2",
+    "drops": "铜钥匙、银钥匙、朋克蜥的头冠"
+  },
+  "Gorirat": {
+    "partnerSkill": "火力全开大猩猩模式",
+    "food": "3",
+    "drops": "皮革、骨头、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Gorirat Terra": {
+    "partnerSkill": "火力全开铁臂大猩猩",
+    "food": "3",
+    "drops": "金属矿石、骨头、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Surfent": {
+    "partnerSkill": "滑滑水蛇",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液"
+  },
+  "Surfent Terra": {
+    "partnerSkill": "滑滑沙蛇",
+    "food": "3",
+    "drops": "水栖帕鲁的黏液、金属矿石"
+  },
+  "Robinquill": {
+    "partnerSkill": "射箭达人",
+    "food": "3",
+    "drops": "土豆种薯、箭"
+  },
+  "Flopie": {
+    "partnerSkill": "兔兔助手",
+    "food": "2",
+    "drops": "低品质药品、生菜种子"
+  },
+  "Robinquill Terra": {
+    "partnerSkill": "挽弓达人",
+    "food": "3",
+    "drops": "土豆种薯、箭"
+  },
+  "Wixen": {
+    "partnerSkill": "狐神大人",
+    "food": "4",
+    "drops": "喷火器官、高等技术书"
+  },
+  "Wixen Noct": {
+    "partnerSkill": "巫神大人",
+    "food": "4",
+    "drops": "中型帕鲁之魂、高等技术书"
+  },
+  "Katress Ignis": {
+    "partnerSkill": "热情黑魔法",
+    "food": "4",
+    "drops": "喷火器官、暗巫猫的体毛、高等技术书"
+  },
+  "Katress": {
+    "partnerSkill": "怪奇黑魔法",
+    "food": "4",
+    "drops": "皮革、暗巫猫的体毛、高等技术书"
+  },
+  "Helzephyr": {
+    "partnerSkill": "冥府之翼",
+    "food": "7",
+    "drops": "毒腺、中型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Elgrove": {
+    "partnerSkill": "大自然之威",
+    "food": "8",
+    "drops": "角、皮革、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Elgrove Cryst": {
+    "partnerSkill": "永冻土之威",
+    "food": "8",
+    "drops": "角、皮革、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Helzephyr Lux": {
+    "partnerSkill": "雷鸣之翼",
+    "food": "7",
+    "drops": "发电器官、中型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Lunaris": {
+    "partnerSkill": "反重力",
+    "food": "4",
+    "drops": "帕鲁矿碎块"
+  },
+  "Fenglope": {
+    "partnerSkill": "风云",
+    "food": "5",
+    "drops": "皮革、角、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dinossom": {
+    "partnerSkill": "馥郁花香之龙",
+    "food": "4",
+    "drops": "番茄种子、生菜种子"
+  },
+  "Fenglope Lux": {
+    "partnerSkill": "雷云",
+    "food": "5",
+    "drops": "皮革、角、发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dinossom Lux": {
+    "partnerSkill": "落雷绽放之龙",
+    "food": "4",
+    "drops": "番茄种子、胡萝卜种子"
+  },
+  "Bushi": {
+    "partnerSkill": "紫电一闪",
+    "food": "5",
+    "drops": "骨头、金属锭"
+  },
+  "Bushi Noct": {
+    "partnerSkill": "秘技·紫电一闪",
+    "food": "5",
+    "drops": "喷火器官、金属锭、中型帕鲁之魂"
+  },
+  "Munchill": {
+    "partnerSkill": "雪盆大口",
+    "food": "3",
+    "drops": "肚肚鳄的鳄鱼肉、水栖帕鲁的黏液、结冰器官"
+  },
+  "Mammorest Cryst": {
+    "partnerSkill": "冰霜粉碎者",
+    "food": "6",
+    "drops": "优质帕鲁油、皮革、森猛犸的巨兽肉、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Mammorest": {
+    "partnerSkill": "盖亚粉碎者",
+    "food": "6",
+    "drops": "优质帕鲁油、皮革、森猛犸的巨兽肉、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Finsider Ignis": {
+    "partnerSkill": "炎炎收纳间",
+    "food": "2",
+    "drops": "皮革、小型帕鲁之魂、喷火器官"
+  },
+  "Finsider": {
+    "partnerSkill": "水流扳机",
+    "food": "2",
+    "drops": "皮革、小型帕鲁之魂、水栖帕鲁的黏液"
+  },
+  "Petallia": {
+    "partnerSkill": "花精灵的祝福",
+    "food": "6",
+    "drops": "美丽花朵、土豆种薯"
+  },
+  "Petallia Ignis": {
+    "partnerSkill": "花精灵的热情",
+    "food": "6",
+    "drops": "美丽花朵、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Incineram": {
+    "partnerSkill": "焰爪猎人",
+    "food": "5",
+    "drops": "角、皮革"
+  },
+  "Incineram Noct": {
+    "partnerSkill": "黑爪猎人",
+    "food": "5",
+    "drops": "角、皮革"
+  },
+  "Leafan": {
+    "partnerSkill": "克己复礼",
+    "food": "7",
+    "drops": "皮革"
+  },
+  "Dazzi": {
+    "partnerSkill": "雷电姑娘",
+    "food": "2",
+    "drops": "发电器官、雷鸣童子的云朵"
+  },
+  "Pyrin": {
+    "partnerSkill": "赤兔马",
+    "food": "4",
+    "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dazzi Noct": {
+    "partnerSkill": "乌云姑娘",
+    "food": "2",
+    "drops": "发电器官、雷鸣童子的云朵、暗黑碎片"
+  },
+  "Pyrin Noct": {
+    "partnerSkill": "黑兔马",
+    "food": "4",
+    "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Relaxaurus": {
+    "partnerSkill": "饿饿飞弹",
+    "food": "7",
+    "drops": "优质帕鲁油、红宝石、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Relaxaurus Lux": {
+    "partnerSkill": "飞弹盛宴",
+    "food": "7",
+    "drops": "优质帕鲁油、发电器官、蓝宝石、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Foxcicle": {
+    "partnerSkill": "极光的指引",
+    "food": "4",
+    "drops": "皮革、结冰器官"
+  },
+  "Beakon Cryst": {
+    "partnerSkill": "天霰",
+    "food": "5",
+    "drops": "结冰器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Beakon": {
+    "partnerSkill": "天雷",
+    "food": "5",
+    "drops": "发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Ghangler": {
+    "partnerSkill": "暗夜引路人",
+    "food": "7",
+    "drops": "骨头、毒腺"
+  },
+  "Rayhound": {
+    "partnerSkill": "雷雳跃行",
+    "food": "4",
+    "drops": "发电器官"
+  },
+  "Rayhound Cryst": {
+    "partnerSkill": "霜跃疾行",
+    "food": "4",
+    "drops": "结冰器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Ghangler Ignis": {
+    "partnerSkill": "深海名厨",
+    "food": "7",
+    "drops": "骨头、喷火器官"
+  },
+  "Menasting": {
+    "partnerSkill": "钢铁之蝎",
+    "food": "6",
+    "drops": "中型帕鲁之魂、毒腺"
+  },
+  "Needoll": {
+    "partnerSkill": "请你抱抱我",
+    "food": "2",
+    "drops": "纤维"
+  },
+  "Menasting Terra": {
+    "partnerSkill": "黄金之蝎",
+    "food": "6",
+    "drops": "中型帕鲁之魂、蓝宝石"
+  },
+  "Reindrix": {
+    "partnerSkill": "冰凉之躯",
+    "food": "4",
+    "drops": "严冬鹿的鹿肉、皮革、角、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Mossanda": {
+    "partnerSkill": "不良熊猫",
+    "food": "4",
+    "drops": "硬木材、皮革、胡萝卜种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Needoll Noct": {
+    "partnerSkill": "紧紧抱住你",
+    "food": "2",
+    "drops": "纤维、毒腺"
+  },
+  "Mossanda Lux": {
+    "partnerSkill": "不良熊猫",
+    "food": "4",
+    "drops": "硬木材、发电器官、皮革、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Chillet": {
+    "partnerSkill": "扭扭鼬鼬",
+    "food": "3",
+    "drops": "皮革、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Chillet Ignis": {
+    "partnerSkill": "烧鼬鼬",
+    "food": "3",
+    "drops": "皮革、喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Ragnahawk": {
+    "partnerSkill": "烈焰之翼",
+    "food": "7",
+    "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Moldron": {
+    "partnerSkill": "熔岩霸主",
+    "food": "8",
+    "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Moldron Cryst": {
+    "partnerSkill": "寒冰霸主",
+    "food": "8",
+    "drops": "结冰器官、皮革"
+  },
+  "Palumba": {
+    "partnerSkill": "桑巴舞步",
+    "food": "6",
+    "drops": "硬木材、洋葱种子、胡萝卜种子"
+  },
+  "Broncherry": {
+    "partnerSkill": "恋香初绽",
+    "food": "6",
+    "drops": "连理龙的恐龙肉、洋葱种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Digtoise": {
+    "partnerSkill": "钻头粉碎者",
+    "food": "5",
+    "drops": "金属矿石、优质帕鲁油"
+  },
+  "Dumud": {
+    "partnerSkill": "改善土质",
+    "food": "3",
+    "drops": "趴趴鲶的鱼肉、优质帕鲁油"
+  },
+  "Dumud Gild": {
+    "partnerSkill": "黄金丰收",
+    "food": "3",
+    "drops": "趴趴鲶的鱼肉、优质帕鲁油、金币"
+  },
+  "Broncherry Aqua": {
+    "partnerSkill": "纯心盛绽",
+    "food": "6",
+    "drops": "连理龙的恐龙肉、洋葱种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Braloha": {
+    "partnerSkill": "暖洋洋晴日",
+    "food": "7",
+    "drops": "皮革、红色野莓、生菜种子、番茄种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Kitsun": {
+    "partnerSkill": "日轮之狼",
+    "food": "5",
+    "drops": "喷火器官、皮革"
+  },
+  "Kitsun Noct": {
+    "partnerSkill": "昙天之狼",
+    "food": "5",
+    "drops": "喷火器官、皮革、暗黑碎片"
+  },
+  "Blazehowl Noct": {
+    "partnerSkill": "黑炎狮子",
+    "food": "6",
+    "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Blazehowl": {
+    "partnerSkill": "狱炎狮子",
+    "food": "6",
+    "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Warsect": {
+    "partnerSkill": "攻守一体的黑甲",
+    "food": "6",
+    "drops": "蜂蜜、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Warsect Terra": {
+    "partnerSkill": "攻守一体的金甲",
+    "food": "6",
+    "drops": "蜂蜜"
+  },
+  "Frostplume": {
+    "partnerSkill": "孔雀迅捷",
+    "food": "5",
+    "drops": "结冰器官"
+  },
+  "Majex": {
+    "partnerSkill": "暗狐秘咒",
+    "food": "8",
+    "drops": "皮革、喷火器官、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Sibelyx": {
+    "partnerSkill": "神秘缠丝者",
+    "food": "5",
+    "drops": "优质的布、结冰器官"
+  },
+  "Maraith": {
+    "partnerSkill": "冥界使者",
+    "food": "5",
+    "drops": "骨头、小型帕鲁之魂、原油"
+  },
+  "Sibelyx Primo": {
+    "partnerSkill": "神秘缠金丝者",
+    "food": "5",
+    "drops": "优质的布、优质帕鲁油、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Shroomer Noct": {
+    "partnerSkill": "幽幽然孢子",
+    "food": "5",
+    "drops": "毒腺、不可思议的蘑菇"
+  },
+  "Shroomer": {
+    "partnerSkill": "飘飘然孢子",
+    "food": "5",
+    "drops": "蘑菇、红色野莓、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Icelyn": {
+    "partnerSkill": "魔女的冷气",
+    "food": "5",
+    "drops": "结冰器官"
+  },
+  "Gildra": {
+    "partnerSkill": "黄泉归来",
+    "food": "6",
+    "drops": "布、皮革"
+  },
+  "Jormuntide": {
+    "partnerSkill": "呼唤风暴的深海龙",
+    "food": "8",
+    "drops": "水栖帕鲁的黏液、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Jormuntide Ignis": {
+    "partnerSkill": "呼唤风暴的熔岩龙",
+    "food": "8",
+    "drops": "优质帕鲁油、喷火器官、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Suzaku Aqua": {
+    "partnerSkill": "水之翼",
+    "food": "7",
+    "drops": "水栖帕鲁的黏液、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Suzaku": {
+    "partnerSkill": "炎之翼",
+    "food": "7",
+    "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dazemu": {
+    "partnerSkill": "飞砂腿",
+    "food": "3",
+    "drops": "骨头"
+  },
+  "Quivern": {
+    "partnerSkill": "天空龙的慈爱",
+    "food": "6",
+    "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Lullu": {
+    "partnerSkill": "繁花告春",
+    "food": "4",
+    "drops": "美丽花朵、红色野莓"
+  },
+  "Quivern Botan": {
+    "partnerSkill": "翠龙的慈爱",
+    "food": "6",
+    "drops": "优质帕鲁油、美丽花朵、红色野莓、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Kikit": {
+    "partnerSkill": "滚滚沙滩球",
+    "food": "3",
+    "drops": "皮革、骨头、原油"
+  },
+  "Yakumo": {
+    "partnerSkill": "物以类聚",
+    "food": "3",
+    "drops": "皮革"
+  },
+  "Skutlass": {
+    "partnerSkill": "斩骨断肉",
+    "food": "5",
+    "drops": "鞘刀鱼排、水栖帕鲁的黏液"
+  },
+  "Skutlass Ignis": {
+    "partnerSkill": "炼骨断肉",
+    "food": "5",
+    "drops": "鞘刀鱼排、喷火器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Reptyro": {
+    "partnerSkill": "贪食矿石之兽",
+    "food": "7",
+    "drops": "喷火器官"
+  },
+  "Reptyro Cryst": {
+    "partnerSkill": "贪食冰霜之兽",
+    "food": "7",
+    "drops": "结冰器官"
+  },
+  "Starryon": {
+    "partnerSkill": "夜舞者",
+    "food": "6",
+    "drops": "皮革、暗黑碎片、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Starryon Primo": {
+    "partnerSkill": "光舞者",
+    "food": "6",
+    "drops": "皮革、夜星砂、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Pierdon": {
+    "partnerSkill": "能量石",
+    "food": "8",
+    "drops": "金属矿石、石炭、硫磺"
+  },
+  "Pierdon Cryst": {
+    "partnerSkill": "能量水晶",
+    "food": "8",
+    "drops": "烈阳金属、结冰器官、纯水晶、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Cryolinx Terra": {
+    "partnerSkill": "爆碎铁腕",
+    "food": "7",
+    "drops": "金属矿石"
+  },
+  "Cryolinx": {
+    "partnerSkill": "猎龙者",
+    "food": "7",
+    "drops": "结冰器官"
+  },
+  "Snugloo": {
+    "partnerSkill": "不见之眼",
+    "food": "5",
+    "drops": "皮革、羊毛、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Wumpo": {
+    "partnerSkill": "雪山巨人",
+    "food": "7",
+    "drops": "结冰器官、美丽花朵、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Wumpo Botan": {
+    "partnerSkill": "南方巨人",
+    "food": "7",
+    "drops": "硬木材、美丽花朵、胡萝卜种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Sootseer": {
+    "partnerSkill": "古墓烛影",
+    "food": "7",
+    "drops": "中型帕鲁之魂、骨头、原油"
+  },
+  "Blazamut": {
+    "partnerSkill": "熔岩凯撒",
+    "food": "9",
+    "drops": "石炭、喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Carnibora": {
+    "partnerSkill": "巨舌缠绕",
+    "food": "7",
+    "drops": "毒腺、纤维、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Blazamut Ryu": {
+    "partnerSkill": "巨龙凯撒",
+    "food": "9",
+    "drops": "石炭、中型帕鲁之魂、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dualith": {
+    "partnerSkill": "自然光炮",
+    "food": "8",
+    "drops": "美丽花朵、大型帕鲁之魂、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dualith Noct": {
+    "partnerSkill": "枯萎光炮",
+    "food": "8",
+    "drops": "不可思议的蘑菇、大型帕鲁之魂、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Prixter": {
+    "partnerSkill": "无毒毒蝎",
+    "food": "5",
+    "drops": "毒腺"
+  },
+  "Anubis": {
+    "partnerSkill": "沙漠守护神",
+    "food": "8",
+    "drops": "骨头、大型帕鲁之魂、革新技术书、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Sekhmet": {
+    "partnerSkill": "沙漠女帝",
+    "food": "7",
+    "drops": "皮革、大型帕鲁之魂、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Prixter Lux": {
+    "partnerSkill": "低频脉冲蝎",
+    "food": "5",
+    "drops": "发电器官"
+  },
+  "Tetroise": {
+    "partnerSkill": "负石古代龟",
+    "food": "8",
+    "drops": "红宝石、大型帕鲁之魂、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Tetroise Primo": {
+    "partnerSkill": "逐石古代龟",
+    "food": "8",
+    "drops": "绿宝石、大型帕鲁之魂、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Nyafia": {
+    "partnerSkill": "猫咪霰阵",
+    "food": "6",
+    "drops": "皮革"
+  },
+  "Mimog": {
+    "partnerSkill": "撬锁",
+    "food": "3",
+    "drops": "金币、汪汪币、修炼之书（特大）"
+  },
+  "Prunelia": {
+    "partnerSkill": "丰收祈愿",
+    "food": "5",
+    "drops": "低品质药品、美丽花朵、胡萝卜种子"
+  },
+  "Xenogard": {
+    "partnerSkill": "未知入侵者",
+    "food": "7",
+    "drops": "陨石碎片、优质帕鲁油"
+  },
+  "Xenovader": {
+    "partnerSkill": "未知侵略者",
+    "food": "4",
+    "drops": "陨石碎片"
+  },
+  "Nitemary": {
+    "partnerSkill": "夺魂幽灵兔",
+    "food": "6",
+    "drops": "小型帕鲁之魂"
+  },
+  "Smokie Cryst": {
+    "partnerSkill": "忠犬冬丸",
+    "food": "3",
+    "drops": "结冰器官、中型帕鲁之魂、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Smokie": {
+    "partnerSkill": "忠犬墨丸",
+    "food": "3",
+    "drops": "铬铁矿"
+  },
+  "Nitemary Botan": {
+    "partnerSkill": "缚魂幽灵兔",
+    "food": "6",
+    "drops": "中型帕鲁之魂、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Whalaska": {
+    "partnerSkill": "凉冰冰鲸鱼号",
+    "food": "8",
+    "drops": "水栖帕鲁的黏液、珊瑚矿石、结冰器官、大型帕鲁之魂、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Omascul": {
+    "partnerSkill": "假面舞会",
+    "food": "5",
+    "drops": "暗黑碎片"
+  },
+  "Whalaska Ignis": {
+    "partnerSkill": "暖烘烘鲸鱼号",
+    "food": "8",
+    "drops": "水栖帕鲁的黏液、珊瑚矿石、喷火器官、大型帕鲁之魂、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、冰之辉石"
+  },
+  "Verdash": {
+    "partnerSkill": "草原特技之星",
+    "food": "6",
+    "drops": "皮革、骨头"
+  },
+  "Gildane": {
+    "partnerSkill": "沙尘加护",
+    "food": "8",
+    "drops": "皮革"
+  },
+  "Splatterina": {
+    "partnerSkill": "狂爱之刃",
+    "food": "7",
+    "drops": "暗黑碎片、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dogen": {
+    "partnerSkill": "归去来兮",
+    "food": "5",
+    "drops": "骨头"
+  },
+  "Celesdir": {
+    "partnerSkill": "净化的祝福",
+    "food": "8",
+    "drops": "皮革、角、六棱晶矿、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Bulldosu": {
+    "partnerSkill": "横纲风范",
+    "food": "6",
+    "drops": "骨头、纤维"
+  },
+  "Astegon": {
+    "partnerSkill": "黑铠之龙",
+    "food": "7",
+    "drops": "塑钢、大型帕鲁之魂、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Celesdir Noct": {
+    "partnerSkill": "混沌的祝福",
+    "food": "8",
+    "drops": "皮革、角、暗黑碎片、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Knocklem Ignis": {
+    "partnerSkill": "铁血卫士模式",
+    "food": "9",
+    "drops": "金属矿石、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Knocklem": {
+    "partnerSkill": "钢铁卫士模式",
+    "food": "9",
+    "drops": "金属矿石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、地之辉石"
+  },
+  "Azurmane": {
+    "partnerSkill": "电离冲刺",
+    "food": "8",
+    "drops": "发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Silvegis": {
+    "partnerSkill": "埃癸斯之盾",
+    "food": "8",
+    "drops": "铬铁矿、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Valentail": {
+    "partnerSkill": "伸展喵咪",
+    "food": "4",
+    "drops": "皮革"
+  },
+  "Snock Lux": {
+    "partnerSkill": "咚咚甲壳",
+    "food": "4",
+    "drops": "发电器官、优质帕鲁油、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Snock": {
+    "partnerSkill": "电电电池",
+    "food": "4",
+    "drops": "发电器官、水栖帕鲁的黏液"
+  },
+  "Souffline": {
+    "partnerSkill": "绒毛妖精",
+    "food": "3",
+    "drops": "小麦种子"
+  },
+  "Lapiron": {
+    "partnerSkill": "大地是好朋友",
+    "food": "4",
+    "drops": "皮革"
+  },
+  "Hoodle": {
+    "partnerSkill": "潜于虚无之物",
+    "food": "3",
+    "drops": "小型帕鲁之魂、角"
+  },
+  "Slowatt": {
+    "partnerSkill": "懒懒电键",
+    "food": "4",
+    "drops": "水栖帕鲁的黏液、发电器官"
+  },
+  "Solmora": {
+    "partnerSkill": "领袖翻车鱼",
+    "food": "6",
+    "drops": "优质帕鲁油、水栖帕鲁的黏液"
+  },
+  "Solmora Lux": {
+    "partnerSkill": "电光翻车鱼",
+    "food": "6",
+    "drops": "优质帕鲁油、发电器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Bakemi": {
+    "partnerSkill": "播撒欢笑的亡者",
+    "food": "5",
+    "drops": "布、角、小型帕鲁之魂"
+  },
+  "Lapure": {
+    "partnerSkill": "长袖啦啦队员",
+    "food": "7",
+    "drops": "皮革"
+  },
+  "Eidrolon": {
+    "partnerSkill": "自由翼龙",
+    "food": "9",
+    "drops": "皮革、优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Eidrolon Ignis": {
+    "partnerSkill": "愤怒翼龙",
+    "food": "9",
+    "drops": "皮革、优质帕鲁油、喷火器官、世界树圣水、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dynamoff": {
+    "partnerSkill": "电动按摩式抱窝",
+    "food": "6",
+    "drops": "发电器官"
+  },
+  "Flaracle": {
+    "partnerSkill": "未来之炎",
+    "food": "8",
+    "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Tropicaw": {
+    "partnerSkill": "花之舞",
+    "food": "6",
+    "drops": "美丽花朵、纤维"
+  },
+  "Dupin": {
+    "partnerSkill": "拉比拉比魔术秀",
+    "food": "8",
+    "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Ophydia": {
+    "partnerSkill": "清灿迷雾",
+    "food": "9",
+    "drops": "优质帕鲁油、大型帕鲁之魂、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Roujay": {
+    "partnerSkill": "潜影怪鸟",
+    "food": "8",
+    "drops": "皮革、红宝石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Mycora": {
+    "partnerSkill": "魅惑孢子",
+    "food": "7",
+    "drops": "蘑菇、不可思议的蘑菇、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Venusa": {
+    "partnerSkill": "灵蛇之智",
+    "food": "6",
+    "drops": "水栖帕鲁的黏液、毒腺、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Loomen": {
+    "partnerSkill": "提灯附魔",
+    "food": "7",
+    "drops": "优质帕鲁油、皮革、毒腺、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Solenne": {
+    "partnerSkill": "孤染公主",
+    "food": "9",
+    "drops": "暗黑碎片、高品质恢复药、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Wistella": {
+    "partnerSkill": "隐藏的暗能量",
+    "food": "5",
+    "drops": "夜星砂、小型帕鲁之魂、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Renjishi": {
+    "partnerSkill": "大显身手",
+    "food": "8",
+    "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Lyleen": {
+    "partnerSkill": "丰饶女神",
+    "food": "8",
+    "drops": "高品质恢复药、美丽花朵、革新技术书、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、草之辉石"
+  },
+  "Aegidron": {
+    "partnerSkill": "不破要塞龙",
+    "food": "9",
+    "drops": "超高热核心、究极帕鲁之魂、世界树圣水、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Grizzbolt": {
+    "partnerSkill": "黄色重型战车",
+    "food": "6",
+    "drops": "发电器官、皮革、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Orserk": {
+    "partnerSkill": "凶猛的迅雷龙",
+    "food": "9",
+    "drops": "发电器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、龙之辉石"
+  },
+  "Lyleen Noct": {
+    "partnerSkill": "幽光女神",
+    "food": "8",
+    "drops": "高品质恢复药、美丽花朵、革新技术书、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、暗之辉石"
+  },
+  "Faleris": {
+    "partnerSkill": "灼热捕食者",
+    "food": "9",
+    "drops": "喷火器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、火之辉石"
+  },
+  "Shadowbeak": {
+    "partnerSkill": "基因改造",
+    "food": "8",
+    "drops": "塑钢、碳纤维、革新技术书、大型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Faleris Aqua": {
+    "partnerSkill": "潮汐捕食者",
+    "food": "9",
+    "drops": "水栖帕鲁的黏液、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、水之辉石"
+  },
+  "Selyne": {
+    "partnerSkill": "晦暗辉光",
+    "food": "9",
+    "drops": "优质的布、蓝宝石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、暗之辉石"
+  },
+  "Bastigor": {
+    "partnerSkill": "暴雪冲击",
+    "food": "9",
+    "drops": "皮革、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Shaolong": {
+    "partnerSkill": "苍天统治者",
+    "food": "9",
+    "drops": "角、皮革、大型帕鲁之魂、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Silvance": {
+    "partnerSkill": "孢子守卫",
+    "food": "9",
+    "drops": "究极帕鲁之魂、古代文明核心、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Dandilord": {
+    "partnerSkill": "迷雾守卫",
+    "food": "9",
+    "drops": "究极帕鲁之魂、古代文明核心、毒腺、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物"
+  },
+  "Bellanoir": {
+    "partnerSkill": "梦魇之瞳",
+    "food": "7",
+    "drops": "暗黑碎片"
+  },
+  "Bellanoir Libero": {
+    "partnerSkill": "噩梦凝视",
+    "food": "7",
+    "drops": "暗黑碎片、高品质恢复药"
+  },
+  "Xenolord": {
+    "partnerSkill": "陨星之翼",
+    "food": "8",
+    "drops": "陨石碎片"
+  },
+  "Paladius": {
+    "partnerSkill": "天翔圣骑士",
+    "food": "9",
+    "drops": "六棱晶锭、钻石、大型帕鲁之魂"
+  },
+  "Hartalis": {
+    "partnerSkill": "庇佑圣盾",
+    "food": "9",
+    "drops": "角、皮革、大型帕鲁之魂"
+  },
+  "Necromus": {
+    "partnerSkill": "深渊黑骑士",
+    "food": "9",
+    "drops": "六棱晶锭、钻石、大型帕鲁之魂"
+  },
+  "Frostallion": {
+    "partnerSkill": "冰天马",
+    "food": "9",
+    "drops": "结冰器官、钻石"
+  },
+  "Frostallion Noct": {
+    "partnerSkill": "黑天马",
+    "food": "9",
+    "drops": "钻石、大型帕鲁之魂"
+  },
+  "Neptilius": {
+    "partnerSkill": "大海的霸主",
+    "food": "9",
+    "drops": "珊瑚矿石、六棱晶锭、钻石、大型帕鲁之魂"
+  },
+  "Jetragon": {
+    "partnerSkill": "地毯式轰炸",
+    "food": "9",
+    "drops": "烈阳金属、超高热核心、钻石、大型帕鲁之魂"
+  },
+  "Panthalus": {
+    "partnerSkill": "残响守护者",
+    "food": "9",
+    "drops": "钻石、究极帕鲁之魂"
+  },
+  "Astralym": {
+    "partnerSkill": "",
+    "food": "9",
+    "drops": "皮革、优质帕鲁油"
+  }
+}

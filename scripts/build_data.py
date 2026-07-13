@@ -1,6 +1,7 @@
 import json
 import re
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html import unescape
 from pathlib import Path
 from urllib.parse import urljoin
@@ -16,6 +17,7 @@ PALDECK_10_URL = "https://palworld.th.gl/zh-CN/db/paldeck"
 PALDECK_10_EN_URL = "https://palworld.th.gl/db/paldeck"
 PALDB_PALS_URL = "https://paldb.cc/en/Pals"
 PALDB_EN_BASE_URL = "https://paldb.cc/en/"
+PALDB_CN_BASE_URL = "https://paldb.cc/cn/"
 PALDECK_10_SUPPLEMENTS = RAW_DIR / "paldeck-1.0-supplements.zh-CN.json"
 
 
@@ -316,13 +318,86 @@ def load_paldb_paldeck_rows():
     return rows
 
 
-def build_paldeck_10(rows, english_rows, paldb_rows):
+def clean_html_text(value):
+    value = re.sub(r"<br\s*/?>", " ", value, flags=re.I)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = " ".join(unescape(value).replace("\xa0", " ").split())
+    return "" if value in {"-", "—"} else value
+
+
+def extract_paldb_detail(html):
+    partner_match = re.search(
+        r'<a href="Partner_Skill"[^>]*>.*?</a>\s*</div>\s*</div>\s*'
+        r'<div style="border-left: solid white"><span class="ms-2">(.*?)</span>\s*Lv\.',
+        html,
+        re.S,
+    )
+    food_match = re.search(
+        r"<div>进食量</div>\s*<div>(.*?)</div>\s*</div>",
+        html,
+        re.S,
+    )
+    drops_match = re.search(
+        r'<h5[^>]*data-i18n="paldex_drop_item_title"[^>]*>.*?</h5>\s*'
+        r'<table[^>]*>(.*?)</table>',
+        html,
+        re.S,
+    )
+
+    drops = []
+    if drops_match:
+        for item_html in re.findall(r'<a class="itemname"[^>]*>(.*?)</a>', drops_match.group(1), re.S):
+            item_name = clean_html_text(item_html)
+            if item_name and item_name not in drops:
+                drops.append(item_name)
+
+    return {
+        "partnerSkill": clean_html_text(partner_match.group(1)) if partner_match else "",
+        "food": str(food_match.group(1).count("T_Icon_foodamount_on.webp")) if food_match else "",
+        "drops": "、".join(drops),
+    }
+
+
+def fetch_paldb_detail(row):
+    slug = row["url"].rstrip("/").rsplit("/", 1)[-1]
+    request = urllib.request.Request(
+        urljoin(PALDB_CN_BASE_URL, slug),
+        headers={"User-Agent": "pal-database-data-builder/1.0 (+https://pal-database.pages.dev/)"},
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        detail = extract_paldb_detail(response.read().decode("utf-8"))
+    return row["englishName"], detail
+
+
+def load_paldb_paldeck_details(paldb_rows):
+    raw_json = RAW_DIR / "paldb-pal-details.zh-CN.json"
+    if raw_json.exists():
+        return json.loads(raw_json.read_text(encoding="utf-8"))
+
+    details = {}
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = {executor.submit(fetch_paldb_detail, row): row["englishName"] for row in paldb_rows}
+        for future in as_completed(futures):
+            english_name = futures[future]
+            try:
+                name, detail = future.result()
+            except Exception as error:
+                print(f"PalDB detail skipped for {english_name}: {error}")
+                continue
+            details[name] = detail
+
+    raw_json.write_text(json.dumps(details, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return details
+
+
+def build_paldeck_10(rows, english_rows, paldb_rows, paldb_details):
     english_by_id = {row["id"]: row["name"] for row in english_rows}
     paldb_by_name = {row["englishName"]: row for row in paldb_rows}
     records = []
     for row in rows:
         english_name = row.get("englishName", english_by_id.get(row["id"], ""))
         paldb_row = paldb_by_name.get(english_name, {})
+        paldb_detail = paldb_details.get(english_name, {})
         records.append(
             {
                 "number": paldb_row.get("number", ""),
@@ -330,19 +405,25 @@ def build_paldeck_10(rows, english_rows, paldb_rows):
                 "elements": paldb_row.get("elements")
                 or THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
                 "workSuitability": paldb_row.get("workSuitability") or "资料源未列出",
+                "partnerSkill": paldb_detail.get("partnerSkill") or "资料源未列出",
+                "drops": paldb_detail.get("drops") or "资料源未列出",
+                "food": paldb_detail.get("food") or "资料源未列出",
                 "id": row["id"],
                 "detail": row.get("detail", row.get("url", "")),
             }
         )
     return {
         "title": "1.0 帕鲁图鉴",
-        "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性和详情入口。",
-        "lastVerified": "2026-07-11",
+        "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性、伙伴技能、掉落与进食量。",
+        "lastVerified": "2026-07-13",
         "columns": [
             {"key": "number", "label": "编号"},
             {"key": "name", "label": "名称"},
             {"key": "elements", "label": "元素"},
             {"key": "workSuitability", "label": "工作适性"},
+            {"key": "partnerSkill", "label": "伙伴技能"},
+            {"key": "drops", "label": "可能掉落"},
+            {"key": "food", "label": "进食量"},
             {"key": "id", "label": "Paldeck ID"},
             {"key": "detail", "label": "详情"},
         ],
@@ -361,7 +442,7 @@ def build_paldeck_10(rows, english_rows, paldb_rows):
                 "url": "https://github.com/mlg404/palworld-paldex-api",
             },
             {
-                "label": "PalDB Pals（编号、元素、工作适性）",
+                "label": "PalDB Pals（编号、元素、工作适性、伙伴技能、掉落、进食量）",
                 "url": PALDB_PALS_URL,
             },
             {
@@ -654,6 +735,7 @@ def main():
     paldeck_10_rows = merge_paldeck_10_rows(paldeck_10_rows, load_paldeck_10_supplements())
     paldeck_10_english_rows = load_thgl_paldeck_en_rows()
     paldb_paldeck_rows = load_paldb_paldeck_rows()
+    paldb_paldeck_details = load_paldb_paldeck_details(paldb_paldeck_rows)
 
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
@@ -661,6 +743,7 @@ def main():
             paldeck_10_rows,
             paldeck_10_english_rows,
             paldb_paldeck_rows,
+            paldb_paldeck_details,
         ),
         "materials.zh-CN.json": build_materials(pals),
         "breeding.zh-CN.json": build_breeding(pals, breeding),

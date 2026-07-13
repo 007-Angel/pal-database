@@ -1,7 +1,7 @@
 {
   "title": "1.0 帕鲁图鉴",
-  "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性和详情入口。",
-  "lastVerified": "2026-07-11",
+  "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性、伙伴技能、掉落与进食量。",
+  "lastVerified": "2026-07-13",
   "columns": [
     {
       "key": "number",
@@ -20,6 +20,18 @@
       "label": "工作适性"
     },
     {
+      "key": "partnerSkill",
+      "label": "伙伴技能"
+    },
+    {
+      "key": "drops",
+      "label": "可能掉落"
+    },
+    {
+      "key": "food",
+      "label": "进食量"
+    },
+    {
       "key": "id",
       "label": "Paldeck ID"
     },
@@ -34,6 +46,9 @@
       "name": "妮瞅莎",
       "elements": "暗",
       "workSuitability": "手工作业 Lv4、采集 Lv4、伐木 Lv2、搬运 Lv3",
+      "partnerSkill": "猫咪霰阵",
+      "drops": "皮革",
+      "food": "6",
       "id": "pal_badcatgirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_badcatgirl"
     },
@@ -42,6 +57,9 @@
       "name": "暗魔羊",
       "elements": "暗",
       "workSuitability": "手工作业 Lv3、采矿 Lv4、搬运 Lv3",
+      "partnerSkill": "黑爪猎人",
+      "drops": "角、皮革",
+      "food": "5",
       "id": "pal_baphomet_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_baphomet_dark"
     },
@@ -50,6 +68,9 @@
       "name": "喵丝特",
       "elements": "暗",
       "workSuitability": "采集 Lv1、牧场 Lv1",
+      "partnerSkill": "招财猫",
+      "drops": "金币、皮革",
+      "food": "1",
       "id": "pal_bastet",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bastet"
     },
@@ -58,6 +79,9 @@
       "name": "月镰魔",
       "elements": "暗",
       "workSuitability": "手工作业 Lv2",
+      "partnerSkill": "黑暗中的闪亮利爪",
+      "drops": "骨头",
+      "food": "3",
       "id": "pal_werewolf",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_werewolf"
     },
@@ -66,6 +90,9 @@
       "name": "黑鸦隐士",
       "elements": "暗",
       "workSuitability": "伐木 Lv2、牧场 Lv1",
+      "partnerSkill": "夜袭怪鸟",
+      "drops": "骨头、毒腺、小型帕鲁之魂",
+      "food": "3",
       "id": "pal_darkcrow",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkcrow"
     },
@@ -74,6 +101,9 @@
       "name": "瞅什魔",
       "elements": "暗",
       "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1、牧场 Lv1",
+      "partnerSkill": "摄取咖啡因",
+      "drops": "毒腺",
+      "food": "1",
       "id": "pal_negativekoala",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativekoala"
     },
@@ -82,6 +112,9 @@
       "name": "噬魂兽",
       "elements": "暗",
       "workSuitability": "采集 Lv4、采矿 Lv4",
+      "partnerSkill": "冥界使者",
+      "drops": "骨头、小型帕鲁之魂、原油",
+      "food": "5",
       "id": "pal_ghostbeast",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostbeast"
     },
@@ -90,6 +123,9 @@
       "name": "朋克蜥",
       "elements": "暗",
       "workSuitability": "手工作业 Lv2、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "透明化",
+      "drops": "铜钥匙、银钥匙、朋克蜥的头冠",
+      "food": "2",
       "id": "pal_lizardman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lizardman"
     },
@@ -98,6 +134,9 @@
       "name": "唤夜兽",
       "elements": "暗",
       "workSuitability": "采集 Lv7",
+      "partnerSkill": "黑天马",
+      "drops": "钻石、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_icehorse_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icehorse_dark"
     },
@@ -106,6 +145,9 @@
       "name": "夜幕魔蝠",
       "elements": "暗",
       "workSuitability": "制药 Lv3",
+      "partnerSkill": "窃取生命",
+      "drops": "布、小型帕鲁之魂",
+      "food": "7",
       "id": "pal_catvampire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catvampire"
     },
@@ -114,6 +156,9 @@
       "name": "异构格里芬",
       "elements": "暗",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "基因改造",
+      "drops": "塑钢、碳纤维、革新技术书、大型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_blackgriffon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackgriffon"
     },
@@ -122,6 +167,9 @@
       "name": "博爱蜥",
       "elements": "暗",
       "workSuitability": "手工作业 Lv3、采矿 Lv2、制药 Lv3、搬运 Lv2",
+      "partnerSkill": "爱心吸取",
+      "drops": "蘑菇、蛋糕、可疑果汁、怪异果汁、消除记忆药",
+      "food": "4",
       "id": "pal_pinklizard",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinklizard"
     },
@@ -130,6 +178,9 @@
       "name": "啼卡尔",
       "elements": "暗",
       "workSuitability": "采集 Lv1",
+      "partnerSkill": "暗影睿智",
+      "drops": "纤维、高等技术书",
+      "food": "1",
       "id": "pal_wizardowl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_wizardowl"
     },
@@ -138,6 +189,9 @@
       "name": "勾魂鱿",
       "elements": "暗、水",
       "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
+      "partnerSkill": "炸鱿鱼",
+      "drops": "毒腺、勾魂鱿的触手、水栖帕鲁的黏液",
+      "food": "2",
       "id": "pal_negativeoctopus",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativeoctopus"
     },
@@ -146,6 +200,9 @@
       "name": "黑月女王",
       "elements": "暗",
       "workSuitability": "手工作业 Lv5、采集 Lv6、制药 Lv7",
+      "partnerSkill": "幽光女神",
+      "drops": "高品质恢复药、美丽花朵、革新技术书、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、暗之辉石",
+      "food": "8",
       "id": "pal_lilyqueen_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lilyqueen_dark"
     },
@@ -154,6 +211,9 @@
       "name": "猫蝠怪",
       "elements": "暗",
       "workSuitability": "采集 Lv2、采矿 Lv3、搬运 Lv2",
+      "partnerSkill": "猫妖感应",
+      "drops": "皮革、小型帕鲁之魂",
+      "food": "2",
       "id": "pal_catbat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catbat"
     },
@@ -162,6 +222,9 @@
       "name": "寐魔",
       "elements": "暗",
       "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "逐梦者",
+      "drops": "毒腺、小型帕鲁之魂",
+      "food": "1",
       "id": "pal_dreamdemon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_dreamdemon"
     },
@@ -170,6 +233,9 @@
       "name": "暗巫猫",
       "elements": "暗",
       "workSuitability": "手工作业 Lv3、制药 Lv3、搬运 Lv2",
+      "partnerSkill": "怪奇黑魔法",
+      "drops": "皮革、暗巫猫的体毛、高等技术书",
+      "food": "4",
       "id": "pal_catmage",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catmage"
     },
@@ -178,6 +244,9 @@
       "name": "炽巫猫",
       "elements": "暗、火",
       "workSuitability": "生火 Lv3、手工作业 Lv3、制药 Lv3、搬运 Lv2",
+      "partnerSkill": "热情黑魔法",
+      "drops": "喷火器官、暗巫猫的体毛、高等技术书",
+      "food": "4",
       "id": "pal_catmage_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_catmage_fire"
     },
@@ -186,6 +255,9 @@
       "name": "露娜蒂",
       "elements": "暗",
       "workSuitability": "采集 Lv1",
+      "partnerSkill": "冷娇",
+      "drops": "皮革、小型帕鲁之魂",
+      "food": "1",
       "id": "pal_nightfox",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightfox"
     },
@@ -194,6 +266,9 @@
       "name": "雷冥鸟",
       "elements": "暗",
       "workSuitability": "搬运 Lv4",
+      "partnerSkill": "冥府之翼",
+      "drops": "毒腺、中型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_hadesbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hadesbird"
     },
@@ -202,6 +277,9 @@
       "name": "雷鸣鸟",
       "elements": "暗、雷",
       "workSuitability": "发电 Lv4、搬运 Lv5",
+      "partnerSkill": "雷鸣之翼",
+      "drops": "发电器官、中型帕鲁之魂、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_hadesbird_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hadesbird_electric"
     },
@@ -210,6 +288,9 @@
       "name": "混沌骑士",
       "elements": "暗",
       "workSuitability": "伐木 Lv6、采矿 Lv6",
+      "partnerSkill": "深渊黑骑士",
+      "drops": "六棱晶锭、钻石、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_blackcentaur",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackcentaur"
     },
@@ -218,6 +299,9 @@
       "name": "冥铠蝎",
       "elements": "暗、地",
       "workSuitability": "伐木 Lv3、采矿 Lv5",
+      "partnerSkill": "钢铁之蝎",
+      "drops": "中型帕鲁之魂、毒腺",
+      "food": "6",
       "id": "pal_darkscorpion",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkscorpion"
     },
@@ -226,6 +310,9 @@
       "name": "贝菈诺娃",
       "elements": "暗",
       "workSuitability": "手工作业 Lv5、制药 Lv5、搬运 Lv4",
+      "partnerSkill": "梦魇之瞳",
+      "drops": "暗黑碎片",
+      "food": "7",
       "id": "pal_nightlady",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightlady"
     },
@@ -234,6 +321,9 @@
       "name": "贝菈露洁",
       "elements": "暗",
       "workSuitability": "手工作业 Lv6、制药 Lv7、搬运 Lv4",
+      "partnerSkill": "噩梦凝视",
+      "drops": "暗黑碎片、高品质恢复药",
+      "food": "7",
       "id": "pal_nightlady_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightlady_dark"
     },
@@ -242,6 +332,9 @@
       "name": "辉月伊",
       "elements": "暗、无",
       "workSuitability": "手工作业 Lv7、制药 Lv6、搬运 Lv3",
+      "partnerSkill": "晦暗辉光",
+      "drops": "优质的布、蓝宝石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、暗之辉石",
+      "food": "9",
       "id": "pal_moonqueen",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_moonqueen"
     },
@@ -250,6 +343,9 @@
       "name": "恐炬灵",
       "elements": "暗、火",
       "workSuitability": "生火 Lv3、手工作业 Lv3、采集 Lv2、采矿 Lv3、牧场 Lv2",
+      "partnerSkill": "古墓烛影",
+      "drops": "中型帕鲁之魂、骨头、原油",
+      "food": "7",
       "id": "pal_candleghost",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_candleghost"
     },
@@ -258,6 +354,9 @@
       "name": "蛊刺妖",
       "elements": "暗、地",
       "workSuitability": "采集 Lv2、伐木 Lv4、制药 Lv2",
+      "partnerSkill": "无毒毒蝎",
+      "drops": "毒腺",
+      "food": "5",
       "id": "pal_scorpionman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_scorpionman"
     },
@@ -266,6 +365,9 @@
       "name": "杰诺贝达",
       "elements": "暗",
       "workSuitability": "伐木 Lv3、搬运 Lv2",
+      "partnerSkill": "未知侵略者",
+      "drops": "陨石碎片",
+      "food": "4",
       "id": "pal_darkalien",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkalien"
     },
@@ -274,6 +376,9 @@
       "name": "杰诺多兰",
       "elements": "暗、龙",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "陨星之翼",
+      "drops": "陨石碎片",
+      "food": "8",
       "id": "pal_darkmechadragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkmechadragon"
     },
@@ -282,6 +387,9 @@
       "name": "魅爱莉",
       "elements": "暗",
       "workSuitability": "手工作业 Lv4、搬运 Lv2",
+      "partnerSkill": "夺魂幽灵兔",
+      "drops": "小型帕鲁之魂",
+      "food": "6",
       "id": "pal_ghostrabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostrabbit"
     },
@@ -290,6 +398,9 @@
       "name": "夜冥驹",
       "elements": "暗",
       "workSuitability": "采集 Lv5",
+      "partnerSkill": "夜舞者",
+      "drops": "皮革、暗黑碎片、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_nightbluehorse",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightbluehorse"
     },
@@ -298,6 +409,9 @@
       "name": "墨丸",
       "elements": "暗",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "忠犬墨丸",
+      "drops": "铬铁矿",
+      "food": "3",
       "id": "pal_blackpuppy",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackpuppy"
     },
@@ -306,6 +420,9 @@
       "name": "冬丸",
       "elements": "暗、冰",
       "workSuitability": "采集 Lv2、冷却 Lv2",
+      "partnerSkill": "忠犬冬丸",
+      "drops": "结冰器官、中型帕鲁之魂、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_blackpuppy_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackpuppy_ice"
     },
@@ -314,6 +431,9 @@
       "name": "织夜鹿",
       "elements": "暗",
       "workSuitability": "采集 Lv4、伐木 Lv8",
+      "partnerSkill": "混沌的祝福",
+      "drops": "皮革、角、暗黑碎片、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_whitedeer_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitedeer_dark"
     },
@@ -322,6 +442,9 @@
       "name": "面惧",
       "elements": "暗",
       "workSuitability": "采集 Lv5",
+      "partnerSkill": "假面舞会",
+      "drops": "暗黑碎片",
+      "food": "5",
       "id": "pal_mysterymask",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mysterymask"
     },
@@ -330,6 +453,9 @@
       "name": "兜兜灵",
       "elements": "暗",
       "workSuitability": "手工作业 Lv1、搬运 Lv1",
+      "partnerSkill": "潜于虚无之物",
+      "drops": "小型帕鲁之魂、角",
+      "food": "3",
       "id": "pal_hoodghost",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hoodghost"
     },
@@ -338,6 +464,9 @@
       "name": "幽恋娜",
       "elements": "暗",
       "workSuitability": "手工作业 Lv6、伐木 Lv3、制药 Lv5、搬运 Lv2",
+      "partnerSkill": "狂爱之刃",
+      "drops": "暗黑碎片、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_grimgirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grimgirl"
     },
@@ -346,6 +475,9 @@
       "name": "桃蛛娘",
       "elements": "暗",
       "workSuitability": "手工作业 Lv3、采集 Lv3、制药 Lv2、搬运 Lv2",
+      "partnerSkill": "桃色之网",
+      "drops": "纤维、毒腺",
+      "food": "4",
       "id": "pal_purplespider",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_purplespider"
     },
@@ -354,6 +486,9 @@
       "name": "郁木羊",
       "elements": "暗",
       "workSuitability": "播种 Lv2、牧场 Lv1",
+      "partnerSkill": "采摘毒腺",
+      "drops": "灌木羊的香草肉、红色野莓、角、毒腺",
+      "food": "2",
       "id": "pal_berrygoat_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_berrygoat_dark"
     },
@@ -362,6 +497,9 @@
       "name": "幽焰狼",
       "elements": "暗",
       "workSuitability": "生火 Lv4",
+      "partnerSkill": "昙天之狼",
+      "drops": "喷火器官、皮革、暗黑碎片",
+      "food": "5",
       "id": "pal_amaterasuwolf_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_amaterasuwolf_dark"
     },
@@ -370,6 +508,9 @@
       "name": "天阴童子",
       "elements": "暗、雷",
       "workSuitability": "发电 Lv1、手工作业 Lv1、制药 Lv1、搬运 Lv2",
+      "partnerSkill": "乌云姑娘",
+      "drops": "发电器官、雷鸣童子的云朵、暗黑碎片",
+      "food": "2",
       "id": "pal_raijindaughter_water",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_raijindaughter_water"
     },
@@ -378,6 +519,9 @@
       "name": "梅杜娜",
       "elements": "暗",
       "workSuitability": "手工作业 Lv6、采集 Lv6、制药 Lv5、搬运 Lv2",
+      "partnerSkill": "灵蛇之智",
+      "drops": "水栖帕鲁的黏液、毒腺、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_snakegirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snakegirl"
     },
@@ -386,6 +530,9 @@
       "name": "冥灯鱼",
       "elements": "暗、水",
       "workSuitability": "浇水 Lv5、搬运 Lv2",
+      "partnerSkill": "暗夜引路人",
+      "drops": "骨头、毒腺",
+      "food": "7",
       "id": "pal_ghostanglerfish",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostanglerfish"
     },
@@ -394,6 +541,9 @@
       "name": "妖抱苞",
       "elements": "暗、草",
       "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
+      "partnerSkill": "紧紧抱住你",
+      "drops": "纤维、毒腺",
+      "food": "2",
       "id": "pal_cactusdoll_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cactusdoll_dark"
     },
@@ -402,6 +552,9 @@
       "name": "念影喵",
       "elements": "暗",
       "workSuitability": "手工作业 Lv2、伐木 Lv1、制药 Lv1、搬运 Lv1",
+      "partnerSkill": "附体灵猫",
+      "drops": "小型帕鲁之魂、皮革、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_ghostblackcat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostblackcat"
     },
@@ -410,6 +563,9 @@
       "name": "盗影鸦",
       "elements": "暗",
       "workSuitability": "采集 Lv5、搬运 Lv5",
+      "partnerSkill": "潜影怪鸟",
+      "drops": "皮革、红宝石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_thiefbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thiefbird"
     },
@@ -418,6 +574,9 @@
       "name": "吓丝妮",
       "elements": "暗",
       "workSuitability": "手工作业 Lv3、制药 Lv4、搬运 Lv2",
+      "partnerSkill": "播撒欢笑的亡者",
+      "drops": "布、角、小型帕鲁之魂",
+      "food": "5",
       "id": "pal_onighostgirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_onighostgirl"
     },
@@ -426,6 +585,9 @@
       "name": "缀夜星",
       "elements": "暗",
       "workSuitability": "手工作业 Lv6、制药 Lv6、搬运 Lv1",
+      "partnerSkill": "隐藏的暗能量",
+      "drops": "夜星砂、小型帕鲁之魂、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_moonchild",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_moonchild"
     },
@@ -434,6 +596,9 @@
       "name": "缚乃伊",
       "elements": "暗、地",
       "workSuitability": "手工作业 Lv5、制药 Lv4、搬运 Lv2",
+      "partnerSkill": "黄泉归来",
+      "drops": "布、皮革",
+      "food": "6",
       "id": "pal_mummypal",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mummypal"
     },
@@ -442,6 +607,9 @@
       "name": "墨罗娜",
       "elements": "暗、无",
       "workSuitability": "手工作业 Lv8、采集 Lv4、搬运 Lv2",
+      "partnerSkill": "孤染公主",
+      "drops": "暗黑碎片、高品质恢复药、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_monochromequeen",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monochromequeen"
     },
@@ -450,6 +618,9 @@
       "name": "妖焰灯",
       "elements": "暗、火",
       "workSuitability": "生火 Lv4、手工作业 Lv4、制药 Lv4",
+      "partnerSkill": "提灯附魔",
+      "drops": "优质帕鲁油、皮革、毒腺、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_lanternbutler",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lanternbutler"
     },
@@ -458,6 +629,9 @@
       "name": "紫狐娇",
       "elements": "暗、火",
       "workSuitability": "生火 Lv4、手工作业 Lv5、制药 Lv3、搬运 Lv2",
+      "partnerSkill": "暗狐秘咒",
+      "drops": "皮革、喷火器官、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_darkflamefox",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkflamefox"
     },
@@ -466,6 +640,9 @@
       "name": "梅莉姆",
       "elements": "草、暗",
       "workSuitability": "播种 Lv3、手工作业 Lv1、采集 Lv2、制药 Lv3、搬运 Lv1",
+      "partnerSkill": "丰收祈愿",
+      "drops": "低品质药品、美丽花朵、胡萝卜种子",
+      "food": "5",
       "id": "pal_blueberryfairy",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueberryfairy"
     },
@@ -474,6 +651,9 @@
       "name": "翠叶鼠",
       "elements": "草",
       "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、制药 Lv1",
+      "partnerSkill": "翠叶鼠出击",
+      "drops": "小麦种子、低品质药品",
+      "food": "1",
       "id": "pal_carbunclo",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_carbunclo"
     },
@@ -482,6 +662,9 @@
       "name": "荊棘魔仙",
       "elements": "草",
       "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv2、搬运 Lv1",
+      "partnerSkill": "公主的视线",
+      "drops": "番茄种子、美丽花朵",
+      "food": "2",
       "id": "pal_littlebriarrose",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_littlebriarrose"
     },
@@ -490,6 +673,9 @@
       "name": "羽箭射手",
       "elements": "草",
       "workSuitability": "播种 Lv2、手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv1、搬运 Lv2",
+      "partnerSkill": "射箭达人",
+      "drops": "土豆种薯、箭",
+      "food": "3",
       "id": "pal_robinhood",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood"
     },
@@ -498,6 +684,9 @@
       "name": "山岳射手",
       "elements": "草、地",
       "workSuitability": "手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2",
+      "partnerSkill": "挽弓达人",
+      "drops": "土豆种薯、箭",
+      "food": "3",
       "id": "pal_robinhood_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_robinhood_ground"
     },
@@ -506,6 +695,9 @@
       "name": "花冠龙",
       "elements": "草、龙",
       "workSuitability": "播种 Lv3、伐木 Lv3",
+      "partnerSkill": "馥郁花香之龙",
+      "drops": "番茄种子、生菜种子",
+      "food": "4",
       "id": "pal_flowerdinosaur",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur"
     },
@@ -514,6 +706,9 @@
       "name": "森猛犸",
       "elements": "草、地",
       "workSuitability": "播种 Lv4、伐木 Lv4、采矿 Lv4",
+      "partnerSkill": "盖亚粉碎者",
+      "drops": "优质帕鲁油、皮革、森猛犸的巨兽肉、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_grassmammoth",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassmammoth"
     },
@@ -522,6 +717,9 @@
       "name": "连理龙",
       "elements": "草",
       "workSuitability": "播种 Lv5",
+      "partnerSkill": "恋香初绽",
+      "drops": "连理龙的恐龙肉、洋葱种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_sakurasaurus",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus"
     },
@@ -530,6 +728,9 @@
       "name": "海誓龙",
       "elements": "草、水",
       "workSuitability": "浇水 Lv5",
+      "partnerSkill": "纯心盛绽",
+      "drops": "连理龙的恐龙肉、洋葱种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_sakurasaurus_water",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sakurasaurus_water"
     },
@@ -538,6 +739,9 @@
       "name": "灌木羊",
       "elements": "草",
       "workSuitability": "播种 Lv2、牧场 Lv1",
+      "partnerSkill": "采摘野莓",
+      "drops": "灌木羊的香草肉、红色野莓、角",
+      "food": "2",
       "id": "pal_berrygoat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_berrygoat"
     },
@@ -546,6 +750,9 @@
       "name": "绿苔绒怪",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv5、搬运 Lv6",
+      "partnerSkill": "南方巨人",
+      "drops": "硬木材、美丽花朵、胡萝卜种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_yeti_grass",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_yeti_grass"
     },
@@ -554,6 +761,9 @@
       "name": "薇莉塔",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、制药 Lv3、搬运 Lv2、牧场 Lv2",
+      "partnerSkill": "大地净化",
+      "drops": "低品质药品、番茄种子、洋葱种子",
+      "food": "5",
       "id": "pal_violetfairy",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_violetfairy"
     },
@@ -562,6 +772,9 @@
       "name": "波娜兔",
       "elements": "草",
       "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv1、搬运 Lv1",
+      "partnerSkill": "兔兔助手",
+      "drops": "低品质药品、生菜种子",
+      "food": "2",
       "id": "pal_flowerrabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerrabbit"
     },
@@ -570,6 +783,9 @@
       "name": "百合女王",
       "elements": "草",
       "workSuitability": "播种 Lv7、手工作业 Lv5、采集 Lv6、制药 Lv5",
+      "partnerSkill": "丰饶女神",
+      "drops": "高品质恢复药、美丽花朵、革新技术书、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、草之辉石",
+      "food": "8",
       "id": "pal_lilyqueen",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lilyqueen"
     },
@@ -578,6 +794,9 @@
       "name": "女皇蜂",
       "elements": "草",
       "workSuitability": "播种 Lv4、手工作业 Lv4、采集 Lv4、伐木 Lv3、制药 Lv4",
+      "partnerSkill": "女王蜂的统率",
+      "drops": "蜂蜜、女皇蜂之杖",
+      "food": "5",
       "id": "pal_queenbee",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_queenbee"
     },
@@ -586,6 +805,9 @@
       "name": "骑士蜂",
       "elements": "草",
       "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2、牧场 Lv3",
+      "partnerSkill": "工蜂",
+      "drops": "蜂蜜",
+      "food": "3",
       "id": "pal_soldierbee",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_soldierbee"
     },
@@ -594,6 +816,9 @@
       "name": "叶胖达",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv2、伐木 Lv4、搬运 Lv4",
+      "partnerSkill": "不良熊猫",
+      "drops": "硬木材、皮革、胡萝卜种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_grasspanda",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda"
     },
@@ -602,6 +827,9 @@
       "name": "踏春兔",
       "elements": "草",
       "workSuitability": "播种 Lv4、手工作业 Lv5、采集 Lv5、伐木 Lv3、搬运 Lv3",
+      "partnerSkill": "草原特技之星",
+      "drops": "皮革、骨头",
+      "food": "6",
       "id": "pal_grassrabbitman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassrabbitman"
     },
@@ -610,6 +838,9 @@
       "name": "新叶猿",
       "elements": "草",
       "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、搬运 Lv1",
+      "partnerSkill": "猴急步枪",
+      "drops": "蘑菇",
+      "food": "1",
       "id": "pal_monkey",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monkey"
     },
@@ -618,6 +849,9 @@
       "name": "叶泥泥",
       "elements": "草、地",
       "workSuitability": "播种 Lv1",
+      "partnerSkill": "樵夫啦啦队",
+      "drops": "野莓种子、叶泥泥的叶子",
+      "food": "1",
       "id": "pal_plantslime",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plantslime"
     },
@@ -626,6 +860,9 @@
       "name": "花丽娜",
       "elements": "草",
       "workSuitability": "播种 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
+      "partnerSkill": "花精灵的祝福",
+      "drops": "美丽花朵、土豆种薯",
+      "food": "6",
       "id": "pal_flowerdoll",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll"
     },
@@ -634,6 +871,9 @@
       "name": "樱丽娜",
       "elements": "草、火",
       "workSuitability": "生火 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
+      "partnerSkill": "花精灵的热情",
+      "drops": "美丽花朵、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_flowerdoll_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdoll_fire"
     },
@@ -642,6 +882,9 @@
       "name": "幻悦蝶",
       "elements": "草",
       "workSuitability": "播种 Lv2、采集 Lv2、制药 Lv2",
+      "partnerSkill": "神秘鳞粉",
+      "drops": "蜂蜜、生菜种子、番茄种子",
+      "food": "2",
       "id": "pal_cutebutterfly",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutebutterfly"
     },
@@ -650,6 +893,9 @@
       "name": "春彩娘",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv2、制药 Lv3",
+      "partnerSkill": "繁花告春",
+      "drops": "美丽花朵、红色野莓",
+      "food": "4",
       "id": "pal_leafprincess",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafprincess"
     },
@@ -658,6 +904,9 @@
       "name": "菇咚",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv2、采集 Lv3、伐木 Lv2、牧场 Lv3",
+      "partnerSkill": "飘飘然孢子",
+      "drops": "蘑菇、红色野莓、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_mushroomdragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon"
     },
@@ -666,6 +915,9 @@
       "name": "菇波",
       "elements": "草、暗",
       "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、伐木 Lv2",
+      "partnerSkill": "幽幽然孢子",
+      "drops": "毒腺、不可思议的蘑菇",
+      "food": "5",
       "id": "pal_mushroomdragon_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomdragon_dark"
     },
@@ -674,6 +926,9 @@
       "name": "碧艾莉",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv4、搬运 Lv2",
+      "partnerSkill": "缚魂幽灵兔",
+      "drops": "中型帕鲁之魂、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_ghostrabbit_grass",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostrabbit_grass"
     },
@@ -682,6 +937,9 @@
       "name": "艾小兔",
       "elements": "草",
       "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、搬运 Lv1",
+      "partnerSkill": "暴力青草兔",
+      "drops": "皮革、姬小兔的发带、胡萝卜种子、胡萝卜",
+      "food": "1",
       "id": "pal_pinkrabbit_grass",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit_grass"
     },
@@ -690,6 +948,9 @@
       "name": "达鼠泥",
       "elements": "草、无",
       "workSuitability": "播种 Lv1、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "起搏鼠鼠",
+      "drops": "皮革、小麦种子",
+      "food": "1",
       "id": "pal_leafmomonga",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_leafmomonga"
     },
@@ -698,6 +959,9 @@
       "name": "球抱苞",
       "elements": "草",
       "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
+      "partnerSkill": "请你抱抱我",
+      "drops": "纤维",
+      "food": "2",
       "id": "pal_cactusdoll",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cactusdoll"
     },
@@ -706,6 +970,9 @@
       "name": "红菇娘",
       "elements": "草",
       "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、制药 Lv6",
+      "partnerSkill": "魅惑孢子",
+      "drops": "蘑菇、不可思议的蘑菇、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_mushroomlady",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mushroomlady"
     },
@@ -714,6 +981,9 @@
       "name": "幸叶茸",
       "elements": "草、无",
       "workSuitability": "播种 Lv1、采集 Lv1",
+      "partnerSkill": "幸运三叶草",
+      "drops": "野莓种子",
+      "food": "1",
       "id": "pal_cloverfairy",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cloverfairy"
     },
@@ -722,6 +992,9 @@
       "name": "梁叶龙",
       "elements": "草、地",
       "workSuitability": "播种 Lv5、采集 Lv5、采矿 Lv3",
+      "partnerSkill": "暖洋洋晴日",
+      "drops": "皮革、红色野莓、生菜种子、番茄种子、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_plesiosaur",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_plesiosaur"
     },
@@ -730,6 +1003,9 @@
       "name": "咕咕桑葩",
       "elements": "草",
       "workSuitability": "播种 Lv4、采集 Lv4、采矿 Lv5",
+      "partnerSkill": "桑巴舞步",
+      "drops": "硬木材、洋葱种子、胡萝卜种子",
+      "food": "6",
       "id": "pal_tropicalostrich",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tropicalostrich"
     },
@@ -738,6 +1014,9 @@
       "name": "颚莉丝",
       "elements": "草",
       "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、搬运 Lv2",
+      "partnerSkill": "巨舌缠绕",
+      "drops": "毒腺、纤维、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_venusflytrap",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_venusflytrap"
     },
@@ -746,6 +1025,9 @@
       "name": "蒲蒲飞芽",
       "elements": "草",
       "workSuitability": "播种 Lv2、搬运 Lv2",
+      "partnerSkill": "绒毛妖精",
+      "drops": "小麦种子",
+      "food": "3",
       "id": "pal_dandeliongirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_dandeliongirl"
     },
@@ -754,6 +1036,9 @@
       "name": "大红呱",
       "elements": "草",
       "workSuitability": "播种 Lv5、采集 Lv5",
+      "partnerSkill": "花之舞",
+      "drops": "美丽花朵、纤维",
+      "food": "6",
       "id": "pal_redflowerbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_redflowerbird"
     },
@@ -762,6 +1047,9 @@
       "name": "沁莲龙",
       "elements": "草、水",
       "workSuitability": "浇水 Lv5、播种 Lv7",
+      "partnerSkill": "清灿迷雾",
+      "drops": "优质帕鲁油、大型帕鲁之魂、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_lotusdragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lotusdragon"
     },
@@ -770,6 +1058,9 @@
       "name": "莉芳",
       "elements": "草",
       "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、搬运 Lv2",
+      "partnerSkill": "克己复礼",
+      "drops": "皮革",
+      "food": "7",
       "id": "pal_pandagirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pandagirl"
     },
@@ -778,6 +1069,9 @@
       "name": "密林陶洛斯",
       "elements": "草",
       "workSuitability": "播种 Lv3、采集 Lv2、伐木 Lv3、采矿 Lv2、搬运 Lv3",
+      "partnerSkill": "大自然之威",
+      "drops": "角、皮革、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_grassminotaur",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassminotaur"
     },
@@ -786,6 +1080,9 @@
       "name": "暮尘蛾",
       "elements": "草",
       "workSuitability": "播种 Lv6、手工作业 Lv6、采集 Lv4、制药 Lv8、搬运 Lv2",
+      "partnerSkill": "孢子守卫",
+      "drops": "究极帕鲁之魂、古代文明核心、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_mothman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mothman"
     },
@@ -794,6 +1091,9 @@
       "name": "夜蔓爵",
       "elements": "草、暗",
       "workSuitability": "播种 Lv8、手工作业 Lv6、采集 Lv5、制药 Lv6、搬运 Lv3",
+      "partnerSkill": "迷雾守卫",
+      "drops": "究极帕鲁之魂、古代文明核心、毒腺、世界树圣水、草之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_flowerprince",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerprince"
     },
@@ -802,6 +1102,9 @@
       "name": "詹兔曼",
       "elements": "地",
       "workSuitability": "手工作业 Lv3、采集 Lv4、采矿 Lv2、搬运 Lv1",
+      "partnerSkill": "大地是好朋友",
+      "drops": "皮革",
+      "food": "4",
       "id": "pal_brownrabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_brownrabbit"
     },
@@ -810,6 +1113,9 @@
       "name": "金驰兽",
       "elements": "地",
       "workSuitability": "采集 Lv5",
+      "partnerSkill": "沙尘加护",
+      "drops": "皮革",
+      "food": "8",
       "id": "pal_goldenhorse",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_goldenhorse"
     },
@@ -818,6 +1124,9 @@
       "name": "阿努比斯",
       "elements": "地",
       "workSuitability": "手工作业 Lv6、采矿 Lv6、搬运 Lv4",
+      "partnerSkill": "沙漠守护神",
+      "drops": "骨头、大型帕鲁之魂、革新技术书、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_anubis",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_anubis"
     },
@@ -826,6 +1135,9 @@
       "name": "草莽猪",
       "elements": "地",
       "workSuitability": "采矿 Lv1",
+      "partnerSkill": "坚硬头壳",
+      "drops": "草莽猪的猪肉、皮革、骨头",
+      "food": "1",
       "id": "pal_boar",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_boar"
     },
@@ -834,6 +1146,9 @@
       "name": "祇岳鹿",
       "elements": "地",
       "workSuitability": "伐木 Lv2",
+      "partnerSkill": "金之森守护者",
+      "drops": "紫霞鹿的鹿肉、皮革、角、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "2",
       "id": "pal_deer_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer_ground"
     },
@@ -842,6 +1157,9 @@
       "name": "碎岩龟",
       "elements": "地",
       "workSuitability": "采矿 Lv4",
+      "partnerSkill": "钻头粉碎者",
+      "drops": "金属矿石、优质帕鲁油",
+      "food": "5",
       "id": "pal_drillgame",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_drillgame"
     },
@@ -850,6 +1168,9 @@
       "name": "石掌猿",
       "elements": "地",
       "workSuitability": "手工作业 Lv2、采矿 Lv3、搬运 Lv3",
+      "partnerSkill": "火力全开铁臂大猩猩",
+      "drops": "金属矿石、骨头、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_gorilla_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla_ground"
     },
@@ -858,6 +1179,9 @@
       "name": "可可棉花糖",
       "elements": "地",
       "workSuitability": "牧场 Lv1",
+      "partnerSkill": "苦涩甜心",
+      "drops": "焦糖棉花糖、羊毛",
+      "food": "1",
       "id": "pal_sweetssheep_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep_ground"
     },
@@ -866,6 +1190,9 @@
       "name": "流沙蛇",
       "elements": "地",
       "workSuitability": "采集 Lv3",
+      "partnerSkill": "滑滑沙蛇",
+      "drops": "水栖帕鲁的黏液、金属矿石",
+      "food": "3",
       "id": "pal_serpent_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_serpent_ground"
     },
@@ -874,6 +1201,9 @@
       "name": "遁地鼠",
       "elements": "地",
       "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1",
+      "partnerSkill": "矿工啦啦队",
+      "drops": "皮革",
+      "food": "2",
       "id": "pal_cutemole",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutemole"
     },
@@ -882,6 +1212,9 @@
       "name": "铠格力斯",
       "elements": "地、草",
       "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv4、搬运 Lv5",
+      "partnerSkill": "攻守一体的黑甲",
+      "drops": "蜂蜜、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_herculesbeetle",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle"
     },
@@ -890,6 +1223,9 @@
       "name": "格鲁力斯",
       "elements": "地",
       "workSuitability": "手工作业 Lv2、采矿 Lv5、搬运 Lv5",
+      "partnerSkill": "攻守一体的金甲",
+      "drops": "蜂蜜",
+      "food": "6",
       "id": "pal_herculesbeetle_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_herculesbeetle_ground"
     },
@@ -898,6 +1234,9 @@
       "name": "金铠蝎",
       "elements": "地",
       "workSuitability": "伐木 Lv3、采矿 Lv6",
+      "partnerSkill": "黄金之蝎",
+      "drops": "中型帕鲁之魂、蓝宝石",
+      "food": "6",
       "id": "pal_darkscorpion_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_darkscorpion_ground"
     },
@@ -906,6 +1245,9 @@
       "name": "趴趴鲶",
       "elements": "地、水",
       "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv1",
+      "partnerSkill": "改善土质",
+      "drops": "趴趴鲶的鱼肉、优质帕鲁油",
+      "food": "3",
       "id": "pal_lazycatfish",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish"
     },
@@ -914,6 +1256,9 @@
       "name": "梆梆鲶",
       "elements": "地、水",
       "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv4",
+      "partnerSkill": "黄金丰收",
+      "drops": "趴趴鲶的鱼肉、优质帕鲁油、金币",
+      "food": "3",
       "id": "pal_lazycatfish_gold",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazycatfish_gold"
     },
@@ -922,6 +1267,9 @@
       "name": "球犰",
       "elements": "地",
       "workSuitability": "采矿 Lv1",
+      "partnerSkill": "滚滚沙滩球",
+      "drops": "皮革、骨头、原油",
+      "food": "3",
       "id": "pal_smallarmadillo",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_smallarmadillo"
     },
@@ -930,6 +1278,9 @@
       "name": "泰锋",
       "elements": "地",
       "workSuitability": "采集 Lv4、采矿 Lv7、搬运 Lv7",
+      "partnerSkill": "钢铁卫士模式",
+      "drops": "金属矿石、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、地之辉石",
+      "food": "9",
       "id": "pal_winggolem",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_winggolem"
     },
@@ -938,6 +1289,9 @@
       "name": "战冠雀",
       "elements": "地",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "飞砂腿",
+      "drops": "骨头",
+      "food": "3",
       "id": "pal_featherostrich",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_featherostrich"
     },
@@ -946,6 +1300,9 @@
       "name": "塞赫麦特",
       "elements": "地",
       "workSuitability": "手工作业 Lv6、采矿 Lv3、搬运 Lv2",
+      "partnerSkill": "沙漠女帝",
+      "drops": "皮革、大型帕鲁之魂、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_sekhmet",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sekhmet"
     },
@@ -954,6 +1311,9 @@
       "name": "磐峰兽",
       "elements": "地",
       "workSuitability": "采矿 Lv5",
+      "partnerSkill": "能量石",
+      "drops": "金属矿石、石炭、硫磺",
+      "food": "8",
       "id": "pal_rockbeast",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_rockbeast"
     },
@@ -962,6 +1322,9 @@
       "name": "金棘兽",
       "elements": "地",
       "workSuitability": "手工作业 Lv2、伐木 Lv6、采矿 Lv5、搬运 Lv4",
+      "partnerSkill": "爆碎铁腕",
+      "drops": "金属矿石",
+      "food": "7",
       "id": "pal_whitetiger_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitetiger_ground"
     },
@@ -970,6 +1333,9 @@
       "name": "双心岩傀",
       "elements": "地、草",
       "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
+      "partnerSkill": "自然光炮",
+      "drops": "美丽花朵、大型帕鲁之魂、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_grassgolem",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem"
     },
@@ -978,6 +1344,9 @@
       "name": "咒心岩傀",
       "elements": "地、暗",
       "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
+      "partnerSkill": "枯萎光炮",
+      "drops": "不可思议的蘑菇、大型帕鲁之魂、世界树圣水、暗之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_grassgolem_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassgolem_dark"
     },
@@ -986,6 +1355,9 @@
       "name": "重岩龟",
       "elements": "地",
       "workSuitability": "采矿 Lv4",
+      "partnerSkill": "负石古代龟",
+      "drops": "红宝石、大型帕鲁之魂、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_cubeturtle",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle"
     },
@@ -994,6 +1366,9 @@
       "name": "宗铭丸",
       "elements": "地",
       "workSuitability": "采集 Lv1、伐木 Lv1、搬运 Lv1",
+      "partnerSkill": "干劲支援",
+      "drops": "骨头",
+      "food": "1",
       "id": "pal_samuraidog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_samuraidog"
     },
@@ -1002,6 +1377,9 @@
       "name": "力士獒",
       "elements": "地",
       "workSuitability": "采矿 Lv4、搬运 Lv3",
+      "partnerSkill": "横纲风范",
+      "drops": "骨头、纤维",
+      "food": "6",
       "id": "pal_sumodog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sumodog"
     },
@@ -1010,6 +1388,9 @@
       "name": "盔盔仔",
       "elements": "水",
       "workSuitability": "浇水 Lv2、采矿 Lv1、搬运 Lv1",
+      "partnerSkill": "尖刺刺运输",
+      "drops": "水栖帕鲁的黏液、骨头",
+      "food": "3",
       "id": "pal_tentacleturtle",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tentacleturtle"
     },
@@ -1018,6 +1399,9 @@
       "name": "金盔仔",
       "elements": "水、地",
       "workSuitability": "浇水 Lv2、采矿 Lv3、搬运 Lv1",
+      "partnerSkill": "亮闪闪运输",
+      "drops": "水栖帕鲁的黏液、骨头",
+      "food": "3",
       "id": "pal_tentacleturtle_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_tentacleturtle_ground"
     },
@@ -1026,6 +1410,9 @@
       "name": "壶小象",
       "elements": "水",
       "workSuitability": "浇水 Lv1",
+      "partnerSkill": "疗伤之浴",
+      "drops": "水栖帕鲁的黏液",
+      "food": "1",
       "id": "pal_ganesha",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ganesha"
     },
@@ -1034,6 +1421,9 @@
       "name": "企丸丸",
       "elements": "水、冰",
       "workSuitability": "浇水 Lv1、手工作业 Lv1、冷却 Lv1、搬运 Lv1",
+      "partnerSkill": "企丸丸发射",
+      "drops": "结冰器官、水栖帕鲁的黏液",
+      "food": "1",
       "id": "pal_penguin",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_penguin"
     },
@@ -1042,6 +1432,9 @@
       "name": "闪丸丸",
       "elements": "水、雷",
       "workSuitability": "浇水 Lv1、发电 Lv2、手工作业 Lv1、搬运 Lv1",
+      "partnerSkill": "闪丸丸发射",
+      "drops": "发电器官、水栖帕鲁的黏液",
+      "food": "1",
       "id": "pal_penguin_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_penguin_electric"
     },
@@ -1050,6 +1443,9 @@
       "name": "鲨小子",
       "elements": "水",
       "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv1",
+      "partnerSkill": "易怒鲨鲨",
+      "drops": "水栖帕鲁的黏液",
+      "food": "2",
       "id": "pal_sharkkid",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sharkkid"
     },
@@ -1058,6 +1454,9 @@
       "name": "清雀",
       "elements": "水",
       "workSuitability": "浇水 Lv6",
+      "partnerSkill": "水之翼",
+      "drops": "水栖帕鲁的黏液、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_suzaku_water",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_suzaku_water"
     },
@@ -1066,6 +1465,9 @@
       "name": "滑水蛇",
       "elements": "水",
       "workSuitability": "浇水 Lv3、牧场 Lv2",
+      "partnerSkill": "滑滑水蛇",
+      "drops": "水栖帕鲁的黏液",
+      "food": "3",
       "id": "pal_serpent",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_serpent"
     },
@@ -1074,6 +1476,9 @@
       "name": "碧海龙",
       "elements": "水、龙",
       "workSuitability": "浇水 Lv4",
+      "partnerSkill": "水翔之舞",
+      "drops": "布、水栖帕鲁的黏液、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_bluedragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluedragon"
     },
@@ -1082,6 +1487,9 @@
       "name": "冲浪鸭",
       "elements": "水",
       "workSuitability": "浇水 Lv1、手工作业 Lv1、搬运 Lv1",
+      "partnerSkill": "乘风破浪",
+      "drops": "皮革、水栖帕鲁的黏液",
+      "food": "1",
       "id": "pal_blueplatypus",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueplatypus"
     },
@@ -1090,6 +1498,9 @@
       "name": "热浪鸭",
       "elements": "水、火",
       "workSuitability": "生火 Lv2、浇水 Lv2、手工作业 Lv1、搬运 Lv1",
+      "partnerSkill": "热浪滚滚",
+      "drops": "皮革、水栖帕鲁的黏液、喷火器官",
+      "food": "1",
       "id": "pal_blueplatypus_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueplatypus_fire"
     },
@@ -1098,6 +1509,9 @@
       "name": "水灵儿",
       "elements": "水",
       "workSuitability": "浇水 Lv1、牧场 Lv1",
+      "partnerSkill": "洒水",
+      "drops": "水灵儿的鱼肉、水栖帕鲁的黏液",
+      "food": "1",
       "id": "pal_kelpie",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kelpie"
     },
@@ -1106,6 +1520,9 @@
       "name": "企丸王",
       "elements": "水、冰",
       "workSuitability": "浇水 Lv2、手工作业 Lv2、采矿 Lv3、冷却 Lv2、搬运 Lv3",
+      "partnerSkill": "勇敢的海之战士",
+      "drops": "结冰器官、企丸王的羽饰",
+      "food": "4",
       "id": "pal_captainpenguin",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_captainpenguin"
     },
@@ -1114,6 +1531,9 @@
       "name": "闪丸王",
       "elements": "水、雷",
       "workSuitability": "浇水 Lv2、发电 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv3",
+      "partnerSkill": "不屈的雷击船长",
+      "drops": "发电器官、企丸王的羽饰",
+      "food": "4",
       "id": "pal_captainpenguin_black",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_captainpenguin_black"
     },
@@ -1122,6 +1542,9 @@
       "name": "鲁米儿",
       "elements": "水",
       "workSuitability": "浇水 Lv1、搬运 Lv1",
+      "partnerSkill": "微风滑翔",
+      "drops": "水栖帕鲁的黏液",
+      "food": "2",
       "id": "pal_flyingmanta",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flyingmanta"
     },
@@ -1130,6 +1553,9 @@
       "name": "雷米儿",
       "elements": "水、雷",
       "workSuitability": "浇水 Lv1、发电 Lv2、搬运 Lv1",
+      "partnerSkill": "电风滑翔",
+      "drops": "水栖帕鲁的黏液",
+      "food": "2",
       "id": "pal_flyingmanta_thunder",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flyingmanta_thunder"
     },
@@ -1138,6 +1564,9 @@
       "name": "武道蛙",
       "elements": "水",
       "workSuitability": "浇水 Lv1、手工作业 Lv1、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "蓄势跳跃",
+      "drops": "水栖帕鲁的黏液、布",
+      "food": "2",
       "id": "pal_kendofrog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kendofrog"
     },
@@ -1146,6 +1575,9 @@
       "name": "极道蛙",
       "elements": "水、暗",
       "workSuitability": "浇水 Lv1、手工作业 Lv2、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "蓄势暗跃",
+      "drops": "水栖帕鲁的黏液、布、毒腺",
+      "food": "2",
       "id": "pal_kendofrog_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kendofrog_dark"
     },
@@ -1154,6 +1586,9 @@
       "name": "奥沧鲸",
       "elements": "水",
       "workSuitability": "资料源未列出",
+      "partnerSkill": "残响守护者",
+      "drops": "钻石、究极帕鲁之魂",
+      "food": "9",
       "id": "pal_kingwhale",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingwhale"
     },
@@ -1162,6 +1597,9 @@
       "name": "墨沫姬",
       "elements": "水、暗",
       "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
+      "partnerSkill": "缠人小公主",
+      "drops": "水栖帕鲁的黏液、墨沫姬的章鱼足",
+      "food": "3",
       "id": "pal_octopusgirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_octopusgirl"
     },
@@ -1170,6 +1608,9 @@
       "name": "梦沫姬",
       "elements": "水、无",
       "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
+      "partnerSkill": "咬咬姬",
+      "drops": "水栖帕鲁的黏液、墨沫姬的章鱼足",
+      "food": "3",
       "id": "pal_octopusgirl_neutral",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_octopusgirl_neutral"
     },
@@ -1178,6 +1619,9 @@
       "name": "海月仙",
       "elements": "水",
       "workSuitability": "浇水 Lv2、手工作业 Lv1、搬运 Lv1",
+      "partnerSkill": "海月仙祝福",
+      "drops": "水栖帕鲁的黏液、海月仙的水母伞",
+      "food": "3",
       "id": "pal_jellyfishfairy",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jellyfishfairy"
     },
@@ -1186,6 +1630,9 @@
       "name": "伊西斯",
       "elements": "水",
       "workSuitability": "浇水 Lv6、搬运 Lv5",
+      "partnerSkill": "潮汐捕食者",
+      "drops": "水栖帕鲁的黏液、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、水之辉石",
+      "food": "9",
       "id": "pal_horus_water",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_horus_water"
     },
@@ -1194,6 +1641,9 @@
       "name": "布偶鲨",
       "elements": "水",
       "workSuitability": "浇水 Lv2、搬运 Lv1",
+      "partnerSkill": "水流扳机",
+      "drops": "皮革、小型帕鲁之魂、水栖帕鲁的黏液",
+      "food": "2",
       "id": "pal_stuffedshark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_stuffedshark"
     },
@@ -1202,6 +1652,9 @@
       "name": "粉粉布偶鲨",
       "elements": "水、火",
       "workSuitability": "生火 Lv2、浇水 Lv2、搬运 Lv1",
+      "partnerSkill": "炎炎收纳间",
+      "drops": "皮革、小型帕鲁之魂、喷火器官",
+      "food": "2",
       "id": "pal_stuffedshark_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_stuffedshark_fire"
     },
@@ -1210,6 +1663,9 @@
       "name": "海月灵",
       "elements": "水、暗",
       "workSuitability": "浇水 Lv2、手工作业 Lv1、制药 Lv1、搬运 Lv1",
+      "partnerSkill": "海月灵祝福",
+      "drops": "水栖帕鲁的黏液、海月灵的水母伞",
+      "food": "3",
       "id": "pal_jellyfishghost",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jellyfishghost"
     },
@@ -1218,6 +1674,9 @@
       "name": "海皇鲸",
       "elements": "水",
       "workSuitability": "浇水 Lv7",
+      "partnerSkill": "大海的霸主",
+      "drops": "珊瑚矿石、六棱晶锭、钻石、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_poseidonorca",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_poseidonorca"
     },
@@ -1226,6 +1685,9 @@
       "name": "鞘刀鱼",
       "elements": "水",
       "workSuitability": "浇水 Lv4、采集 Lv1、伐木 Lv4",
+      "partnerSkill": "斩骨断肉",
+      "drops": "鞘刀鱼排、水栖帕鲁的黏液",
+      "food": "5",
       "id": "pal_swordcutlassfish",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_swordcutlassfish"
     },
@@ -1234,6 +1696,9 @@
       "name": "炼刃鱼",
       "elements": "水、火",
       "workSuitability": "生火 Lv3、浇水 Lv2、采集 Lv2、伐木 Lv3",
+      "partnerSkill": "炼骨断肉",
+      "drops": "鞘刀鱼排、喷火器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_swordcutlassfish_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_swordcutlassfish_fire"
     },
@@ -1242,6 +1707,9 @@
       "name": "曼波王",
       "elements": "水",
       "workSuitability": "浇水 Lv4",
+      "partnerSkill": "领袖翻车鱼",
+      "drops": "优质帕鲁油、水栖帕鲁的黏液",
+      "food": "6",
       "id": "pal_kingsunfish",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingsunfish"
     },
@@ -1250,6 +1718,9 @@
       "name": "曼波皇",
       "elements": "水、雷",
       "workSuitability": "浇水 Lv4、发电 Lv6",
+      "partnerSkill": "电光翻车鱼",
+      "drops": "优质帕鲁油、发电器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_kingsunfish_thunder",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingsunfish_thunder"
     },
@@ -1258,6 +1729,9 @@
       "name": "莉欧·莉涅",
       "elements": "水",
       "workSuitability": "浇水 Lv1、手工作业 Lv2、搬运 Lv1",
+      "partnerSkill": "魔力双子",
+      "drops": "水栖帕鲁的黏液",
+      "food": "3",
       "id": "pal_clionetwins",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_clionetwins"
     },
@@ -1266,6 +1740,9 @@
       "name": "炎魔羊",
       "elements": "火、暗",
       "workSuitability": "生火 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv2",
+      "partnerSkill": "焰爪猎人",
+      "drops": "角、皮革",
+      "food": "5",
       "id": "pal_baphomet",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_baphomet"
     },
@@ -1274,6 +1751,9 @@
       "name": "火绒狐",
       "elements": "火",
       "workSuitability": "生火 Lv1",
+      "partnerSkill": "抱抱火焰",
+      "drops": "皮革、喷火器官",
+      "food": "1",
       "id": "pal_kitsunebi",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kitsunebi"
     },
@@ -1282,6 +1762,9 @@
       "name": "红小鲨",
       "elements": "火",
       "workSuitability": "生火 Lv2、手工作业 Lv2、搬运 Lv1",
+      "partnerSkill": "易怒鲨鲨",
+      "drops": "喷火器官",
+      "food": "2",
       "id": "pal_sharkkid_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sharkkid_fire"
     },
@@ -1290,6 +1773,9 @@
       "name": "朱雀",
       "elements": "火",
       "workSuitability": "生火 Lv5",
+      "partnerSkill": "炎之翼",
+      "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_suzaku",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_suzaku"
     },
@@ -1298,6 +1784,9 @@
       "name": "火麒麟",
       "elements": "火",
       "workSuitability": "生火 Lv4、伐木 Lv2",
+      "partnerSkill": "赤兔马",
+      "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_firekirin",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_firekirin"
     },
@@ -1306,6 +1795,9 @@
       "name": "邪麒麟",
       "elements": "火、暗",
       "workSuitability": "生火 Lv4、伐木 Lv3",
+      "partnerSkill": "黑兔马",
+      "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_firekirin_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_firekirin_dark"
     },
@@ -1314,6 +1806,9 @@
       "name": "熔岩兽",
       "elements": "火、地",
       "workSuitability": "生火 Lv5、采矿 Lv5",
+      "partnerSkill": "贪食矿石之兽",
+      "drops": "喷火器官",
+      "food": "7",
       "id": "pal_volcanicmonster",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanicmonster"
     },
@@ -1322,6 +1817,9 @@
       "name": "苍焰狼",
       "elements": "火",
       "workSuitability": "生火 Lv3",
+      "partnerSkill": "日轮之狼",
+      "drops": "喷火器官、皮革",
+      "food": "5",
       "id": "pal_amaterasuwolf",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_amaterasuwolf"
     },
@@ -1330,6 +1828,9 @@
       "name": "热血蜥",
       "elements": "火",
       "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "透明化",
+      "drops": "喷火器官、银钥匙、朋克蜥的头冠",
+      "food": "2",
       "id": "pal_lizardman_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lizardman_fire"
     },
@@ -1338,6 +1839,9 @@
       "name": "烽歌龙",
       "elements": "火、暗",
       "workSuitability": "生火 Lv2、搬运 Lv3",
+      "partnerSkill": "大空袭击者",
+      "drops": "骨头、红宝石、金币",
+      "food": "5",
       "id": "pal_birddragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_birddragon"
     },
@@ -1346,6 +1850,9 @@
       "name": "荷鲁斯",
       "elements": "火",
       "workSuitability": "生火 Lv6、搬运 Lv3",
+      "partnerSkill": "灼热捕食者",
+      "drops": "喷火器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、火之辉石",
+      "food": "9",
       "id": "pal_horus",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_horus"
     },
@@ -1354,6 +1861,9 @@
       "name": "焰煌",
       "elements": "火",
       "workSuitability": "生火 Lv6、采矿 Lv7",
+      "partnerSkill": "熔岩凯撒",
+      "drops": "石炭、喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_kingbahamut",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingbahamut"
     },
@@ -1362,6 +1872,9 @@
       "name": "焰巫狐",
       "elements": "火",
       "workSuitability": "生火 Lv3、手工作业 Lv3、搬运 Lv2",
+      "partnerSkill": "狐神大人",
+      "drops": "喷火器官、高等技术书",
+      "food": "4",
       "id": "pal_foxmage",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxmage"
     },
@@ -1370,6 +1883,9 @@
       "name": "幽巫狐",
       "elements": "火、暗",
       "workSuitability": "生火 Lv4、手工作业 Lv4、搬运 Lv2",
+      "partnerSkill": "巫神大人",
+      "drops": "中型帕鲁之魂、高等技术书",
+      "food": "4",
       "id": "pal_foxmage_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxmage_dark"
     },
@@ -1378,6 +1894,9 @@
       "name": "火灵儿",
       "elements": "火",
       "workSuitability": "生火 Lv1、牧场 Lv1",
+      "partnerSkill": "熔岩泼洒",
+      "drops": "水灵儿的鱼肉、喷火器官",
+      "food": "1",
       "id": "pal_kelpie_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kelpie_fire"
     },
@@ -1386,6 +1905,9 @@
       "name": "炽焰牛",
       "elements": "火",
       "workSuitability": "生火 Lv3、伐木 Lv2",
+      "partnerSkill": "温暖之躯",
+      "drops": "角、喷火器官",
+      "food": "3",
       "id": "pal_flamebuffalo",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flamebuffalo"
     },
@@ -1394,6 +1916,9 @@
       "name": "秋叶猿",
       "elements": "火",
       "workSuitability": "生火 Lv1、手工作业 Lv1、伐木 Lv1、搬运 Lv1",
+      "partnerSkill": "枪火奇猿",
+      "drops": "蘑菇、喷火器官",
+      "food": "1",
       "id": "pal_monkey_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_monkey_fire"
     },
@@ -1402,6 +1927,9 @@
       "name": "狱焰王",
       "elements": "火",
       "workSuitability": "生火 Lv5、伐木 Lv3",
+      "partnerSkill": "狱炎狮子",
+      "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_manticore",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_manticore"
     },
@@ -1410,6 +1938,9 @@
       "name": "狱阎王",
       "elements": "火、暗",
       "workSuitability": "生火 Lv5、伐木 Lv3",
+      "partnerSkill": "黑炎狮子",
+      "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_manticore_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_manticore_dark"
     },
@@ -1418,6 +1949,9 @@
       "name": "桃旋鼬",
       "elements": "火、龙",
       "workSuitability": "生火 Lv4、采集 Lv3",
+      "partnerSkill": "烧鼬鼬",
+      "drops": "皮革、喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_weaseldragon_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_weaseldragon_fire"
     },
@@ -1426,6 +1960,9 @@
       "name": "燧火鸟",
       "elements": "火",
       "workSuitability": "生火 Lv4、搬运 Lv5",
+      "partnerSkill": "烈焰之翼",
+      "drops": "喷火器官、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_redarmorbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_redarmorbird"
     },
@@ -1434,6 +1971,9 @@
       "name": "浪刃武士",
       "elements": "火",
       "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv3、搬运 Lv2",
+      "partnerSkill": "紫电一闪",
+      "drops": "骨头、金属锭",
+      "food": "5",
       "id": "pal_ronin",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ronin"
     },
@@ -1442,6 +1982,9 @@
       "name": "鬼刃武士",
       "elements": "火、暗",
       "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv5、搬运 Lv2",
+      "partnerSkill": "秘技·紫电一闪",
+      "drops": "喷火器官、金属锭、中型帕鲁之魂",
+      "food": "5",
       "id": "pal_ronin_dark",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ronin_dark"
     },
@@ -1450,6 +1993,9 @@
       "name": "融焰娘",
       "elements": "火",
       "workSuitability": "生火 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+      "partnerSkill": "熔岩之泪",
+      "drops": "喷火器官、优质帕鲁油",
+      "food": "2",
       "id": "pal_lavagirl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lavagirl"
     },
@@ -1458,6 +2004,9 @@
       "name": "燎火鹿",
       "elements": "火",
       "workSuitability": "生火 Lv1、牧场 Lv1",
+      "partnerSkill": "微小火种",
+      "drops": "喷火器官、皮革",
+      "food": "1",
       "id": "pal_flamebambi",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flamebambi"
     },
@@ -1466,6 +2015,9 @@
       "name": "丹烽",
       "elements": "火",
       "workSuitability": "生火 Lv5、采矿 Lv7、搬运 Lv7",
+      "partnerSkill": "铁血卫士模式",
+      "drops": "金属矿石、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_winggolem_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_winggolem_fire"
     },
@@ -1474,6 +2026,9 @@
       "name": "流焰龙",
       "elements": "火、地",
       "workSuitability": "生火 Lv5、采矿 Lv5",
+      "partnerSkill": "熔岩霸主",
+      "drops": "喷火器官、皮革、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_volcanodragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanodragon"
     },
@@ -1482,6 +2037,9 @@
       "name": "炙灯鱼",
       "elements": "火、水",
       "workSuitability": "生火 Lv5、浇水 Lv5、搬运 Lv2",
+      "partnerSkill": "深海名厨",
+      "drops": "骨头、喷火器官",
+      "food": "7",
       "id": "pal_ghostanglerfish_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostanglerfish_fire"
     },
@@ -1490,6 +2048,9 @@
       "name": "拉比耶尔",
       "elements": "火",
       "workSuitability": "生火 Lv7、手工作业 Lv5、制药 Lv4、搬运 Lv2",
+      "partnerSkill": "拉比拉比魔术秀",
+      "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_clownrabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_clownrabbit"
     },
@@ -1498,6 +2059,9 @@
       "name": "昭炎狐",
       "elements": "火",
       "workSuitability": "生火 Lv7、手工作业 Lv6、搬运 Lv2",
+      "partnerSkill": "未来之炎",
+      "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_foxexorcist",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_foxexorcist"
     },
@@ -1506,6 +2070,9 @@
       "name": "燎火舞伶",
       "elements": "火",
       "workSuitability": "生火 Lv8、手工作业 Lv6、采集 Lv5、搬运 Lv5",
+      "partnerSkill": "大显身手",
+      "drops": "皮革、喷火器官、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_kabukiman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kabukiman"
     },
@@ -1514,6 +2081,9 @@
       "name": "冰丝特",
       "elements": "冰",
       "workSuitability": "冷却 Lv1、牧场 Lv1",
+      "partnerSkill": "晴天冰雳",
+      "drops": "结冰器官、蓝宝石",
+      "food": "1",
       "id": "pal_bastet_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bastet_ice"
     },
@@ -1522,6 +2092,9 @@
       "name": "冰刺鼠",
       "elements": "冰",
       "workSuitability": "冷却 Lv1",
+      "partnerSkill": "冻结炸弹",
+      "drops": "结冰器官",
+      "food": "1",
       "id": "pal_hedgehog_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hedgehog_ice"
     },
@@ -1530,6 +2103,9 @@
       "name": "凌角马",
       "elements": "冰",
       "workSuitability": "伐木 Lv3、冷却 Lv6",
+      "partnerSkill": "冰华乱舞",
+      "drops": "皮革、角、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_kirin_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kirin_ice"
     },
@@ -1538,6 +2114,9 @@
       "name": "冰棘兽",
       "elements": "冰",
       "workSuitability": "手工作业 Lv3、伐木 Lv4、冷却 Lv4、搬运 Lv4",
+      "partnerSkill": "猎龙者",
+      "drops": "结冰器官",
+      "food": "7",
       "id": "pal_whitetiger",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitetiger"
     },
@@ -1546,6 +2125,9 @@
       "name": "碧月龙",
       "elements": "冰、龙",
       "workSuitability": "冷却 Lv4",
+      "partnerSkill": "冰翔之舞",
+      "drops": "布、水栖帕鲁的黏液、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_bluedragon_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluedragon_ice"
     },
@@ -1554,6 +2136,9 @@
       "name": "寒霜兽",
       "elements": "冰、地",
       "workSuitability": "采矿 Lv5、冷却 Lv5",
+      "partnerSkill": "贪食冰霜之兽",
+      "drops": "结冰器官",
+      "food": "7",
       "id": "pal_volcanicmonster_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanicmonster_ice"
     },
@@ -1562,6 +2147,9 @@
       "name": "霜歌龙",
       "elements": "冰、暗",
       "workSuitability": "冷却 Lv2、搬运 Lv3",
+      "partnerSkill": "大空袭击者",
+      "drops": "骨头、结冰器官、蓝宝石",
+      "food": "5",
       "id": "pal_birddragon_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_birddragon_ice"
     },
@@ -1570,6 +2158,9 @@
       "name": "唤冬兽",
       "elements": "冰",
       "workSuitability": "冷却 Lv7",
+      "partnerSkill": "冰天马",
+      "drops": "结冰器官、钻石",
+      "food": "9",
       "id": "pal_icehorse",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icehorse"
     },
@@ -1578,6 +2169,9 @@
       "name": "雪猛犸",
       "elements": "冰、地",
       "workSuitability": "伐木 Lv5、采矿 Lv4、冷却 Lv5",
+      "partnerSkill": "冰霜粉碎者",
+      "drops": "优质帕鲁油、皮革、森猛犸的巨兽肉、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_grassmammoth_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassmammoth_ice"
     },
@@ -1586,6 +2180,9 @@
       "name": "严冬鹿",
       "elements": "冰",
       "workSuitability": "伐木 Lv3、冷却 Lv3",
+      "partnerSkill": "冰凉之躯",
+      "drops": "严冬鹿的鹿肉、皮革、角、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_icedeer",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icedeer"
     },
@@ -1594,6 +2191,9 @@
       "name": "绸笠蛾",
       "elements": "冰",
       "workSuitability": "制药 Lv3、冷却 Lv3、牧场 Lv3",
+      "partnerSkill": "神秘缠丝者",
+      "drops": "优质的布、结冰器官",
+      "food": "5",
       "id": "pal_whitemoth",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitemoth"
     },
@@ -1602,6 +2202,9 @@
       "name": "白绒雪怪",
       "elements": "冰",
       "workSuitability": "手工作业 Lv3、伐木 Lv5、冷却 Lv5、搬运 Lv6",
+      "partnerSkill": "雪山巨人",
+      "drops": "结冰器官、美丽花朵、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_yeti",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_yeti"
     },
@@ -1610,6 +2213,9 @@
       "name": "凛光犬",
       "elements": "冰",
       "workSuitability": "冷却 Lv3",
+      "partnerSkill": "霜跃疾行",
+      "drops": "结冰器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_thunderdog_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdog_ice"
     },
@@ -1618,6 +2224,9 @@
       "name": "吹雪狐",
       "elements": "冰",
       "workSuitability": "冷却 Lv4、牧场 Lv3",
+      "partnerSkill": "极光的指引",
+      "drops": "皮革、结冰器官",
+      "food": "4",
       "id": "pal_icefox",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icefox"
     },
@@ -1626,6 +2235,9 @@
       "name": "冰帝美露帕",
       "elements": "冰",
       "workSuitability": "采集 Lv2、冷却 Lv4",
+      "partnerSkill": "冷酷国王",
+      "drops": "羊毛、结冰器官",
+      "food": "4",
       "id": "pal_kingalpaca_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingalpaca_ice"
     },
@@ -1634,6 +2246,9 @@
       "name": "毛掸儿",
       "elements": "冰",
       "workSuitability": "采集 Lv1、冷却 Lv1",
+      "partnerSkill": "毛茸茸茸茸",
+      "drops": "羊毛、毛掸儿的棉毛",
+      "food": "1",
       "id": "pal_mopbaby",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mopbaby"
     },
@@ -1642,6 +2257,9 @@
       "name": "毛老爹",
       "elements": "冰",
       "workSuitability": "采集 Lv2、冷却 Lv3",
+      "partnerSkill": "毛茸茸之王",
+      "drops": "羊毛",
+      "food": "4",
       "id": "pal_mopking",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mopking"
     },
@@ -1650,6 +2268,9 @@
       "name": "疾霜鸟",
       "elements": "冰",
       "workSuitability": "采集 Lv2、冷却 Lv5、搬运 Lv5",
+      "partnerSkill": "天霰",
+      "drops": "结冰器官、世界树圣水、水之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_thunderbird_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderbird_ice"
     },
@@ -1658,6 +2279,9 @@
       "name": "疾旋鼬",
       "elements": "冰、龙",
       "workSuitability": "采集 Lv1、冷却 Lv2",
+      "partnerSkill": "扭扭鼬鼬",
+      "drops": "皮革、结冰器官、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_weaseldragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_weaseldragon"
     },
@@ -1666,6 +2290,9 @@
       "name": "川霜龙",
       "elements": "冰、地",
       "workSuitability": "采矿 Lv5、冷却 Lv5",
+      "partnerSkill": "寒冰霸主",
+      "drops": "结冰器官、皮革",
+      "food": "8",
       "id": "pal_volcanodragon_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_volcanodragon_ice"
     },
@@ -1674,6 +2301,9 @@
       "name": "寒峰兽",
       "elements": "冰",
       "workSuitability": "采矿 Lv5、冷却 Lv6",
+      "partnerSkill": "能量水晶",
+      "drops": "烈阳金属、结冰器官、纯水晶、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_rockbeast_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_rockbeast_ice"
     },
@@ -1682,6 +2312,9 @@
       "name": "凉晶鲸",
       "elements": "冰、水",
       "workSuitability": "浇水 Lv5、冷却 Lv6",
+      "partnerSkill": "凉冰冰鲸鱼号",
+      "drops": "水栖帕鲁的黏液、珊瑚矿石、结冰器官、大型帕鲁之魂、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_icenarwhal",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icenarwhal"
     },
@@ -1690,6 +2323,9 @@
       "name": "桃晶鲸",
       "elements": "冰、火",
       "workSuitability": "生火 Lv5、冷却 Lv6",
+      "partnerSkill": "暖烘烘鲸鱼号",
+      "drops": "水栖帕鲁的黏液、珊瑚矿石、喷火器官、大型帕鲁之魂、世界树圣水、火之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、冰之辉石",
+      "food": "8",
       "id": "pal_icenarwhal_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icenarwhal_fire"
     },
@@ -1698,6 +2334,9 @@
       "name": "雪绒狐",
       "elements": "冰",
       "workSuitability": "冷却 Lv2",
+      "partnerSkill": "抱抱寒冰",
+      "drops": "皮革、结冰器官",
+      "food": "1",
       "id": "pal_kitsunebi_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kitsunebi_ice"
     },
@@ -1706,6 +2345,9 @@
       "name": "霜镰魔",
       "elements": "冰",
       "workSuitability": "手工作业 Lv4、冷却 Lv4",
+      "partnerSkill": "冰结利爪",
+      "drops": "骨头",
+      "food": "3",
       "id": "pal_werewolf_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_werewolf_ice"
     },
@@ -1714,6 +2356,9 @@
       "name": "霜牙王",
       "elements": "冰",
       "workSuitability": "伐木 Lv6、采矿 Lv5、冷却 Lv8",
+      "partnerSkill": "暴雪冲击",
+      "drops": "皮革、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_snowtigerbeastman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snowtigerbeastman"
     },
@@ -1722,6 +2367,9 @@
       "name": "冰姬灵",
       "elements": "冰",
       "workSuitability": "手工作业 Lv5、制药 Lv4、冷却 Lv5、搬运 Lv2",
+      "partnerSkill": "魔女的冷气",
+      "drops": "结冰器官",
+      "food": "5",
       "id": "pal_icewitch",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icewitch"
     },
@@ -1730,6 +2378,9 @@
       "name": "雪墩墩",
       "elements": "冰",
       "workSuitability": "手工作业 Lv2、采矿 Lv3、冷却 Lv3、搬运 Lv2",
+      "partnerSkill": "不见之眼",
+      "drops": "皮革、羊毛、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_smallyeti",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_smallyeti"
     },
@@ -1738,6 +2389,9 @@
       "name": "肚肚鳄",
       "elements": "冰、水",
       "workSuitability": "浇水 Lv2、冷却 Lv3、搬运 Lv1",
+      "partnerSkill": "雪盆大口",
+      "drops": "肚肚鳄的鳄鱼肉、水栖帕鲁的黏液、结冰器官",
+      "food": "3",
       "id": "pal_icecrocodile",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_icecrocodile"
     },
@@ -1746,6 +2400,9 @@
       "name": "香草豹冰",
       "elements": "冰、水",
       "workSuitability": "浇水 Lv3、冷却 Lv4",
+      "partnerSkill": "滑雪行家",
+      "drops": "结冰器官",
+      "food": "4",
       "id": "pal_iceseal",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_iceseal"
     },
@@ -1754,6 +2411,9 @@
       "name": "巧克力豹冰",
       "elements": "冰、地",
       "workSuitability": "采矿 Lv4、冷却 Lv4",
+      "partnerSkill": "雪山速滑",
+      "drops": "皮革、水栖帕鲁的黏液、世界树圣水、地之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_iceseal_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_iceseal_ground"
     },
@@ -1762,6 +2422,9 @@
       "name": "白真雪雀",
       "elements": "冰",
       "workSuitability": "采集 Lv2、冷却 Lv4",
+      "partnerSkill": "孔雀迅捷",
+      "drops": "结冰器官",
+      "food": "5",
       "id": "pal_snowpeafowl",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_snowpeafowl"
     },
@@ -1770,6 +2433,9 @@
       "name": "雪绵啾",
       "elements": "冰",
       "workSuitability": "冷却 Lv2、搬运 Lv1",
+      "partnerSkill": "软萌圆圆鸟",
+      "drops": "结冰器官",
+      "food": "3",
       "id": "pal_fluffybird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fluffybird"
     },
@@ -1778,6 +2444,9 @@
       "name": "冰峰陶洛斯",
       "elements": "冰",
       "workSuitability": "伐木 Lv3、采矿 Lv3、冷却 Lv5、搬运 Lv3",
+      "partnerSkill": "永冻土之威",
+      "drops": "角、皮革、结冰器官、世界树圣水、冰之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_grassminotaur_ice",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grassminotaur_ice"
     },
@@ -1786,6 +2455,9 @@
       "name": "炸蛋鸟",
       "elements": "无",
       "workSuitability": "采集 Lv1",
+      "partnerSkill": "炸蛋发射器",
+      "drops": "火药、炸蛋鸟的羽毛",
+      "food": "2",
       "id": "pal_colorfulbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_colorfulbird"
     },
@@ -1794,6 +2466,9 @@
       "name": "紫霞鹿",
       "elements": "无",
       "workSuitability": "伐木 Lv2",
+      "partnerSkill": "森林守护者",
+      "drops": "紫霞鹿的鹿肉、皮革、角、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "2",
       "id": "pal_deer",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_deer"
     },
@@ -1802,6 +2477,9 @@
       "name": "天擒鸟",
       "elements": "无",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "天擒鸟滑翔",
+      "drops": "天擒鸟的鸟肉、皮革",
+      "food": "2",
       "id": "pal_eagle",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eagle"
     },
@@ -1810,6 +2488,9 @@
       "name": "猎狼",
       "elements": "无",
       "workSuitability": "采集 Lv1",
+      "partnerSkill": "猎狼骑手",
+      "drops": "皮革、红宝石、金币",
+      "food": "2",
       "id": "pal_garm",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_garm"
     },
@@ -1818,6 +2499,9 @@
       "name": "铁拳猿",
       "elements": "无",
       "workSuitability": "手工作业 Lv2、伐木 Lv3、搬运 Lv3",
+      "partnerSkill": "火力全开大猩猩模式",
+      "drops": "皮革、骨头、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_gorilla",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_gorilla"
     },
@@ -1826,6 +2510,9 @@
       "name": "秘斯媞雅",
       "elements": "无",
       "workSuitability": "手工作业 Lv4、采集 Lv2、搬运 Lv2",
+      "partnerSkill": "反重力",
+      "drops": "帕鲁矿碎块",
+      "food": "4",
       "id": "pal_mutant",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mutant"
     },
@@ -1834,6 +2521,9 @@
       "name": "棉悠悠",
       "elements": "无",
       "workSuitability": "手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+      "partnerSkill": "茸茸盾牌",
+      "drops": "羊毛、棉悠悠的羊肉",
+      "food": "1",
       "id": "pal_sheepball",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sheepball"
     },
@@ -1842,6 +2532,9 @@
       "name": "棉花糖",
       "elements": "无",
       "workSuitability": "牧场 Lv1",
+      "partnerSkill": "糖果甜心",
+      "drops": "棉花糖、优质帕鲁油",
+      "food": "1",
       "id": "pal_sweetssheep",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sweetssheep"
     },
@@ -1850,6 +2543,9 @@
       "name": "美露帕",
       "elements": "无",
       "workSuitability": "牧场 Lv2",
+      "partnerSkill": "蓬蓬羊毛",
+      "drops": "羊毛、皮革",
+      "food": "2",
       "id": "pal_alpaca",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_alpaca"
     },
@@ -1858,6 +2554,9 @@
       "name": "捣蛋猫",
       "elements": "无",
       "workSuitability": "手工作业 Lv1、采集 Lv1、采矿 Lv1、搬运 Lv1",
+      "partnerSkill": "跟猫借手手",
+      "drops": "红色野莓",
+      "food": "1",
       "id": "pal_pinkcat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkcat"
     },
@@ -1866,6 +2565,9 @@
       "name": "云海鹿",
       "elements": "无",
       "workSuitability": "伐木 Lv3",
+      "partnerSkill": "风云",
+      "drops": "皮革、角、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_fengyundeeper",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper"
     },
@@ -1874,6 +2576,9 @@
       "name": "皮皮鸡",
       "elements": "无",
       "workSuitability": "采集 Lv1、牧场 Lv1",
+      "partnerSkill": "产蛋",
+      "drops": "蛋、皮皮鸡的鸡肉",
+      "food": "1",
       "id": "pal_chickenpal",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_chickenpal"
     },
@@ -1882,6 +2587,9 @@
       "name": "绢笠蛾",
       "elements": "无",
       "workSuitability": "制药 Lv3、牧场 Lv4",
+      "partnerSkill": "神秘缠金丝者",
+      "drops": "优质的布、优质帕鲁油、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_whitemoth_neutral",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitemoth_neutral"
     },
@@ -1890,6 +2598,9 @@
       "name": "玉藻狐",
       "elements": "无",
       "workSuitability": "采集 Lv1、牧场 Lv1",
+      "partnerSkill": "挖掘指导",
+      "drops": "皮革、骨头",
+      "food": "1",
       "id": "pal_cutefox",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cutefox"
     },
@@ -1898,6 +2609,9 @@
       "name": "蚀魂鱿",
       "elements": "无、水",
       "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
+      "partnerSkill": "炸鱿鱼",
+      "drops": "水栖帕鲁的黏液、勾魂鱿的触手",
+      "food": "2",
       "id": "pal_negativeoctopus_neutral",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_negativeoctopus_neutral"
     },
@@ -1906,6 +2620,9 @@
       "name": "波霸牛",
       "elements": "无",
       "workSuitability": "牧场 Lv2",
+      "partnerSkill": "产奶",
+      "drops": "波霸牛的牛肉、牛奶",
+      "food": "2",
       "id": "pal_cowpal",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cowpal"
     },
@@ -1914,6 +2631,9 @@
       "name": "疾风隼",
       "elements": "无",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "旅伴",
+      "drops": "皮革",
+      "food": "2",
       "id": "pal_hawkbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hawkbird"
     },
@@ -1922,6 +2642,9 @@
       "name": "君王美露帕",
       "elements": "无",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "大力国王",
+      "drops": "羊毛、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_kingalpaca",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingalpaca"
     },
@@ -1930,6 +2653,9 @@
       "name": "姬小兔",
       "elements": "无",
       "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
+      "partnerSkill": "微笑公主兔",
+      "drops": "皮革、美丽花朵、姬小兔的发带、野莓种子",
+      "food": "1",
       "id": "pal_pinkrabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_pinkrabbit"
     },
@@ -1938,6 +2664,9 @@
       "name": "圣光骑士",
       "elements": "无",
       "workSuitability": "伐木 Lv6、采矿 Lv6",
+      "partnerSkill": "天翔圣骑士",
+      "drops": "六棱晶锭、钻石、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_saintcentaur",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_saintcentaur"
     },
@@ -1946,6 +2675,9 @@
       "name": "笑魇猫",
       "elements": "无",
       "workSuitability": "采集 Lv3",
+      "partnerSkill": "猫眼逼人",
+      "drops": "优质帕鲁油",
+      "food": "4",
       "id": "pal_naughtycat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_naughtycat"
     },
@@ -1954,6 +2686,9 @@
       "name": "米露菲",
       "elements": "无",
       "workSuitability": "采集 Lv1、牧场 Lv2",
+      "partnerSkill": "蓬松毛毛",
+      "drops": "羊毛",
+      "food": "1",
       "id": "pal_woolfox",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_woolfox"
     },
@@ -1962,6 +2697,9 @@
       "name": "八云犬",
       "elements": "无",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "物以类聚",
+      "drops": "皮革",
+      "food": "3",
       "id": "pal_guardiandog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_guardiandog"
     },
@@ -1970,6 +2708,9 @@
       "name": "汪宗师",
       "elements": "无",
       "workSuitability": "手工作业 Lv4、采集 Lv3、伐木 Lv3、制药 Lv2、搬运 Lv3",
+      "partnerSkill": "归去来兮",
+      "drops": "骨头",
+      "food": "5",
       "id": "pal_sifudog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sifudog"
     },
@@ -1978,6 +2719,9 @@
       "name": "旺财",
       "elements": "无",
       "workSuitability": "采集 Lv1、搬运 Lv2",
+      "partnerSkill": "撬锁",
+      "drops": "金币、汪汪币、修炼之书（特大）",
+      "food": "3",
       "id": "pal_mimicdog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_mimicdog"
     },
@@ -1986,6 +2730,9 @@
       "name": "日耀驹",
       "elements": "无",
       "workSuitability": "采集 Lv7",
+      "partnerSkill": "光舞者",
+      "drops": "皮革、夜星砂、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_nightbluehorse_neutral",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_nightbluehorse_neutral"
     },
@@ -1994,6 +2741,9 @@
       "name": "净世鹿",
       "elements": "无",
       "workSuitability": "采集 Lv4、伐木 Lv7",
+      "partnerSkill": "净化的祝福",
+      "drops": "皮革、角、六棱晶矿、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_whitedeer",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitedeer"
     },
@@ -2002,6 +2752,9 @@
       "name": "默世鹿",
       "elements": "无",
       "workSuitability": "采集 Lv7、伐木 Lv7",
+      "partnerSkill": "庇佑圣盾",
+      "drops": "角、皮革、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_legenddeer",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_legenddeer"
     },
@@ -2010,6 +2763,9 @@
       "name": "净岩龟",
       "elements": "无",
       "workSuitability": "采矿 Lv6",
+      "partnerSkill": "逐石古代龟",
+      "drops": "绿宝石、大型帕鲁之魂、世界树圣水、无之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_cubeturtle_neutral",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_cubeturtle_neutral"
     },
@@ -2018,6 +2774,9 @@
       "name": "喵璐璐",
       "elements": "无",
       "workSuitability": "采集 Lv2",
+      "partnerSkill": "伸展喵咪",
+      "drops": "皮革",
+      "food": "4",
       "id": "pal_longcat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_longcat"
     },
@@ -2026,6 +2785,9 @@
       "name": "兔绣袖",
       "elements": "无",
       "workSuitability": "手工作业 Lv6、采集 Lv5",
+      "partnerSkill": "长袖啦啦队员",
+      "drops": "皮革",
+      "food": "7",
       "id": "pal_sleeverabbit",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_sleeverabbit"
     },
@@ -2034,6 +2796,9 @@
       "name": "暴电熊",
       "elements": "雷",
       "workSuitability": "发电 Lv5、手工作业 Lv4、伐木 Lv3、搬运 Lv5",
+      "partnerSkill": "黄色重型战车",
+      "drops": "发电器官、皮革、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_elecpanda",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpanda"
     },
@@ -2042,6 +2807,9 @@
       "name": "电棘鼠",
       "elements": "雷",
       "workSuitability": "发电 Lv1",
+      "partnerSkill": "电击炸弹",
+      "drops": "发电器官",
+      "food": "1",
       "id": "pal_hedgehog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_hedgehog"
     },
@@ -2050,6 +2818,9 @@
       "name": "雷角马",
       "elements": "雷",
       "workSuitability": "发电 Lv3、伐木 Lv1",
+      "partnerSkill": "疾风迅雷",
+      "drops": "皮革、发电器官、角、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_kirin",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kirin"
     },
@@ -2058,6 +2829,9 @@
       "name": "雷鸣童子",
       "elements": "雷",
       "workSuitability": "发电 Lv3、手工作业 Lv2、搬运 Lv2",
+      "partnerSkill": "雷电姑娘",
+      "drops": "发电器官、雷鸣童子的云朵",
+      "food": "2",
       "id": "pal_raijindaughter",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_raijindaughter"
     },
@@ -2066,6 +2840,9 @@
       "name": "雷冠龙",
       "elements": "雷、龙",
       "workSuitability": "发电 Lv3、伐木 Lv4",
+      "partnerSkill": "落雷绽放之龙",
+      "drops": "番茄种子、胡萝卜种子",
+      "food": "4",
       "id": "pal_flowerdinosaur_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_flowerdinosaur_electric"
     },
@@ -2074,6 +2851,9 @@
       "name": "伏特喵",
       "elements": "雷",
       "workSuitability": "发电 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
+      "partnerSkill": "静电",
+      "drops": "发电器官",
+      "food": "1",
       "id": "pal_eleccat",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleccat"
     },
@@ -2082,6 +2862,9 @@
       "name": "雷胖达",
       "elements": "雷",
       "workSuitability": "发电 Lv4、手工作业 Lv3、伐木 Lv4、搬运 Lv4",
+      "partnerSkill": "不良熊猫",
+      "drops": "硬木材、发电器官、皮革、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_grasspanda_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_grasspanda_electric"
     },
@@ -2090,6 +2873,9 @@
       "name": "霹雳犬",
       "elements": "雷",
       "workSuitability": "发电 Lv4",
+      "partnerSkill": "雷雳跃行",
+      "drops": "发电器官",
+      "food": "4",
       "id": "pal_thunderdog",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdog"
     },
@@ -2098,6 +2884,9 @@
       "name": "迅雷鸟",
       "elements": "雷",
       "workSuitability": "发电 Lv4、采集 Lv2、搬运 Lv5",
+      "partnerSkill": "天雷",
+      "drops": "发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_thunderbird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderbird"
     },
@@ -2106,6 +2895,9 @@
       "name": "电针妖",
       "elements": "雷、地",
       "workSuitability": "发电 Lv3、采集 Lv2、伐木 Lv4、制药 Lv2",
+      "partnerSkill": "低频脉冲蝎",
+      "drops": "发电器官",
+      "food": "5",
       "id": "pal_scorpionman_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_scorpionman_electric"
     },
@@ -2114,6 +2906,9 @@
       "name": "电懒懒",
       "elements": "雷",
       "workSuitability": "发电 Lv3",
+      "partnerSkill": "懒懒电键",
+      "drops": "水栖帕鲁的黏液、发电器官",
+      "food": "4",
       "id": "pal_eleclizard",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_eleclizard"
     },
@@ -2122,6 +2917,9 @@
       "name": "驭雷马",
       "elements": "雷",
       "workSuitability": "发电 Lv5",
+      "partnerSkill": "电离冲刺",
+      "drops": "发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_bluethunderhorse",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_bluethunderhorse"
     },
@@ -2130,6 +2928,9 @@
       "name": "雷隐鹿",
       "elements": "雷",
       "workSuitability": "发电 Lv5、伐木 Lv4",
+      "partnerSkill": "雷云",
+      "drops": "皮革、角、发电器官、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "5",
       "id": "pal_fengyundeeper_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fengyundeeper_electric"
     },
@@ -2138,6 +2939,9 @@
       "name": "电汪汪",
       "elements": "雷",
       "workSuitability": "发电 Lv2、搬运 Lv1",
+      "partnerSkill": "电光强化",
+      "drops": "发电器官",
+      "food": "3",
       "id": "pal_elecpomeranian",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecpomeranian"
     },
@@ -2146,6 +2950,9 @@
       "name": "雷云鹫",
       "elements": "雷",
       "workSuitability": "发电 Lv6、采集 Lv3、搬运 Lv3",
+      "partnerSkill": "电动按摩式抱窝",
+      "drops": "发电器官",
+      "food": "6",
       "id": "pal_thunderfluffybird",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderfluffybird"
     },
@@ -2154,6 +2961,9 @@
       "name": "电涡蜗",
       "elements": "雷",
       "workSuitability": "发电 Lv4",
+      "partnerSkill": "电电电池",
+      "drops": "发电器官、水栖帕鲁的黏液",
+      "food": "4",
       "id": "pal_elecsnail",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail"
     },
@@ -2162,6 +2972,9 @@
       "name": "金涡蜗",
       "elements": "雷、地",
       "workSuitability": "发电 Lv4",
+      "partnerSkill": "咚咚甲壳",
+      "drops": "发电器官、优质帕鲁油、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "4",
       "id": "pal_elecsnail_ground",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_elecsnail_ground"
     },
@@ -2170,6 +2983,9 @@
       "name": "覆海龙",
       "elements": "龙、水",
       "workSuitability": "浇水 Lv7",
+      "partnerSkill": "呼唤风暴的深海龙",
+      "drops": "水栖帕鲁的黏液、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_umihebi",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_umihebi"
     },
@@ -2178,6 +2994,9 @@
       "name": "腾炎龙",
       "elements": "龙、火",
       "workSuitability": "生火 Lv7",
+      "partnerSkill": "呼唤风暴的熔岩龙",
+      "drops": "优质帕鲁油、喷火器官、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_umihebi_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_umihebi_fire"
     },
@@ -2186,6 +3005,9 @@
       "name": "精灵龙",
       "elements": "龙",
       "workSuitability": "伐木 Lv3",
+      "partnerSkill": "善良的圣洁之龙",
+      "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_fairydragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fairydragon"
     },
@@ -2194,6 +3016,9 @@
       "name": "水灵龙",
       "elements": "龙、水",
       "workSuitability": "浇水 Lv4、伐木 Lv3",
+      "partnerSkill": "善良的流水之龙",
+      "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "3",
       "id": "pal_fairydragon_water",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_fairydragon_water"
     },
@@ -2202,6 +3027,9 @@
       "name": "佩克龙",
       "elements": "龙、水",
       "workSuitability": "浇水 Lv3、搬运 Lv3",
+      "partnerSkill": "饿饿飞弹",
+      "drops": "优质帕鲁油、红宝石、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_lazydragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazydragon"
     },
@@ -2210,6 +3038,9 @@
       "name": "派克龙",
       "elements": "龙、雷",
       "workSuitability": "发电 Lv4、搬运 Lv3",
+      "partnerSkill": "飞弹盛宴",
+      "drops": "优质帕鲁油、发电器官、蓝宝石、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_lazydragon_electric",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_lazydragon_electric"
     },
@@ -2218,6 +3049,9 @@
       "name": "殁殃",
       "elements": "龙、火",
       "workSuitability": "生火 Lv6、采矿 Lv7",
+      "partnerSkill": "巨龙凯撒",
+      "drops": "石炭、中型帕鲁之魂、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_kingbahamut_dragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_kingbahamut_dragon"
     },
@@ -2226,6 +3060,9 @@
       "name": "魔渊龙",
       "elements": "龙、暗",
       "workSuitability": "手工作业 Lv3、采矿 Lv7",
+      "partnerSkill": "黑铠之龙",
+      "drops": "塑钢、大型帕鲁之魂、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "7",
       "id": "pal_blackmetaldragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blackmetaldragon"
     },
@@ -2234,6 +3071,9 @@
       "name": "空涡龙",
       "elements": "龙",
       "workSuitability": "采集 Lv8",
+      "partnerSkill": "地毯式轰炸",
+      "drops": "烈阳金属、超高热核心、钻石、大型帕鲁之魂",
+      "food": "9",
       "id": "pal_jetdragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_jetdragon"
     },
@@ -2242,6 +3082,9 @@
       "name": "天羽龙",
       "elements": "龙",
       "workSuitability": "手工作业 Lv2、采集 Lv3、采矿 Lv4、搬运 Lv5",
+      "partnerSkill": "天空龙的慈爱",
+      "drops": "优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_skydragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_skydragon"
     },
@@ -2250,6 +3093,9 @@
       "name": "翠羽龙",
       "elements": "龙、草",
       "workSuitability": "播种 Lv5、手工作业 Lv2、采集 Lv4、采矿 Lv3、搬运 Lv4",
+      "partnerSkill": "翠龙的慈爱",
+      "drops": "优质帕鲁油、美丽花朵、红色野莓、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "6",
       "id": "pal_skydragon_grass",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_skydragon_grass"
     },
@@ -2258,6 +3104,9 @@
       "name": "波鲁杰克斯",
       "elements": "龙、雷",
       "workSuitability": "发电 Lv8、手工作业 Lv3、搬运 Lv4",
+      "partnerSkill": "凶猛的迅雷龙",
+      "drops": "发电器官、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物、龙之辉石",
+      "food": "9",
       "id": "pal_thunderdragonman",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_thunderdragonman"
     },
@@ -2266,6 +3115,9 @@
       "name": "杰诺路达",
       "elements": "龙",
       "workSuitability": "采矿 Lv4",
+      "partnerSkill": "未知入侵者",
+      "drops": "陨石碎片、优质帕鲁油",
+      "food": "7",
       "id": "pal_whitealiendragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whitealiendragon"
     },
@@ -2274,6 +3126,9 @@
       "name": "艾基鲁迦",
       "elements": "龙",
       "workSuitability": "伐木 Lv6",
+      "partnerSkill": "埃癸斯之盾",
+      "drops": "铬铁矿、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "8",
       "id": "pal_whiteshielddragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_whiteshielddragon"
     },
@@ -2282,6 +3137,9 @@
       "name": "霄龙",
       "elements": "龙、水",
       "workSuitability": "浇水 Lv8、采集 Lv5",
+      "partnerSkill": "苍天统治者",
+      "drops": "角、皮革、大型帕鲁之魂、世界树圣水、雷之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_blueskydragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_blueskydragon"
     },
@@ -2290,6 +3148,9 @@
       "name": "灵曦龙",
       "elements": "龙、暗",
       "workSuitability": "搬运 Lv6",
+      "partnerSkill": "自由翼龙",
+      "drops": "皮革、优质帕鲁油、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_ghostdragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostdragon"
     },
@@ -2298,6 +3159,9 @@
       "name": "狱熙龙",
       "elements": "龙、火",
       "workSuitability": "生火 Lv6、搬运 Lv6",
+      "partnerSkill": "愤怒翼龙",
+      "drops": "皮革、优质帕鲁油、喷火器官、世界树圣水、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_ghostdragon_fire",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_ghostdragon_fire"
     },
@@ -2306,6 +3170,9 @@
       "name": "磐甲龙",
       "elements": "龙、地",
       "workSuitability": "采矿 Lv8",
+      "partnerSkill": "不破要塞龙",
+      "drops": "超高热核心、究极帕鲁之魂、世界树圣水、龙之辉石、腐朽的古代文明遗物、沉眠的古代文明遗物、漂亮的古代文明遗物、发光的古代文明遗物、闪耀的古代文明遗物",
+      "food": "9",
       "id": "pal_domearmordragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_domearmordragon"
     },
@@ -2314,6 +3181,9 @@
       "name": "枯星龙",
       "elements": "无",
       "workSuitability": "资料源未列出",
+      "partnerSkill": "资料源未列出",
+      "drops": "皮革、优质帕鲁油",
+      "food": "9",
       "id": "pal_worldtreedragon",
       "detail": "https://palworld.th.gl/zh-CN/db/paldeck/pal_worldtreedragon"
     },
@@ -2322,6 +3192,9 @@
       "name": "吊缚灵",
       "elements": "地",
       "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv2",
+      "partnerSkill": "空中秋千",
+      "drops": "纤维、小麦种子",
+      "food": "1",
       "id": "pal_windchimes",
       "detail": "https://paldb.cc/cn/Hangyu"
     },
@@ -2330,6 +3203,9 @@
       "name": "冰缚灵",
       "elements": "冰",
       "workSuitability": "手工作业 Lv3、采集 Lv2、冷却 Lv2、搬运 Lv3",
+      "partnerSkill": "寒空秋千",
+      "drops": "纤维、结冰器官",
+      "food": "1",
       "id": "pal_windchimes_ice",
       "detail": "https://paldb.cc/cn/Hangyu_Cryst"
     }
@@ -2348,7 +3224,7 @@
       "url": "https://github.com/mlg404/palworld-paldex-api"
     },
     {
-      "label": "PalDB Pals（编号、元素、工作适性）",
+      "label": "PalDB Pals（编号、元素、工作适性、伙伴技能、掉落、进食量）",
       "url": "https://paldb.cc/en/Pals"
     },
     {

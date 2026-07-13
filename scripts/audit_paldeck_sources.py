@@ -19,6 +19,10 @@ def text(value):
     return re.sub(r"\s+", " ", unescape(re.sub(r"<.*?>", " ", value))).strip()
 
 
+def normalize_name(value):
+    return re.sub(r"^NEW\s+", "", value).strip()
+
+
 def parse_thgl_en(html):
     rows = []
     seen = set()
@@ -66,7 +70,11 @@ def parse_palworld_gg(html):
         match = re.match(r"(.+?)\s+#([0-9]+[A-Z]?)\b", label)
         if not match:
             continue
-        row = {"number": match.group(2), "slug": unescape(slug).strip(), "name": match.group(1).strip()}
+        row = {
+            "number": match.group(2),
+            "slug": unescape(slug).strip(),
+            "name": normalize_name(match.group(1)),
+        }
         key = (row["number"], row["name"])
         if key not in seen:
             seen.add(key)

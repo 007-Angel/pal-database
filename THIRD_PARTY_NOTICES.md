@@ -22,10 +22,11 @@ Recipe index records are transformed from the public TH.GL Palworld recipe listi
 
 - https://palworld.th.gl/zh-CN/db/recipes
 
-Paldeck 1.0 records use the public TH.GL Chinese Paldeck listing for IDs and Chinese names. PalDB's public English Pal list is transformed only for short factual Paldeck numbers, element labels, and work suitability levels. The site does not copy either source's images or long-form page text.
+Paldeck 1.0 records use the public TH.GL Chinese Paldeck listing for IDs and Chinese names. PalDB's public English Pal list and Chinese Pal detail pages are transformed only for short factual Paldeck numbers, element labels, work suitability levels, partner skill names, possible drop names, and food amounts. The site does not copy either source's images or long-form page text.
 
 - https://palworld.th.gl/zh-CN/db/paldeck
 - https://paldb.cc/en/Pals
+- https://paldb.cc/cn/Pals
 
 The TH.GL Paldeck listing did not include Hangyu or Hangyu Cryst when audited on 2026-07-11. Those two records are supplemented from the MIT palworld-paldex-api dataset for existence and element data, with Chinese names and presence cross-checked against PalDB CN and Palworld.gg. This site stores only short factual fields and source links for those checks.
 
