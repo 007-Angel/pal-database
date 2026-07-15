@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>自建服务器 | 帕鲁资料站</title>
+    <meta name="description" content="按 Palworld 官方 1.0 Server Guide 整理的自建专用服务器教程，包含部署、配置、端口、备份与更新。">
+    <meta name="theme-color" content="#101625">
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="站点导航">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark">P</span>
+          <span><strong>帕鲁资料站</strong><small>非官方中文资料库</small></span>
+        </a>
+        <nav class="side-nav" aria-label="资料模块">
+          <a href="../index.html">资料首页</a>
+          <a href="paldeck.html">帕鲁图鉴</a>
+          <a href="breeding.html">配种计算</a>
+          <a href="technology.html">科技树</a>
+          <a href="recipes.html">制作配方</a>
+          <a href="base.html">据点建造</a>
+          <a href="materials.html">材料掉落</a>
+          <a href="map.html">地图探索</a>
+          <a href="guides.html">新手路线</a>
+          <a href="server.html" aria-current="page">自建服务器</a>
+          <a href="updates.html">版本更新</a>
+        </nav>
+        <div class="language-box"><span>中文</span><a href="../en/index.html">EN</a></div>
+      </aside>
+      <main class="main-content">
+        <section class="page-header">
+          <div>
+            <a class="breadcrumb" href="../index.html">返回首页</a>
+            <p class="eyebrow">运营指南</p>
+            <h1>自建服务器</h1>
+            <p>按官方 Server Guide 1.0 整理专用服务器部署、配置、联网、备份和更新流程。</p>
+          </div>
+          <span class="status-pill">官方依据</span>
+        </section>
+
+        <section class="content-page server-guide">
+          <article class="callout">
+            <h2>先确认环境</h2>
+            <dl class="fact-list">
+              <div><dt>系统</dt><dd>Windows 64 位或 Linux 64 位</dd></div>
+              <div><dt>推荐规格</dt><dd>4 核以上 CPU、16 GB 内存、SSD</dd></div>
+              <div><dt>默认端口</dt><dd>UDP 8211，可通过启动参数更改</dd></div>
+              <div><dt>公开联机</dt><dd>路由器转发 UDP 端口，并允许主机防火墙入站</dd></div>
+            </dl>
+            <p>8 GB 内存可以启动，但官方提示内存不足时更容易崩溃；长期多人服建议预留更多内存与磁盘空间。</p>
+          </article>
+
+          <article>
+            <h2>1. 安装与首次启动</h2>
+            <p>新手可在 Steam 工具库安装 <code>Palworld Dedicated Server</code>。需要自动化管理时，使用 SteamCMD 下载官方 App ID <code>2394010</code>：</p>
+            <pre class="command-block"><code>steamcmd +login anonymous +app_update 2394010 validate +quit</code></pre>
+            <p>下载完成后，先以默认方式启动一次，让配置目录自动生成。</p>
+            <pre class="command-block"><code># Windows
+cd .\steamapps\common\PalServer
+PalServer.exe
+
+# Linux
+cd ~/Steam/steamapps/common/PalServer
+./PalServer.sh</code></pre>
+            <p>首次启动后确认控制台没有立即退出，再停止服务器进行配置。不要直接编辑 <code>DefaultPalWorldSettings.ini</code>，该文件不是实际生效文件。</p>
+          </article>
+
+          <article>
+            <h2>2. 复制并修改配置</h2>
+            <p>先把默认配置复制到实际配置路径；Windows 与 Linux 的目标目录不同。</p>
+            <pre class="command-block"><code># Windows PowerShell
+Copy-Item steamapps\common\PalServer\DefaultPalWorldSettings.ini steamapps\common\PalServer\Pal\Saved\Config\WindowsServer\PalWorldSettings.ini
+
+# Linux
+cp steamapps/common/PalServer/DefaultPalWorldSettings.ini steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini</code></pre>
+            <p>在复制后的 <code>PalWorldSettings.ini</code> 中，找到既有的 <code>OptionSettings=(...)</code> 内容并修改对应字段。私人服至少应设置 <code>ServerName</code>、<code>ServerPassword</code>、<code>AdminPassword</code>、<code>ServerPlayerMaxNum</code> 和 <code>bIsUseBackupSaveData=True</code>。</p>
+            <ul class="plain-list">
+              <li>玩家密码与管理员密码必须不同；管理员密码只给维护者。</li>
+              <li>开启 <code>bIsUseBackupSaveData</code> 会增加磁盘读写，但能保留服务器自动备份。</li>
+              <li>计划提高基地数、每基地帕鲁数或帕鲁刷新倍率前，先观察 CPU、内存和存档大小；官方明确说明这些值会提高处理负载。</li>
+            </ul>
+          </article>
+
+          <article>
+            <h2>3. 启动、端口与联机</h2>
+            <p>默认使用 UDP 8211。局域网测试成功后，再在路由器将该 UDP 端口转发到服务器的固定内网 IP，并在 Windows 防火墙或 Linux 防火墙放行同一端口。</p>
+            <pre class="command-block"><code># Windows: 16 人私服示例
+PalServer.exe -port=8211 -players=16
+
+# Linux: 16 人私服示例
+./PalServer.sh -port=8211 -players=16</code></pre>
+            <p>玩家在游戏服务器列表下方输入 <code>公网 IP:端口</code> 加入。若外网朋友无法连接，优先检查运营商是否提供公网 IPv4、路由器端口转发是否指向固定内网 IP，以及主机防火墙是否已放行 UDP。</p>
+            <p>只想和熟人通过 IP 加入时，不需要社区服。希望出现在社区服务器列表时，在启动参数中追加 <code>-publiclobby</code>；必要时再使用 <code>-publicip</code> 与 <code>-publicport</code> 手动声明公网地址和端口。</p>
+          </article>
+
+          <article>
+            <h2>4. 日常维护：先保存，再停止</h2>
+            <p>在游戏聊天框中先执行管理员认证，再使用官方管理命令维护服务器：</p>
+            <pre class="command-block"><code>/AdminPassword &lt;你的管理员密码&gt;
+/Save
+/Broadcast 服务器将在 60 秒后维护
+/Shutdown 60 服务器维护，请稍后重连</code></pre>
+            <p>更新、迁移或排查前，先执行 <code>/Save</code>，等待写盘完成后使用 <code>/Shutdown</code> 正常关服。不要把强制结束进程作为日常关服方式；它只适合服务器已经无响应的情形。</p>
+            <p>官方自动备份开启后会在存档目录建立 <code>backup</code>，并按短、中、长周期轮换。它不能替代异机备份：每次大版本更新前，把整个存档目录复制到另一块磁盘或云端，并保留可回退版本。</p>
+          </article>
+
+          <article>
+            <h2>5. 更新与故障排查</h2>
+            <ol class="plain-list ordered-list">
+              <li>公告维护并使用 <code>/Save</code>、<code>/Shutdown</code> 正常关服。</li>
+              <li>复制完整存档目录；不要只复制单个文件。</li>
+              <li>运行 <code>steamcmd +login anonymous +app_update 2394010 validate +quit</code> 更新并校验。</li>
+              <li>先用原有配置启动，确认玩家能连接和存档正常读写，再逐项恢复 MOD 或扩展设置。</li>
+            </ol>
+            <p>Docker 只建议熟悉容器与存储挂载的维护者使用。官方提供镜像和 Compose 示例，但同时明确不建议在 Docker Desktop 上部署，因为额外的存储 I/O 开销会增加存档损坏与异常风险。</p>
+          </article>
+
+          <article>
+            <h2>官方资料</h2>
+            <div class="source-links">
+              <a href="https://docs.palworldgame.com/getting-started/requirements/" target="_blank" rel="noreferrer">运行要求</a>
+              <a href="https://docs.palworldgame.com/getting-started/deploy-dedicated-server/" target="_blank" rel="noreferrer">部署专用服务器</a>
+              <a href="https://docs.palworldgame.com/settings-and-operation/configuration/" target="_blank" rel="noreferrer">配置参数</a>
+              <a href="https://docs.palworldgame.com/settings-and-operation/arguments/" target="_blank" rel="noreferrer">启动参数</a>
+              <a href="https://docs.palworldgame.com/settings-and-operation/commands/" target="_blank" rel="noreferrer">管理员命令</a>
+              <a href="https://docs.palworldgame.com/getting-started/deploy-community-server/" target="_blank" rel="noreferrer">社区服务器</a>
+            </div>
+          </article>
+        </section>
+
+        <footer class="site-footer">
+          <p>本站为非官方玩家资料站，与 Pocketpair 无隶属、授权或代表关系。</p>
+          <p>
+            <a href="../about.html">关于本站</a>
+            <a href="../disclaimer.html">非官方声明</a>
+            <a href="../privacy.html">隐私政策</a>
+          </p>
+        </footer>
+      </main>
+    </div>
+    <script src="../assets/app.js"></script>
+  </body>
+</html>
