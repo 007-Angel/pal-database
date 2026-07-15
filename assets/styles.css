@@ -348,19 +348,21 @@ h2 {
 .module-pal-art {
   position: absolute;
   z-index: 0;
-  inset: -28px;
+  right: -8px;
+  bottom: -6px;
   pointer-events: none;
-  width: calc(100% + 56px);
-  height: calc(100% + 56px);
-  object-fit: cover;
-  object-position: center;
-  transform: scale(1.08);
+  width: 52%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right bottom;
   transition: opacity 180ms ease;
 }
 
 .module-pal-art--blur {
   filter: blur(17px) saturate(0.95);
   opacity: 0.26;
+  transform: scale(1.08);
+  transform-origin: right center;
 }
 
 .module-pal-art--clear {
