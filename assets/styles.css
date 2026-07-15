@@ -28,11 +28,23 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--paper);
+  background: #e8edf4;
   color: var(--ink);
   font-family: Inter, "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   letter-spacing: 0;
+}
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: -28px;
+  content: "";
+  background:
+    linear-gradient(rgba(239, 244, 250, 0.8), rgba(239, 244, 250, 0.8)),
+    url("hero-pal-database.png") center / cover no-repeat;
+  filter: blur(16px);
+  transform: scale(1.04);
 }
 
 a {
@@ -302,7 +314,7 @@ h2 {
   display: grid;
   align-content: start;
   gap: 12px;
-  padding: 18px 128px 18px 18px;
+  padding: 18px 112px 18px 18px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-top: 5px solid currentColor;
@@ -329,12 +341,13 @@ h2 {
 
 .module-pal-image {
   position: absolute;
-  right: 18px;
-  bottom: 16px;
-  width: 92px;
-  height: 92px;
+  right: 6px;
+  bottom: 0;
+  width: 106px;
+  height: 130px;
   object-fit: contain;
-  filter: drop-shadow(0 8px 10px rgba(27, 36, 55, 0.15));
+  filter: drop-shadow(0 10px 12px rgba(27, 36, 55, 0.18));
+  object-position: center bottom;
   transition: transform 180ms ease;
 }
 
