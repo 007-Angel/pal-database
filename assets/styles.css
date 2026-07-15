@@ -194,6 +194,10 @@ p {
   margin-top: 0;
 }
 
+.name-suffix {
+  white-space: nowrap;
+}
+
 h1 {
   margin-bottom: 12px;
   font-size: clamp(40px, 6vw, 72px);
