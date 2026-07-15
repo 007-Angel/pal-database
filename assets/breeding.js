@@ -10,7 +10,7 @@ function safeText(value) {
 }
 
 function optionLabel(pal) {
-  return `${pal.key} ${pal.name}`;
+  return `#${pal.number} ${pal.name}`;
 }
 
 function populateSelect(select, pals) {
@@ -19,6 +19,15 @@ function populateSelect(select, pals) {
     .map((pal) => `<option value="${safeText(pal.key)}">${safeText(optionLabel(pal))}</option>`)
     .join("")}`;
   select.value = current;
+}
+
+function renderPal(info) {
+  return `
+    <div class="breed-pal">
+      <img src="${safeText(info.image)}" alt="${safeText(info.name)}图标" loading="lazy" referrerpolicy="no-referrer">
+      <strong>${safeText(info.name)}</strong>
+    </div>
+  `;
 }
 
 function renderRows(rows, total) {
@@ -38,7 +47,7 @@ function renderRows(rows, total) {
     <section class="data-section" aria-label="配种查询结果">
       <div class="section-heading compact">
         <p class="eyebrow">查询结果</p>
-        <h2>匹配 ${total} 组</h2>
+          <h2>已收录 ${total} 组</h2>
       </div>
       <div class="table-wrap">
         <table class="data-table">
@@ -54,9 +63,9 @@ function renderRows(rows, total) {
               .map(
                 (row) => `
                   <tr>
-                    <td>${safeText(row.parentALabel)}</td>
-                    <td>${safeText(row.parentBLabel)}</td>
-                    <td>${safeText(row.childLabel)}</td>
+                    <td>${renderPal(row.parentAInfo)}</td>
+                    <td>${renderPal(row.parentBInfo)}</td>
+                    <td>${renderPal(row.childInfo)}</td>
                   </tr>
                 `
               )
@@ -92,8 +101,8 @@ function mountBreeding(data) {
         <p>${safeText(data.description)}</p>
       </div>
       <div class="data-meta">
-        <span class="status-pill">帕鲁 ${pals.length} 只</span>
-        <span class="status-pill">组合 ${pairs.length} 组</span>
+        <span class="status-pill">可用帕鲁 ${pals.length} 只</span>
+        <span class="status-pill">已收录组合 ${pairs.length} 组</span>
       </div>
     </section>
     <section class="tool-panel">
@@ -110,7 +119,7 @@ function mountBreeding(data) {
           <span>目标子代</span>
           <select data-child></select>
         </label>
-        <button type="button" data-reset-breeding>重置</button>
+        <button type="button" data-reset-breeding>重置筛选</button>
       </div>
     </section>
     <div data-breeding-results></div>

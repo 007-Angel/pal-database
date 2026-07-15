@@ -750,6 +750,28 @@ h2 {
   object-fit: contain;
 }
 
+.breed-pal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 144px;
+}
+
+.breed-pal img {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f1f5f9;
+  object-fit: contain;
+}
+
+.breed-pal strong {
+  color: #1d3354;
+  font-size: 14px;
+}
+
 .data-table th {
   color: #34405a;
   background: #f8fafc;

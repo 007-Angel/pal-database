@@ -534,42 +534,58 @@ def build_materials(rows, english_rows, paldb_rows, paldb_details):
     }
 
 
-def build_breeding(pals, breeding):
+def build_breeding(pals, breeding, paldeck_records, english_by_id):
     pal_by_key = {pal["key"]: pal for pal in pals}
-    pal_options = [
-        {
-            "key": pal["key"],
-            "name": pal_label(pal),
-            "elements": compact_types(pal.get("types", [])),
-            "rank": (pal.get("breeding") or {}).get("rank"),
+    paldeck_by_english_name = {
+        english_by_id.get(record["id"]): record
+        for record in paldeck_records
+        if english_by_id.get(record["id"])
+    }
+
+    def display_pal(key):
+        source_pal = pal_by_key.get(key)
+        if not source_pal:
+            return None
+        record = paldeck_by_english_name.get(source_pal["name"])
+        if not record or not record.get("name") or not record.get("image"):
+            return None
+        return {
+            "key": key,
+            "number": record["number"],
+            "name": record["name"],
+            "image": record["image"],
         }
-        for pal in pals
-    ]
+
+    visible_pals = {key: display_pal(key) for key in pal_by_key}
+    pal_options = sorted(
+        (pal for pal in visible_pals.values() if pal),
+        key=lambda pal: (paldeck_number_key(pal["number"]), pal["name"]),
+    )
 
     pairs = []
     for child_key, parent_pairs in breeding.items():
-        child = pal_by_key.get(child_key)
+        child = visible_pals.get(child_key)
         if not child:
             continue
         for parent_a, parent_b in parent_pairs:
-            a = pal_by_key.get(parent_a)
-            b = pal_by_key.get(parent_b)
+            a = visible_pals.get(parent_a)
+            b = visible_pals.get(parent_b)
             if not a or not b:
                 continue
             pairs.append(
                 {
                     "parentA": parent_a,
                     "parentB": parent_b,
-                    "parentALabel": pal_label(a),
-                    "parentBLabel": pal_label(b),
                     "child": child_key,
-                    "childLabel": pal_label(child),
+                    "parentAInfo": a,
+                    "parentBInfo": b,
+                    "childInfo": child,
                 }
             )
 
     return {
         "title": "配种数据",
-        "description": "按父母组合查询子代，或按目标子代反查父母组合。",
+        "description": "仅显示已映射到当前中文图鉴的配种组合，可按父母或目标子代查询。",
         "lastVerified": "2026-07-02",
         "pals": pal_options,
         "pairs": pairs,
@@ -755,27 +771,39 @@ def main():
     breeding = json.loads((RAW_DIR / "paldex-api-breeding.json").read_text(encoding="utf-8"))
     technology_rows = load_technology_rows()
     recipe_rows = load_recipe_rows()
+    paldeck_10_supplements = load_paldeck_10_supplements()
     paldeck_10_rows = load_thgl_paldeck_rows()
-    paldeck_10_rows = merge_paldeck_10_rows(paldeck_10_rows, load_paldeck_10_supplements())
+    paldeck_10_rows = merge_paldeck_10_rows(paldeck_10_rows, paldeck_10_supplements)
     paldeck_10_english_rows = load_thgl_paldeck_en_rows()
     paldb_paldeck_rows = load_paldb_paldeck_rows()
     paldb_paldeck_details = load_paldb_paldeck_details(paldb_paldeck_rows)
 
+    paldeck_10_data = build_paldeck_10(
+        paldeck_10_rows,
+        paldeck_10_english_rows,
+        paldb_paldeck_rows,
+        paldb_paldeck_details,
+    )
+    paldeck_10_english_by_id = {row["id"]: row["name"] for row in paldeck_10_english_rows}
+    paldeck_10_english_by_id.update(
+        {row["id"]: row["englishName"] for row in paldeck_10_supplements if row.get("englishName")}
+    )
+
     outputs = {
         "paldeck.zh-CN.json": build_paldeck(pals),
-        "paldeck-1.0.zh-CN.json": build_paldeck_10(
-            paldeck_10_rows,
-            paldeck_10_english_rows,
-            paldb_paldeck_rows,
-            paldb_paldeck_details,
-        ),
+        "paldeck-1.0.zh-CN.json": paldeck_10_data,
         "materials.zh-CN.json": build_materials(
             paldeck_10_rows,
             paldeck_10_english_rows,
             paldb_paldeck_rows,
             paldb_paldeck_details,
         ),
-        "breeding.zh-CN.json": build_breeding(pals, breeding),
+        "breeding.zh-CN.json": build_breeding(
+            pals,
+            breeding,
+            paldeck_10_data["records"],
+            paldeck_10_english_by_id,
+        ),
         "technology.zh-CN.json": build_technology(technology_rows),
         "recipes.zh-CN.json": build_recipes(recipe_rows),
     }
