@@ -272,13 +272,14 @@ def load_thgl_paldeck_en_rows():
 def extract_paldb_paldeck_rows(html):
     pattern = re.compile(
         r'<div class="col" data-filters="([^"]*)".*?'
+        r'<img[^>]+src="([^"]*PalIcon/Normal/[^"]+)"[^>]*>.*?'
         r'<span class="text-white-50 small">#([^<]+)</span>\s*'
         r'<a class="itemname"[^>]*href="([^"]+)"[^>]*>([^<]+)</a>',
         re.S,
     )
     rows = []
     for match in pattern.finditer(html):
-        filters, number, slug, english_name = (unescape(value).strip() for value in match.groups())
+        filters, image, number, slug, english_name = (unescape(value).strip() for value in match.groups())
         tokens = filters.split()
         elements = [PALDB_ELEMENT_NAMES[token] for token in tokens if token in PALDB_ELEMENT_NAMES]
         work = []
@@ -293,6 +294,7 @@ def extract_paldb_paldeck_rows(html):
                 {
                     "number": number,
                     "englishName": english_name,
+                    "image": image,
                     "elements": "、".join(elements),
                     "workSuitability": "、".join(work),
                     "url": urljoin(PALDB_EN_BASE_URL, slug),
@@ -304,7 +306,9 @@ def extract_paldb_paldeck_rows(html):
 def load_paldb_paldeck_rows():
     raw_json = RAW_DIR / "paldb-pals.en-US.json"
     if raw_json.exists():
-        return json.loads(raw_json.read_text(encoding="utf-8"))
+        rows = json.loads(raw_json.read_text(encoding="utf-8"))
+        if rows and all(row.get("image") for row in rows):
+            return rows
 
     request = urllib.request.Request(
         PALDB_PALS_URL,
@@ -401,6 +405,7 @@ def build_paldeck_10(rows, english_rows, paldb_rows, paldb_details):
         records.append(
             {
                 "number": paldb_row.get("number", ""),
+                "image": paldb_row.get("image", ""),
                 "name": row["name"],
                 "elements": paldb_row.get("elements")
                 or THGL_ELEMENT_NAMES.get(row.get("elementGroup"), row.get("elementGroup", "")),
@@ -412,12 +417,14 @@ def build_paldeck_10(rows, english_rows, paldb_rows, paldb_details):
                 "detail": row.get("detail", row.get("url", "")),
             }
         )
+    records.sort(key=lambda record: (paldeck_number_key(record["number"]), record["name"]))
     return {
         "title": "1.0 帕鲁图鉴",
         "description": "按公开 Paldeck 列表与交叉核验资料整理编号、中文名、元素、工作适性、伙伴技能、掉落与进食量。",
         "lastVerified": "2026-07-13",
         "columns": [
             {"key": "number", "label": "编号"},
+            {"key": "image", "label": "图像"},
             {"key": "name", "label": "名称"},
             {"key": "elements", "label": "元素"},
             {"key": "workSuitability", "label": "工作适性"},

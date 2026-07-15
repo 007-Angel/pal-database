@@ -2,6 +2,7 @@
   {
     "number": "1",
     "englishName": "Lamball",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SheepBall_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv1、搬运 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Lamball"
@@ -9,6 +10,7 @@
   {
     "number": "2",
     "englishName": "Cattiva",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PinkCat_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv1、采集 Lv1、采矿 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Cattiva"
@@ -16,6 +18,7 @@
   {
     "number": "3",
     "englishName": "Chikipi",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ChickenPal_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Chikipi"
@@ -23,6 +26,7 @@
   {
     "number": "4",
     "englishName": "Lifmunk",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Carbunclo_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、制药 Lv1",
     "url": "https://paldb.cc/en/Lifmunk"
@@ -30,6 +34,7 @@
   {
     "number": "5",
     "englishName": "Fuack",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BluePlatypus_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1、手工作业 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Fuack"
@@ -37,6 +42,7 @@
   {
     "number": "5B",
     "englishName": "Fuack Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BluePlatypus_Fire_icon_normal.webp",
     "elements": "水、火",
     "workSuitability": "生火 Lv2、浇水 Lv2、手工作业 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Fuack_Ignis"
@@ -44,6 +50,7 @@
   {
     "number": "6",
     "englishName": "Vixy",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CuteFox_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Vixy"
@@ -51,6 +58,7 @@
   {
     "number": "7",
     "englishName": "Celaray",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlyingManta_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Celaray"
@@ -58,6 +66,7 @@
   {
     "number": "7B",
     "englishName": "Celaray Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlyingManta_Thunder_icon_normal.webp",
     "elements": "水、雷",
     "workSuitability": "浇水 Lv1、发电 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Celaray_Lux"
@@ -65,6 +74,7 @@
   {
     "number": "8",
     "englishName": "Cremis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WoolFox_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1、牧场 Lv2",
     "url": "https://paldb.cc/en/Cremis"
@@ -72,6 +82,7 @@
   {
     "number": "9",
     "englishName": "Croajiro",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KendoFrog_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1、手工作业 Lv1、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Croajiro"
@@ -79,6 +90,7 @@
   {
     "number": "9B",
     "englishName": "Croajiro Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KendoFrog_Dark_icon_normal.webp",
     "elements": "水、暗",
     "workSuitability": "浇水 Lv1、手工作业 Lv2、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Croajiro_Noct"
@@ -86,6 +98,7 @@
   {
     "number": "10",
     "englishName": "Herbil",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LeafMomonga_icon_normal.webp",
     "elements": "草、无",
     "workSuitability": "播种 Lv1、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Herbil"
@@ -93,6 +106,7 @@
   {
     "number": "11",
     "englishName": "Teafant",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Ganesha_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1",
     "url": "https://paldb.cc/en/Teafant"
@@ -100,6 +114,7 @@
   {
     "number": "12",
     "englishName": "Gumoss",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PlantSlime_icon_normal.webp",
     "elements": "草、地",
     "workSuitability": "播种 Lv1",
     "url": "https://paldb.cc/en/Gumoss"
@@ -107,6 +122,7 @@
   {
     "number": "13",
     "englishName": "Pupperai",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SamuraiDog_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采集 Lv1、伐木 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Pupperai"
@@ -114,6 +130,7 @@
   {
     "number": "14",
     "englishName": "Clovee",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CloverFairy_icon_normal.webp",
     "elements": "草、无",
     "workSuitability": "播种 Lv1、采集 Lv1",
     "url": "https://paldb.cc/en/Clovee"
@@ -121,6 +138,7 @@
   {
     "number": "15",
     "englishName": "Jolthog",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Hedgehog_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv1",
     "url": "https://paldb.cc/en/Jolthog"
@@ -128,6 +146,7 @@
   {
     "number": "15B",
     "englishName": "Jolthog Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Hedgehog_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv1",
     "url": "https://paldb.cc/en/Jolthog_Cryst"
@@ -135,6 +154,7 @@
   {
     "number": "16",
     "englishName": "Depresso",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NegativeKoala_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Depresso"
@@ -142,6 +162,7 @@
   {
     "number": "17",
     "englishName": "Pengullet",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_icon_normal.webp",
     "elements": "水、冰",
     "workSuitability": "浇水 Lv1、手工作业 Lv1、冷却 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Pengullet"
@@ -149,6 +170,7 @@
   {
     "number": "17B",
     "englishName": "Pengullet Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.webp",
     "elements": "水、雷",
     "workSuitability": "浇水 Lv1、发电 Lv2、手工作业 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Pengullet_Lux"
@@ -156,6 +178,7 @@
   {
     "number": "18",
     "englishName": "Penking",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CaptainPenguin_icon_normal.webp",
     "elements": "水、冰",
     "workSuitability": "浇水 Lv2、手工作业 Lv2、采矿 Lv3、冷却 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Penking"
@@ -163,6 +186,7 @@
   {
     "number": "18B",
     "englishName": "Penking Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CaptainPenguin_Black_icon_normal.webp",
     "elements": "水、雷",
     "workSuitability": "浇水 Lv2、发电 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Penking_Lux"
@@ -170,6 +194,7 @@
   {
     "number": "19",
     "englishName": "Hoocrates",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WizardOwl_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv1",
     "url": "https://paldb.cc/en/Hoocrates"
@@ -177,6 +202,7 @@
   {
     "number": "20",
     "englishName": "Melpaca",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Alpaca_icon_normal.webp",
     "elements": "无",
     "workSuitability": "牧场 Lv2",
     "url": "https://paldb.cc/en/Melpaca"
@@ -184,6 +210,7 @@
   {
     "number": "21",
     "englishName": "Kingpaca",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Kingpaca"
@@ -191,6 +218,7 @@
   {
     "number": "21B",
     "englishName": "Kingpaca Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采集 Lv2、冷却 Lv4",
     "url": "https://paldb.cc/en/Kingpaca_Cryst"
@@ -198,6 +226,7 @@
   {
     "number": "22",
     "englishName": "Daedream",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DreamDemon_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Daedream"
@@ -205,6 +234,7 @@
   {
     "number": "23",
     "englishName": "Tanzee",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Monkey_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv1、手工作业 Lv1、采集 Lv1、伐木 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Tanzee"
@@ -212,6 +242,7 @@
   {
     "number": "23B",
     "englishName": "Tanzee Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Monkey_Fire_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv1、手工作业 Lv1、伐木 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Tanzee_Ignis"
@@ -219,6 +250,7 @@
   {
     "number": "24",
     "englishName": "Nox",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightFox_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv1",
     "url": "https://paldb.cc/en/Nox"
@@ -226,6 +258,7 @@
   {
     "number": "25",
     "englishName": "Flambelle",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LavaGirl_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Flambelle"
@@ -233,6 +266,7 @@
   {
     "number": "26",
     "englishName": "Rooby",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlameBambi_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Rooby"
@@ -240,6 +274,7 @@
   {
     "number": "27",
     "englishName": "Mau",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Bastet_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Mau"
@@ -247,6 +282,7 @@
   {
     "number": "27B",
     "englishName": "Mau Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Bastet_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Mau_Cryst"
@@ -254,6 +290,7 @@
   {
     "number": "28",
     "englishName": "Rushoar",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Boar_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv1",
     "url": "https://paldb.cc/en/Rushoar"
@@ -261,6 +298,7 @@
   {
     "number": "29",
     "englishName": "Foxparks",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv1",
     "url": "https://paldb.cc/en/Foxparks"
@@ -268,6 +306,7 @@
   {
     "number": "29B",
     "englishName": "Foxparks Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv2",
     "url": "https://paldb.cc/en/Foxparks_Cryst"
@@ -275,6 +314,7 @@
   {
     "number": "30",
     "englishName": "Killamari",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_icon_normal.webp",
     "elements": "暗、水",
     "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Killamari"
@@ -282,6 +322,7 @@
   {
     "number": "30B",
     "englishName": "Killamari Primo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_Neutral_icon_normal.webp",
     "elements": "无、水",
     "workSuitability": "浇水 Lv1、采集 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Killamari_Primo"
@@ -289,6 +330,7 @@
   {
     "number": "31",
     "englishName": "Fuddler",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CuteMole_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv1、采矿 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Fuddler"
@@ -296,6 +338,7 @@
   {
     "number": "32",
     "englishName": "Eikthyrdeer",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_icon_normal.webp",
     "elements": "无",
     "workSuitability": "伐木 Lv2",
     "url": "https://paldb.cc/en/Eikthyrdeer"
@@ -303,6 +346,7 @@
   {
     "number": "32B",
     "englishName": "Eikthyrdeer Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "伐木 Lv2",
     "url": "https://paldb.cc/en/Eikthyrdeer_Terra"
@@ -310,6 +354,7 @@
   {
     "number": "33",
     "englishName": "Direhowl",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Garm_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1",
     "url": "https://paldb.cc/en/Direhowl"
@@ -317,6 +362,7 @@
   {
     "number": "34",
     "englishName": "Caprity",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BerryGoat_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、牧场 Lv1",
     "url": "https://paldb.cc/en/Caprity"
@@ -324,6 +370,7 @@
   {
     "number": "34B",
     "englishName": "Caprity Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BerryGoat_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "播种 Lv2、牧场 Lv1",
     "url": "https://paldb.cc/en/Caprity_Noct"
@@ -331,6 +378,7 @@
   {
     "number": "35",
     "englishName": "Swee",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MopBaby_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采集 Lv1、冷却 Lv1",
     "url": "https://paldb.cc/en/Swee"
@@ -338,6 +386,7 @@
   {
     "number": "36",
     "englishName": "Sweepa",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采集 Lv2、冷却 Lv3",
     "url": "https://paldb.cc/en/Sweepa"
@@ -345,6 +394,7 @@
   {
     "number": "37",
     "englishName": "Turtacle",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TentacleTurtle_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv2、采矿 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Turtacle"
@@ -352,6 +402,7 @@
   {
     "number": "37B",
     "englishName": "Turtacle Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TentacleTurtle_Ground_icon_normal.webp",
     "elements": "水、地",
     "workSuitability": "浇水 Lv2、采矿 Lv3、搬运 Lv1",
     "url": "https://paldb.cc/en/Turtacle_Terra"
@@ -359,6 +410,7 @@
   {
     "number": "38",
     "englishName": "Hangyu",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WindChimes_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Hangyu"
@@ -366,6 +418,7 @@
   {
     "number": "38B",
     "englishName": "Hangyu Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WindChimes_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv3、采集 Lv2、冷却 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Hangyu_Cryst"
@@ -373,6 +426,7 @@
   {
     "number": "39",
     "englishName": "Woolipop",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SweetsSheep_icon_normal.webp",
     "elements": "无",
     "workSuitability": "牧场 Lv1",
     "url": "https://paldb.cc/en/Woolipop"
@@ -380,6 +434,7 @@
   {
     "number": "39B",
     "englishName": "Woolipop Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SweetsSheep_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "牧场 Lv1",
     "url": "https://paldb.cc/en/Woolipop_Terra"
@@ -387,6 +442,7 @@
   {
     "number": "40",
     "englishName": "Mozzarina",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CowPal_icon_normal.webp",
     "elements": "无",
     "workSuitability": "牧场 Lv2",
     "url": "https://paldb.cc/en/Mozzarina"
@@ -394,6 +450,7 @@
   {
     "number": "41",
     "englishName": "Azurobe",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_icon_normal.webp",
     "elements": "水、龙",
     "workSuitability": "浇水 Lv4",
     "url": "https://paldb.cc/en/Azurobe"
@@ -401,6 +458,7 @@
   {
     "number": "41B",
     "englishName": "Azurobe Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.webp",
     "elements": "冰、龙",
     "workSuitability": "冷却 Lv4",
     "url": "https://paldb.cc/en/Azurobe_Cryst"
@@ -408,6 +466,7 @@
   {
     "number": "42",
     "englishName": "Sparkit",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecCat_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv1、手工作业 Lv1、搬运 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Sparkit"
@@ -415,6 +474,7 @@
   {
     "number": "43",
     "englishName": "Kelpsea",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kelpie_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Kelpsea"
@@ -422,6 +482,7 @@
   {
     "number": "43B",
     "englishName": "Kelpsea Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kelpie_Fire_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Kelpsea_Ignis"
@@ -429,6 +490,7 @@
   {
     "number": "44",
     "englishName": "Ribbuny",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PinkRabbit_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv1、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Ribbuny"
@@ -436,6 +498,7 @@
   {
     "number": "44B",
     "englishName": "Ribbuny Botan",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PinkRabbit_Grass_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Ribbuny_Botan"
@@ -443,6 +506,7 @@
   {
     "number": "45",
     "englishName": "Jelliette",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JellyfishFairy_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv2、手工作业 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Jelliette"
@@ -450,6 +514,7 @@
   {
     "number": "46",
     "englishName": "Jellroy",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JellyfishGhost_icon_normal.webp",
     "elements": "水、暗",
     "workSuitability": "浇水 Lv2、手工作业 Lv1、制药 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Jellroy"
@@ -457,6 +522,7 @@
   {
     "number": "47",
     "englishName": "Amione",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ClioneTwins_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv1、手工作业 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Amione"
@@ -464,6 +530,7 @@
   {
     "number": "48",
     "englishName": "Gloopie",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_OctopusGirl_icon_normal.webp",
     "elements": "水、暗",
     "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Gloopie"
@@ -471,6 +538,7 @@
   {
     "number": "48B",
     "englishName": "Gloopie Primo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_OctopusGirl_Neutral_icon_normal.webp",
     "elements": "水、无",
     "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Gloopie_Primo"
@@ -478,6 +546,7 @@
   {
     "number": "49",
     "englishName": "Galeclaw",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Eagle_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Galeclaw"
@@ -485,6 +554,7 @@
   {
     "number": "50",
     "englishName": "Wispaw",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostBlackCat_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv2、伐木 Lv1、制药 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Wispaw"
@@ -492,6 +562,7 @@
   {
     "number": "51",
     "englishName": "Nitewing",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HawkBird_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Nitewing"
@@ -499,6 +570,7 @@
   {
     "number": "52",
     "englishName": "Tombat",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CatBat_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv2、采矿 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Tombat"
@@ -506,6 +578,7 @@
   {
     "number": "53",
     "englishName": "Tocotoco",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ColorfulBird_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1",
     "url": "https://paldb.cc/en/Tocotoco"
@@ -513,6 +586,7 @@
   {
     "number": "54",
     "englishName": "Univolt",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv3、伐木 Lv1",
     "url": "https://paldb.cc/en/Univolt"
@@ -520,6 +594,7 @@
   {
     "number": "54B",
     "englishName": "Univolt Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "伐木 Lv3、冷却 Lv6",
     "url": "https://paldb.cc/en/Univolt_Cryst"
@@ -527,6 +602,7 @@
   {
     "number": "55",
     "englishName": "Gobfin",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SharkKid_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv2、手工作业 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Gobfin"
@@ -534,6 +610,7 @@
   {
     "number": "55B",
     "englishName": "Gobfin Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SharkKid_Fire_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv2、手工作业 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Gobfin_Ignis"
@@ -541,6 +618,7 @@
   {
     "number": "56",
     "englishName": "Loupmoon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Werewolf_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv2",
     "url": "https://paldb.cc/en/Loupmoon"
@@ -548,6 +626,7 @@
   {
     "number": "56B",
     "englishName": "Loupmoon Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Werewolf_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv4、冷却 Lv4",
     "url": "https://paldb.cc/en/Loupmoon_Cryst"
@@ -555,6 +634,7 @@
   {
     "number": "57",
     "englishName": "Cawgnito",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkCrow_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "伐木 Lv2、牧场 Lv1",
     "url": "https://paldb.cc/en/Cawgnito"
@@ -562,6 +642,7 @@
   {
     "number": "58",
     "englishName": "Arsox",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv3、伐木 Lv2",
     "url": "https://paldb.cc/en/Arsox"
@@ -569,6 +650,7 @@
   {
     "number": "59",
     "englishName": "Muffly",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FluffyBird_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Muffly"
@@ -576,6 +658,7 @@
   {
     "number": "60",
     "englishName": "Bristla",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LittleBriarRose_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Bristla"
@@ -583,6 +666,7 @@
   {
     "number": "61",
     "englishName": "Cinnamoth",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CuteButterfly_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、采集 Lv2、制药 Lv2",
     "url": "https://paldb.cc/en/Cinnamoth"
@@ -590,6 +674,7 @@
   {
     "number": "62",
     "englishName": "Puffolt",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecPomeranian_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Puffolt"
@@ -597,6 +682,7 @@
   {
     "number": "63",
     "englishName": "Elphidran",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_icon_normal.webp",
     "elements": "龙",
     "workSuitability": "伐木 Lv3",
     "url": "https://paldb.cc/en/Elphidran"
@@ -604,6 +690,7 @@
   {
     "number": "63B",
     "englishName": "Elphidran Aqua",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.webp",
     "elements": "龙、水",
     "workSuitability": "浇水 Lv4、伐木 Lv3",
     "url": "https://paldb.cc/en/Elphidran_Aqua"
@@ -611,6 +698,7 @@
   {
     "number": "64",
     "englishName": "Vanwyrm",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Vanwyrm"
@@ -618,6 +706,7 @@
   {
     "number": "64B",
     "englishName": "Vanwyrm Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.webp",
     "elements": "冰、暗",
     "workSuitability": "冷却 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Vanwyrm_Cryst"
@@ -625,6 +714,7 @@
   {
     "number": "65",
     "englishName": "Felbat",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CatVampire_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "制药 Lv3",
     "url": "https://paldb.cc/en/Felbat"
@@ -632,6 +722,7 @@
   {
     "number": "66",
     "englishName": "Vaelet",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VioletFairy_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、制药 Lv3、搬运 Lv2、牧场 Lv2",
     "url": "https://paldb.cc/en/Vaelet"
@@ -639,6 +730,7 @@
   {
     "number": "67",
     "englishName": "Beegarde",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SoldierBee_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2、牧场 Lv3",
     "url": "https://paldb.cc/en/Beegarde"
@@ -646,6 +738,7 @@
   {
     "number": "68",
     "englishName": "Elizabee",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_QueenBee_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv4、手工作业 Lv4、采集 Lv4、伐木 Lv3、制药 Lv4",
     "url": "https://paldb.cc/en/Elizabee"
@@ -653,6 +746,7 @@
   {
     "number": "69",
     "englishName": "Lovander",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PinkLizard_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv3、采矿 Lv2、制药 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Lovander"
@@ -660,6 +754,7 @@
   {
     "number": "70",
     "englishName": "Grintale",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv3",
     "url": "https://paldb.cc/en/Grintale"
@@ -667,6 +762,7 @@
   {
     "number": "71",
     "englishName": "Tarantriss",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv3、采集 Lv3、制药 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Tarantriss"
@@ -674,6 +770,7 @@
   {
     "number": "72",
     "englishName": "Polapup",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.webp",
     "elements": "冰、水",
     "workSuitability": "浇水 Lv3、冷却 Lv4",
     "url": "https://paldb.cc/en/Polapup"
@@ -681,6 +778,7 @@
   {
     "number": "72B",
     "englishName": "Polapup Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_Ground_icon_normal.webp",
     "elements": "冰、地",
     "workSuitability": "采矿 Lv4、冷却 Lv4",
     "url": "https://paldb.cc/en/Polapup_Terra"
@@ -688,6 +786,7 @@
   {
     "number": "73",
     "englishName": "Leezpunk",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LizardMan_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv2、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Leezpunk"
@@ -695,6 +794,7 @@
   {
     "number": "73B",
     "englishName": "Leezpunk Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LizardMan_Fire_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Leezpunk_Ignis"
@@ -702,6 +802,7 @@
   {
     "number": "74",
     "englishName": "Gorirat",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Gorilla_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv2、伐木 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Gorirat"
@@ -709,6 +810,7 @@
   {
     "number": "74B",
     "englishName": "Gorirat Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Gorilla_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv2、采矿 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Gorirat_Terra"
@@ -716,6 +818,7 @@
   {
     "number": "75",
     "englishName": "Surfent",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv3、牧场 Lv2",
     "url": "https://paldb.cc/en/Surfent"
@@ -723,6 +826,7 @@
   {
     "number": "75B",
     "englishName": "Surfent Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采集 Lv3",
     "url": "https://paldb.cc/en/Surfent_Terra"
@@ -730,6 +834,7 @@
   {
     "number": "76",
     "englishName": "Robinquill",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RobinHood_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Robinquill"
@@ -737,6 +842,7 @@
   {
     "number": "76B",
     "englishName": "Robinquill Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RobinHood_Ground_icon_normal.webp",
     "elements": "草、地",
     "workSuitability": "手工作业 Lv3、采集 Lv3、伐木 Lv2、制药 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Robinquill_Terra"
@@ -744,6 +850,7 @@
   {
     "number": "77",
     "englishName": "Flopie",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerRabbit_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、手工作业 Lv2、采集 Lv2、制药 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Flopie"
@@ -751,6 +858,7 @@
   {
     "number": "78",
     "englishName": "Wixen",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FoxMage_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv3、手工作业 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Wixen"
@@ -758,6 +866,7 @@
   {
     "number": "78B",
     "englishName": "Wixen Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FoxMage_Dark_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv4、手工作业 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Wixen_Noct"
@@ -765,6 +874,7 @@
   {
     "number": "79",
     "englishName": "Katress",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CatMage_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv3、制药 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Katress"
@@ -772,6 +882,7 @@
   {
     "number": "79B",
     "englishName": "Katress Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CatMage_Fire_icon_normal.webp",
     "elements": "暗、火",
     "workSuitability": "生火 Lv3、手工作业 Lv3、制药 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Katress_Ignis"
@@ -779,6 +890,7 @@
   {
     "number": "80",
     "englishName": "Helzephyr",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "搬运 Lv4",
     "url": "https://paldb.cc/en/Helzephyr"
@@ -786,6 +898,7 @@
   {
     "number": "80B",
     "englishName": "Helzephyr Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.webp",
     "elements": "暗、雷",
     "workSuitability": "发电 Lv4、搬运 Lv5",
     "url": "https://paldb.cc/en/Helzephyr_Lux"
@@ -793,6 +906,7 @@
   {
     "number": "81",
     "englishName": "Elgrove",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMinotaur_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、采集 Lv2、伐木 Lv3、采矿 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Elgrove"
@@ -800,6 +914,7 @@
   {
     "number": "81B",
     "englishName": "Elgrove Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMinotaur_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "伐木 Lv3、采矿 Lv3、冷却 Lv5、搬运 Lv3",
     "url": "https://paldb.cc/en/Elgrove_Cryst"
@@ -807,6 +922,7 @@
   {
     "number": "82",
     "englishName": "Lunaris",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Mutant_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv4、采集 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Lunaris"
@@ -814,6 +930,7 @@
   {
     "number": "83",
     "englishName": "Fenglope",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_icon_normal.webp",
     "elements": "无",
     "workSuitability": "伐木 Lv3",
     "url": "https://paldb.cc/en/Fenglope"
@@ -821,6 +938,7 @@
   {
     "number": "83B",
     "englishName": "Fenglope Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv5、伐木 Lv4",
     "url": "https://paldb.cc/en/Fenglope_Lux"
@@ -828,6 +946,7 @@
   {
     "number": "84",
     "englishName": "Dinossom",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.webp",
     "elements": "草、龙",
     "workSuitability": "播种 Lv3、伐木 Lv3",
     "url": "https://paldb.cc/en/Dinossom"
@@ -835,6 +954,7 @@
   {
     "number": "84B",
     "englishName": "Dinossom Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.webp",
     "elements": "雷、龙",
     "workSuitability": "发电 Lv3、伐木 Lv4",
     "url": "https://paldb.cc/en/Dinossom_Lux"
@@ -842,6 +962,7 @@
   {
     "number": "85",
     "englishName": "Bushi",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Ronin_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Bushi"
@@ -849,6 +970,7 @@
   {
     "number": "85B",
     "englishName": "Bushi Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Ronin_Dark_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv2、手工作业 Lv2、采集 Lv1、伐木 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Bushi_Noct"
@@ -856,6 +978,7 @@
   {
     "number": "86",
     "englishName": "Munchill",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceCrocodile_icon_normal.webp",
     "elements": "冰、水",
     "workSuitability": "浇水 Lv2、冷却 Lv3、搬运 Lv1",
     "url": "https://paldb.cc/en/Munchill"
@@ -863,6 +986,7 @@
   {
     "number": "87",
     "englishName": "Mammorest",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.webp",
     "elements": "草、地",
     "workSuitability": "播种 Lv4、伐木 Lv4、采矿 Lv4",
     "url": "https://paldb.cc/en/Mammorest"
@@ -870,6 +994,7 @@
   {
     "number": "87B",
     "englishName": "Mammorest Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.webp",
     "elements": "冰、地",
     "workSuitability": "伐木 Lv5、采矿 Lv4、冷却 Lv5",
     "url": "https://paldb.cc/en/Mammorest_Cryst"
@@ -877,6 +1002,7 @@
   {
     "number": "88",
     "englishName": "Finsider",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_StuffedShark_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Finsider"
@@ -884,6 +1010,7 @@
   {
     "number": "88B",
     "englishName": "Finsider Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_StuffedShark_Fire_icon_normal.webp",
     "elements": "水、火",
     "workSuitability": "生火 Lv2、浇水 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Finsider_Ignis"
@@ -891,6 +1018,7 @@
   {
     "number": "89",
     "englishName": "Petallia",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDoll_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Petallia"
@@ -898,6 +1026,7 @@
   {
     "number": "89B",
     "englishName": "Petallia Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDoll_Fire_icon_normal.webp",
     "elements": "草、火",
     "workSuitability": "生火 Lv4、手工作业 Lv3、采集 Lv3、制药 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Petallia_Ignis"
@@ -905,6 +1034,7 @@
   {
     "number": "90",
     "englishName": "Leafan",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PandaGirl_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Leafan"
@@ -912,6 +1042,7 @@
   {
     "number": "91",
     "englishName": "Incineram",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Baphomet_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv3、手工作业 Lv2、采矿 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Incineram"
@@ -919,6 +1050,7 @@
   {
     "number": "91B",
     "englishName": "Incineram Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Baphomet_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv3、采矿 Lv4、搬运 Lv3",
     "url": "https://paldb.cc/en/Incineram_Noct"
@@ -926,6 +1058,7 @@
   {
     "number": "92",
     "englishName": "Dazzi",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv3、手工作业 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Dazzi"
@@ -933,6 +1066,7 @@
   {
     "number": "92B",
     "englishName": "Dazzi Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_Water_icon_normal.webp",
     "elements": "暗、雷",
     "workSuitability": "发电 Lv1、手工作业 Lv1、制药 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Dazzi_Noct"
@@ -940,6 +1074,7 @@
   {
     "number": "93",
     "englishName": "Pyrin",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv4、伐木 Lv2",
     "url": "https://paldb.cc/en/Pyrin"
@@ -947,6 +1082,7 @@
   {
     "number": "93B",
     "englishName": "Pyrin Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_Dark_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv4、伐木 Lv3",
     "url": "https://paldb.cc/en/Pyrin_Noct"
@@ -954,6 +1090,7 @@
   {
     "number": "94",
     "englishName": "Relaxaurus",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.webp",
     "elements": "龙、水",
     "workSuitability": "浇水 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Relaxaurus"
@@ -961,6 +1098,7 @@
   {
     "number": "94B",
     "englishName": "Relaxaurus Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.webp",
     "elements": "龙、雷",
     "workSuitability": "发电 Lv4、搬运 Lv3",
     "url": "https://paldb.cc/en/Relaxaurus_Lux"
@@ -968,6 +1106,7 @@
   {
     "number": "95",
     "englishName": "Foxcicle",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceFox_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv4、牧场 Lv3",
     "url": "https://paldb.cc/en/Foxcicle"
@@ -975,6 +1114,7 @@
   {
     "number": "96",
     "englishName": "Beakon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv4、采集 Lv2、搬运 Lv5",
     "url": "https://paldb.cc/en/Beakon"
@@ -982,6 +1122,7 @@
   {
     "number": "96B",
     "englishName": "Beakon Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采集 Lv2、冷却 Lv5、搬运 Lv5",
     "url": "https://paldb.cc/en/Beakon_Cryst"
@@ -989,6 +1130,7 @@
   {
     "number": "97",
     "englishName": "Ghangler",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.webp",
     "elements": "暗、水",
     "workSuitability": "浇水 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Ghangler"
@@ -996,6 +1138,7 @@
   {
     "number": "97B",
     "englishName": "Ghangler Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.webp",
     "elements": "火、水",
     "workSuitability": "生火 Lv5、浇水 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Ghangler_Ignis"
@@ -1003,6 +1146,7 @@
   {
     "number": "98",
     "englishName": "Rayhound",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv4",
     "url": "https://paldb.cc/en/Rayhound"
@@ -1010,6 +1154,7 @@
   {
     "number": "98B",
     "englishName": "Rayhound Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv3",
     "url": "https://paldb.cc/en/Rayhound_Cryst"
@@ -1017,6 +1162,7 @@
   {
     "number": "99",
     "englishName": "Menasting",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkScorpion_icon_normal.webp",
     "elements": "暗、地",
     "workSuitability": "伐木 Lv3、采矿 Lv5",
     "url": "https://paldb.cc/en/Menasting"
@@ -1024,6 +1170,7 @@
   {
     "number": "99B",
     "englishName": "Menasting Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkScorpion_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "伐木 Lv3、采矿 Lv6",
     "url": "https://paldb.cc/en/Menasting_Terra"
@@ -1031,6 +1178,7 @@
   {
     "number": "100",
     "englishName": "Needoll",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CactusDoll_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
     "url": "https://paldb.cc/en/Needoll"
@@ -1038,6 +1186,7 @@
   {
     "number": "100B",
     "englishName": "Needoll Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CactusDoll_Dark_icon_normal.webp",
     "elements": "暗、草",
     "workSuitability": "播种 Lv3、采集 Lv3、搬运 Lv1",
     "url": "https://paldb.cc/en/Needoll_Noct"
@@ -1045,6 +1194,7 @@
   {
     "number": "101",
     "englishName": "Reindrix",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "伐木 Lv3、冷却 Lv3",
     "url": "https://paldb.cc/en/Reindrix"
@@ -1052,6 +1202,7 @@
   {
     "number": "102",
     "englishName": "Mossanda",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv2、伐木 Lv4、搬运 Lv4",
     "url": "https://paldb.cc/en/Mossanda"
@@ -1059,6 +1210,7 @@
   {
     "number": "102B",
     "englishName": "Mossanda Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv4、手工作业 Lv3、伐木 Lv4、搬运 Lv4",
     "url": "https://paldb.cc/en/Mossanda_Lux"
@@ -1066,6 +1218,7 @@
   {
     "number": "103",
     "englishName": "Chillet",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.webp",
     "elements": "冰、龙",
     "workSuitability": "采集 Lv1、冷却 Lv2",
     "url": "https://paldb.cc/en/Chillet"
@@ -1073,6 +1226,7 @@
   {
     "number": "103B",
     "englishName": "Chillet Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.webp",
     "elements": "火、龙",
     "workSuitability": "生火 Lv4、采集 Lv3",
     "url": "https://paldb.cc/en/Chillet_Ignis"
@@ -1080,6 +1234,7 @@
   {
     "number": "104",
     "englishName": "Ragnahawk",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv4、搬运 Lv5",
     "url": "https://paldb.cc/en/Ragnahawk"
@@ -1087,6 +1242,7 @@
   {
     "number": "105",
     "englishName": "Moldron",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_icon_normal.webp",
     "elements": "火、地",
     "workSuitability": "生火 Lv5、采矿 Lv5",
     "url": "https://paldb.cc/en/Moldron"
@@ -1094,6 +1250,7 @@
   {
     "number": "105B",
     "englishName": "Moldron Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_Ice_icon_normal.webp",
     "elements": "冰、地",
     "workSuitability": "采矿 Lv5、冷却 Lv5",
     "url": "https://paldb.cc/en/Moldron_Cryst"
@@ -1101,6 +1258,7 @@
   {
     "number": "106",
     "englishName": "Palumba",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv4、采集 Lv4、采矿 Lv5",
     "url": "https://paldb.cc/en/Palumba"
@@ -1108,6 +1266,7 @@
   {
     "number": "107",
     "englishName": "Digtoise",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DrillGame_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv4",
     "url": "https://paldb.cc/en/Digtoise"
@@ -1115,6 +1274,7 @@
   {
     "number": "108",
     "englishName": "Broncherry",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv5",
     "url": "https://paldb.cc/en/Broncherry"
@@ -1122,6 +1282,7 @@
   {
     "number": "108B",
     "englishName": "Broncherry Aqua",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.webp",
     "elements": "草、水",
     "workSuitability": "浇水 Lv5",
     "url": "https://paldb.cc/en/Broncherry_Aqua"
@@ -1129,6 +1290,7 @@
   {
     "number": "109",
     "englishName": "Dumud",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyCatfish_icon_normal.webp",
     "elements": "地、水",
     "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv1",
     "url": "https://paldb.cc/en/Dumud"
@@ -1136,6 +1298,7 @@
   {
     "number": "109B",
     "englishName": "Dumud Gild",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyCatfish_Gold_icon_normal.webp",
     "elements": "地、水",
     "workSuitability": "浇水 Lv2、采矿 Lv2、搬运 Lv1、牧场 Lv4",
     "url": "https://paldb.cc/en/Dumud_Gild"
@@ -1143,6 +1306,7 @@
   {
     "number": "110",
     "englishName": "Braloha",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.webp",
     "elements": "草、地",
     "workSuitability": "播种 Lv5、采集 Lv5、采矿 Lv3",
     "url": "https://paldb.cc/en/Braloha"
@@ -1150,6 +1314,7 @@
   {
     "number": "111",
     "englishName": "Kitsun",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv3",
     "url": "https://paldb.cc/en/Kitsun"
@@ -1157,6 +1322,7 @@
   {
     "number": "111B",
     "englishName": "Kitsun Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "生火 Lv4",
     "url": "https://paldb.cc/en/Kitsun_Noct"
@@ -1164,6 +1330,7 @@
   {
     "number": "112",
     "englishName": "Blazehowl",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv5、伐木 Lv3",
     "url": "https://paldb.cc/en/Blazehowl"
@@ -1171,6 +1338,7 @@
   {
     "number": "112B",
     "englishName": "Blazehowl Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_Dark_icon_normal.webp",
     "elements": "火、暗",
     "workSuitability": "生火 Lv5、伐木 Lv3",
     "url": "https://paldb.cc/en/Blazehowl_Noct"
@@ -1178,6 +1346,7 @@
   {
     "number": "113",
     "englishName": "Warsect",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HerculesBeetle_icon_normal.webp",
     "elements": "地、草",
     "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv4、搬运 Lv5",
     "url": "https://paldb.cc/en/Warsect"
@@ -1185,6 +1354,7 @@
   {
     "number": "113B",
     "englishName": "Warsect Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HerculesBeetle_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv2、采矿 Lv5、搬运 Lv5",
     "url": "https://paldb.cc/en/Warsect_Terra"
@@ -1192,6 +1362,7 @@
   {
     "number": "114",
     "englishName": "Frostplume",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnowPeafowl_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采集 Lv2、冷却 Lv4",
     "url": "https://paldb.cc/en/Frostplume"
@@ -1199,6 +1370,7 @@
   {
     "number": "115",
     "englishName": "Majex",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkFlameFox_icon_normal.webp",
     "elements": "暗、火",
     "workSuitability": "生火 Lv4、手工作业 Lv5、制药 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Majex"
@@ -1206,6 +1378,7 @@
   {
     "number": "116",
     "englishName": "Sibelyx",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteMoth_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "制药 Lv3、冷却 Lv3、牧场 Lv3",
     "url": "https://paldb.cc/en/Sibelyx"
@@ -1213,6 +1386,7 @@
   {
     "number": "116B",
     "englishName": "Sibelyx Primo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteMoth_Neutral_icon_normal.webp",
     "elements": "无",
     "workSuitability": "制药 Lv3、牧场 Lv4",
     "url": "https://paldb.cc/en/Sibelyx_Primo"
@@ -1220,6 +1394,7 @@
   {
     "number": "117",
     "englishName": "Maraith",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv4、采矿 Lv4",
     "url": "https://paldb.cc/en/Maraith"
@@ -1227,6 +1402,7 @@
   {
     "number": "118",
     "englishName": "Shroomer",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv2、采集 Lv3、伐木 Lv2、牧场 Lv3",
     "url": "https://paldb.cc/en/Shroomer"
@@ -1234,6 +1410,7 @@
   {
     "number": "118B",
     "englishName": "Shroomer Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.webp",
     "elements": "草、暗",
     "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv3、伐木 Lv2",
     "url": "https://paldb.cc/en/Shroomer_Noct"
@@ -1241,6 +1418,7 @@
   {
     "number": "119",
     "englishName": "Icelyn",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceWitch_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv5、制药 Lv4、冷却 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Icelyn"
@@ -1248,6 +1426,7 @@
   {
     "number": "120",
     "englishName": "Gildra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MummyPal_icon_normal.webp",
     "elements": "暗、地",
     "workSuitability": "手工作业 Lv5、制药 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Gildra"
@@ -1255,6 +1434,7 @@
   {
     "number": "121",
     "englishName": "Jormuntide",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.webp",
     "elements": "龙、水",
     "workSuitability": "浇水 Lv7",
     "url": "https://paldb.cc/en/Jormuntide"
@@ -1262,6 +1442,7 @@
   {
     "number": "121B",
     "englishName": "Jormuntide Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.webp",
     "elements": "龙、火",
     "workSuitability": "生火 Lv7",
     "url": "https://paldb.cc/en/Jormuntide_Ignis"
@@ -1269,6 +1450,7 @@
   {
     "number": "122",
     "englishName": "Suzaku",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv5",
     "url": "https://paldb.cc/en/Suzaku"
@@ -1276,6 +1458,7 @@
   {
     "number": "122B",
     "englishName": "Suzaku Aqua",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv6",
     "url": "https://paldb.cc/en/Suzaku_Aqua"
@@ -1283,6 +1466,7 @@
   {
     "number": "123",
     "englishName": "Dazemu",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Dazemu"
@@ -1290,6 +1474,7 @@
   {
     "number": "124",
     "englishName": "Quivern",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.webp",
     "elements": "龙",
     "workSuitability": "手工作业 Lv2、采集 Lv3、采矿 Lv4、搬运 Lv5",
     "url": "https://paldb.cc/en/Quivern"
@@ -1297,6 +1482,7 @@
   {
     "number": "124B",
     "englishName": "Quivern Botan",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.webp",
     "elements": "龙、草",
     "workSuitability": "播种 Lv5、手工作业 Lv2、采集 Lv4、采矿 Lv3、搬运 Lv4",
     "url": "https://paldb.cc/en/Quivern_Botan"
@@ -1304,6 +1490,7 @@
   {
     "number": "125",
     "englishName": "Lullu",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LeafPrincess_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv3、采集 Lv2、制药 Lv3",
     "url": "https://paldb.cc/en/Lullu"
@@ -1311,6 +1498,7 @@
   {
     "number": "126",
     "englishName": "Kikit",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SmallArmadillo_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv1",
     "url": "https://paldb.cc/en/Kikit"
@@ -1318,6 +1506,7 @@
   {
     "number": "127",
     "englishName": "Yakumo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Yakumo"
@@ -1325,6 +1514,7 @@
   {
     "number": "128",
     "englishName": "Skutlass",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SwordCutlassfish_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv4、采集 Lv1、伐木 Lv4",
     "url": "https://paldb.cc/en/Skutlass"
@@ -1332,6 +1522,7 @@
   {
     "number": "128B",
     "englishName": "Skutlass Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SwordCutlassfish_Fire_icon_normal.webp",
     "elements": "水、火",
     "workSuitability": "生火 Lv3、浇水 Lv2、采集 Lv2、伐木 Lv3",
     "url": "https://paldb.cc/en/Skutlass_Ignis"
@@ -1339,6 +1530,7 @@
   {
     "number": "129",
     "englishName": "Reptyro",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.webp",
     "elements": "火、地",
     "workSuitability": "生火 Lv5、采矿 Lv5",
     "url": "https://paldb.cc/en/Reptyro"
@@ -1346,6 +1538,7 @@
   {
     "number": "129B",
     "englishName": "Reptyro Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.webp",
     "elements": "冰、地",
     "workSuitability": "采矿 Lv5、冷却 Lv5",
     "url": "https://paldb.cc/en/Reptyro_Cryst"
@@ -1353,6 +1546,7 @@
   {
     "number": "130",
     "englishName": "Starryon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv5",
     "url": "https://paldb.cc/en/Starryon"
@@ -1360,6 +1554,7 @@
   {
     "number": "130B",
     "englishName": "Starryon Primo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_Neutral_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv7",
     "url": "https://paldb.cc/en/Starryon_Primo"
@@ -1367,6 +1562,7 @@
   {
     "number": "131",
     "englishName": "Pierdon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RockBeast_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv5",
     "url": "https://paldb.cc/en/Pierdon"
@@ -1374,6 +1570,7 @@
   {
     "number": "131B",
     "englishName": "Pierdon Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RockBeast_Ice_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "采矿 Lv5、冷却 Lv6",
     "url": "https://paldb.cc/en/Pierdon_Cryst"
@@ -1381,6 +1578,7 @@
   {
     "number": "132",
     "englishName": "Cryolinx",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteTiger_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv3、伐木 Lv4、冷却 Lv4、搬运 Lv4",
     "url": "https://paldb.cc/en/Cryolinx"
@@ -1388,6 +1586,7 @@
   {
     "number": "132B",
     "englishName": "Cryolinx Terra",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteTiger_Ground_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv2、伐木 Lv6、采矿 Lv5、搬运 Lv4",
     "url": "https://paldb.cc/en/Cryolinx_Terra"
@@ -1395,6 +1594,7 @@
   {
     "number": "133",
     "englishName": "Snugloo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SmallYeti_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv2、采矿 Lv3、冷却 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Snugloo"
@@ -1402,6 +1602,7 @@
   {
     "number": "134",
     "englishName": "Wumpo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "手工作业 Lv3、伐木 Lv5、冷却 Lv5、搬运 Lv6",
     "url": "https://paldb.cc/en/Wumpo"
@@ -1409,6 +1610,7 @@
   {
     "number": "134B",
     "englishName": "Wumpo Botan",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv3、伐木 Lv5、搬运 Lv6",
     "url": "https://paldb.cc/en/Wumpo_Botan"
@@ -1416,6 +1618,7 @@
   {
     "number": "135",
     "englishName": "Sootseer",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CandleGhost_icon_normal.webp",
     "elements": "暗、火",
     "workSuitability": "生火 Lv3、手工作业 Lv3、采集 Lv2、采矿 Lv3、牧场 Lv2",
     "url": "https://paldb.cc/en/Sootseer"
@@ -1423,6 +1626,7 @@
   {
     "number": "136",
     "englishName": "Carnibora",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VenusFlytrap_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Carnibora"
@@ -1430,6 +1634,7 @@
   {
     "number": "137",
     "englishName": "Blazamut",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv6、采矿 Lv7",
     "url": "https://paldb.cc/en/Blazamut"
@@ -1437,6 +1642,7 @@
   {
     "number": "137B",
     "englishName": "Blazamut Ryu",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.webp",
     "elements": "龙、火",
     "workSuitability": "生火 Lv6、采矿 Lv7",
     "url": "https://paldb.cc/en/Blazamut_Ryu"
@@ -1444,6 +1650,7 @@
   {
     "number": "138",
     "englishName": "Dualith",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_icon_normal.webp",
     "elements": "地、草",
     "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
     "url": "https://paldb.cc/en/Dualith"
@@ -1451,6 +1658,7 @@
   {
     "number": "138B",
     "englishName": "Dualith Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_Dark_icon_normal.webp",
     "elements": "地、暗",
     "workSuitability": "播种 Lv3、采集 Lv3、伐木 Lv5、采矿 Lv6、搬运 Lv6",
     "url": "https://paldb.cc/en/Dualith_Noct"
@@ -1458,6 +1666,7 @@
   {
     "number": "139",
     "englishName": "Anubis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Anubis_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv6、采矿 Lv6、搬运 Lv4",
     "url": "https://paldb.cc/en/Anubis"
@@ -1465,6 +1674,7 @@
   {
     "number": "140",
     "englishName": "Sekhmet",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Sekhmet_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv6、采矿 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Sekhmet"
@@ -1472,6 +1682,7 @@
   {
     "number": "141",
     "englishName": "Prixter",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ScorpionMan_icon_normal.webp",
     "elements": "暗、地",
     "workSuitability": "采集 Lv2、伐木 Lv4、制药 Lv2",
     "url": "https://paldb.cc/en/Prixter"
@@ -1479,6 +1690,7 @@
   {
     "number": "141B",
     "englishName": "Prixter Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ScorpionMan_Electric_icon_normal.webp",
     "elements": "雷、地",
     "workSuitability": "发电 Lv3、采集 Lv2、伐木 Lv4、制药 Lv2",
     "url": "https://paldb.cc/en/Prixter_Lux"
@@ -1486,6 +1698,7 @@
   {
     "number": "142",
     "englishName": "Tetroise",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv4",
     "url": "https://paldb.cc/en/Tetroise"
@@ -1493,6 +1706,7 @@
   {
     "number": "142B",
     "englishName": "Tetroise Primo",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_Neutral_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采矿 Lv6",
     "url": "https://paldb.cc/en/Tetroise_Primo"
@@ -1500,6 +1714,7 @@
   {
     "number": "143",
     "englishName": "Nyafia",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv4、采集 Lv4、伐木 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Nyafia"
@@ -1507,6 +1722,7 @@
   {
     "number": "144",
     "englishName": "Mimog",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MimicDog_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv1、搬运 Lv2",
     "url": "https://paldb.cc/en/Mimog"
@@ -1514,6 +1730,7 @@
   {
     "number": "145",
     "englishName": "Xenovader",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkAlien_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "伐木 Lv3、搬运 Lv2",
     "url": "https://paldb.cc/en/Xenovader"
@@ -1521,6 +1738,7 @@
   {
     "number": "146",
     "englishName": "Xenogard",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.webp",
     "elements": "龙",
     "workSuitability": "采矿 Lv4",
     "url": "https://paldb.cc/en/Xenogard"
@@ -1528,6 +1746,7 @@
   {
     "number": "147",
     "englishName": "Prunelia",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueberryFairy_icon_normal.webp",
     "elements": "草、暗",
     "workSuitability": "播种 Lv3、手工作业 Lv1、采集 Lv2、制药 Lv3、搬运 Lv1",
     "url": "https://paldb.cc/en/Prunelia"
@@ -1535,6 +1754,7 @@
   {
     "number": "148",
     "englishName": "Nitemary",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostRabbit_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Nitemary"
@@ -1542,6 +1762,7 @@
   {
     "number": "148B",
     "englishName": "Nitemary Botan",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostRabbit_Grass_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv3、手工作业 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Nitemary_Botan"
@@ -1549,6 +1770,7 @@
   {
     "number": "149",
     "englishName": "Smokie",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackPuppy_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Smokie"
@@ -1556,6 +1778,7 @@
   {
     "number": "149B",
     "englishName": "Smokie Cryst",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackPuppy_Ice_icon_normal.webp",
     "elements": "暗、冰",
     "workSuitability": "采集 Lv2、冷却 Lv2",
     "url": "https://paldb.cc/en/Smokie_Cryst"
@@ -1563,6 +1786,7 @@
   {
     "number": "150",
     "englishName": "Omascul",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MysteryMask_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv5",
     "url": "https://paldb.cc/en/Omascul"
@@ -1570,6 +1794,7 @@
   {
     "number": "151",
     "englishName": "Whalaska",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.webp",
     "elements": "冰、水",
     "workSuitability": "浇水 Lv5、冷却 Lv6",
     "url": "https://paldb.cc/en/Whalaska"
@@ -1577,6 +1802,7 @@
   {
     "number": "151B",
     "englishName": "Whalaska Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.webp",
     "elements": "冰、火",
     "workSuitability": "生火 Lv5、冷却 Lv6",
     "url": "https://paldb.cc/en/Whalaska_Ignis"
@@ -1584,6 +1810,7 @@
   {
     "number": "152",
     "englishName": "Verdash",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassRabbitMan_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv4、手工作业 Lv5、采集 Lv5、伐木 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Verdash"
@@ -1591,6 +1818,7 @@
   {
     "number": "153",
     "englishName": "Splatterina",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrimGirl_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv6、伐木 Lv3、制药 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Splatterina"
@@ -1598,6 +1826,7 @@
   {
     "number": "154",
     "englishName": "Gildane",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GoldenHorse_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采集 Lv5",
     "url": "https://paldb.cc/en/Gildane"
@@ -1605,6 +1834,7 @@
   {
     "number": "155",
     "englishName": "Dogen",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SifuDog_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv4、采集 Lv3、伐木 Lv3、制药 Lv2、搬运 Lv3",
     "url": "https://paldb.cc/en/Dogen"
@@ -1612,6 +1842,7 @@
   {
     "number": "156",
     "englishName": "Bulldosu",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SumoDog_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采矿 Lv4、搬运 Lv3",
     "url": "https://paldb.cc/en/Bulldosu"
@@ -1619,6 +1850,7 @@
   {
     "number": "157",
     "englishName": "Celesdir",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv4、伐木 Lv7",
     "url": "https://paldb.cc/en/Celesdir"
@@ -1626,6 +1858,7 @@
   {
     "number": "157B",
     "englishName": "Celesdir Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv4、伐木 Lv8",
     "url": "https://paldb.cc/en/Celesdir_Noct"
@@ -1633,6 +1866,7 @@
   {
     "number": "158",
     "englishName": "Astegon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.webp",
     "elements": "龙、暗",
     "workSuitability": "手工作业 Lv3、采矿 Lv7",
     "url": "https://paldb.cc/en/Astegon"
@@ -1640,6 +1874,7 @@
   {
     "number": "159",
     "englishName": "Knocklem",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WingGolem_icon_normal.webp",
     "elements": "地",
     "workSuitability": "采集 Lv4、采矿 Lv7、搬运 Lv7",
     "url": "https://paldb.cc/en/Knocklem"
@@ -1647,6 +1882,7 @@
   {
     "number": "159B",
     "englishName": "Knocklem Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WingGolem_Fire_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv5、采矿 Lv7、搬运 Lv7",
     "url": "https://paldb.cc/en/Knocklem_Ignis"
@@ -1654,6 +1890,7 @@
   {
     "number": "160",
     "englishName": "Silvegis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteShieldDragon_icon_normal.webp",
     "elements": "龙",
     "workSuitability": "伐木 Lv6",
     "url": "https://paldb.cc/en/Silvegis"
@@ -1661,6 +1898,7 @@
   {
     "number": "161",
     "englishName": "Azurmane",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv5",
     "url": "https://paldb.cc/en/Azurmane"
@@ -1668,6 +1906,7 @@
   {
     "number": "162",
     "englishName": "Valentail",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LongCat_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Valentail"
@@ -1675,6 +1914,7 @@
   {
     "number": "163",
     "englishName": "Snock",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecSnail_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv4",
     "url": "https://paldb.cc/en/Snock"
@@ -1682,6 +1922,7 @@
   {
     "number": "163B",
     "englishName": "Snock Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecSnail_Ground_icon_normal.webp",
     "elements": "雷、地",
     "workSuitability": "发电 Lv4",
     "url": "https://paldb.cc/en/Snock_Lux"
@@ -1689,6 +1930,7 @@
   {
     "number": "164",
     "englishName": "Souffline",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DandelionGirl_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv2、搬运 Lv2",
     "url": "https://paldb.cc/en/Souffline"
@@ -1696,6 +1938,7 @@
   {
     "number": "165",
     "englishName": "Lapiron",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BrownRabbit_icon_normal.webp",
     "elements": "地",
     "workSuitability": "手工作业 Lv3、采集 Lv4、采矿 Lv2、搬运 Lv1",
     "url": "https://paldb.cc/en/Lapiron"
@@ -1703,6 +1946,7 @@
   {
     "number": "166",
     "englishName": "Hoodle",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HoodGhost_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv1、搬运 Lv1",
     "url": "https://paldb.cc/en/Hoodle"
@@ -1710,6 +1954,7 @@
   {
     "number": "167",
     "englishName": "Slowatt",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecLizard_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv3",
     "url": "https://paldb.cc/en/Slowatt"
@@ -1717,6 +1962,7 @@
   {
     "number": "168",
     "englishName": "Bakemi",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_OniGhostGirl_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv3、制药 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Bakemi"
@@ -1724,6 +1970,7 @@
   {
     "number": "169",
     "englishName": "Solmora",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv4",
     "url": "https://paldb.cc/en/Solmora"
@@ -1731,6 +1978,7 @@
   {
     "number": "169B",
     "englishName": "Solmora Lux",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_Thunder_icon_normal.webp",
     "elements": "水、雷",
     "workSuitability": "浇水 Lv4、发电 Lv6",
     "url": "https://paldb.cc/en/Solmora_Lux"
@@ -1738,6 +1986,7 @@
   {
     "number": "170",
     "englishName": "Lapure",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SleeveRabbit_icon_normal.webp",
     "elements": "无",
     "workSuitability": "手工作业 Lv6、采集 Lv5",
     "url": "https://paldb.cc/en/Lapure"
@@ -1745,6 +1994,7 @@
   {
     "number": "171",
     "englishName": "Eidrolon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_icon_normal.webp",
     "elements": "龙、暗",
     "workSuitability": "搬运 Lv6",
     "url": "https://paldb.cc/en/Eidrolon"
@@ -1752,6 +2002,7 @@
   {
     "number": "171B",
     "englishName": "Eidrolon Ignis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_Fire_icon_normal.webp",
     "elements": "龙、火",
     "workSuitability": "生火 Lv6、搬运 Lv6",
     "url": "https://paldb.cc/en/Eidrolon_Ignis"
@@ -1759,6 +2010,7 @@
   {
     "number": "172",
     "englishName": "Dynamoff",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderFluffyBird_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv6、采集 Lv3、搬运 Lv3",
     "url": "https://paldb.cc/en/Dynamoff"
@@ -1766,6 +2018,7 @@
   {
     "number": "173",
     "englishName": "Tropicaw",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RedFlowerBird_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv5、采集 Lv5",
     "url": "https://paldb.cc/en/Tropicaw"
@@ -1773,6 +2026,7 @@
   {
     "number": "174",
     "englishName": "Flaracle",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FoxExorcist_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv7、手工作业 Lv6、搬运 Lv2",
     "url": "https://paldb.cc/en/Flaracle"
@@ -1780,6 +2034,7 @@
   {
     "number": "175",
     "englishName": "Ophydia",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LotusDragon_icon_normal.webp",
     "elements": "草、水",
     "workSuitability": "浇水 Lv5、播种 Lv7",
     "url": "https://paldb.cc/en/Ophydia"
@@ -1787,6 +2042,7 @@
   {
     "number": "176",
     "englishName": "Dupin",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ClownRabbit_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv7、手工作业 Lv5、制药 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Dupin"
@@ -1794,6 +2050,7 @@
   {
     "number": "177",
     "englishName": "Roujay",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThiefBird_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv5、搬运 Lv5",
     "url": "https://paldb.cc/en/Roujay"
@@ -1801,6 +2058,7 @@
   {
     "number": "178",
     "englishName": "Venusa",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnakeGirl_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv6、采集 Lv6、制药 Lv5、搬运 Lv2",
     "url": "https://paldb.cc/en/Venusa"
@@ -1808,6 +2066,7 @@
   {
     "number": "179",
     "englishName": "Mycora",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomLady_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv6、手工作业 Lv4、采集 Lv4、制药 Lv6",
     "url": "https://paldb.cc/en/Mycora"
@@ -1815,6 +2074,7 @@
   {
     "number": "180",
     "englishName": "Loomen",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LanternButler_icon_normal.webp",
     "elements": "暗、火",
     "workSuitability": "生火 Lv4、手工作业 Lv4、制药 Lv4",
     "url": "https://paldb.cc/en/Loomen"
@@ -1822,6 +2082,7 @@
   {
     "number": "181",
     "englishName": "Wistella",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MoonChild_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv6、制药 Lv6、搬运 Lv1",
     "url": "https://paldb.cc/en/Wistella"
@@ -1829,6 +2090,7 @@
   {
     "number": "182",
     "englishName": "Solenne",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MonochromeQueen_icon_normal.webp",
     "elements": "暗、无",
     "workSuitability": "手工作业 Lv8、采集 Lv4、搬运 Lv2",
     "url": "https://paldb.cc/en/Solenne"
@@ -1836,6 +2098,7 @@
   {
     "number": "183",
     "englishName": "Renjishi",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KabukiMan_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv8、手工作业 Lv6、采集 Lv5、搬运 Lv5",
     "url": "https://paldb.cc/en/Renjishi"
@@ -1843,6 +2106,7 @@
   {
     "number": "184",
     "englishName": "Aegidron",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DomeArmorDragon_icon_normal.webp",
     "elements": "龙、地",
     "workSuitability": "采矿 Lv8",
     "url": "https://paldb.cc/en/Aegidron"
@@ -1850,6 +2114,7 @@
   {
     "number": "185",
     "englishName": "Grizzbolt",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecPanda_icon_normal.webp",
     "elements": "雷",
     "workSuitability": "发电 Lv5、手工作业 Lv4、伐木 Lv3、搬运 Lv5",
     "url": "https://paldb.cc/en/Grizzbolt"
@@ -1857,6 +2122,7 @@
   {
     "number": "186",
     "englishName": "Lyleen",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LilyQueen_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv7、手工作业 Lv5、采集 Lv6、制药 Lv5",
     "url": "https://paldb.cc/en/Lyleen"
@@ -1864,6 +2130,7 @@
   {
     "number": "186B",
     "englishName": "Lyleen Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LilyQueen_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv5、采集 Lv6、制药 Lv7",
     "url": "https://paldb.cc/en/Lyleen_Noct"
@@ -1871,6 +2138,7 @@
   {
     "number": "187",
     "englishName": "Orserk",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDragonMan_icon_normal.webp",
     "elements": "龙、雷",
     "workSuitability": "发电 Lv8、手工作业 Lv3、搬运 Lv4",
     "url": "https://paldb.cc/en/Orserk"
@@ -1878,6 +2146,7 @@
   {
     "number": "188",
     "englishName": "Faleris",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.webp",
     "elements": "火",
     "workSuitability": "生火 Lv6、搬运 Lv3",
     "url": "https://paldb.cc/en/Faleris"
@@ -1885,6 +2154,7 @@
   {
     "number": "188B",
     "englishName": "Faleris Aqua",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv6、搬运 Lv5",
     "url": "https://paldb.cc/en/Faleris_Aqua"
@@ -1892,6 +2162,7 @@
   {
     "number": "189",
     "englishName": "Shadowbeak",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackGriffon_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Shadowbeak"
@@ -1899,6 +2170,7 @@
   {
     "number": "190",
     "englishName": "Selyne",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MoonQueen_icon_normal.webp",
     "elements": "暗、无",
     "workSuitability": "手工作业 Lv7、制药 Lv6、搬运 Lv3",
     "url": "https://paldb.cc/en/Selyne"
@@ -1906,6 +2178,7 @@
   {
     "number": "191",
     "englishName": "Bastigor",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "伐木 Lv6、采矿 Lv5、冷却 Lv8",
     "url": "https://paldb.cc/en/Bastigor"
@@ -1913,6 +2186,7 @@
   {
     "number": "192",
     "englishName": "Shaolong",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueSkyDragon_icon_normal.webp",
     "elements": "龙、水",
     "workSuitability": "浇水 Lv8、采集 Lv5",
     "url": "https://paldb.cc/en/Shaolong"
@@ -1920,6 +2194,7 @@
   {
     "number": "193",
     "englishName": "Silvance",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Mothman_icon_normal.webp",
     "elements": "草",
     "workSuitability": "播种 Lv6、手工作业 Lv6、采集 Lv4、制药 Lv8、搬运 Lv2",
     "url": "https://paldb.cc/en/Silvance"
@@ -1927,6 +2202,7 @@
   {
     "number": "194",
     "englishName": "Dandilord",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerPrince_icon_normal.webp",
     "elements": "草、暗",
     "workSuitability": "播种 Lv8、手工作业 Lv6、采集 Lv5、制药 Lv6、搬运 Lv3",
     "url": "https://paldb.cc/en/Dandilord"
@@ -1934,6 +2210,7 @@
   {
     "number": "195",
     "englishName": "Bellanoir",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightLady_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv5、制药 Lv5、搬运 Lv4",
     "url": "https://paldb.cc/en/Bellanoir"
@@ -1941,6 +2218,7 @@
   {
     "number": "195B",
     "englishName": "Bellanoir Libero",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightLady_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "手工作业 Lv6、制药 Lv7、搬运 Lv4",
     "url": "https://paldb.cc/en/Bellanoir_Libero"
@@ -1948,6 +2226,7 @@
   {
     "number": "196",
     "englishName": "Xenolord",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.webp",
     "elements": "暗、龙",
     "workSuitability": "采集 Lv2",
     "url": "https://paldb.cc/en/Xenolord"
@@ -1955,6 +2234,7 @@
   {
     "number": "197",
     "englishName": "Hartalis",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LegendDeer_icon_normal.webp",
     "elements": "无",
     "workSuitability": "采集 Lv7、伐木 Lv7",
     "url": "https://paldb.cc/en/Hartalis"
@@ -1962,6 +2242,7 @@
   {
     "number": "198",
     "englishName": "Paladius",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.webp",
     "elements": "无",
     "workSuitability": "伐木 Lv6、采矿 Lv6",
     "url": "https://paldb.cc/en/Paladius"
@@ -1969,6 +2250,7 @@
   {
     "number": "199",
     "englishName": "Necromus",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "伐木 Lv6、采矿 Lv6",
     "url": "https://paldb.cc/en/Necromus"
@@ -1976,6 +2258,7 @@
   {
     "number": "200",
     "englishName": "Frostallion",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.webp",
     "elements": "冰",
     "workSuitability": "冷却 Lv7",
     "url": "https://paldb.cc/en/Frostallion"
@@ -1983,6 +2266,7 @@
   {
     "number": "200B",
     "englishName": "Frostallion Noct",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.webp",
     "elements": "暗",
     "workSuitability": "采集 Lv7",
     "url": "https://paldb.cc/en/Frostallion_Noct"
@@ -1990,6 +2274,7 @@
   {
     "number": "201",
     "englishName": "Neptilius",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.webp",
     "elements": "水",
     "workSuitability": "浇水 Lv7",
     "url": "https://paldb.cc/en/Neptilius"
@@ -1997,6 +2282,7 @@
   {
     "number": "202",
     "englishName": "Jetragon",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.webp",
     "elements": "龙",
     "workSuitability": "采集 Lv8",
     "url": "https://paldb.cc/en/Jetragon"
@@ -2004,6 +2290,7 @@
   {
     "number": "203",
     "englishName": "Panthalus",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingWhale_icon_normal.webp",
     "elements": "水",
     "workSuitability": "",
     "url": "https://paldb.cc/en/Panthalus"
@@ -2011,6 +2298,7 @@
   {
     "number": "204",
     "englishName": "Astralym",
+    "image": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WorldTreeDragon_icon_normal.webp",
     "elements": "",
     "workSuitability": "",
     "url": "https://paldb.cc/en/Astralym"

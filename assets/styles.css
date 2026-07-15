@@ -736,6 +736,16 @@ h2 {
   vertical-align: top;
 }
 
+.pal-icon {
+  display: block;
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f1f5f9;
+  object-fit: contain;
+}
+
 .data-table th {
   color: #34405a;
   background: #f8fafc;

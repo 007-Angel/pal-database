@@ -21,8 +21,12 @@ function renderSources(sources = []) {
   `;
 }
 
-function renderCell(value) {
+function renderCell(value, column, record) {
   const text = String(value ?? "");
+  if (column.key === "image") {
+    if (!text) return "";
+    return `<img class="pal-icon" src="${escapeHtml(text)}" alt="${escapeHtml(record.name || "帕鲁")}图标" loading="lazy" referrerpolicy="no-referrer">`;
+  }
   if (/^https?:\/\//.test(text)) {
     return `<a href="${escapeHtml(text)}" target="_blank" rel="noreferrer">打开来源</a>`;
   }
@@ -68,7 +72,7 @@ function renderTable(data) {
               .map(
                 (record) => `
                   <tr>
-                    ${columns.map((column) => `<td>${renderCell(record[column.key] || "")}</td>`).join("")}
+                    ${columns.map((column) => `<td>${renderCell(record[column.key] || "", column, record)}</td>`).join("")}
                   </tr>
                 `
               )
