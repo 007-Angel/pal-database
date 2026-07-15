@@ -297,11 +297,13 @@ h2 {
 }
 
 .module-card {
+  position: relative;
   min-height: 160px;
   display: grid;
   align-content: start;
   gap: 12px;
-  padding: 18px;
+  padding: 18px 128px 18px 18px;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-top: 5px solid currentColor;
   border-radius: 8px;
@@ -323,6 +325,22 @@ h2 {
 
 .module-card small {
   color: var(--muted);
+}
+
+.module-pal-image {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 10px rgba(27, 36, 55, 0.15));
+  transition: transform 180ms ease;
+}
+
+.module-card:hover .module-pal-image,
+.module-card:focus-visible .module-pal-image {
+  transform: translateY(-4px) scale(1.04);
 }
 
 .module-code {
