@@ -310,17 +310,23 @@ h2 {
 
 .module-card {
   position: relative;
+  isolation: isolate;
   min-height: 160px;
   display: grid;
   align-content: start;
   gap: 12px;
-  padding: 18px 112px 18px 18px;
+  padding: 18px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-top: 5px solid currentColor;
   border-radius: 8px;
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 10px 28px rgba(27, 36, 55, 0.06);
+}
+
+.module-card > :not(.module-pal-art) {
+  position: relative;
+  z-index: 1;
 }
 
 .module-card:hover,
@@ -339,21 +345,24 @@ h2 {
   color: var(--muted);
 }
 
-.module-pal-image {
+.module-pal-art {
   position: absolute;
-  right: 6px;
-  bottom: 0;
-  width: 106px;
-  height: 130px;
-  object-fit: contain;
-  filter: drop-shadow(0 10px 12px rgba(27, 36, 55, 0.18));
-  object-position: center bottom;
-  transition: transform 180ms ease;
+  z-index: 0;
+  inset: -28px;
+  pointer-events: none;
+  width: calc(100% + 56px);
+  height: calc(100% + 56px);
+  object-fit: cover;
+  object-position: center;
+  filter: blur(17px) saturate(0.95);
+  opacity: 0.32;
+  transform: scale(1.08);
+  transition: opacity 180ms ease;
 }
 
-.module-card:hover .module-pal-image,
-.module-card:focus-visible .module-pal-image {
-  transform: translateY(-4px) scale(1.04);
+.module-card:hover .module-pal-art,
+.module-card:focus-visible .module-pal-art {
+  opacity: 0.42;
 }
 
 .module-code {

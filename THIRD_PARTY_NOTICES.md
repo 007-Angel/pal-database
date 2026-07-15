@@ -28,7 +28,7 @@ Paldeck 1.0 records use the public TH.GL Chinese Paldeck listing for IDs and Chi
 - https://paldb.cc/en/Pals
 - https://paldb.cc/cn/Pals
 
-The home-page module cards display externally hosted full-body Pal images from the Palworld Wiki image category. The project does not copy these image files. The site remains clearly labeled as unofficial in accordance with Pocketpair's derivative-work guidelines.
+The home-page module cards use locally cached, full-body Pal images from the Palworld Wiki image category as blurred visual backgrounds. The site remains clearly labeled as unofficial in accordance with Pocketpair's derivative-work guidelines.
 
 - https://palworld.fandom.com/wiki/Category:Images_-_Pals
 - https://www.pocketpair.jp/en/guidelines-derivativework-en/
