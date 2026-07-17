@@ -121,6 +121,96 @@ PalServer.exe -port=8211 -players=16
           </article>
 
           <article>
+            <h2>方案二：Docker Compose + SteamCMD</h2>
+            <p>这一方案适合已经在 Linux 主机上使用 Docker 的维护者。下面的 Compose 文件沿用 SteamCMD 镜像 <code>cm2network/steamcmd</code>：镜像只提供 SteamCMD 运行环境，帕鲁专用服务器仍由 Steam 官方 App ID <code>2394010</code> 下载。不要在 Windows 或 macOS 的 Docker Desktop 上长期运行存档服，官方提示其存储 I/O 性能可能增加存档损坏和异常风险。</p>
+            <p>在服务器上创建独立目录，例如 <code>/opt/palworld</code>；以下命令均在该目录执行。<code>./data</code> 是唯一需要保留的数据目录，里面会保存游戏文件、配置和存档，迁移服务器时也应完整复制它。</p>
+            <pre class="command-block"><code>mkdir -p /opt/palworld
+cd /opt/palworld
+mkdir -p data
+chmod 700 data</code></pre>
+          </article>
+
+          <article>
+            <h2>1. 创建 Compose 文件</h2>
+            <p>在 <code>/opt/palworld/compose.yaml</code> 写入以下内容。它将宿主机的 UDP 8211 映射到容器，并把 <code>./data</code> 挂载为 Steam 安装目录；不要把 RCON 或 REST API 端口暴露到公网，除非你已额外配置访问控制。</p>
+            <pre class="command-block"><code>services:
+  steamcmd:
+    image: cm2network/steamcmd:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/home/steam/Steam
+    restart: always
+    ports:
+      - "8211:8211/udp"
+    command: /home/steam/Steam/steamapps/common/PalServer/PalServer.sh -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</code></pre>
+            <p><code>-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</code> 是官方文档列出的多线程启动参数。若要改监听端口或人数，在末行追加 <code>-port=8211 -players=16</code>；端口变化后，Compose 映射、防火墙和路由器转发必须同步修改。</p>
+          </article>
+
+          <article>
+            <h2>2. 首次下载并启动</h2>
+            <p>上面的 <code>command</code> 只负责启动已有的服务器程序，首次部署必须先下载。以下命令把游戏安装到已经挂载的 <code>/home/steam/Steam</code>，因此下载结果会保留在宿主机的 <code>data</code> 内。</p>
+            <pre class="command-block"><code>docker compose run --rm --entrypoint /bin/bash steamcmd -lc '\
+  ~/steamcmd/steamcmd.sh +force_install_dir /home/steam/Steam +login anonymous +app_update 2394010 validate +quit'
+
+docker compose up -d
+docker compose logs -f --tail=100</code></pre>
+            <p>看到服务器正常开始监听后，可按 <code>Ctrl+C</code> 退出日志查看而不停止容器。首次启动会生成 <code>data/steamapps/common/PalServer/Pal/Saved</code>；先确认目录出现且日志没有反复重启，再进行下一步配置。</p>
+          </article>
+
+          <article>
+            <h2>3. 设置配置、端口与权限</h2>
+            <p>先使用游戏内 <code>/Save</code> 与 <code>/Shutdown</code> 正常关服，再执行 <code>docker compose down</code>。将默认配置复制到 Linux 实际生效的配置位置：</p>
+            <pre class="command-block"><code>cp data/steamapps/common/PalServer/DefaultPalWorldSettings.ini \
+  data/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
+
+chmod 600 data/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini</code></pre>
+            <p>编辑复制后的 <code>PalWorldSettings.ini</code>，在既有的 <code>OptionSettings=(...)</code> 中设置 <code>ServerName</code>、<code>ServerPassword</code>、<code>AdminPassword</code>、<code>ServerPlayerMaxNum</code> 和 <code>bIsUseBackupSaveData=True</code>。不要编辑 <code>DefaultPalWorldSettings.ini</code>，它不会被游戏读取。管理员密码不要与玩家密码相同，也不要把该文件提交到公开仓库。</p>
+            <pre class="command-block"><code># Ubuntu / Debian（使用 UFW）
+sudo ufw allow 8211/udp
+
+# RHEL / AlmaLinux / Rocky（使用 firewalld）
+sudo firewall-cmd --permanent --add-port=8211/udp
+sudo firewall-cmd --reload
+
+docker compose up -d</code></pre>
+            <p>局域网外联机还需要在路由器或云安全组放行并转发 UDP 8211 到这台主机的固定内网 IP。外网玩家用 <code>公网 IP:8211</code> 加入；如使用不同端口，应输入相应端口。</p>
+          </article>
+
+          <article>
+            <h2>4. 容器化日常维护、备份与更新</h2>
+            <p>常用运维命令如下。<code>docker compose down</code> 会删除容器但不会删除 <code>./data</code>，因为它是宿主机绑定目录；不要执行带 <code>-v</code> 的清理命令，也不要删除 <code>data</code>。</p>
+            <pre class="command-block"><code># 查看运行状态与实时日志
+docker compose ps
+docker compose logs -f --tail=200
+
+# 正常停止与重新启动
+docker compose down
+docker compose up -d
+
+# 完整备份 Saved（建议在服务器已正常停止后执行）
+mkdir -p backups
+tar -C data/steamapps/common/PalServer/Pal \
+  -czf "backups/pal-saved-$(date +%F-%H%M).tar.gz" Saved</code></pre>
+            <p>更新顺序应为：在游戏内执行 <code>/Save</code>、<code>/Shutdown</code>，等待玩家退出；执行 <code>docker compose down</code>；备份完整 <code>Saved</code>；再运行 SteamCMD 校验更新；最后启动并观察日志。更新后先确认能读取原存档和正常联机，再恢复任何 MOD 或额外改动。</p>
+            <pre class="command-block"><code>docker compose down
+mkdir -p backups
+tar -C data/steamapps/common/PalServer/Pal \
+  -czf "backups/pre-update-$(date +%F-%H%M).tar.gz" Saved
+
+docker compose run --rm --entrypoint /bin/bash steamcmd -lc '\
+  ~/steamcmd/steamcmd.sh +force_install_dir /home/steam/Steam +login anonymous +app_update 2394010 validate +quit'
+
+docker compose up -d
+docker compose logs -f --tail=200</code></pre>
+            <ul class="plain-list">
+              <li>若容器立即退出，先执行 <code>docker compose logs --tail=200</code>，确认 <code>data/steamapps/common/PalServer/PalServer.sh</code> 已由首次下载生成，且宿主机目录可写。</li>
+              <li>若朋友无法从外网加入，依次检查云安全组或主机防火墙、路由器 UDP 转发、转发目标的固定内网 IP，以及运营商是否提供公网 IPv4。</li>
+              <li>自动备份会在存档目录创建 <code>backup</code>，但它不是异机备份。每次大版本更新前，把生成的压缩包再复制到另一块磁盘或云端。</li>
+            </ul>
+          </article>
+
+          <article>
             <h2>官方资料</h2>
             <div class="source-links">
               <a href="https://docs.palworldgame.com/getting-started/requirements/" target="_blank" rel="noreferrer">运行要求</a>
@@ -129,6 +219,7 @@ PalServer.exe -port=8211 -players=16
               <a href="https://docs.palworldgame.com/settings-and-operation/arguments/" target="_blank" rel="noreferrer">启动参数</a>
               <a href="https://docs.palworldgame.com/settings-and-operation/commands/" target="_blank" rel="noreferrer">管理员命令</a>
               <a href="https://docs.palworldgame.com/getting-started/deploy-community-server/" target="_blank" rel="noreferrer">社区服务器</a>
+              <a href="https://github.com/pocketpairjp/palworld-dedicated-server-docker" target="_blank" rel="noreferrer">Pocketpair 官方 Docker 镜像与示例</a>
             </div>
           </article>
         </section>
